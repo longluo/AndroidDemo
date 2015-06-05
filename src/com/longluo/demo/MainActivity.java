@@ -24,7 +24,7 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
         init();
-//        initGuide();
+        initGuide();
     }
 
     private void init() {
@@ -33,8 +33,8 @@ public class MainActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, GuideActivity.class);
-                startActivity(intent);
+//                Intent intent = new Intent(MainActivity.this, GuideActivity.class);
+//                startActivity(intent);
             }
         });
     }

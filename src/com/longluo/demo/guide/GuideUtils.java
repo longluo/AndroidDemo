@@ -26,7 +26,7 @@ import android.widget.ImageView.ScaleType;
  * @version
  */
 public class GuideUtils {
-    private Context context;
+    private Context mContext;
     private ImageView imgView;
     private WindowManager windowManager;
     
@@ -64,8 +64,8 @@ public class GuideUtils {
                     // 设置对齐方式
                     params.gravity = Gravity.LEFT | Gravity.TOP;
                     // 设置宽高
-                    params.width = ScreenUtils.getScreenWidth(context);
-                    params.height = ScreenUtils.getScreenHeight(context);
+                    params.width = ScreenUtils.getScreenWidth(mContext);
+                    params.height = ScreenUtils.getScreenHeight(mContext);
                     
                     // 设置动画
                     params.windowAnimations = R.style.view_anim;
@@ -90,7 +90,7 @@ public class GuideUtils {
         if (!isFirst) {
             return;
         }
-        this.context = context;
+        this.mContext = context;
         windowManager = context.getWindowManager();
 
         /** 动态初始化图层 **/
