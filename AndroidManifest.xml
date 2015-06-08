@@ -3,7 +3,7 @@
     package="com.longluo.demo"
     android:versionCode="1"
     android:versionName="1.0" >
-    
+
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
 
     <uses-sdk
@@ -11,12 +11,24 @@
         android:targetSdkVersion="20" />
 
     <application
+        android:name="com.longluo.demo.DemoApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+<!--         <activity
+            android:name="com.longluo.demo.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> -->
+        
         <activity
-            android:name=".MainActivity"
+            android:name="com.longluo.demo.dialog.DialogDemoActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -24,11 +36,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
             android:name="com.longluo.demo.guide.GuideActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen"
-            android:label="@string/guide" />
+            android:label="@string/guide"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <!--
+             <activity
+            android:name="com.longluo.demo.dialog.DialogDemoActivity"
+            android:label="@string/dialog" />
+        -->
+
     </application>
 
 </manifest>
