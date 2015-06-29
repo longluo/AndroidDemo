@@ -8,5 +8,9 @@
     <string name="start">Start</string>
     <string name="dialog">Dialog</string>
     <string name="viewpager">ViewPager</string>
+    <string name="title">Calendar Card Sample</string>
+    <string name="card">Calendar Card</string>
+    <string name="card_pager">Calendar Card Pager</string>
+    <string name="sel_date">Selected date: %s</string>
 
 </resources>
