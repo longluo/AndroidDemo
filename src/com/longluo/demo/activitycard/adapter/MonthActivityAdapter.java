@@ -6,7 +6,6 @@ import android.content.Context;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewGroup.LayoutParams;
 import android.widget.BaseAdapter;
 
 import com.longluo.demo.activitycard.bean.ActivityInfo;
@@ -34,6 +33,7 @@ public class MonthActivityAdapter extends BaseAdapter {
     }
     
     public void setActivityInfo(ArrayList<ActivityInfo> activityList) {
+        Log.d("luolong", "setActivityInfo, size=" + activityList.size());
         mActivityInfos = activityList;
         notifyDataSetChanged();
     }
@@ -56,7 +56,8 @@ public class MonthActivityAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        Log.d("luolong", TAG + " getView position=" + position);
+        Log.d("luolong", TAG + " getView position=" + position + ",level=" + mActivityInfos.get(position).mActivityLevel
+                + "");
         
         if(null == convertView) {
             convertView = new MonthActivityCard(mContext, null);
@@ -67,6 +68,7 @@ public class MonthActivityAdapter extends BaseAdapter {
             convertView.setLayoutParams(new android.widget.AbsListView.LayoutParams(android.widget.AbsListView.LayoutParams.MATCH_PARENT, android.widget.AbsListView.LayoutParams.WRAP_CONTENT));
         }
         
+        ((MonthActivityCard)convertView).initData(mActivityInfos);
         ((MonthActivityCard)convertView).init();
         
         return convertView;

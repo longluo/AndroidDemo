@@ -1,15 +1,9 @@
 package com.longluo.demo.widgets.imgcard;
 
-import com.longluo.demo.R;
-
 import android.annotation.SuppressLint;
 import android.content.Context;
-import android.support.v4.util.DebugUtils;
 import android.util.AttributeSet;
 import android.util.Log;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
 /**

@@ -10,11 +10,13 @@ import android.util.AttributeSet;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.longluo.demo.R;
+import com.longluo.demo.activitycard.bean.ActivityInfo;
 
 /**
  * MonthActivityCard
@@ -25,16 +27,17 @@ import com.longluo.demo.R;
  */
 public class MonthActivityCard extends RelativeLayout {
     private static final String TAG = MonthActivityCard.class.getSimpleName();
-    
+
     private Context mContext;
     private LayoutInflater mLayoutInflater;
 
     private TextView mCardTitle;
     private LinearLayout mCardGrid;
 
-    private int itemLayout = R.layout.image_card_item;
+    private int mItemLayout = R.layout.image_card_item;
     private Calendar dateDisplay;
-    private ArrayList<ImageCellLayout> cells = new ArrayList<ImageCellLayout>();
+    private ArrayList<ImageCellLayout> mCells = new ArrayList<ImageCellLayout>();
+    private ArrayList<ActivityInfo> mActivityInfos = new ArrayList<ActivityInfo>();
 
     public MonthActivityCard(Context context) {
         super(context);
@@ -54,7 +57,6 @@ public class MonthActivityCard extends RelativeLayout {
         init();
     }
 
-//    public void init(Context context) {
     public void init() {
         if (isInEditMode()) {
             return;
@@ -67,24 +69,32 @@ public class MonthActivityCard extends RelativeLayout {
         mCardTitle = (TextView) layout.findViewById(R.id.cardTitle);
         mCardGrid = (LinearLayout) layout.findViewById(R.id.cardGrid);
 
-        for (int y = 0; y < mCardGrid.getChildCount(); y++) {
-            LinearLayout row = (LinearLayout) mCardGrid.getChildAt(y);
-
-            for (int x = 0; x < row.getChildCount(); x++) {
-                ImageCellLayout cell = (ImageCellLayout) row.getChildAt(x);
-
-                View cellContent = mLayoutInflater.inflate(itemLayout, cell, false);
-                cell.addView(cellContent);
-                cells.add(cell);
-            }
-        }
-
         addView(layout);
         updateCells();
     }
+    
+    public void initData(ArrayList<ActivityInfo> activityInfos) {
+        mActivityInfos = activityInfos;
+    }
 
-    private void updateCells() {
+    public void updateCells() {
+        Log.d("luolong", TAG + ",updateCells, " + mActivityInfos.size());
         
+        int index = 0;
+        
+        for (int y = 0; y < mCardGrid.getChildCount(); y++) {
+            LinearLayout row = (LinearLayout) mCardGrid.getChildAt(y);
+
+            for (int x = 0; x < row.getChildCount() && index < mActivityInfos.size(); x++) {
+                ImageCellLayout cell = (ImageCellLayout) row.getChildAt(x);
+
+                ImageView cellContent = (ImageView) mLayoutInflater.inflate(mItemLayout, cell, false);
+                cellContent.setImageLevel(mActivityInfos.get(index).mActivityLevel);
+                index++;
+                cell.addView(cellContent);
+                mCells.add(cell);
+            }
+        }
     }
 
     @Override
@@ -93,22 +103,22 @@ public class MonthActivityCard extends RelativeLayout {
 
         Log.d("luolong", TAG + ",changed=" + changed + " l=" + l + ",t=" + t + ",r=" + r + ",b=" + b);
 
-        if (changed && cells.size() > 0) {
+        if (changed && mCells.size() > 0) {
             int size = (r - l) / 16;
-            for (ImageCellLayout cell : cells) {
+            for (ImageCellLayout cell : mCells) {
                 cell.getLayoutParams().height = size;
             }
 
-            Log.d("luolong", TAG + "," + cells.size() + ",size=" + size);
+            Log.d("luolong", TAG + "," + mCells.size() + ",size=" + size);
         }
     }
 
     public int getItemLayout() {
-        return itemLayout;
+        return mItemLayout;
     }
 
     public void setItemLayout(int itemLayout) {
-        this.itemLayout = itemLayout;
+        this.mItemLayout = itemLayout;
     }
 
     public Calendar getDateDisplay() {
