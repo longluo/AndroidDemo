@@ -26,6 +26,7 @@ import com.longluo.demo.R;
 public class MonthActivityCard extends RelativeLayout {
     private static final String TAG = MonthActivityCard.class.getSimpleName();
     
+    private Context mContext;
     private LayoutInflater mLayoutInflater;
 
     private TextView mCardTitle;
@@ -35,29 +36,33 @@ public class MonthActivityCard extends RelativeLayout {
     private Calendar dateDisplay;
     private ArrayList<ImageCellLayout> cells = new ArrayList<ImageCellLayout>();
 
-    public MonthActivityCard(Context context, AttributeSet attrs, int defStyle) {
-        super(context, attrs, defStyle);
-        init(context);
+    public MonthActivityCard(Context context) {
+        super(context);
+        mContext = context;
+        init();
     }
 
     public MonthActivityCard(Context context, AttributeSet attrs) {
         super(context, attrs);
-        init(context);
+        mContext = context;
+        init();
     }
 
-    public MonthActivityCard(Context context) {
-        super(context);
-        init(context);
+    public MonthActivityCard(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+        mContext = context;
+        init();
     }
 
-    private void init(Context context) {
+//    public void init(Context context) {
+    public void init() {
         if (isInEditMode()) {
             return;
         }
-        
-        mLayoutInflater = LayoutInflater.from(context);
 
-        View layout = LayoutInflater.from(context).inflate(R.layout.image_card_view, null, false);
+        mLayoutInflater = LayoutInflater.from(mContext);
+
+        View layout = LayoutInflater.from(mContext).inflate(R.layout.image_card_view, null, false);
 
         mCardTitle = (TextView) layout.findViewById(R.id.cardTitle);
         mCardGrid = (LinearLayout) layout.findViewById(R.id.cardGrid);
@@ -67,7 +72,7 @@ public class MonthActivityCard extends RelativeLayout {
 
             for (int x = 0; x < row.getChildCount(); x++) {
                 ImageCellLayout cell = (ImageCellLayout) row.getChildAt(x);
-                
+
                 View cellContent = mLayoutInflater.inflate(itemLayout, cell, false);
                 cell.addView(cellContent);
                 cells.add(cell);
@@ -79,20 +84,22 @@ public class MonthActivityCard extends RelativeLayout {
     }
 
     private void updateCells() {
-
+        
     }
 
     @Override
     protected void onLayout(boolean changed, int l, int t, int r, int b) {
         super.onLayout(changed, l, t, r, b);
 
-        Log.d("luolong", TAG + " l=" + l + ",t=" + t + ",r=" + r + ",b=" + b);
+        Log.d("luolong", TAG + ",changed=" + changed + " l=" + l + ",t=" + t + ",r=" + r + ",b=" + b);
 
         if (changed && cells.size() > 0) {
             int size = (r - l) / 16;
             for (ImageCellLayout cell : cells) {
                 cell.getLayoutParams().height = size;
             }
+
+            Log.d("luolong", TAG + "," + cells.size() + ",size=" + size);
         }
     }
 

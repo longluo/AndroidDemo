@@ -10,10 +10,17 @@
         android:text="Title"
         android:textSize="20dp" />
 
+    <ListView
+        android:id="@+id/lv_activity_card"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never" />
+
     <com.longluo.demo.widgets.imgcard.MonthActivityCard
         android:id="@+id/calendarCard1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_title" />
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/lv_activity_card" />
 
 </RelativeLayout>

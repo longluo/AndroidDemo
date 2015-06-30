@@ -21,8 +21,6 @@ import android.widget.RelativeLayout;
 public class ImageCellLayout extends RelativeLayout {
     private static final String TAG = ImageCellLayout.class.getSimpleName();
     
-    private ImageView mImageView;
-
     private static final int[] CHECKED_STATE_SET = {
         android.R.attr.state_checked };
 
