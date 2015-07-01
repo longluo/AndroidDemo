@@ -14,7 +14,9 @@ import android.widget.TextView;
 
 import com.longluo.demo.R;
 import com.longluo.demo.activitycard.adapter.MonthActivityAdapter;
-import com.longluo.demo.activitycard.bean.ActivityInfo;
+import com.longluo.demo.activitycard.bean.DayActivityInfo;
+import com.longluo.demo.activitycard.bean.MonthActivityInfo;
+import com.longluo.demo.utils.DateUtil;
 import com.longluo.demo.utils.FileUtils;
 import com.longluo.demo.widgets.imgcard.MonthActivityCard;
 
@@ -27,14 +29,15 @@ import com.longluo.demo.widgets.imgcard.MonthActivityCard;
  */
 public class MonthActivityCardActivity extends Activity {
     private static final String TAG = MonthActivityCardActivity.class.getSimpleName();
-    
+
     private ListView mListView;
     private MonthActivityCard mCard;
     private TextView mTitleTV;
-    
+
     private MonthActivityAdapter mAdapter;
-    
-    private ArrayList<ActivityInfo> mInfos = new ArrayList<ActivityInfo>();
+
+    private ArrayList<MonthActivityInfo> mMonthInfos = new ArrayList<MonthActivityInfo>();
+    private ArrayList<DayActivityInfo> mDayInfos = new ArrayList<DayActivityInfo>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,34 +54,69 @@ public class MonthActivityCardActivity extends Activity {
         mCard = (MonthActivityCard) findViewById(R.id.calendarCard1);
         mTitleTV = (TextView) findViewById(R.id.tv_title);
     }
-    
+
     private void loadData() {
         JSONObject tempJsonObject = null;
-        
+
         String str = FileUtils.getFromAssets(this, "gmvote2.json");
         try {
             tempJsonObject = new JSONObject(str);
         } catch (JSONException e) {
             e.printStackTrace();
         }
-        
-        Log.d("luolong", TAG + ",str=" + str + ",tempJsonObject=" + tempJsonObject.toString());
-    
+
+        Log.d(TAG, "tempJsonObject=" + tempJsonObject.toString());
+
         JSONArray candidateArray = tempJsonObject.optJSONArray("cand_info");
-        
+
         JSONObject contentJsonObj = candidateArray.optJSONObject(0);
 
         JSONArray mActivityList = contentJsonObj.optJSONArray("active_list");
+
         if (mActivityList != null) {
-            for (int i = 0; i < mActivityList.length(); i++) {
-                mInfos.add(new ActivityInfo(mActivityList.optJSONArray(i)));
-            }
+            parseMonthInfos(mActivityList);
         }
     }
-    
+
+    private void parseMonthInfos(JSONArray monthArray) {
+        int tempMonth = 0;
+        tempMonth = getCurrentMonth(monthArray.optJSONArray(0));
+
+        Log.d(TAG, "parseMonthInfos, length=" + monthArray.length() + ",tempMonth=" + tempMonth);
+
+        for (int i = 0; i < monthArray.length(); i++) {
+            Log.d(TAG, "i=" + i + ",tempMonth=" + tempMonth + ",month=" + getCurrentMonth(monthArray.optJSONArray(i)));
+
+            if (getCurrentMonth(monthArray.optJSONArray(i)) > tempMonth) {
+                MonthActivityInfo monthInfo = new MonthActivityInfo(tempMonth);
+
+                for (int m = 0; m < i; m++) {
+//                    mDayInfos.add(new DayActivityInfo(monthArray.optJSONArray(m)));
+                    monthInfo.mDayActivityInfos.add(new DayActivityInfo(monthArray.optJSONArray(m)));
+                }
+//               monthInfo.setmMonthActivityInfos(mDayInfos);
+                monthInfo.setmMonth(tempMonth);
+                mMonthInfos.add(monthInfo);
+                Log.d(TAG, "neixunhuan  month size=" + mMonthInfos.size() + ",day size=" + mDayInfos.size());
+                mDayInfos.clear();
+
+                tempMonth = getCurrentMonth(monthArray.optJSONArray(i));
+            }
+
+            Log.d(TAG, "After: i=" + i + ",tempMonth=" + tempMonth + ",month size=" + mMonthInfos.size());
+        }
+    }
+
+    private int getCurrentMonth(JSONArray dateArray) {
+        int timeStamp = dateArray.optInt(0);
+        String month = DateUtil.getCurrentMonth(DateUtil.timeStamp2Date(timeStamp, DateUtil.FORMAT_SHORT));
+
+        return Integer.parseInt(month);
+    }
+
     private void initData() {
         mAdapter = new MonthActivityAdapter(this);
-        mAdapter.setActivityInfo(mInfos);
+        mAdapter.setActivityInfo(mMonthInfos);
         mListView.setAdapter(mAdapter);
         mAdapter.notifyDataSetChanged();
     }

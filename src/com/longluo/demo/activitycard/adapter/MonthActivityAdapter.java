@@ -8,7 +8,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
-import com.longluo.demo.activitycard.bean.ActivityInfo;
+import com.longluo.demo.activitycard.bean.MonthActivityInfo;
 import com.longluo.demo.widgets.imgcard.MonthActivityCard;
 
 /**
@@ -22,7 +22,7 @@ public class MonthActivityAdapter extends BaseAdapter {
     private static final String TAG = MonthActivityAdapter.class.getSimpleName();
 
     private Context mContext;
-    private ArrayList<ActivityInfo> mActivityInfos = new ArrayList<ActivityInfo>();
+    private ArrayList<MonthActivityInfo> mMonthActivityInfos = new ArrayList<MonthActivityInfo>();
 
     public MonthActivityAdapter() {
 
@@ -31,21 +31,21 @@ public class MonthActivityAdapter extends BaseAdapter {
     public MonthActivityAdapter(Context context) {
         mContext = context;
     }
-    
-    public void setActivityInfo(ArrayList<ActivityInfo> activityList) {
-        Log.d("luolong", "setActivityInfo, size=" + activityList.size());
-        mActivityInfos = activityList;
+
+    public void setActivityInfo(ArrayList<MonthActivityInfo> monthInfos) {
+        Log.d("luolong", "setActivityInfo, size=" + monthInfos.size());
+        mMonthActivityInfos = monthInfos;
         notifyDataSetChanged();
     }
 
     @Override
     public int getCount() {
-        return mActivityInfos.size();
+        return mMonthActivityInfos.size();
     }
 
     @Override
     public Object getItem(int position) {
-        return mActivityInfos.get(position);
+        return mMonthActivityInfos.get(position);
 
     }
 
@@ -56,21 +56,20 @@ public class MonthActivityAdapter extends BaseAdapter {
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        Log.d("luolong", TAG + " getView position=" + position + ",level=" + mActivityInfos.get(position).mActivityLevel
+        Log.d("luolong", TAG + " getView position=" + position + ",month=" + mMonthActivityInfos.get(position).mMonth
                 + "");
-        
-        if(null == convertView) {
+
+        if (null == convertView) {
             convertView = new MonthActivityCard(mContext, null);
-            
-//            convertView.setLayoutParams(new LayoutParams(LayoutParams.MATCH_PARENT, 
-//                    LayoutParams.MATCH_PARENT));
-            
-            convertView.setLayoutParams(new android.widget.AbsListView.LayoutParams(android.widget.AbsListView.LayoutParams.MATCH_PARENT, android.widget.AbsListView.LayoutParams.WRAP_CONTENT));
+
+            convertView.setLayoutParams(new android.widget.AbsListView.LayoutParams(
+                    android.widget.AbsListView.LayoutParams.MATCH_PARENT,
+                    android.widget.AbsListView.LayoutParams.WRAP_CONTENT));
         }
-        
-        ((MonthActivityCard)convertView).initData(mActivityInfos);
-        ((MonthActivityCard)convertView).init();
-        
+
+        ((MonthActivityCard) convertView).initData(mMonthActivityInfos.get(position));
+        ((MonthActivityCard) convertView).init();
+
         return convertView;
     }
 

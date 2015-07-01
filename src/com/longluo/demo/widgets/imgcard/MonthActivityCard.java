@@ -16,7 +16,8 @@ import android.widget.RelativeLayout;
 import android.widget.TextView;
 
 import com.longluo.demo.R;
-import com.longluo.demo.activitycard.bean.ActivityInfo;
+import com.longluo.demo.activitycard.bean.DayActivityInfo;
+import com.longluo.demo.activitycard.bean.MonthActivityInfo;
 
 /**
  * MonthActivityCard
@@ -37,7 +38,8 @@ public class MonthActivityCard extends RelativeLayout {
     private int mItemLayout = R.layout.image_card_item;
     private Calendar dateDisplay;
     private ArrayList<ImageCellLayout> mCells = new ArrayList<ImageCellLayout>();
-    private ArrayList<ActivityInfo> mActivityInfos = new ArrayList<ActivityInfo>();
+    private MonthActivityInfo mMonthActivityInfo = new MonthActivityInfo();
+    private ArrayList<DayActivityInfo> mActivityInfos = new ArrayList<DayActivityInfo>();
 
     public MonthActivityCard(Context context) {
         super(context);
@@ -68,13 +70,16 @@ public class MonthActivityCard extends RelativeLayout {
 
         mCardTitle = (TextView) layout.findViewById(R.id.cardTitle);
         mCardGrid = (LinearLayout) layout.findViewById(R.id.cardGrid);
+        
+        mCardTitle.setText(String.valueOf(mMonthActivityInfo.mMonth));
 
         addView(layout);
         updateCells();
     }
     
-    public void initData(ArrayList<ActivityInfo> activityInfos) {
-        mActivityInfos = activityInfos;
+    public void initData(MonthActivityInfo monthInfo) {
+        mMonthActivityInfo = monthInfo;
+        mActivityInfos = monthInfo.mDayActivityInfos;
     }
 
     public void updateCells() {

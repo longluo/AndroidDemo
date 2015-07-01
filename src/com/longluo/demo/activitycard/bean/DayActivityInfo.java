@@ -11,20 +11,20 @@ import android.util.Log;
  * @Date	 2015-6-29		下午7:26:32
  * @version 
  */
-public class ActivityInfo {
+public class DayActivityInfo {
     public long mDate;
     public int mActivityLevel;
     
-    public ActivityInfo() {
+    public DayActivityInfo() {
         
     }
     
-    public ActivityInfo(long date, int level) {
+    public DayActivityInfo(long date, int level) {
         mDate = date;
         mActivityLevel = level;
     }
     
-    public ActivityInfo(JSONArray contentJsonArray) {
+    public DayActivityInfo(JSONArray contentJsonArray) {
         parseData(contentJsonArray);
     }
     
