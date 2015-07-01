@@ -69,6 +69,7 @@ public class MonthActivityAdapter extends BaseAdapter {
 
         ((MonthActivityCard) convertView).initData(mMonthActivityInfos.get(position));
         ((MonthActivityCard) convertView).init();
+        ((MonthActivityCard) convertView).setCardTitle();
 
         return convertView;
     }

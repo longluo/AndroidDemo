@@ -51,7 +51,7 @@ public class MonthActivityCardActivity extends Activity {
 
     private void initView() {
         mListView = (ListView) findViewById(R.id.lv_activity_card);
-        mCard = (MonthActivityCard) findViewById(R.id.calendarCard1);
+//        mCard = (MonthActivityCard) findViewById(R.id.calendarCard1);
         mTitleTV = (TextView) findViewById(R.id.tv_title);
     }
 
@@ -91,10 +91,9 @@ public class MonthActivityCardActivity extends Activity {
                 MonthActivityInfo monthInfo = new MonthActivityInfo(tempMonth);
 
                 for (int m = 0; m < i; m++) {
-//                    mDayInfos.add(new DayActivityInfo(monthArray.optJSONArray(m)));
                     monthInfo.mDayActivityInfos.add(new DayActivityInfo(monthArray.optJSONArray(m)));
                 }
-//               monthInfo.setmMonthActivityInfos(mDayInfos);
+                
                 monthInfo.setmMonth(tempMonth);
                 mMonthInfos.add(monthInfo);
                 Log.d(TAG, "neixunhuan  month size=" + mMonthInfos.size() + ",day size=" + mDayInfos.size());

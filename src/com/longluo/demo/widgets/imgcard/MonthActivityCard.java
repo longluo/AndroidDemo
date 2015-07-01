@@ -36,7 +36,6 @@ public class MonthActivityCard extends RelativeLayout {
     private LinearLayout mCardGrid;
 
     private int mItemLayout = R.layout.image_card_item;
-    private Calendar dateDisplay;
     private ArrayList<ImageCellLayout> mCells = new ArrayList<ImageCellLayout>();
     private MonthActivityInfo mMonthActivityInfo = new MonthActivityInfo();
     private ArrayList<DayActivityInfo> mActivityInfos = new ArrayList<DayActivityInfo>();
@@ -71,8 +70,6 @@ public class MonthActivityCard extends RelativeLayout {
         mCardTitle = (TextView) layout.findViewById(R.id.cardTitle);
         mCardGrid = (LinearLayout) layout.findViewById(R.id.cardGrid);
         
-        mCardTitle.setText(String.valueOf(mMonthActivityInfo.mMonth));
-
         addView(layout);
         updateCells();
     }
@@ -117,6 +114,10 @@ public class MonthActivityCard extends RelativeLayout {
             Log.d("luolong", TAG + "," + mCells.size() + ",size=" + size);
         }
     }
+    
+    public void setCardTitle() {
+        mCardTitle.setText(String.valueOf(mMonthActivityInfo.mMonth));
+    }
 
     public int getItemLayout() {
         return mItemLayout;
@@ -124,15 +125,6 @@ public class MonthActivityCard extends RelativeLayout {
 
     public void setItemLayout(int itemLayout) {
         this.mItemLayout = itemLayout;
-    }
-
-    public Calendar getDateDisplay() {
-        return dateDisplay;
-    }
-
-    public void setDateDisplay(Calendar dateDisplay) {
-        this.dateDisplay = dateDisplay;
-        mCardTitle.setText(new SimpleDateFormat("MMM yyyy", Locale.getDefault()).format(dateDisplay.getTime()));
     }
 
     /**
