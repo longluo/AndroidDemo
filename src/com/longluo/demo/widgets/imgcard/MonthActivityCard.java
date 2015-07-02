@@ -1,9 +1,6 @@
 package com.longluo.demo.widgets.imgcard;
 
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
-import java.util.Calendar;
-import java.util.Locale;
 
 import android.content.Context;
 import android.util.AttributeSet;
@@ -37,6 +34,7 @@ public class MonthActivityCard extends RelativeLayout {
 
     private int mItemLayout = R.layout.image_card_item;
     private ArrayList<ImageCellLayout> mCells = new ArrayList<ImageCellLayout>();
+//    private ArrayList<RelativeLayout> mCells = new ArrayList<RelativeLayout>();
     private MonthActivityInfo mMonthActivityInfo = new MonthActivityInfo();
     private ArrayList<DayActivityInfo> mActivityInfos = new ArrayList<DayActivityInfo>();
 
@@ -49,13 +47,13 @@ public class MonthActivityCard extends RelativeLayout {
     public MonthActivityCard(Context context, AttributeSet attrs) {
         super(context, attrs);
         mContext = context;
-        init();
+//        init();
     }
 
     public MonthActivityCard(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         mContext = context;
-        init();
+//        init();
     }
 
     public void init() {
@@ -89,6 +87,7 @@ public class MonthActivityCard extends RelativeLayout {
 
             for (int x = 0; x < row.getChildCount() && index < mActivityInfos.size(); x++) {
                 ImageCellLayout cell = (ImageCellLayout) row.getChildAt(x);
+//                RelativeLayout cell = (RelativeLayout) row.getChildAt(x);
 
                 ImageView cellContent = (ImageView) mLayoutInflater.inflate(mItemLayout, cell, false);
                 cellContent.setImageLevel(mActivityInfos.get(index).mActivityLevel);
@@ -116,7 +115,7 @@ public class MonthActivityCard extends RelativeLayout {
     }
     
     public void setCardTitle() {
-        mCardTitle.setText(String.valueOf(mMonthActivityInfo.mMonth));
+        mCardTitle.setText(String.valueOf(mMonthActivityInfo.mMonth) + "月");
     }
 
     public int getItemLayout() {

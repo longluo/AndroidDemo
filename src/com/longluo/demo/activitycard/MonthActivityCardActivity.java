@@ -30,9 +30,9 @@ import com.longluo.demo.widgets.imgcard.MonthActivityCard;
 public class MonthActivityCardActivity extends Activity {
     private static final String TAG = MonthActivityCardActivity.class.getSimpleName();
 
+    private TextView mTitleTV;
     private ListView mListView;
     private MonthActivityCard mCard;
-    private TextView mTitleTV;
 
     private MonthActivityAdapter mAdapter;
 
@@ -50,9 +50,11 @@ public class MonthActivityCardActivity extends Activity {
     }
 
     private void initView() {
-        mListView = (ListView) findViewById(R.id.lv_activity_card);
-//        mCard = (MonthActivityCard) findViewById(R.id.calendarCard1);
         mTitleTV = (TextView) findViewById(R.id.tv_title);
+        
+        mListView = (ListView) findViewById(R.id.lv_activity_card);
+        
+//        mCard = (MonthActivityCard) findViewById(R.id.calendarCard1);
     }
 
     private void loadData() {
@@ -82,10 +84,10 @@ public class MonthActivityCardActivity extends Activity {
         int tempMonth = 0;
         tempMonth = getCurrentMonth(monthArray.optJSONArray(0));
 
-        Log.d(TAG, "parseMonthInfos, length=" + monthArray.length() + ",tempMonth=" + tempMonth);
+//        Log.d(TAG, "parseMonthInfos, length=" + monthArray.length() + ",tempMonth=" + tempMonth);
 
         for (int i = 0; i < monthArray.length(); i++) {
-            Log.d(TAG, "i=" + i + ",tempMonth=" + tempMonth + ",month=" + getCurrentMonth(monthArray.optJSONArray(i)));
+//            Log.d(TAG, "i=" + i + ",tempMonth=" + tempMonth + ",month=" + getCurrentMonth(monthArray.optJSONArray(i)));
 
             if (getCurrentMonth(monthArray.optJSONArray(i)) > tempMonth) {
                 MonthActivityInfo monthInfo = new MonthActivityInfo(tempMonth);
@@ -96,13 +98,13 @@ public class MonthActivityCardActivity extends Activity {
                 
                 monthInfo.setmMonth(tempMonth);
                 mMonthInfos.add(monthInfo);
-                Log.d(TAG, "neixunhuan  month size=" + mMonthInfos.size() + ",day size=" + mDayInfos.size());
+//                Log.d(TAG, "neixunhuan  month size=" + mMonthInfos.size() + ",day size=" + mDayInfos.size());
                 mDayInfos.clear();
 
                 tempMonth = getCurrentMonth(monthArray.optJSONArray(i));
             }
 
-            Log.d(TAG, "After: i=" + i + ",tempMonth=" + tempMonth + ",month size=" + mMonthInfos.size());
+//            Log.d(TAG, "After: i=" + i + ",tempMonth=" + tempMonth + ",month size=" + mMonthInfos.size());
         }
     }
 

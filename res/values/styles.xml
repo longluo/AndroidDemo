@@ -87,7 +87,6 @@
 
     <style name="ImageCard.Cell">
         <item name="android:layout_marginLeft">5dp</item>
-        <item name="android:layout_marginTop">5dp</item>
     </style>
 
 </resources>
