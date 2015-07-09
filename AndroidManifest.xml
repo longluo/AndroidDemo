@@ -30,9 +30,8 @@
         -->
 
         <activity
-            android:name="com.longluo.demo.activitycard.MonthActivityCardActivity"
-            android:screenOrientation="portrait"
-            android:label="@string/app_name" >
+            android:name="com.longluo.demo.numberprogressbar.NumberProgressBarActivity"
+            android:label="NumberProgressBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -72,6 +71,10 @@
         
         <!--  
         <activity android:name="com.longluo.demo.activitycard.MonthActivityCardActivity" /> -->
+        
+<!--         <activity
+            android:name="com.longluo.demo.numberprogressbar.NumberProgressBarActivity"
+            android:label="NumberProgressBar" /> -->
         
     </application>
 
