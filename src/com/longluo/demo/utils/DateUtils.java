@@ -12,7 +12,7 @@ import android.annotation.SuppressLint;
  * @date 2015-7-1 下午8:05:35
  * @version
  */
-public class DateUtil {
+public class DateUtils {
     public static String FORMAT_SHORT = "yyyy-MM-dd";
     public static String FORMAT_LONG = "yyyy-MM-dd HH:mm:ss";
 

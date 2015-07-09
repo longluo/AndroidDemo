@@ -16,7 +16,7 @@ import com.longluo.demo.R;
 import com.longluo.demo.activitycard.adapter.MonthActivityAdapter;
 import com.longluo.demo.activitycard.bean.DayActivityInfo;
 import com.longluo.demo.activitycard.bean.MonthActivityInfo;
-import com.longluo.demo.utils.DateUtil;
+import com.longluo.demo.utils.DateUtils;
 import com.longluo.demo.utils.FileUtils;
 import com.longluo.demo.widgets.imgcard.MonthActivityCard;
 
@@ -110,7 +110,7 @@ public class MonthActivityCardActivity extends Activity {
 
     private int getCurrentMonth(JSONArray dateArray) {
         int timeStamp = dateArray.optInt(0);
-        String month = DateUtil.getCurrentMonth(DateUtil.timeStamp2Date(timeStamp, DateUtil.FORMAT_SHORT));
+        String month = DateUtils.getCurrentMonth(DateUtils.timeStamp2Date(timeStamp, DateUtils.FORMAT_SHORT));
 
         return Integer.parseInt(month);
     }
