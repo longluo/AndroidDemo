@@ -8,6 +8,7 @@ import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
+import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
 import com.longluo.demo.utils.AppUtils;
 import com.longluo.demo.utils.LinkUtils;
@@ -19,6 +20,7 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -34,7 +36,8 @@ public class MainActivity extends Activity {
 	private static final String[] mDemoStrings = { "BadgeView Demo",
 			"MonthActivityCard Demo", "CalendarCard Demo",
 			"NumberProgressBar Demo", "Animation Demo", "ViewPager Demo",
-			"ViewPager Multi Fragment Demo", "SearchView Demo" };
+			"ViewPager Multi Fragment Demo", "SearchView Demo",
+			"RoundedImageView Demo" };
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -62,23 +65,66 @@ public class MainActivity extends Activity {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view,
 					int position, long id) {
-				if (position == mTotal - 7) {
+				Log.d(TAG, "position=" + position);
+
+				switch (position) {
+				case 0:
 					startActivity(BadgeViewDemoActivity.class);
-				} else if (position == mTotal - 6) {
+					break;
+
+				case 1:
 					startActivity(MonthActivityCardActivity.class);
-				} else if (position == mTotal - 5) {
+					break;
+
+				case 2:
 					startActivity(CalendarCardDemoActivity.class);
-				} else if (position == mTotal - 4) {
+					break;
+
+				case 3:
 					startActivity(NumberProgressBarActivity.class);
-				} else if (position == mTotal - 3) {
+					break;
+
+				case 4:
 					startActivity(AnimationActivity.class);
-				} else if (position == mTotal - 2) {
+					break;
+
+				case 5:
 					startActivity(ViewPagerActivity.class);
-				} else if (position == mTotal - 1) {
+					break;
+
+				case 6:
 					startActivity(ViewPagerMultiFragmentActivity.class);
-				} else {
+					break;
+
+				case 7:
 					startActivity(SearchViewActivity.class);
+					break;
+
+				case 8:
+					startActivity(RoundedImageViewActivity.class);
+					break;
+
+				default:
+					break;
 				}
+
+				// if (position == mTotal - 7) {
+				// startActivity(BadgeViewDemoActivity.class);
+				// } else if (position == mTotal - 6) {
+				// startActivity(MonthActivityCardActivity.class);
+				// } else if (position == mTotal - 5) {
+				// startActivity(CalendarCardDemoActivity.class);
+				// } else if (position == mTotal - 4) {
+				// startActivity(NumberProgressBarActivity.class);
+				// } else if (position == mTotal - 3) {
+				// startActivity(AnimationActivity.class);
+				// } else if (position == mTotal - 2) {
+				// startActivity(ViewPagerActivity.class);
+				// } else if (position == mTotal - 1) {
+				// startActivity(ViewPagerMultiFragmentActivity.class);
+				// } else {
+				// startActivity(SearchViewActivity.class);
+				// }
 			}
 		});
 	}

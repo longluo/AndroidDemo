@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="6"
-    android:versionName="3.0.2" >
+    android:versionCode="7"
+    android:versionName="3.1.0" >
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -35,37 +35,34 @@
         <activity
             android:name="com.longluo.demo.badgeview.BadgeViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
-            android:screenOrientation="portrait"
             android:label="@string/badgeview_demo_activity_title"
+            android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
-        
         <activity
             android:name="com.longluo.demo.activitycard.MonthActivityCardActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/activity_card_demo_activity_title"
             android:theme="@style/AppTheme" >
         </activity>
-        
-         <activity
+        <activity
             android:name="com.longluo.demo.calendarcard.CalendarCardDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/calendar_card_demo_activity_title"
             android:theme="@style/AppTheme" >
-        </activity>       
-        
+        </activity>
         <activity
             android:name="com.longluo.demo.numberprogressbar.NumberProgressBarActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/number_progress_bar_demo_activity_title"
-           android:theme="@style/AppTheme"  >
+            android:theme="@style/AppTheme" >
         </activity>
-        
         <activity
             android:name="com.longluo.demo.animation.AnimationActivity"
-            android:label="@string/app_name" >
+            android:label="@string/animation_demo_activity_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
         </activity>
-        
         <activity
             android:name="com.longluo.demo.guide.GuideActivity"
             android:label="@string/guide"
@@ -74,7 +71,8 @@
         <!--
              <activity
             android:name="com.longluo.demo.dialog.DialogDemoActivity"
-            android:label="@string/dialog" />        -->
+            android:label="@string/dialog" />
+        -->
 
         <activity
             android:name="com.longluo.demo.viewpager.ViewPagerActivity"
@@ -84,25 +82,25 @@
         <!--
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         -->
-
-
-        <!-- <activity android:name="com.longluo.demo.carddisplay.CardDisplayDemoActivity" /> -->
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
         <activity android:name="com.longluo.demo.calendarcard.CardSample2Activity" />
-
-        <!-- <activity android:name="com.longluo.demo.activitycard.MonthActivityCardActivity" /> -->
         
-                <activity
+        <activity
             android:name="com.longluo.demo.searchview.SearchViewActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/search_view_demo_activity_title"
             android:theme="@style/AppTheme" >
         </activity>
         
-
+        <activity
+            android:name="com.longluo.demo.roundedimageview.RoundedImageViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/rounded_image_view_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
     </application>
 
 </manifest>
