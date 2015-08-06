@@ -9,9 +9,13 @@ import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
+import com.longluo.demo.utils.AppUtils;
+import com.longluo.demo.utils.LinkUtils;
+import com.longluo.demo.utils.UIUtils;
 import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
@@ -27,70 +31,71 @@ import android.widget.ListView;
 public class MainActivity extends Activity {
 	private static final String TAG = MainActivity.class.getSimpleName();
 
-	private static final String[] mDemoStrings = { 
-		"BadgeView Demo",
-		"MonthActivityCard Demo",
-		"CalendarCard Demo",
-		"NumberProgressBar Demo", 
-		"Animation Demo",
-		"ViewPager Demo", 
-		"ViewPager Multi Fragment Demo", 
-		"SearchView Demo"};
+	private static final String[] mDemoStrings = { "BadgeView Demo",
+			"MonthActivityCard Demo", "CalendarCard Demo",
+			"NumberProgressBar Demo", "Animation Demo", "ViewPager Demo",
+			"ViewPager Multi Fragment Demo", "SearchView Demo" };
 
 	private static final int mTotal = mDemoStrings.length - 1;
-	
+
 	private ListView mDemoListView;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_main);
 
 		initViews();
+		init(this);
 		initData();
 	}
 
 	private void initData() {
-        LinkedList<String> mListItems = new LinkedList<String>();
-        mListItems.addAll(Arrays.asList(mDemoStrings));
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mListItems);
+		LinkedList<String> mListItems = new LinkedList<String>();
+		mListItems.addAll(Arrays.asList(mDemoStrings));
+		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_list_item_1, mListItems);
 
-        mDemoListView.setAdapter(adapter);
-        mDemoListView.setOnItemClickListener(new OnItemClickListener() {
+		mDemoListView.setAdapter(adapter);
+		mDemoListView.setOnItemClickListener(new OnItemClickListener() {
 
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                if (position == mTotal - 7) {
-                    startActivity(BadgeViewDemoActivity.class);
-                } else if (position == mTotal - 6) {
-                    startActivity(MonthActivityCardActivity.class);
-                } else if (position == mTotal - 5) {
-                    startActivity(CalendarCardDemoActivity.class);
-                } else if (position == mTotal - 4) {
-                    startActivity(NumberProgressBarActivity.class);
-                } else if (position == mTotal - 3) {
-                    startActivity(AnimationActivity.class);
-                } else if (position == mTotal - 2) {
-                    startActivity(ViewPagerActivity.class);
-                } else if (position == mTotal - 1) {
-                    startActivity(ViewPagerMultiFragmentActivity.class);
-                } else {
-                    startActivity(SearchViewActivity.class);
-                } 
-            }
-        });
+			@Override
+			public void onItemClick(AdapterView<?> parent, View view,
+					int position, long id) {
+				if (position == mTotal - 7) {
+					startActivity(BadgeViewDemoActivity.class);
+				} else if (position == mTotal - 6) {
+					startActivity(MonthActivityCardActivity.class);
+				} else if (position == mTotal - 5) {
+					startActivity(CalendarCardDemoActivity.class);
+				} else if (position == mTotal - 4) {
+					startActivity(NumberProgressBarActivity.class);
+				} else if (position == mTotal - 3) {
+					startActivity(AnimationActivity.class);
+				} else if (position == mTotal - 2) {
+					startActivity(ViewPagerActivity.class);
+				} else if (position == mTotal - 1) {
+					startActivity(ViewPagerMultiFragmentActivity.class);
+				} else {
+					startActivity(SearchViewActivity.class);
+				}
+			}
+		});
+	}
+
+	private void init(Activity activity) {
+		LinkUtils.initAuthorInfo(activity);
+		UIUtils.initActionBar(activity);
 	}
 
 	private void initViews() {
 		mDemoListView = (ListView) findViewById(R.id.lv_demos);
 	}
-	
-    private void startActivity(Class<?> cls) {
-        Intent intent = new Intent(MainActivity.this, cls);
-        startActivity(intent);
-    }
 
+	private void startActivity(Class<?> cls) {
+		Intent intent = new Intent(MainActivity.this, cls);
+		startActivity(intent);
+	}
 
 	@Override
 	protected void onStart() {

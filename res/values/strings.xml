@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <string name="app_name">AndroidDemo</string>
     <string name="app_guide">App Guide</string>
@@ -11,7 +11,6 @@
     <string name="number_progress_bar_demo_activity_title">NumberProgressBar Demo</string>
     <string name="view_pager_demo_activity_title">ViewPager Demo</string>
     <string name="view_pager_multi_fragment_demo_activity_title">ViewPager Multi Fragment Demo</string>
-    
     
     <string name="guide">Guide</string>
     <string name="action_settings">Settings</string>
@@ -25,6 +24,34 @@
     <string name="finish">ProgressBar is finished.</string>
     <string name="title_list">ListView</string>
     <string name="title_views">Views</string>
-    <string name="title_activity_tab">BadgeView</string>
+    
+    <string name="update_at">updated at:&#160;</string>
+    <string name="github">GitHub</string>
+    <string name="github_tip">Long Luo on GitHub</string>
+    
+    <string name="image_content">image</string>
+    <string name="profile">Profile:&#160;</string>
+    <string name="description">Description:&#160;</string>
+    <string name="http_cache_get">Get content</string>
+    
+    <string name="drop_down_tip">Pull down to refresh or scroll to bottom to load more</string>
+    <string name="on_border_tip">Scroll to top or bottom to experience</string>
+        
+    <string name="desc_search_view">SearchView Desc And Implement Search Tip</string>
+    <string name="desc_view_pager_multi_page">Viewpager With Multi Page</string>
+    <string name="desc_download_manager">Download Manager Usage</string>
+    <string name="desc_slide_gallery">Slide One Page Gallery Usage</string>
+    <string name="desc_view_pager">ViewPager And Fragment Usage</string>
+    <string name="desc_service">Android Service Usage</string>
+    <string name="desc_broadcast_receiver">Android BroadcastReceiver Usage</string>
+    <string name="desc_border_scroll_view">BorderScrollView Usage</string>
+    <string name="desc_drop_down_listview">Drop Down And On Bottom Listview</string>
+    <string name="desc_image_cache">ImageCache Usage</string>
+    <string name="desc_image_sdcard_cache">ImageSDCardCache Usage</string>
+    <string name="desc_http_cache">HttpCache Usage</string>
+    <string name="desc_auto_scroll_view_pager_inner">Autoscroll ViewPager in ViewPager Usage</string>
+    <string name="desc_auto_scroll_view_pager">Autoscroll ViewPager Usage</string>
+    
+    <string name="desc_default">Long Luo</string>
 
 </resources>
