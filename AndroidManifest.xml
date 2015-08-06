@@ -17,7 +17,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
 
-        <!--  
+        <!--
         <activity
             android:name="com.longluo.demo.MainActivity"
             android:label="@string/app_name" >
@@ -26,11 +26,16 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>
         -->
-        
+
         <activity
             android:name="com.longluo.demo.badgeview.TabActivity"
+            android:label="@string/app_name" >
+        </activity>
+        
+        <activity
+            android:name="com.longluo.demo.animation.AnimationActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -42,12 +47,13 @@
         <activity
             android:name="com.longluo.demo.numberprogressbar.NumberProgressBarActivity"
             android:label="NumberProgressBar" >
-            <!--  
+
+            <!--
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+            </intent-filter>
             -->
         </activity>
         <activity
@@ -58,7 +64,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.dialog.DialogDemoActivity"
-            android:label="@string/dialog" />
+            android:label="@string/dialog" />
         -->
 
 
@@ -66,27 +72,31 @@
         <activity
             android:name="com.longluo.demo.viewpager.ViewPagerActivity"
             android:label="@string/viewpager"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         -->
+
 
         <!--
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         -->
-        
-<!--         <activity android:name="com.longluo.demo.carddisplay.CardDisplayDemoActivity" /> -->
+
+
+        <!-- <activity android:name="com.longluo.demo.carddisplay.CardDisplayDemoActivity" /> -->
 
         <activity android:name="com.longluo.demo.carddisplay.CardSample1Activity" />
         <activity android:name="com.longluo.demo.carddisplay.CardSample2Activity" />
-        
-        <!--  
-        <activity android:name="com.longluo.demo.activitycard.MonthActivityCardActivity" /> -->
-        
-<!--         <activity
+
+<!--         <activity android:name="com.longluo.demo.activitycard.MonthActivityCardActivity" /> -->
+
+
+        <!--
+             <activity
             android:name="com.longluo.demo.numberprogressbar.NumberProgressBarActivity"
-            android:label="NumberProgressBar" /> -->
-        
+            android:label="NumberProgressBar" />
+        -->
+
     </application>
 
 </manifest>
