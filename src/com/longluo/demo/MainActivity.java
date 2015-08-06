@@ -1,123 +1,143 @@
 package com.longluo.demo;
 
-import com.longluo.demo.guide.GuideActivity;
-import com.longluo.demo.guide.GuideUtils;
+import java.util.Arrays;
+import java.util.LinkedList;
+
+import com.longluo.demo.activitycard.MonthActivityCardActivity;
+import com.longluo.demo.animation.AnimationActivity;
+import com.longluo.demo.badgeview.BadgeViewDemoActivity;
+import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
+import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
+import com.longluo.demo.searchview.SearchViewActivity;
+import com.longluo.demo.viewpager.ViewPagerActivity;
+import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 import android.view.Window;
-import android.widget.Button;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
 
 public class MainActivity extends Activity {
-    private static final String TAG = MainActivity.class.getSimpleName();
+	private static final String TAG = MainActivity.class.getSimpleName();
 
-    private Button mBtnStart;
+	private static final String[] mDemoStrings = { 
+		"BadgeView Demo",
+		"MonthActivityCard Demo",
+		"CalendarCard Demo",
+		"NumberProgressBar Demo", 
+		"Animation Demo",
+		"ViewPager Demo", 
+		"ViewPager Multi Fragment Demo", 
+		"SearchView Demo"};
 
-    private GuideUtils mGuideUtils = null;
+	private static final int mTotal = mDemoStrings.length - 1;
+	
+	private ListView mDemoListView;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        setContentView(R.layout.activity_main);
+	@Override
+	protected void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		requestWindowFeature(Window.FEATURE_NO_TITLE);
+		setContentView(R.layout.activity_main);
 
-        initView();
-        initGuide();
-    }
+		initViews();
+		initData();
+	}
 
-    private void initView() {
-        mBtnStart = (Button) findViewById(R.id.btn_start);
-        mBtnStart.setOnClickListener(new View.OnClickListener() {
+	private void initData() {
+        LinkedList<String> mListItems = new LinkedList<String>();
+        mListItems.addAll(Arrays.asList(mDemoStrings));
+        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, mListItems);
+
+        mDemoListView.setAdapter(adapter);
+        mDemoListView.setOnItemClickListener(new OnItemClickListener() {
 
             @Override
-            public void onClick(View v) {
-//                Intent intent = new Intent(MainActivity.this, GuideActivity.class);
-//                startActivity(intent);
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                if (position == mTotal - 7) {
+                    startActivity(BadgeViewDemoActivity.class);
+                } else if (position == mTotal - 6) {
+                    startActivity(MonthActivityCardActivity.class);
+                } else if (position == mTotal - 5) {
+                    startActivity(CalendarCardDemoActivity.class);
+                } else if (position == mTotal - 4) {
+                    startActivity(NumberProgressBarActivity.class);
+                } else if (position == mTotal - 3) {
+                    startActivity(AnimationActivity.class);
+                } else if (position == mTotal - 2) {
+                    startActivity(ViewPagerActivity.class);
+                } else if (position == mTotal - 1) {
+                    startActivity(ViewPagerMultiFragmentActivity.class);
+                } else {
+                    startActivity(SearchViewActivity.class);
+                } 
             }
         });
+	}
+
+	private void initViews() {
+		mDemoListView = (ListView) findViewById(R.id.lv_demos);
+	}
+	
+    private void startActivity(Class<?> cls) {
+        Intent intent = new Intent(MainActivity.this, cls);
+        startActivity(intent);
     }
 
-    private void initGuide() {
-        /** 获取引导界面工具类的实例 **/
-        mGuideUtils = GuideUtils.getInstance();
-        
-        /** 调用引导界面 **/
-        mGuideUtils.initGuide(this, R.drawable.guide_tap_to_refresh);
 
-        findViewById(R.id.btn_start).setOnClickListener(new View.OnClickListener() {
+	@Override
+	protected void onStart() {
+		super.onStart();
+	}
 
-            @Override
-            public void onClick(View v) {
-                /** 按钮的方式点击显示引导界面 **/
-                mGuideUtils.initGuide(MainActivity.this, R.drawable.guide_tap_to_refresh);
-            }
-        });
+	@Override
+	protected void onResume() {
+		super.onResume();
+	}
 
-/*        findViewById(R.id.btn_).setOnClickListener(new View.OnClickListener() {
+	@Override
+	protected void onPause() {
+		super.onPause();
+	}
 
-            @Override
-            public void onClick(View v) {
-                *//**
-                 * 实际程序中，如果没有第一次了，那不会显示引导界面了。
-                 * 这这时候，我们在setFirst中设置false，当我们点击的时候，
-                 * 就没有效果了！不会再弹出了
-                 *//*
-                mGuideUtils.setFirst(false);
-                mGuideUtils.initGuide(MainActivity.this, R.drawable.guide_tap_to_refresh);
-            }
-        });*/
-    }
+	@Override
+	protected void onRestart() {
+		super.onRestart();
+	}
 
-    @Override
-    protected void onStart() {
-        super.onStart();
-    }
+	@Override
+	protected void onStop() {
+		super.onStop();
+	}
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-    }
+	@Override
+	protected void onDestroy() {
+		super.onDestroy();
+	}
 
-    @Override
-    protected void onPause() {
-        super.onPause();
-    }
+	@Override
+	public boolean onCreateOptionsMenu(Menu menu) {
+		// Inflate the menu; this adds items to the action bar if it is present.
+		getMenuInflater().inflate(R.menu.main, menu);
+		return true;
+	}
 
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-    }
-
-    @Override
-    protected void onStop() {
-        super.onStop();
-    }
-
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-        if (id == R.id.action_settings) {
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		// Handle action bar item clicks here. The action bar will
+		// automatically handle clicks on the Home/Up button, so long
+		// as you specify a parent activity in AndroidManifest.xml.
+		int id = item.getItemId();
+		if (id == R.id.action_settings) {
+			return true;
+		}
+		return super.onOptionsItemSelected(item);
+	}
 }

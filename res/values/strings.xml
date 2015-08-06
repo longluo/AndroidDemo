@@ -3,6 +3,16 @@
 
     <string name="app_name">AndroidDemo</string>
     <string name="app_guide">App Guide</string>
+    
+    <string name="badgeview_demo_activity_title">BadgeView Demo</string>
+    <string name="animation_demo_activity_title">Animation Demo</string>
+    <string name="activity_card_demo_activity_title">ActivityCard Demo</string>
+    <string name="calendar_card_demo_activity_title">CalendarCard Demo</string>
+    <string name="number_progress_bar_demo_activity_title">NumberProgressBar Demo</string>
+    <string name="view_pager_demo_activity_title">ViewPager Demo</string>
+    <string name="view_pager_multi_fragment_demo_activity_title">ViewPager Multi Fragment Demo</string>
+    
+    
     <string name="guide">Guide</string>
     <string name="action_settings">Settings</string>
     <string name="start">Start</string>
@@ -13,7 +23,6 @@
     <string name="card_pager">Calendar Card Pager</string>
     <string name="sel_date">Selected date: %s</string>
     <string name="finish">ProgressBar is finished.</string>
-    
     <string name="title_list">ListView</string>
     <string name="title_views">Views</string>
     <string name="title_activity_tab">BadgeView</string>

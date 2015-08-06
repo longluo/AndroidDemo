@@ -1,23 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
-        android:id="@+id/tv_main"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/app_guide"
-        android:textColor="#0000ff"
-        android:textSize="25sp" />
+    <ListView
+        android:id="@+id/lv_demos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/longluo_info_layout"
+        android:paddingLeft="@dimen/dp_8"
+        android:paddingRight="@dimen/dp_8"
+        android:scrollbarStyle="outsideOverlay" />
 
-    <Button
-        android:id="@+id/btn_start"
-        android:layout_width="wrap_content"
+    <include
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@id/tv_main"
-        android:text="@string/start"
-        android:textSize="18sp" />
+        android:layout_alignParentBottom="true"
+        layout="@layout/longluo_info" />
 
 </RelativeLayout>
