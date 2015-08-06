@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="5"
-    android:versionName="3.0.1" >
+    android:versionCode="6"
+    android:versionName="3.0.2" >
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -35,6 +35,7 @@
         <activity
             android:name="com.longluo.demo.badgeview.BadgeViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
+            android:screenOrientation="portrait"
             android:label="@string/badgeview_demo_activity_title"
             android:theme="@style/AppTheme" >
         </activity>
@@ -93,6 +94,14 @@
         <activity android:name="com.longluo.demo.calendarcard.CardSample2Activity" />
 
         <!-- <activity android:name="com.longluo.demo.activitycard.MonthActivityCardActivity" /> -->
+        
+                <activity
+            android:name="com.longluo.demo.searchview.SearchViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/search_view_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        
 
     </application>
 

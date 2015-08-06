@@ -11,6 +11,7 @@
     <string name="number_progress_bar_demo_activity_title">NumberProgressBar Demo</string>
     <string name="view_pager_demo_activity_title">ViewPager Demo</string>
     <string name="view_pager_multi_fragment_demo_activity_title">ViewPager Multi Fragment Demo</string>
+    <string name="search_view_demo_activity_title">SearchView Demo</string>
     
     <string name="guide">Guide</string>
     <string name="action_settings">Settings</string>
