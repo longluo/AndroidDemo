@@ -3,33 +3,31 @@ package com.longluo.demo;
 import java.util.Arrays;
 import java.util.LinkedList;
 
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.AdapterView.OnItemClickListener;
+import android.widget.ArrayAdapter;
+import android.widget.ListView;
+
 import com.longluo.demo.activitycard.MonthActivityCardActivity;
 import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
+import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
-import com.longluo.demo.utils.AppUtils;
 import com.longluo.demo.utils.LinkUtils;
 import com.longluo.demo.utils.UIUtils;
 import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
-
-import android.app.ActionBar;
-import android.app.Activity;
-import android.content.Intent;
-import android.os.Bundle;
-import android.util.Log;
-import android.view.View;
-import android.view.Menu;
-import android.view.MenuItem;
-import android.view.Window;
-import android.widget.AdapterView;
-import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
-import android.widget.ListView;
 
 public class MainActivity extends Activity {
 	private static final String TAG = MainActivity.class.getSimpleName();
@@ -38,7 +36,8 @@ public class MainActivity extends Activity {
 			"MonthActivityCard Demo", "CalendarCard Demo",
 			"NumberProgressBar Demo", "Animation Demo", "ViewPager Demo",
 			"ViewPager Multi Fragment Demo", "SearchView Demo",
-			"RoundedImageView Demo", "MIUI TabPage Indicator Demo" };
+			"RoundedImageView Demo", "MIUI TabPage Indicator Demo",
+			"Fragment Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -108,28 +107,14 @@ public class MainActivity extends Activity {
 				case 9:
 					startActivity(MIUITabPageIndicatorActivity.class);
 					break;
+					
+				case 10:
+					startActivity(FragmentDemoActivity.class);
+					break;
 
 				default:
 					break;
 				}
-
-				// if (position == mTotal - 7) {
-				// startActivity(BadgeViewDemoActivity.class);
-				// } else if (position == mTotal - 6) {
-				// startActivity(MonthActivityCardActivity.class);
-				// } else if (position == mTotal - 5) {
-				// startActivity(CalendarCardDemoActivity.class);
-				// } else if (position == mTotal - 4) {
-				// startActivity(NumberProgressBarActivity.class);
-				// } else if (position == mTotal - 3) {
-				// startActivity(AnimationActivity.class);
-				// } else if (position == mTotal - 2) {
-				// startActivity(ViewPagerActivity.class);
-				// } else if (position == mTotal - 1) {
-				// startActivity(ViewPagerMultiFragmentActivity.class);
-				// } else {
-				// startActivity(SearchViewActivity.class);
-				// }
 			}
 		});
 	}

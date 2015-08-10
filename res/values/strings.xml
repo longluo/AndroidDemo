@@ -3,7 +3,6 @@
 
     <string name="app_name">AndroidDemo</string>
     <string name="app_guide">App Guide</string>
-    
     <string name="badgeview_demo_activity_title">BadgeView Demo</string>
     <string name="animation_demo_activity_title">Animation Demo</string>
     <string name="activity_card_demo_activity_title">ActivityCard Demo</string>
@@ -14,6 +13,7 @@
     <string name="search_view_demo_activity_title">SearchView Demo</string>
     <string name="rounded_image_view_demo_activity_title">Rounded Image View Demo</string>
     <string name="miui_tabpage_indicator_demo_activity_title">MIUI TabPage Indicator Demo</string>
+    <string name="fragment_demo_activity_title">Fragment Demo</string>
     
     <string name="guide">Guide</string>
     <string name="action_settings">Settings</string>
@@ -27,19 +27,15 @@
     <string name="finish">ProgressBar is finished.</string>
     <string name="title_list">ListView</string>
     <string name="title_views">Views</string>
-    
     <string name="update_at">updated at:&#160;</string>
     <string name="github">GitHub</string>
     <string name="github_tip">Long Luo on GitHub</string>
-    
     <string name="image_content">image</string>
     <string name="profile">Profile:&#160;</string>
     <string name="description">Description:&#160;</string>
     <string name="http_cache_get">Get content</string>
-    
     <string name="drop_down_tip">Pull down to refresh or scroll to bottom to load more</string>
     <string name="on_border_tip">Scroll to top or bottom to experience</string>
-        
     <string name="desc_search_view">SearchView Desc And Implement Search Tip</string>
     <string name="desc_view_pager_multi_page">Viewpager With Multi Page</string>
     <string name="desc_download_manager">Download Manager Usage</string>
@@ -56,7 +52,6 @@
     <string name="desc_auto_scroll_view_pager">Autoscroll ViewPager Usage</string>
     <string name="desc_rounded_image_view">Rounded Image View Usage</string>
     <string name="desc_miui_tabpage_indicator">MIUI TabPage Indicator</string>
-    
     <string name="desc_default">Long Luo</string>
 
 </resources>
