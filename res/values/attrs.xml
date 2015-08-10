@@ -43,5 +43,13 @@
         <attr name="borderRadius" />
         <attr name="type" />
     </declare-styleable>
+    
+    <!-- MIUI TabPage Indicator -->
+    <attr name="item_count" format="integer"></attr>
+
+    <declare-styleable name="MIUIViewPagerIndicator">
+        <attr name="item_count" />
+    </declare-styleable>
+    
 
 </resources>

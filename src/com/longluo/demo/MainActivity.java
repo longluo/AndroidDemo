@@ -15,6 +15,7 @@ import com.longluo.demo.utils.LinkUtils;
 import com.longluo.demo.utils.UIUtils;
 import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
+import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
 
 import android.app.ActionBar;
 import android.app.Activity;
@@ -37,7 +38,7 @@ public class MainActivity extends Activity {
 			"MonthActivityCard Demo", "CalendarCard Demo",
 			"NumberProgressBar Demo", "Animation Demo", "ViewPager Demo",
 			"ViewPager Multi Fragment Demo", "SearchView Demo",
-			"RoundedImageView Demo" };
+			"RoundedImageView Demo", "MIUI TabPage Indicator Demo" };
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -102,6 +103,10 @@ public class MainActivity extends Activity {
 
 				case 8:
 					startActivity(RoundedImageViewActivity.class);
+					break;
+					
+				case 9:
+					startActivity(MIUITabPageIndicatorActivity.class);
 					break;
 
 				default:

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="8"
-    android:versionName="3.2.0" >
+    android:versionCode="9"
+    android:versionName="3.3.0" >
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -71,7 +71,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.dialog.DialogDemoActivity"
-            android:label="@string/dialog" />
+            android:label="@string/dialog" />
         -->
 
         <activity
@@ -82,23 +82,27 @@
         <!--
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         -->
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
         <activity android:name="com.longluo.demo.calendarcard.CardSample2Activity" />
-        
         <activity
             android:name="com.longluo.demo.searchview.SearchViewActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/search_view_demo_activity_title"
             android:theme="@style/AppTheme" >
         </activity>
-        
         <activity
             android:name="com.longluo.demo.roundedimageview.RoundedImageViewActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/rounded_image_view_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/miui_tabpage_indicator_demo_activity_title"
             android:theme="@style/AppTheme" >
         </activity>
     </application>
