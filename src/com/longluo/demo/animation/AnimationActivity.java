@@ -8,6 +8,22 @@ import android.widget.Button;
 
 import com.longluo.demo.R;
 
+/**
+ * 
+ * @author luolong
+ * 
+ * Animation Types:
+ *  1. Tween 
+ *  			Alpha
+ *  			Scale
+ *  			Translate
+ *  			Rotate
+ *  
+ *  2. Frame
+ *  3. Layout
+ *  4. Property
+ *
+ */
 public class AnimationActivity extends Activity {
 	private static final String TAG = AnimationActivity.class.getSimpleName();
 	
