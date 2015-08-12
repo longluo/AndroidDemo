@@ -1,18 +1,17 @@
 package com.longluo.demo.animation;
 
-import com.longluo.demo.R;
-
-import android.animation.ValueAnimator;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.Button;
+
+import com.longluo.demo.R;
 
 public class AnimationActivity extends Activity {
 	private static final String TAG = AnimationActivity.class.getSimpleName();
 	
-	private Button mBtn;
+	private Button mBtnAllAnimType;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -23,24 +22,14 @@ public class AnimationActivity extends Activity {
 	}
 
 	private void initViews() {
-		mBtn = (Button) findViewById(R.id.btn_anim);
+		mBtnAllAnimType = (Button) findViewById(R.id.btn_all_type);
 		
-		mBtn.setOnClickListener(new View.OnClickListener() {
+		mBtnAllAnimType.setOnClickListener(new View.OnClickListener() {
 			
 			@Override
 			public void onClick(View v) {
-				ValueAnimator animator = ValueAnimator.ofInt(0, 100);
-				animator.setDuration(5000);
-				animator.addUpdateListener(new ValueAnimator.AnimatorUpdateListener() {
-					
-					@Override
-					public void onAnimationUpdate(ValueAnimator animation) {
-						Integer value = (Integer) animation.getAnimatedValue();
-						mBtn.setText(" " + value);	
-					}
-				});
-				
-				animator.start();
+				Intent intent = new Intent(AnimationActivity.this, AllAnimationTypeActivity.class);
+				startActivity(intent);
 			}
 		});
 	}

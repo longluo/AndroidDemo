@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="10"
-    android:versionName="3.3.1" >
+    android:versionCode="11"
+    android:versionName="3.4.0" >
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -63,6 +63,10 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme" >
         </activity>
+        <activity android:name="com.longluo.demo.animation.AllAnimationTypeActivity" >
+        </activity>
+        <activity android:name="com.longluo.demo.animation.AnimationListActivity" >
+        </activity>
         <activity
             android:name="com.longluo.demo.guide.GuideActivity"
             android:label="@string/guide"
@@ -71,8 +75,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.dialog.DialogDemoActivity"
-            android:label="@string/dialog" />
-        -->
+            android:label="@string/dialog" />        -->
 
         <activity
             android:name="com.longluo.demo.viewpager.ViewPagerActivity"
@@ -82,7 +85,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         -->
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
