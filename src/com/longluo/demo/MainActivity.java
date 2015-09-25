@@ -24,6 +24,7 @@ import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
+import com.longluo.demo.slideview.SlideViewDemoActivity;
 import com.longluo.demo.utils.LinkUtils;
 import com.longluo.demo.utils.UIUtils;
 import com.longluo.demo.viewpager.ViewPagerActivity;
@@ -38,7 +39,7 @@ public class MainActivity extends Activity {
 			"NumberProgressBar Demo", "Animation Demo", "ViewPager Demo",
 			"ViewPager Multi Fragment Demo", "SearchView Demo",
 			"RoundedImageView Demo", "MIUI TabPage Indicator Demo",
-			"Fragment Demo", "SwipeListView Demo"};
+			"Fragment Demo", "SwipeListView Demo", "SlideView Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -115,6 +116,10 @@ public class MainActivity extends Activity {
 					
 				case 11:
 					startActivity(SwipeListViewDemoActivity.class);
+					break;
+				
+				case 12:
+					startActivity(SlideViewDemoActivity.class);
 					break;
 
 				default:

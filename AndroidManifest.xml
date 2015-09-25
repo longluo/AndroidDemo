@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="12"
-    android:versionName="3.5.0" >
+    android:versionCode="13"
+    android:versionName="3.6.0" >
 
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -119,6 +119,13 @@
             android:name="com.longluo.demo.SwipeListView.SwipeListViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/fragment_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        
+		<activity
+            android:name="com.longluo.demo.slideview.SlideViewDemoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/slideview_demo_activity_title"
             android:theme="@style/AppTheme" >
         </activity>
         
