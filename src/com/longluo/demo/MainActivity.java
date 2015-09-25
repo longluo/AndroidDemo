@@ -15,6 +15,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import com.longluo.demo.SwipeListView.SwipeListViewDemoActivity;
 import com.longluo.demo.activitycard.MonthActivityCardActivity;
 import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
@@ -37,7 +38,7 @@ public class MainActivity extends Activity {
 			"NumberProgressBar Demo", "Animation Demo", "ViewPager Demo",
 			"ViewPager Multi Fragment Demo", "SearchView Demo",
 			"RoundedImageView Demo", "MIUI TabPage Indicator Demo",
-			"Fragment Demo"};
+			"Fragment Demo", "SwipeListView Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -110,6 +111,10 @@ public class MainActivity extends Activity {
 					
 				case 10:
 					startActivity(FragmentDemoActivity.class);
+					break;
+					
+				case 11:
+					startActivity(SwipeListViewDemoActivity.class);
 					break;
 
 				default:

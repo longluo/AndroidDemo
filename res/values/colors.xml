@@ -1,5 +1,8 @@
 <resources>
 
+      <color name="white_color">#FFFFFFFF</color>
+    <color name="black_color">#FF000000</color>
+    
     <color name="grid_bg">#FFFFFFFF</color>
     <color name="grid_border">#FFC6C6C6</color>
 

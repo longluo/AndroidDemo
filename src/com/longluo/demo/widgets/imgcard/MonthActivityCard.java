@@ -21,7 +21,7 @@ import com.longluo.demo.activitycard.bean.MonthActivityInfo;
  * 
  * @author luolong
  * @version
- * @Date 2015-6-26 下午4:32:55
+ * @Date 2015-6-26 4:32:55 
  */
 public class MonthActivityCard extends RelativeLayout {
     private static final String TAG = MonthActivityCard.class.getSimpleName();
@@ -115,7 +115,7 @@ public class MonthActivityCard extends RelativeLayout {
     }
     
     public void setCardTitle() {
-        mCardTitle.setText(String.valueOf(mMonthActivityInfo.mMonth) + "月");
+        mCardTitle.setText(String.valueOf(mMonthActivityInfo.mMonth) + getResources().getString(R.string.month));
     }
 
     public int getItemLayout() {
