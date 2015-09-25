@@ -2,13 +2,13 @@
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
     </style>
 
@@ -192,6 +192,22 @@
         <item name="progress_text_color">#ECF0F1</item>
         <item name="progress_reached_bar_height">1.5dp</item>
         <item name="progress_unreached_bar_height">0.75dp</item>
+    </style>
+
+    <style name="push_style">
+        <item name="android:hint">@string/style_hint</item>
+        <item name="android:inputType">number</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="push_alias">
+        <item name="android:hint">@string/alias_hint</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="push_tag">
+        <item name="android:hint">@string/tag_hint</item>
+        <item name="android:textSize">14sp</item>
     </style>
 
 </resources>
