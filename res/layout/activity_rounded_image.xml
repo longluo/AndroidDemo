@@ -29,13 +29,13 @@
             android:layout_width="130dp"
             android:layout_height="130dp"
             android:layout_margin="10dp"
-            android:src="@drawable/meinv_wear_glass" />
+            android:src="@drawable/meinv01" />
 
         <com.longluo.demo.widgets.image.RoundImageViewByXfermode
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:src="@drawable/meinv_wear_glass"
+            android:src="@drawable/meinv00"
             round:borderRadius="30dp"
             round:type="round" />
 
@@ -43,14 +43,14 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
-            android:src="@drawable/meinv_wear_glass"
+            android:src="@drawable/meinv01"
             round:type="circle" />
 
         <com.longluo.demo.widgets.image.RoundImageViewByXfermode
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_margin="10dp"
-            android:src="@drawable/meinv_wear_glass"
+            android:src="@drawable/meinv00"
             round:type="circle" />
     </LinearLayout>
 

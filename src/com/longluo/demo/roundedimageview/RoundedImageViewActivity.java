@@ -21,7 +21,7 @@ public class RoundedImageViewActivity extends Activity {
 	}
 
 	private void initDatas() {
-		mAvatarRIV.setImageResource(R.drawable.meinv_wear_glass);
+		mAvatarRIV.setImageResource(R.drawable.meinv01);
 	}
 
 	private void initViews() {
