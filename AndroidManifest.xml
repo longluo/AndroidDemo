@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="15"
-    android:versionName="4.0.0" >
+    android:versionCode="16"
+    android:versionName="4.1.0" >
     
     <!-- Required 自定义用来收发消息的相关权限 -->               
     <permission 
@@ -107,8 +107,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        -->
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />        -->
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
         <activity android:name="com.longluo.demo.calendarcard.CardSample2Activity" />
@@ -264,6 +263,15 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/share_demo_activity_title" >
         </activity>
+        
+		<!-- Friends Activity  -->
+		<activity
+            android:name="com.longluo.demo.friends.FriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/friends_demo_activity_title" >
+        </activity>
+		
+		
         
     </application>
 

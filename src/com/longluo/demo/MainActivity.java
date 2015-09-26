@@ -21,7 +21,9 @@ import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
+import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
+import com.longluo.demo.login.LoginActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
@@ -41,7 +43,7 @@ public class MainActivity extends Activity {
 			"ViewPager Multi Fragment Demo", "SearchView Demo",
 			"RoundedImageView Demo", "MIUI TabPage Indicator Demo",
 			"Fragment Demo", "SwipeListView Demo", "SlideView Demo",
-			"JPush Demo"};
+			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -126,6 +128,14 @@ public class MainActivity extends Activity {
 					
 				case 13:
 					startActivity(JPushDemoActivity.class);
+					break;
+					
+				case 14:
+					startActivity(LoginActivity.class);
+					break;
+					
+				case 15:
+					startActivity(FriendsActivity.class);
 					break;
 
 				default:

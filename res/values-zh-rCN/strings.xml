@@ -18,7 +18,8 @@
     <string name="slideview_demo_activity_title">SlideView Demo</string>
     <string name="jpush_demo_activity_title">JPush Demo</string>
  	<string name="share_demo_activity_title">Share Demo</string>
- 	   
+	<string name="friends_demo_activity_title">Friends Demo</string>
+	 	   
     <string name="guide">Guide</string>
     <string name="action_settings">Settings</string>
     <string name="start">Start</string>
