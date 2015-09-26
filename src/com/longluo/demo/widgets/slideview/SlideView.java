@@ -49,16 +49,16 @@ public class SlideView extends LinearLayout {
 				TypedValue.COMPLEX_UNIT_DIP, mHolderWidth, getResources()
 						.getDisplayMetrics()));
 
-		// TypedValue.COMPLEX_UNIT_PX,Ê±ÔÚ²»Í¬ÊÖ»úÉÏµÄÊıÖµ¶¼ÊÇÒ»ÑùµÄ£¬»¹ÊÇÔ­À´Êı¾İ120.
+		// TypedValue.COMPLEX_UNIT_PX,æ—¶åœ¨ä¸åŒæ‰‹æœºä¸Šçš„æ•°å€¼éƒ½æ˜¯ä¸€æ ·çš„ï¼Œè¿˜æ˜¯åŸæ¥æ•°æ®120.
 		//
 		/*
 		 * mHolderWidth = Math.round(TypedValue.applyDimension(
 		 * TypedValue.COMPLEX_UNIT_PX, mHolderWidth, getResources()
 		 * .getDisplayMetrics()));
 		 */
-		// TypedValue.COMPLEX_UNIT_DIPÔÚ²»Í¬ÊÖ»úÉÏÏÔÊ¾µÄÊÇ²»Í¬µÄ£¬ÊÇ¶ÀÁ¢ÓÚÉè±¸µÄ¡£
-		// ÔÚ¹«Ë¾e6»úÆ÷ÉÏÏÔÊ¾µÄÊÇ180£¬ÔÚlgÉÏÏÔÊ¾240
-		System.out.println("×ª»¯ºóµÄmHolderWidth is " + mHolderWidth);
+		// TypedValue.COMPLEX_UNIT_DIPåœ¨ä¸åŒæ‰‹æœºä¸Šæ˜¾ç¤ºçš„æ˜¯ä¸åŒçš„ï¼Œæ˜¯ç‹¬ç«‹äºè®¾å¤‡çš„ã€‚
+		// åœ¨å…¬å¸e6æœºå™¨ä¸Šæ˜¾ç¤ºçš„æ˜¯180ï¼Œåœ¨lgä¸Šæ˜¾ç¤º240
+		System.out.println("è½¬åŒ–åçš„mHolderWidth is " + mHolderWidth);
 	}
 
 	public void setButtonText(CharSequence text) {
@@ -70,14 +70,14 @@ public class SlideView extends LinearLayout {
 	}
 
 	public void onRequireTouchEvent(MotionEvent event) {
-		// ×¢ÒâÖ´ĞĞË³Ğò£¬Ã¿´Î²»Í¬µÄaction¶¼ÒªÖ´ĞĞint x=event.getX();ºÍmLastX=x;
-		// ×¢Òâ´Ë´¦µÄevent¡£getX.Ô½¿¿×óµÄµãx×ø±êÔ½Ğ¡£¬Ô½¿¿ÓÒ£¬xµÄ×ø±êÔ½´ó¡£
+		// æ³¨æ„æ‰§è¡Œé¡ºåºï¼Œæ¯æ¬¡ä¸åŒçš„actionéƒ½è¦æ‰§è¡Œint x=event.getX();å’ŒmLastX=x;
+		// æ³¨æ„æ­¤å¤„çš„eventã€‚getX.è¶Šé å·¦çš„ç‚¹xåæ ‡è¶Šå°ï¼Œè¶Šé å³ï¼Œxçš„åæ ‡è¶Šå¤§ã€‚
 		int x = (int) event.getX();
 		int y = (int) event.getY();
 		System.out.println("event.getX is " + x + "event.getY is --" + y);
-		// ¸Ã´¦·½·¨ÊÇ»ñµÃ»¬¶¯ÁË¶àÉÙ¾àÀë£¬¸ù¾İ´òÓ¡µÄlog¡£µ±»¬¶¯ÁË180Ê±¾Í²»ÔÙ»¬¶¯ÁË
+		// è¯¥å¤„æ–¹æ³•æ˜¯è·å¾—æ»‘åŠ¨äº†å¤šå°‘è·ç¦»ï¼Œæ ¹æ®æ‰“å°çš„logã€‚å½“æ»‘åŠ¨äº†180æ—¶å°±ä¸å†æ»‘åŠ¨äº†
 		int scrollX = getScrollX();
-		System.out.println("»¬¶¯ÁË¶àÉÙ¾àÀë" + scrollX);
+		System.out.println("æ»‘åŠ¨äº†å¤šå°‘è·ç¦»" + scrollX);
 		Log.d(TAG, "x=" + x + "  y=" + y);
 
 		switch (event.getAction()) {
@@ -94,17 +94,17 @@ public class SlideView extends LinearLayout {
 			if (Math.abs(deltaX) < Math.abs(deltaY) * TAN) {
 				break;
 			}
-			// ×¢ÒâÕâÒ»²½µÄ´¦Àí£¬Ê¹ÓÃµÄ¼õºÅ
+			// æ³¨æ„è¿™ä¸€æ­¥çš„å¤„ç†ï¼Œä½¿ç”¨çš„å‡å·
 			int newScrollX = scrollX - deltaX;
 			System.out.println("--------newScroll is" + newScrollX);
 			if (deltaX != 0) {
-				// ´Ë´¦ÎªÈç¹û¸´Ô­ÏòÓÒ»¬Ôò»¬¶¯µ½³õÊ¼×´Ì¬£¬·ñÔò»¬¶¯µ½×î×ó
+				// æ­¤å¤„ä¸ºå¦‚æœå¤åŸå‘å³æ»‘åˆ™æ»‘åŠ¨åˆ°åˆå§‹çŠ¶æ€ï¼Œå¦åˆ™æ»‘åŠ¨åˆ°æœ€å·¦
 				if (newScrollX < 0) {
 					newScrollX = 0;
 				} else if (newScrollX > mHolderWidth) {
 					newScrollX = mHolderWidth;
 				}
-				// scrollToµÄ²ÎÊıx£¬ÈôÎª¸ºÊıÔòÏòÓÒ¹ö¶¯£¬ÈôÎªÕıÊıÔòÏò×ó¹ö¶¯
+				// scrollToçš„å‚æ•°xï¼Œè‹¥ä¸ºè´Ÿæ•°åˆ™å‘å³æ»šåŠ¨ï¼Œè‹¥ä¸ºæ­£æ•°åˆ™å‘å·¦æ»šåŠ¨
 				this.scrollTo(newScrollX, 0);
 			}
 			break;
@@ -112,7 +112,7 @@ public class SlideView extends LinearLayout {
 		case MotionEvent.ACTION_UP:
 			System.out.println("------------up");
 			newScrollX = 0;
-			// Èç¹ûÒÑ¾­»¬¶¯le0.75±¶µÄ¾àÀë£¬ÔòÖ±½Ó»¬¶¯µ½Ä¿µÄµØ£¬·ñÔò»¬¶¯»ØÔ­À´µÄÎ»ÖÃ
+			// å¦‚æœå·²ç»æ»‘åŠ¨le0.75å€çš„è·ç¦»ï¼Œåˆ™ç›´æ¥æ»‘åŠ¨åˆ°ç›®çš„åœ°ï¼Œå¦åˆ™æ»‘åŠ¨å›åŸæ¥çš„ä½ç½®
 			if (scrollX - mHolderWidth * 0.75 > 0) {
 				newScrollX = mHolderWidth;
 			}
@@ -131,14 +131,14 @@ public class SlideView extends LinearLayout {
 	}
 
 	private void smoothScrollTo(int destX, int destY) {
-		// »ºÂı¹ö¶¯µ½Ö¸¶¨Î»ÖÃ
-		// ·µ»Ø¹ö¶¯µÄviewµÄ×ó±ß½ç
+		// ç¼“æ…¢æ»šåŠ¨åˆ°æŒ‡å®šä½ç½®
+		// è¿”å›æ»šåŠ¨çš„viewçš„å·¦è¾¹ç•Œ
 		int scrollX = getScrollX();
-		// ÔÚ¸ÃÀı×ÓÖĞ£¬µ±Ïò×ó»¬¶¯Ê±´Ë´¦µÄscrollXÊÇÕıÊı
+		// åœ¨è¯¥ä¾‹å­ä¸­ï¼Œå½“å‘å·¦æ»‘åŠ¨æ—¶æ­¤å¤„çš„scrollXæ˜¯æ­£æ•°
 		System.out.println("scrollX is" + scrollX);
-		// getScrollXÊÇµÃµ½×Ü¹²»¬¶¯µÄ¾àÀë£¬±Ø¶¨ÎªÕıÊı
+		// getScrollXæ˜¯å¾—åˆ°æ€»å…±æ»‘åŠ¨çš„è·ç¦»ï¼Œå¿…å®šä¸ºæ­£æ•°
 		int delta = destX - scrollX;
-		// startScrollÖĞµÄ²ÎÊıxoffersetÈç¹ûÎªÕıÊıÔòÏò×ó»¬¶¯£¬yoffersetÈç¹ûÎªÕıÊıÔòÏòÉÏ»¬¶¯
+		// startScrollä¸­çš„å‚æ•°xoffersetå¦‚æœä¸ºæ­£æ•°åˆ™å‘å·¦æ»‘åŠ¨ï¼Œyoffersetå¦‚æœä¸ºæ­£æ•°åˆ™å‘ä¸Šæ»‘åŠ¨
 		mScroller.startScroll(scrollX, 0, delta, 0, Math.abs(delta) * 3);
 		invalidate();
 	}
