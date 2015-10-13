@@ -24,6 +24,7 @@ import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
 import com.longluo.demo.login.LoginActivity;
+import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
@@ -43,7 +44,8 @@ public class MainActivity extends Activity {
 			"ViewPager Multi Fragment Demo", "SearchView Demo",
 			"RoundedImageView Demo", "MIUI TabPage Indicator Demo",
 			"Fragment Demo", "SwipeListView Demo", "SlideView Demo",
-			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo"};
+			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo",
+			"Notifications Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -53,6 +55,8 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		
+		Log.d(TAG, "onCreate ");
 
 		initViews();
 		init(this);
@@ -136,6 +140,10 @@ public class MainActivity extends Activity {
 					
 				case 15:
 					startActivity(FriendsActivity.class);
+					break;
+					
+				case 16:
+					startActivity(NotificationActivity.class);
 					break;
 
 				default:
