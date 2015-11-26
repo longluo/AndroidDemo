@@ -9,7 +9,9 @@
         android:name="com.longluo.demo.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature" />
 
+    <!-- 
     <uses-permission android:name="com.longluo.demo.permission.JPUSH_MESSAGE" />
+    -->
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -300,6 +302,11 @@
         </activity>
         
         <activity android:name="com.longluo.demo.notifications.ProgressActivity" >
+        </activity>
+        
+        <!-- Media -->
+        <activity android:name="com.longluo.demo.media.camera.CameraActivity"
+            android:screenOrientation="portrait" >
         </activity>
         
     </application>

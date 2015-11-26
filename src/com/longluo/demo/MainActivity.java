@@ -24,6 +24,7 @@ import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
 import com.longluo.demo.login.LoginActivity;
+import com.longluo.demo.media.MediaActivity;
 import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
@@ -45,7 +46,7 @@ public class MainActivity extends Activity {
 			"RoundedImageView Demo", "MIUI TabPage Indicator Demo",
 			"Fragment Demo", "SwipeListView Demo", "SlideView Demo",
 			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo",
-			"Notifications Demo"};
+			"Notifications Demo", "Media Demo" };
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -55,7 +56,7 @@ public class MainActivity extends Activity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-		
+
 		Log.d(TAG, "onCreate ");
 
 		initViews();
@@ -113,37 +114,41 @@ public class MainActivity extends Activity {
 				case 8:
 					startActivity(RoundedImageViewActivity.class);
 					break;
-					
+
 				case 9:
 					startActivity(MIUITabPageIndicatorActivity.class);
 					break;
-					
+
 				case 10:
 					startActivity(FragmentDemoActivity.class);
 					break;
-					
+
 				case 11:
 					startActivity(SwipeListViewDemoActivity.class);
 					break;
-				
+
 				case 12:
 					startActivity(SlideViewDemoActivity.class);
 					break;
-					
+
 				case 13:
 					startActivity(JPushDemoActivity.class);
 					break;
-					
+
 				case 14:
 					startActivity(LoginActivity.class);
 					break;
-					
+
 				case 15:
 					startActivity(FriendsActivity.class);
 					break;
-					
+
 				case 16:
 					startActivity(NotificationActivity.class);
+					break;
+
+				case 17:
+					startActivity(MediaActivity.class);
 					break;
 
 				default:
