@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
+import android.provider.MediaStore;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -27,8 +28,8 @@ public class AudioRecordActivity extends Activity {
 
 			@Override
 			public void onClick(View v) {
-				// Intent audioIntent = new Intent(MediaStore.Audio.);
-
+				 Intent audioIntent = new Intent(MediaStore.Audio.Media.RECORD_SOUND_ACTION);
+				 startActivityForResult(audioIntent, RECORD_AUDIO);
 			}
 		});
 	}
