@@ -9,9 +9,7 @@
         android:name="com.longluo.demo.permission.JPUSH_MESSAGE"
         android:protectionLevel="signature" />
 
-    <!-- 
     <uses-permission android:name="com.longluo.demo.permission.JPUSH_MESSAGE" />
-    -->
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -33,8 +31,12 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    
+
     <!-- Media -->
+    <uses-feature android:name="android:hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <uses-sdk
         android:minSdkVersion="14"
@@ -100,7 +102,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.dialog.DialogDemoActivity"
-            android:label="@string/dialog" />
+            android:label="@string/dialog" />
         -->
 
         <activity
@@ -111,7 +113,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         -->
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
@@ -231,7 +233,7 @@
             android:exported="false" >
             <intent-filter android:priority="1000" >
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
- <!-- Required  显示通知栏 -->
+                <!-- Required  显示通知栏 -->
                 <category android:name="com.longluo.demo" />
             </intent-filter>
             <intent-filter>
@@ -257,18 +259,18 @@
             android:exported="false" >
             <intent-filter>
                 <action android:name="cn.jpush.android.intent.REGISTRATION" />
- <!-- Required  用户注册SDK的intent -->
+                <!-- Required  用户注册SDK的intent -->
                 <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
                 <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
- <!-- Required  用户接收SDK消息的intent -->
+                <!-- Required  用户接收SDK消息的intent -->
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
- <!-- Required  用户接收SDK通知栏信息的intent -->
+                <!-- Required  用户接收SDK通知栏信息的intent -->
                 <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
- <!-- Required  用户打开自定义通知栏的intent -->
+                <!-- Required  用户打开自定义通知栏的intent -->
                 <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
- <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
                 <action android:name="cn.jpush.android.intent.CONNECTION" />
- <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
                 <category android:name="com.longluo.demo" />
             </intent-filter>
         </receiver>
@@ -294,21 +296,23 @@
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/friends_demo_activity_title" >
         </activity>
-        
         <activity android:name="com.longluo.demo.notifications.NotificationActivity" >
         </activity>
-        
         <activity android:name="com.longluo.demo.notifications.CustomActivity" >
         </activity>
-        
         <activity android:name="com.longluo.demo.notifications.ProgressActivity" >
         </activity>
-        
+
         <!-- Media -->
-        <activity android:name="com.longluo.demo.media.camera.CameraActivity"
+        <activity
+            android:name="com.longluo.demo.media.MediaActivity"
             android:screenOrientation="portrait" >
         </activity>
         
+        <activity
+            android:name="com.longluo.demo.media.camera.CameraActivity"
+            android:screenOrientation="portrait" >
+        </activity>
     </application>
 
 </manifest>
