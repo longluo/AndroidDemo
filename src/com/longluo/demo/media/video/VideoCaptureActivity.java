@@ -3,7 +3,7 @@ package com.longluo.demo.media.video;
 import java.io.IOException;
 
 import com.longluo.demo.R;
-import com.longluo.demo.utils.ToastUtils;
+import com.longluo.demo.util.ToastUtils;
 
 import android.app.Activity;
 import android.media.MediaRecorder;

@@ -1,4 +1,4 @@
-package com.longluo.demo.widgets.SwipeListView;
+package com.longluo.demo.widgets.swipelistview;
 
 import android.content.Context;
 import android.content.res.TypedArray;

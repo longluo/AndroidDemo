@@ -1,4 +1,4 @@
-package com.longluo.demo.widgets.NumberProgressBar;
+package com.longluo.demo.widgets.numberprogressbar;
 
 public interface OnProgressBarListener {
 

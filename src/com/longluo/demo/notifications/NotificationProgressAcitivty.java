@@ -12,7 +12,7 @@ import android.view.View.OnClickListener;
 import android.widget.Button;
 import android.widget.RemoteViews;
 
-public class ProgressAcitivty extends BaseActivity implements OnClickListener {
+public class NotificationProgressAcitivty extends BaseActivity implements OnClickListener {
 	private Button btn_show_progress;
 	private Button btn_show_un_progress;
 	private Button btn_show_custom_progress;
@@ -35,7 +35,7 @@ public class ProgressAcitivty extends BaseActivity implements OnClickListener {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_progress);
+		setContentView(R.layout.activity_notification_progress);
 		initView();
 		initNotify();
 	}

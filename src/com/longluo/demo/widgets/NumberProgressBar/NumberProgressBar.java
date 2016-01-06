@@ -1,4 +1,4 @@
-package com.longluo.demo.widgets.NumberProgressBar;
+package com.longluo.demo.widgets.numberprogressbar;
 
 import com.longluo.demo.R;
 
@@ -13,8 +13,8 @@ import android.os.Parcelable;
 import android.util.AttributeSet;
 import android.view.View;
 
-import static com.longluo.demo.widgets.NumberProgressBar.NumberProgressBar.ProgressTextVisibility.Invisible;
-import static com.longluo.demo.widgets.NumberProgressBar.NumberProgressBar.ProgressTextVisibility.Visible;
+import static com.longluo.demo.widgets.numberprogressbar.NumberProgressBar.ProgressTextVisibility.Invisible;
+import static com.longluo.demo.widgets.numberprogressbar.NumberProgressBar.ProgressTextVisibility.Visible;
 
 public class NumberProgressBar extends View {
 

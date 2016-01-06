@@ -1,7 +1,7 @@
 package com.longluo.demo.guide;
 
 import com.longluo.demo.R;
-import com.longluo.demo.utils.ScreenUtils;
+import com.longluo.demo.util.ScreenUtils;
 
 import android.app.Activity;
 import android.content.Context;

@@ -15,7 +15,7 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 import com.longluo.demo.R;
-import com.longluo.demo.utils.ToastUtils;
+import com.longluo.demo.util.ToastUtils;
 
 public class CaptureImageActivity extends Activity implements
 		SurfaceHolder.Callback {

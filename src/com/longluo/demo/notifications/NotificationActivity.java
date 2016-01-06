@@ -228,7 +228,7 @@ public class NotificationActivity extends BaseActivity implements
 			break;
 		case R.id.btn_show_progress:
 			startActivity(new Intent(getApplicationContext(),
-					ProgressAcitivty.class));
+					NotificationProgressAcitivty.class));
 			break;
 		case R.id.btn_show_custom:
 			startActivity(new Intent(getApplicationContext(),

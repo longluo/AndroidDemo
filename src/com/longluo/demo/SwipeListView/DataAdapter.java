@@ -1,9 +1,9 @@
-package com.longluo.demo.SwipeListView;
+package com.longluo.demo.swipelistview;
 
 import java.util.List;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.SwipeListView.SwipeListView;
+import com.longluo.demo.widgets.swipelistview.SwipeListView;
 
 import android.view.View;
 import android.view.ViewGroup;
@@ -56,8 +56,8 @@ public class DataAdapter extends BaseAdapter {
 				mDatas.remove(position);
 				notifyDataSetChanged();
 				/**
-				 * ¹Ø±ÕSwipeListView ²»¹Ø±ÕµÄ»°£¬¸ÕÉ¾³ıÎ»ÖÃµÄitem´æÔÚÎÊÌâ
-				 * ÔÚ¼àÌıÊÂ¼şÖĞonListChangeÖĞ¹Ø±Õ£¬»á³öÏÖÎÊÌâ
+				 * ï¿½Ø±ï¿½SwipeListView ï¿½ï¿½ï¿½Ø±ÕµÄ»ï¿½ï¿½ï¿½ï¿½ï¿½É¾ï¿½ï¿½Î»ï¿½Ãµï¿½itemï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+				 * ï¿½Ú¼ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½onListChangeï¿½Ğ¹Ø±Õ£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 				 */
 				mSwipeListView.closeOpenedItems();
 			}

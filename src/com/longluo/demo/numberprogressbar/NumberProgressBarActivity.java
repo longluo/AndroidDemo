@@ -4,8 +4,8 @@ import java.util.Timer;
 import java.util.TimerTask;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.NumberProgressBar.NumberProgressBar;
-import com.longluo.demo.widgets.NumberProgressBar.OnProgressBarListener;
+import com.longluo.demo.widgets.numberprogressbar.NumberProgressBar;
+import com.longluo.demo.widgets.numberprogressbar.OnProgressBarListener;
 
 import android.app.Activity;
 import android.os.Bundle;

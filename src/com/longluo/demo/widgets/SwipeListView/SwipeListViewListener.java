@@ -1,4 +1,4 @@
-package com.longluo.demo.widgets.SwipeListView;
+package com.longluo.demo.widgets.swipelistview;
 
 /**
  * Listener to get callback notifications for the SwipeListView

@@ -1,4 +1,4 @@
-package com.longluo.demo.widgets.SwipeListView;
+package com.longluo.demo.widgets.swipelistview;
 
 public class BaseSwipeListViewListener implements SwipeListViewListener {
     @Override

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="21"
-    android:versionName="4.3.3" >
+    android:versionCode="22"
+    android:versionName="4.3.4" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -102,11 +102,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.dialog.DialogDemoActivity"
-            android:label="@string/dialog" />
-
-
-
-
+            android:label="@string/dialog" />
         -->
 
         <activity
@@ -117,11 +113,7 @@
         <!--
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-
-
-
-
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
         -->
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
@@ -151,7 +143,7 @@
             android:theme="@style/AppTheme" >
         </activity>
         <activity
-            android:name="com.longluo.demo.SwipeListView.SwipeListViewDemoActivity"
+            android:name="com.longluo.demo.swipelistview.SwipeListViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/fragment_demo_activity_title"
             android:theme="@style/AppTheme" >
@@ -344,10 +336,18 @@
             android:name="com.longluo.demo.media.video.VideoRecordActivity"
             android:screenOrientation="portrait" >
         </activity>
-
-        <activity android:name=".adherent.AdherentActivity" >
-
+        <activity
+            android:name="com.longluo.demo.adherent.AdherentActivity"
+            android:label="Adherent"
+            android:screenOrientation="portrait" >
         </activity>
+       
+       <activity
+            android:name="com.longluo.demo.progress.ProgressActivity"
+            android:label="Progress"
+            android:screenOrientation="portrait" >
+        </activity>
+        
     </application>
 
 </manifest>

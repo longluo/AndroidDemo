@@ -30,55 +30,56 @@ public class AdherentLayout extends RelativeLayout {
     private Circle mHeaderCircle = new Circle();
     private Circle mFooterCircle = new Circle();
 
-    // »­±Ê
+    // ç”»ç¬”
     private Paint mPaint = new Paint();
-    // »­±´Èû¶ûÇúÏßµÄPath¶ÔÏó
+    // ç”»è´å¡å°”æ›²çº¿çš„Pathå¯¹è±¡
     private Path mPath = new Path();
-    // Õ³Á¬µÄÑÕÉ«
+    // ç²˜è¿çš„é¢œè‰²
     private int mColor = Color.rgb(247, 82, 49);
-    // ÊÇ·ñÕ³Á¬×Å
+    // æ˜¯å¦ç²˜è¿ç€
     private boolean isAdherent = true;
-    // ±¾View³õÊ¼¿í¶È¡¢¸ß¶È
+    // æœ¬Viewåˆå§‹å®½åº¦ã€é«˜åº¦
     private int mOriginalWidth;
     private int mOriginalHeight;
-    // ÊÇ·ñµÚÒ»´ÎonSizeChanged
+    // æ˜¯å¦ç¬¬ä¸€æ¬¡onSizeChanged
     private boolean isFirst = true;
-    // ÓÃ»§Ìí¼ÓµÄÊÓÍ¼£¨¿ÉÒÔ²»Ìí¼Ó£©
+    // ç”¨æˆ·æ·»åŠ çš„è§†å›¾ï¼ˆå¯ä»¥ä¸æ·»åŠ ï¼‰
     private View mView;
-    // ÊÇ·ñÕıÔÚ½øĞĞ¶¯»­ÖĞ
+    // æ˜¯å¦æ­£åœ¨è¿›è¡ŒåŠ¨ç”»ä¸­
     private boolean isAnim = false;
-    // ¼ÇÂ¼°´ÏÂµÄx¡¢y
+    // è®°å½•æŒ‰ä¸‹çš„xã€y
     float mDownX;
     float mDownY;
-    // ±¾ViewµÄ×óÉÏ½Çx¡¢y
+    // æœ¬Viewçš„å·¦ä¸Šè§’xã€y
     private float mX;
     private float mY;
-    // ¸¸¿Ø¼ş×ó¡¢ÉÏÄÚ±ß¾à
+    // çˆ¶æ§ä»¶å·¦ã€ä¸Šå†…è¾¹è·
     private float mParentPaddingLeft;
     private float mParentPaddingTop;
-    // Ä¬ÈÏÕ³Á¬µÄ×î´ó³¤¶È
+    // é»˜è®¤ç²˜è¿çš„æœ€å¤§é•¿åº¦
     private float mMaxAdherentLength = 1000;
-    // Í·²¿Ô²ËõĞ¡Ê±²»ÄÜĞ¡ÓÚÕâ¸ö×îĞ¡°ë¾¶
+    // å¤´éƒ¨åœ†ç¼©å°æ—¶ä¸èƒ½å°äºè¿™ä¸ªæœ€å°åŠå¾„
     private float mMinHeaderCircleRadius = 4;
-    // ÊÇ·ñÔÊĞí¿ÉÒÔ³¶¶Ï
+    // æ˜¯å¦å…è®¸å¯ä»¥æ‰¯æ–­
     private boolean isDismissed = true;
-    // ÊÇ·ñ°´ÏÂ
+    // æ˜¯å¦æŒ‰ä¸‹
     boolean isDown = false;
 
     /**
-     * ¼àÌıÕ³Á¬ÊÇ·ñ¶ÏµôµÄ¼àÌıÆ÷
+     * ç›‘å¬ç²˜è¿æ˜¯å¦æ–­æ‰çš„ç›‘å¬å™¨
      */
     private OnAdherentListener mOnAdherentListener = new OnAdherentListener() {
 
         @Override
         public void onDismiss() {
-            if (mView == null)
+            if (mView == null) {
                 return;
+            }
+
             final Drawable old = mView.getBackground();
             mView.setBackgroundResource(R.drawable.tip_anim);
-            // ÑÌÎí¶¯»­
-            AnimationDrawable animationDrawable = ((AnimationDrawable) mView
-                    .getBackground());
+            // çƒŸé›¾åŠ¨ç”»
+            AnimationDrawable animationDrawable = ((AnimationDrawable) mView.getBackground());
             animationDrawable.stop();
             animationDrawable.start();
 
@@ -97,8 +98,8 @@ public class AdherentLayout extends RelativeLayout {
         }
     };
 
-    public AdherentLayout(Context context, AttributeSet attrs, int defStyleAttr) {
-        super(context, attrs, defStyleAttr);
+    public AdherentLayout(Context context) {
+        super(context);
         init();
     }
 
@@ -107,15 +108,15 @@ public class AdherentLayout extends RelativeLayout {
         init();
     }
 
-    public AdherentLayout(Context context) {
-        super(context);
+    public AdherentLayout(Context context, AttributeSet attrs, int defStyleAttr) {
+        super(context, attrs, defStyleAttr);
         init();
     }
 
     private void init() {
-        // Í¸Ã÷±³¾°
+        // é€æ˜èƒŒæ™¯
         setBackgroundColor(Color.TRANSPARENT);
-        // ÉèÖÃ»­±Ê
+        // è®¾ç½®ç”»ç¬”
         mPaint.setColor(mColor);
         mPaint.setAntiAlias(true);
     }
@@ -125,7 +126,7 @@ public class AdherentLayout extends RelativeLayout {
         super.onSizeChanged(w, h, oldw, oldh);
         if (isFirst && w > 0 && h > 0) {
             mView = getChildAt(0);
-            // ¼ÇÂ¼³õÊ¼¿í¸ß£¬ÓÃÓÚ¸´Ô­
+            // è®°å½•åˆå§‹å®½é«˜ï¼Œç”¨äºå¤åŸ
             mOriginalWidth = w;
             mOriginalHeight = h;
             ViewGroup.MarginLayoutParams lp = (ViewGroup.MarginLayoutParams) getLayoutParams();
@@ -142,7 +143,7 @@ public class AdherentLayout extends RelativeLayout {
     }
 
     /**
-     * ÖØÖÃËùÓĞ²ÎÊı
+     * é‡ç½®æ‰€æœ‰å‚æ•°
      */
     public void reset() {
         setWidthAndHeight(mOriginalWidth, mOriginalHeight);
@@ -162,7 +163,7 @@ public class AdherentLayout extends RelativeLayout {
     }
 
     /**
-     * ¸ù¾İÄÚ±ß¾à·µ»ØÔ²µÄ°ë¾¶
+     * æ ¹æ®å†…è¾¹è·è¿”å›åœ†çš„åŠå¾„
      *
      * @return
      */
@@ -175,7 +176,7 @@ public class AdherentLayout extends RelativeLayout {
     }
 
     /**
-     * ÉèÖÃ¿íºÍ¸ß
+     * è®¾ç½®å®½å’Œé«˜
      *
      * @param width
      * @param height
@@ -185,7 +186,6 @@ public class AdherentLayout extends RelativeLayout {
         layoutParams.width = width;
         layoutParams.height = height;
         setLayoutParams(layoutParams);
-
     }
 
     @Override
@@ -196,25 +196,25 @@ public class AdherentLayout extends RelativeLayout {
                 mHeaderCircle.curRadius, mPaint);
         canvas.drawCircle(mFooterCircle.curx, mFooterCircle.cury,
                 mFooterCircle.curRadius, mPaint);
-        if (isAdherent)
+        if (isAdherent) {
             drawBezier(canvas);
+        }
     }
 
     /**
-     * »­±´Èû¶ûÇúÏß
+     * ç”»è´å¡å°”æ›²çº¿
      *
      * @param canvas
      */
     private void drawBezier(Canvas canvas) {
-
-		/* ÇóÈı½Çº¯Êı */
+		/* æ±‚ä¸‰è§’å‡½æ•° */
         float atan = (float) Math
                 .atan((mFooterCircle.cury - mHeaderCircle.cury)
                         / (mFooterCircle.curx - mHeaderCircle.curx));
         float sin = (float) Math.sin(atan);
         float cos = (float) Math.cos(atan);
 
-		/* ËÄ¸öµã */
+		/* å››ä¸ªç‚¹ */
         float headerX1 = mHeaderCircle.curx - mHeaderCircle.curRadius * sin;
         float headerY1 = mHeaderCircle.cury + mHeaderCircle.curRadius * cos;
 
@@ -230,7 +230,7 @@ public class AdherentLayout extends RelativeLayout {
         float anchorX = (mHeaderCircle.curx + mFooterCircle.curx) / 2;
         float anchorY = (mHeaderCircle.cury + mFooterCircle.cury) / 2;
 
-		/* »­±´Èû¶ûÇúÏß */
+		/* ç”»è´å¡å°”æ›²çº¿ */
         mPath.reset();
         mPath.moveTo(headerX1, headerY1);
         mPath.quadTo(anchorX, anchorY, footerX1, footerY1);
@@ -244,14 +244,15 @@ public class AdherentLayout extends RelativeLayout {
     public boolean onTouchEvent(MotionEvent event) {
         super.onTouchEvent(event);
 
-        if (isAnim)
+        if (isAnim) {
             return true;
+        }
 
         switch (event.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 setWidthAndHeight(LayoutParams.MATCH_PARENT,
                         LayoutParams.MATCH_PARENT);
-                // ÉèÖÃ³ÉMATCH_PARENTºó£¬»áÖØ¸´¼ÆËãÒ»´Î¸¸¿Ø¼şpadding£¬ËùÒÔÔÚÕâÀïÒª¼õÈ¥
+                // è®¾ç½®æˆMATCH_PARENTåï¼Œä¼šé‡å¤è®¡ç®—ä¸€æ¬¡çˆ¶æ§ä»¶paddingï¼Œæ‰€ä»¥åœ¨è¿™é‡Œè¦å‡å»
                 mFooterCircle.ox = mFooterCircle.curx = mHeaderCircle.ox = mHeaderCircle.curx = mX
                         + mOriginalWidth / 2 - mParentPaddingLeft;
                 mFooterCircle.oy = mFooterCircle.cury = mHeaderCircle.oy = mHeaderCircle.cury = mY
@@ -262,13 +263,16 @@ public class AdherentLayout extends RelativeLayout {
                 }
                 mDownX = event.getRawX();
                 mDownY = event.getRawY();
-                // ±ê¼Ç°´ÏÂ
+                // æ ‡è®°æŒ‰ä¸‹
                 isDown = true;
                 break;
+
             case MotionEvent.ACTION_MOVE:
-                if (!isDown)
+                if (!isDown) {
                     break;
-                // Æ«ÒÆ
+                }
+
+                // åç§»
                 float detalX = event.getRawX() - mDownX;
                 float detalY = event.getRawY() - mDownY;
 
@@ -280,50 +284,55 @@ public class AdherentLayout extends RelativeLayout {
                 }
                 doAdhere();
                 break;
+
             case MotionEvent.ACTION_UP:
             case MotionEvent.ACTION_CANCEL:
-                // Èç¹ûÃ»ÓĞ°´ÏÂ£¬Ö±½Ó·µ»Ø£¬ÕâÊÇÎªÁË·ÀÖ¹¶àÖ¸´¥¿Ø
-                if (!isDown)
+                // å¦‚æœæ²¡æœ‰æŒ‰ä¸‹ï¼Œç›´æ¥è¿”å›ï¼Œè¿™æ˜¯ä¸ºäº†é˜²æ­¢å¤šæŒ‡è§¦æ§
+                if (!isDown) {
                     break;
+                }
                 isDown = false;
                 isAnim = true;
-                if (isAdherent)
+                if (isAdherent) {
                     startAnim();
-                else if (mOnAdherentListener != null) {
+                } else if (mOnAdherentListener != null) {
                     mFooterCircle.curRadius = 0;
                     mOnAdherentListener.onDismiss();
                 }
                 break;
         }
+
         invalidate();
         return true;
     }
 
     /**
-     * ´¦ÀíÕ³Á¬Ğ§¹ûÂß¼­
+     * å¤„ç†ç²˜è¿æ•ˆæœé€»è¾‘
      */
     private void doAdhere() {
-        // Á½Ô²ĞÄµÄ¾àÀë
+        // ä¸¤åœ†å¿ƒçš„è·ç¦»
         float distance = (float) Math.sqrt(Math.pow(mFooterCircle.curx
                 - mHeaderCircle.ox, 2)
                 + Math.pow(mFooterCircle.cury - mHeaderCircle.oy, 2));
-        // Ëõ·Å±ÈÀı
+
+        // ç¼©æ”¾æ¯”ä¾‹
         float scale = 1 - distance / mMaxAdherentLength;
         mHeaderCircle.curRadius = Math.max(
                 mHeaderCircle.originalRadius * scale, mMinHeaderCircleRadius);
         if (distance > mMaxAdherentLength && isDismissed) {
             isAdherent = false;
             mHeaderCircle.curRadius = 0;
-        } else
+        } else {
             isAdherent = true;
+        }
     }
 
     /**
-     * ¿ªÊ¼Õ³Á¬¶¯»­
+     * å¼€å§‹ç²˜è¿åŠ¨ç”»
      */
     private void startAnim() {
 
-		/* x·½Ïò */
+		/* xæ–¹å‘ */
         ValueAnimator xValueAnimator = ValueAnimator.ofFloat(
                 mFooterCircle.curx, mFooterCircle.ox);
         xValueAnimator
@@ -336,7 +345,7 @@ public class AdherentLayout extends RelativeLayout {
                     }
                 });
 
-		/* y·½Ïò */
+		/* yæ–¹å‘ */
         ValueAnimator yValueAnimator = ValueAnimator.ofFloat(
                 mFooterCircle.cury, mFooterCircle.oy);
         yValueAnimator
@@ -349,7 +358,7 @@ public class AdherentLayout extends RelativeLayout {
                     }
                 });
 
-		/* ÓÃ»§Ìí¼ÓµÄÊÓÍ¼x¡¢y·½Ïò */
+		/* ç”¨æˆ·æ·»åŠ çš„è§†å›¾xã€yæ–¹å‘ */
         ObjectAnimator objectAnimator = null;
         if (mView != null) {
             PropertyValuesHolder pvhX = PropertyValuesHolder.ofFloat("X",
@@ -364,12 +373,14 @@ public class AdherentLayout extends RelativeLayout {
                     pvhY);
         }
 
-		/* ¶¯»­¼¯ºÏ */
+		/* åŠ¨ç”»é›†åˆ */
         AnimatorSet animSet = new AnimatorSet();
-        if (mView != null)
+        if (mView != null) {
             animSet.playTogether(xValueAnimator, yValueAnimator, objectAnimator);
-        else
+        } else {
             animSet.playTogether(xValueAnimator, yValueAnimator);
+        }
+
         animSet.setInterpolator(new BounceInterpolator());
         animSet.setDuration(400);
         animSet.start();
@@ -383,29 +394,29 @@ public class AdherentLayout extends RelativeLayout {
     }
 
     /**
-     * Ô²µãÀà
+     * åœ†ç‚¹ç±»
      *
      * @author Administrator
      */
     private class Circle {
         /**
-         * ³õÊ¼×ø±êx,y
+         * åˆå§‹åæ ‡x,y
          */
         float ox;
         float oy;
         /**
-         * µ±Ç°×ø±êx,y
+         * å½“å‰åæ ‡x,y
          */
         float curx;
         float cury;
-        // ³õÊ¼°ë¾¶
+        // åˆå§‹åŠå¾„
         float originalRadius;
-        // µ±Ç°°ë¾¶
+        // å½“å‰åŠå¾„
         float curRadius;
     }
 
     /**
-     * ¶ÔÍâ½Ó¿Ú£ºÉèÖÃ¼àÌıÆ÷
+     * å¯¹å¤–æ¥å£ï¼šè®¾ç½®ç›‘å¬å™¨
      *
      * @param onAdherentListener
      */
@@ -414,14 +425,14 @@ public class AdherentLayout extends RelativeLayout {
     }
 
     /**
-     * ¼àÌıÆ÷
+     * ç›‘å¬å™¨
      */
     public interface OnAdherentListener {
         public void onDismiss();
     }
 
     /**
-     * ¶ÔÍâ½Ó¿Ú£ºÉèÖÃÑÕÉ«
+     * å¯¹å¤–æ¥å£ï¼šè®¾ç½®é¢œè‰²
      *
      * @param color
      */
@@ -431,14 +442,14 @@ public class AdherentLayout extends RelativeLayout {
     }
 
     /**
-     * ¶ÔÍâ½Ó¿Ú£ºÉèÖÃÊÇ·ñ¿ÉÒÔ³¶¶Ï
+     * å¯¹å¤–æ¥å£ï¼šè®¾ç½®æ˜¯å¦å¯ä»¥æ‰¯æ–­
      */
     public void setDismissedEnable(boolean isDismissed) {
         this.isDismissed = isDismissed;
     }
 
     /**
-     * ¶ÔÍâ½Ó¿Ú£ºÉèÖÃÕ³Á¬µÄ×î´ó³¤¶È
+     * å¯¹å¤–æ¥å£ï¼šè®¾ç½®ç²˜è¿çš„æœ€å¤§é•¿åº¦
      *
      * @param maxAdherentLength
      */
@@ -447,7 +458,7 @@ public class AdherentLayout extends RelativeLayout {
     }
 
     /**
-     * ¶ÔÍâ½Ó¿Ú£ºÉèÖÃÍ·²¿µÄ×îĞ¡°ë¾¶
+     * å¯¹å¤–æ¥å£ï¼šè®¾ç½®å¤´éƒ¨çš„æœ€å°åŠå¾„
      *
      * @param minHeaderCircleRadius
      */
