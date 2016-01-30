@@ -23,11 +23,14 @@ import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
+import com.longluo.demo.launcher.LauncherActivity;
+import com.longluo.demo.listview.ListViewActivity;
 import com.longluo.demo.login.LoginActivity;
 import com.longluo.demo.media.MediaActivity;
 import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.progress.ProgressActivity;
+import com.longluo.demo.provider.ProviderActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
 import com.longluo.demo.slideview.SlideViewDemoActivity;
@@ -49,7 +52,7 @@ public class MainActivity extends Activity {
 			"Fragment Demo", "SwipeListView Demo", "SlideView Demo",
 			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo",
 			"Notifications Demo", "Media Demo", "Adherent Demo",
-			"Progress Demo" };
+			"Progress Demo", "ListView Demo", "ProviderActivity Demo", "LauncherActivity Demo" };
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -160,6 +163,18 @@ public class MainActivity extends Activity {
 					
 				case 19:
 					startActivity(ProgressActivity.class);
+					break;
+					
+				case 20:
+					startActivity(ListViewActivity.class);
+					break;
+					
+				case 21:
+					startActivity(LauncherActivity.class);
+					break;
+					
+				case 22:
+					startActivity(ProviderActivity.class);
 					break;
 
 				default:
