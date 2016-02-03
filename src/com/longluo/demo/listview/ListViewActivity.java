@@ -32,7 +32,6 @@ public class ListViewActivity extends Activity {
 		List<String> list = new ArrayList<String>();
 		for (int i = 0; i < 20; i++) {
 			list.add("这是第" + i + "个");
-
 		}
 
 		ArrayAdapter<String> adapter = new ArrayAdapter<String>(this,

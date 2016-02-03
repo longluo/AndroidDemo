@@ -72,5 +72,19 @@
     <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
     <string name="logining">程序在后台执行, 请查看日志！</string>
     <string name="setting_su">设置成功</string>
+    
+    <string name="title_benchmark">StackBlur Benchmark</string>
+    <string name="java">Java</string>
+    <string name="nativ">Native</string>
+    <string name="renderscript">Renderscript</string>
+    <string name="benchmark_start">Start Benchmark</string>
+    <string name="label_blur_amount">Blur Amount</string>
+    <string name="desc_blurred_img">Blurred Image</string>
+
+    <string-array name="blur_modes">
+        <item>@string/java</item>
+        <item>@string/nativ</item>
+        <item>@string/renderscript</item>
+    </string-array>
 
 </resources>
