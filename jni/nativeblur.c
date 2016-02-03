@@ -296,8 +296,11 @@ void stackblurJob(unsigned char* src,                ///< input image data
 
 /*
  * com.longluo.demo.gaussianblur_GaussianBlurActivity
+ *
+ * Ver2.0
+ * change to NativeBlur
  */
-JNIEXPORT void JNICALL Java_com_longluo_demo_gaussianblur_GaussianBlurActivity_functionToBlur(JNIEnv* env, jclass clzz, jobject bitmapOut, jint radius, jint threadCount, jint threadIndex, jint round) {
+JNIEXPORT void JNICALL Java_com_longluo_demo_gaussianblur_NativeBlur_functionToBlur(JNIEnv* env, jclass clzz, jobject bitmapOut, jint radius, jint threadCount, jint threadIndex, jint round) {
     // Properties
     AndroidBitmapInfo   infoOut;
     void*               pixelsOut;
