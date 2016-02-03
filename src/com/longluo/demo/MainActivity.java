@@ -28,6 +28,7 @@ import com.longluo.demo.launcher.LauncherActivity;
 import com.longluo.demo.listview.ListViewActivity;
 import com.longluo.demo.login.LoginActivity;
 import com.longluo.demo.media.MediaActivity;
+import com.longluo.demo.ndk.NdkDemoActivity;
 import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.progress.ProgressActivity;
@@ -54,7 +55,7 @@ public class MainActivity extends Activity {
 			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo",
 			"Notifications Demo", "Media Demo", "Adherent Demo",
 			"Progress Demo", "ListView Demo", "ProviderActivity Demo", "LauncherActivity Demo",
-			"GaussianBlur Activity"};
+			"GaussianBlur Activity", "NDK JNI Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -181,6 +182,10 @@ public class MainActivity extends Activity {
 					
 				case 23:
 					startActivity(GaussianBlurActivity.class);
+					break;
+					
+				case 24:
+					startActivity(NdkDemoActivity.class);
 					break;
 
 				default:
