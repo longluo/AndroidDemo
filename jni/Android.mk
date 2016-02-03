@@ -24,3 +24,15 @@ LOCAL_MODULE    := first_jni
 # (C代码)
 LOCAL_SRC_FILES := ndkdemo.c 
 include $(BUILD_SHARED_LIBRARY)
+
+include $(CLEAR_VARS)
+ 
+LOCAL_LDLIBS    := -llog -ljnigraphics
+ 
+LOCAL_MODULE    := ndkblur
+LOCAL_MODULE_TAGS	:= optional
+LOCAL_SRC_FILES := nativeblur.c
+ 
+LOCAL_CFLAGS    =  -ffast-math -O3 -funroll-loops
+ 
+include $(BUILD_SHARED_LIBRARY)

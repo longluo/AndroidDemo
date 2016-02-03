@@ -33,4 +33,11 @@
         android:layout_height="256dip"
         android:src="@drawable/android_platform_256" />
 
+    <ImageView
+        android:id="@+id/iv_blur_test"
+        android:layout_width="360dip"
+        android:layout_height="360dip"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/android_platform_256" />
+
 </LinearLayout>

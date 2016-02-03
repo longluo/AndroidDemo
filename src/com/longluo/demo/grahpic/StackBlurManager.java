@@ -126,8 +126,10 @@ public class StackBlurManager {
 	 *            renderscript requires an android context
 	 * @param radius
 	 */
-/*	public Bitmap processRenderScript(Context context, float radius) {
+	/*
+	public Bitmap processRenderScript(Context context, float radius) {
 		BlurProcess blurProcess;
+		
 		// The renderscript support library doesn't have .so files for ARMv6.
 		// Remember if there is an error creating the renderscript context,
 		// and fall back to NativeBlurProcess
@@ -144,5 +146,6 @@ public class StackBlurManager {
 		}
 		_result = blurProcess.blur(_image, radius);
 		return _result;
-	}*/
+	}
+	*/
 }

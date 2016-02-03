@@ -10,6 +10,7 @@ import java.util.concurrent.Callable;
  * Blur using the NDK and native code.
  */
 public class NativeBlurProcess implements BlurProcess {
+	
 	public static native void functionToBlur(Bitmap bitmapOut, int radius, int threadCount, int threadIndex, int round);
 
 	static {
@@ -43,7 +44,7 @@ public class NativeBlurProcess implements BlurProcess {
 		return bitmapOut;
 	}
 
-	public static class NativeTask implements Callable<Void> {
+	private static class NativeTask implements Callable<Void> {
 		private final Bitmap _bitmapOut;
 		private final int _radius;
 		private final int _totalCores;
