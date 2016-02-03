@@ -1,43 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#FFF"
-    android:gravity="center_horizontal"
-    android:orientation="vertical" >
+    android:layout_height="wrap_content" >
 
-    <SeekBar
-        android:id="@+id/blur_amount"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:max="10" />
+        android:background="#FFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
 
-    <ToggleButton
-        android:id="@+id/toggleButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textColor="@android:color/black"
-        android:textOff="Image without transparency"
-        android:textOn="Image with transparency" />
+        <SeekBar
+            android:id="@+id/blur_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:max="10" />
 
-    <Spinner
-        android:id="@+id/typeSelectSpinner"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" >
-    </Spinner>
+        <ToggleButton
+            android:id="@+id/toggleButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/black"
+            android:textOff="Image without transparency"
+            android:textOn="Image with transparency" />
 
-    <ImageView
-        android:id="@+id/iv_gaussianblur"
-        android:layout_width="256dip"
-        android:layout_height="256dip"
-        android:src="@drawable/android_platform_256" />
+        <Spinner
+            android:id="@+id/typeSelectSpinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+        </Spinner>
 
-    <ImageView
-        android:id="@+id/iv_blur_test"
-        android:layout_width="360dip"
-        android:layout_height="360dip"
-        android:layout_marginTop="50dp"
-        android:src="@drawable/android_platform_256" />
+        <ImageView
+            android:id="@+id/iv_gaussianblur"
+            android:layout_width="256dip"
+            android:layout_height="256dip"
+            android:src="@drawable/android_platform_256" />
 
-</LinearLayout>
+        <ImageView
+            android:id="@+id/iv_blur_test"
+            android:layout_width="360dip"
+            android:layout_height="360dip"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/android_platform_256" />
+    </LinearLayout>
+
+</ScrollView>
