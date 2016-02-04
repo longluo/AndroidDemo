@@ -49,9 +49,7 @@
             android:layout_width="100dip"
             android:layout_height="100dip"
             android:layout_marginTop="60dp"
-            android:src="@drawable/android_platform_256" />
-        
-     <!--  android:src="@drawable/white_rect_shape"  -->
+            android:src="@drawable/white_rect_shape" />
         
     </LinearLayout>
 

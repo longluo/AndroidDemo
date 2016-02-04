@@ -14,6 +14,7 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.MeasureSpec;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.CompoundButton;
@@ -176,17 +177,20 @@ public class GaussianBlurActivity extends Activity {
 	private void whiteImageTest() {
 		mWhiteImageView = (ImageView) findViewById(R.id.iv_white_blur_test);
 
-//		mWhiteImageView.setDrawingCacheEnabled(true);
-//		Bitmap bmp = mWhiteImageView.getDrawingCache();
-//		mWhiteImageView.setDrawingCacheEnabled(false);
+		mWhiteImageView.setDrawingCacheEnabled(true);
 		
-//		Bitmap bmp = ((BitmapDrawable)mWhiteImageView.getDrawable()).getBitmap(); 
+		mWhiteImageView.measure(MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED), 
+				MeasureSpec.makeMeasureSpec(0, MeasureSpec.UNSPECIFIED));
+		mWhiteImageView.layout(0, 0, mWhiteImageView.getMeasuredWidth(), mWhiteImageView.getMeasuredHeight());
 		
-		mWhiteImageView.buildDrawingCache();
-		Bitmap bmp = mWhiteImageView.getDrawingCache();
-
+		mWhiteImageView.buildDrawingCache(true);
+		
+		Bitmap bmp = Bitmap.createBitmap(mWhiteImageView.getDrawingCache());
+		
+		mWhiteImageView.setDrawingCacheEnabled(false);
+		
 		final NativeBlur nativeBlur = new NativeBlur();
-		 mWhiteImageView.setImageBitmap(nativeBlur.blur(bmp, 6));
+		mWhiteImageView.setImageBitmap(nativeBlur.blur(bmp, 16));
 	}
 
 }
