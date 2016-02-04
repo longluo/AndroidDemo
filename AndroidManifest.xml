@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="31"
-    android:versionName="4.3.13" >
+    android:versionCode="32"
+    android:versionName="4.3.14" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -351,7 +351,7 @@
         </activity>
         
         <activity
-            android:name="com.longluo.demo.listview.ListViewActivity"
+            android:name="com.longluo.demo.listview.ListViewDemoActivity"
             android:label="ListView"
             android:screenOrientation="portrait" >
         </activity>

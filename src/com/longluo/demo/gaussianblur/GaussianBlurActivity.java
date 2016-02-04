@@ -11,6 +11,7 @@ import android.content.Context;
 import android.content.res.AssetManager;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
+import android.graphics.drawable.BitmapDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -40,6 +41,8 @@ public class GaussianBlurActivity extends Activity {
 
 	private ImageView mTestView;
 
+	private ImageView mWhiteImageView;
+
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -49,14 +52,7 @@ public class GaussianBlurActivity extends Activity {
 		initViews();
 
 		blurTest();
-	}
-
-	private void blurTest() {
-		mTestView = (ImageView) findViewById(R.id.iv_blur_test);
-
-		final NativeBlur nativeBlur = new NativeBlur();
-		mTestView.setImageBitmap(nativeBlur.blur(
-				getBitmapFromAsset(this, "android_platform_256.png"), 15));
+		whiteImageTest();
 	}
 
 	private void initData() {
@@ -153,10 +149,12 @@ public class GaussianBlurActivity extends Activity {
 		case 0:
 			_imageView.setImageBitmap(_stackBlurManager.process(radius));
 			break;
+
 		case 1:
 			_imageView
 					.setImageBitmap(_stackBlurManager.processNatively(radius));
 			break;
+
 		case 2:
 			// _imageView.setImageBitmap(_stackBlurManager.processRenderScript(
 			// this, radius));
@@ -165,6 +163,30 @@ public class GaussianBlurActivity extends Activity {
 		default:
 			break;
 		}
+	}
+
+	private void blurTest() {
+		mTestView = (ImageView) findViewById(R.id.iv_blur_test);
+
+		final NativeBlur nativeBlur = new NativeBlur();
+		mTestView.setImageBitmap(nativeBlur.blur(
+				getBitmapFromAsset(this, "android_platform_256.png"), 15));
+	}
+
+	private void whiteImageTest() {
+		mWhiteImageView = (ImageView) findViewById(R.id.iv_white_blur_test);
+
+//		mWhiteImageView.setDrawingCacheEnabled(true);
+//		Bitmap bmp = mWhiteImageView.getDrawingCache();
+//		mWhiteImageView.setDrawingCacheEnabled(false);
+		
+//		Bitmap bmp = ((BitmapDrawable)mWhiteImageView.getDrawable()).getBitmap(); 
+		
+		mWhiteImageView.buildDrawingCache();
+		Bitmap bmp = mWhiteImageView.getDrawingCache();
+
+		final NativeBlur nativeBlur = new NativeBlur();
+		 mWhiteImageView.setImageBitmap(nativeBlur.blur(bmp, 6));
 	}
 
 }

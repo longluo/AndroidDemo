@@ -25,7 +25,7 @@ import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
 import com.longluo.demo.launcher.LauncherActivity;
-import com.longluo.demo.listview.ListViewActivity;
+import com.longluo.demo.listview.ListViewDemoActivity;
 import com.longluo.demo.login.LoginActivity;
 import com.longluo.demo.media.MediaActivity;
 import com.longluo.demo.ndk.NdkDemoActivity;
@@ -169,7 +169,7 @@ public class MainActivity extends Activity {
 					break;
 					
 				case 20:
-					startActivity(ListViewActivity.class);
+					startActivity(ListViewDemoActivity.class);
 					break;
 					
 				case 21:
