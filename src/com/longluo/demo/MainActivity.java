@@ -40,6 +40,7 @@ import com.longluo.demo.swipelistview.SwipeListViewDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.util.LinkUtils;
 import com.longluo.demo.util.UIUtils;
+import com.longluo.demo.viewgroup.ViewGroupDemoActivity;
 import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
@@ -57,7 +58,7 @@ public class MainActivity extends Activity {
 			"Notifications Demo", "Media Demo", "Adherent Demo",
 			"Progress Demo", "ListView Demo", "ProviderActivity Demo", "LauncherActivity Demo",
 			"GaussianBlur Activity", "NDK JNI Demo",
-			"Touch Event Demo Activity"};
+			"Touch Event Demo Activity", "ViewGroup Demo Activity"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -192,6 +193,10 @@ public class MainActivity extends Activity {
 					
 				case 25:
 					startActivity(TouchEventDemoActivity.class);
+					break;
+					
+				case 26:
+					startActivity(ViewGroupDemoActivity.class);
 					break;
 
 				default:
