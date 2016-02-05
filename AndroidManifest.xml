@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="35"
-    android:versionName="4.3.17" >
+    android:versionCode="36"
+    android:versionName="4.3.18" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -391,7 +391,13 @@
             android:label="ViewGroup Demo"
             android:screenOrientation="portrait" >
         </activity>	
-					
+
+		<activity
+            android:name="com.longluo.demo.log.LogDemoActivity"
+            android:label="Log Demo"
+            android:screenOrientation="portrait" >
+        </activity>			
+							
     </application>
 
 </manifest>
