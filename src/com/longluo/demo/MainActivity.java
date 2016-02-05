@@ -39,6 +39,7 @@ import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
 import com.longluo.demo.slideview.SlideViewDemoActivity;
 import com.longluo.demo.swipelistview.SwipeListViewDemoActivity;
+import com.longluo.demo.tagflowlayout.TagFlowLayoutCategoryActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.util.LinkUtils;
 import com.longluo.demo.util.UIUtils;
@@ -61,7 +62,8 @@ public class MainActivity extends Activity {
 			"Progress Demo", "ListView Demo", "ProviderActivity Demo", "LauncherActivity Demo",
 			"GaussianBlur Activity", "NDK JNI Demo",
 			"Touch Event Demo Activity", "ViewGroup Demo Activity",
-			"Log Demo Activity", "FlowLayout Demo Activity"};
+			"Log Demo Activity", "FlowLayout Demo Activity",
+			"TagFlowLayout Demo Activity"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -208,6 +210,10 @@ public class MainActivity extends Activity {
 					
 				case 28:
 					startActivity(FlowLayoutDemoActivity.class);
+					break;
+				
+				case 29:
+					startActivity(TagFlowLayoutCategoryActivity.class);
 					break;
 
 				default:
