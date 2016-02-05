@@ -20,6 +20,7 @@ import com.longluo.demo.adherent.AdherentActivity;
 import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
+import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
@@ -60,7 +61,7 @@ public class MainActivity extends Activity {
 			"Progress Demo", "ListView Demo", "ProviderActivity Demo", "LauncherActivity Demo",
 			"GaussianBlur Activity", "NDK JNI Demo",
 			"Touch Event Demo Activity", "ViewGroup Demo Activity",
-			"Log Demo Activity"};
+			"Log Demo Activity", "FlowLayout Demo Activity"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -203,6 +204,10 @@ public class MainActivity extends Activity {
 					
 				case 27:
 					startActivity(LogDemoActivity.class);
+					break;
+					
+				case 28:
+					startActivity(FlowLayoutDemoActivity.class);
 					break;
 
 				default:
