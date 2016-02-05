@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.longluo.demo.R;
-import com.longluo.demo.listview.adapter.MyAdapter;
 import com.longluo.demo.util.ToastUtils;
 
 import android.annotation.SuppressLint;

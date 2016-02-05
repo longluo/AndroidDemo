@@ -1,4 +1,4 @@
-package com.longluo.demo.listview.adapter;
+package com.longluo.demo.listview;
 
 import java.util.ArrayList;
 import java.util.List;
