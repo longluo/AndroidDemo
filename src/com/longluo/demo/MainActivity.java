@@ -37,6 +37,7 @@ import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
 import com.longluo.demo.slideview.SlideViewDemoActivity;
 import com.longluo.demo.swipelistview.SwipeListViewDemoActivity;
+import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.util.LinkUtils;
 import com.longluo.demo.util.UIUtils;
 import com.longluo.demo.viewpager.ViewPagerActivity;
@@ -55,7 +56,8 @@ public class MainActivity extends Activity {
 			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo",
 			"Notifications Demo", "Media Demo", "Adherent Demo",
 			"Progress Demo", "ListView Demo", "ProviderActivity Demo", "LauncherActivity Demo",
-			"GaussianBlur Activity", "NDK JNI Demo"};
+			"GaussianBlur Activity", "NDK JNI Demo",
+			"Touch Event Demo Activity"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -186,6 +188,10 @@ public class MainActivity extends Activity {
 					
 				case 24:
 					startActivity(NdkDemoActivity.class);
+					break;
+					
+				case 25:
+					startActivity(TouchEventDemoActivity.class);
 					break;
 
 				default:
