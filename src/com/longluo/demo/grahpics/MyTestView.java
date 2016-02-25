@@ -1,5 +1,7 @@
 package com.longluo.demo.grahpics;
 
+import com.longluo.demo.gaussianblur.NativeBlur;
+
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.Canvas;
@@ -14,54 +16,39 @@ import android.widget.FrameLayout;
 import android.widget.FrameLayout.LayoutParams;
 
 public class MyTestView extends FrameLayout {
+	private GrahpicsDemoActivity mActivity;
 
-	private Bitmap mBackground;
-	private Context mContext;
+	public MyTestView(Context context, Bitmap bmp) {
+		super(context);
 
-	public MyTestView(Context context) {
-		this(context, null);
-	}
-
-	public MyTestView(Context context, AttributeSet attrs) {
-		super(context, attrs);
-	}
-
-	public MyTestView(Context context, AttributeSet attrs, int defStyle,
-			View view) {
-		super(context, attrs, defStyle);
-
-		mContext = context;
+		mActivity = (GrahpicsDemoActivity) context;
 
 		FrameLayout.LayoutParams params = new FrameLayout.LayoutParams(
 				LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
 		this.setLayoutParams(params);
 
-		view.setDrawingCacheEnabled(true);
-		view.buildDrawingCache(true);
-		
-		Bitmap bmp1 = view.getDrawingCache();
-
-		Bitmap bmp2 = Bitmap.createBitmap(bmp1, 100, 100, 400, 500);
-
-		initViews(bmp2);
+		Bitmap bitmap = Bitmap.createBitmap(bmp, 0, 0, bmp.getWidth(), bmp.getHeight());
+		initViews(bitmap);
 	}
 
 	private void initViews(Bitmap bkg) {
-		Bitmap overlay = Bitmap.createBitmap(500, 600, Bitmap.Config.ARGB_8888);
+		Bitmap overlay = Bitmap.createBitmap(bkg.getWidth(), bkg.getHeight(), Bitmap.Config.ARGB_8888);
 
 		Canvas canvas = new Canvas(overlay);
+		
 		Paint paint = new Paint();
-
-		paint.setFlags(Paint.FILTER_BITMAP_FLAG);
-		paint.setColor(Color.RED);
+		paint.setFlags(Paint.FILTER_BITMAP_FLAG | Paint.ANTI_ALIAS_FLAG);
 
 		Path path = new Path();
-		RectF viewBounus = new RectF(100, 100, 500, 600);
-
+		RectF viewBounus = new RectF(10, 10, 200, 200);
 		path.addRoundRect(viewBounus, 30, 30, Path.Direction.CCW);
 
 		canvas.clipPath(path);
-		canvas.drawBitmap(bkg, 100, 100, paint);
+		
+		canvas.drawBitmap(bkg, 0, 0, paint);
+
+		final NativeBlur nativeBlur = new NativeBlur();
+		mActivity.getImageView().setImageBitmap(nativeBlur.blur(overlay, 30));
 	}
 
 }

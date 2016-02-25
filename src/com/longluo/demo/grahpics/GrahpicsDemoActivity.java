@@ -1,9 +1,14 @@
 package com.longluo.demo.grahpics;
 
 import com.longluo.demo.R;
+import com.longluo.demo.util.BitmapUtils;
 
 import android.app.Activity;
+import android.graphics.Bitmap;
 import android.os.Bundle;
+import android.provider.DocumentsContract.Root;
+import android.view.View;
+import android.view.View.MeasureSpec;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
 
@@ -24,8 +29,24 @@ public class GrahpicsDemoActivity extends Activity {
 //		root.addView(new MyGrahpicsView(GrahpicsDemoActivity.this));
 		
 		mImageView = (ImageView) findViewById(R.id.iv_content);
-//		root.addView(new MyTestView(GrahpicsDemoActivity.this, null, 0, root));
 		
+		MyTestView testView = new MyTestView(GrahpicsDemoActivity.this, BitmapUtils.getViewBitmap(mImageView));
+		root.addView(testView);
 	}
-
+	
+	public View getRootView() {
+		if (mRoot != null) {
+			return mRoot;
+		}
+		
+		return null;
+	}
+	
+	public ImageView getImageView() {
+		if (mImageView != null) {
+			return mImageView;
+		}
+		
+		return null;
+	}
 }
