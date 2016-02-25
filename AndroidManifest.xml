@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="38"
-    android:versionName="4.3.20" >
+    android:versionCode="39"
+    android:versionName="4.3.21" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -409,6 +409,12 @@
             android:label="TagFlowLayout Demo"
             android:screenOrientation="portrait" >
         </activity>	
+        
+		<activity
+		    android:name="com.longluo.demo.grahpics.GrahpicsDemoActivity"
+		    android:label="Grahpics Demo"
+            android:screenOrientation="portrait" >
+		</activity>
 				
     </application>
 

@@ -24,6 +24,7 @@ import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
+import com.longluo.demo.grahpics.GrahpicsDemoActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
 import com.longluo.demo.launcher.LauncherActivity;
 import com.longluo.demo.listview.ListViewDemoActivity;
@@ -63,7 +64,8 @@ public class MainActivity extends Activity {
 			"GaussianBlur Activity", "NDK JNI Demo",
 			"Touch Event Demo Activity", "ViewGroup Demo Activity",
 			"Log Demo Activity", "FlowLayout Demo Activity",
-			"TagFlowLayout Demo Activity"};
+			"TagFlowLayout Demo Activity",
+			"Graphics Demo Activity"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -214,6 +216,10 @@ public class MainActivity extends Activity {
 				
 				case 29:
 					startActivity(TagFlowLayoutCategoryActivity.class);
+					break;
+					
+				case 30:
+					startActivity(GrahpicsDemoActivity.class);
 					break;
 
 				default:
