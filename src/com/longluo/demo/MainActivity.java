@@ -17,6 +17,7 @@ import android.widget.ListView;
 
 import com.longluo.demo.activitycard.MonthActivityCardActivity;
 import com.longluo.demo.adherent.AdherentActivity;
+import com.longluo.demo.advancedtextview.AdvancedTextViewActivity;
 import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
@@ -86,7 +87,8 @@ public class MainActivity extends Activity {
 			"FlowLayout Demo Activity",
 			"TagFlowLayout Demo Activity",
 			"Graphics Demo Activity",
-			"TextView Demo Activity"};
+			"TextView Demo Activity",
+			"Advanced Text View Demo Activity"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -249,6 +251,10 @@ public class MainActivity extends Activity {
 					
 				case 32:
 					startActivity(TextViewDemoActivity.class);
+					break;
+					
+				case 33 :
+					startActivity(AdvancedTextViewActivity.class);
 					break;
 
 				default:

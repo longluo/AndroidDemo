@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="42"
-    android:versionName="4.4.1" >
+    android:versionCode="43"
+    android:versionName="4.4.2" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -43,7 +43,7 @@
 
     <uses-sdk
         android:minSdkVersion="14"
-        android:targetSdkVersion="20" />
+        android:targetSdkVersion="22" />
 
     <application
         android:name="com.longluo.demo.DemoApp"
@@ -446,6 +446,92 @@
             android:screenOrientation="portrait" >
 		</activity>
 		
-    </application>
+		<activity
+            android:name="com.longluo.demo.advancedtextview.AdvancedTextViewActivity"
+            android:label="@string/advanced_text_view" >
+        </activity>
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AnimatedCompoundDrawableActivity"
+            android:label="@string/animated_compound_drawable"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.ShadowTextActivity"
+            android:label="@string/shadow_text"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.CustomFontActivity"
+            android:label="@string/custom_font"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.NonBreakingSpaceActivity"
+            android:label="@string/non_breaking_space"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.GradientTextActivity"
+            android:label="@string/gradient_text"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.PatternedTextActivity"
+            android:label="@string/patterned_text"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.FromHtmlActivity"
+            android:label="@string/from_html"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.FractionActivity"
+            android:label="@string/fraction"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.StyledStringActivity"
+            android:label="@string/styled_string"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AlignmentSpanActivity"
+            android:label="@string/alignment_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.RainbowSpanActivity"
+            android:label="@string/rainbow_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity"
+            android:windowSoftInputMode="adjustResize" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AnimatedRainbowSpanActivity"
+            android:label="@string/animated_rainbow_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.ClickableSpanActivity"
+            android:label="@string/clickable_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.LinedPaperActivity"
+            android:label="@string/lined_paper"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.EmojiActivity"
+            android:label="@string/emoji"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AboutActivity"
+            android:label="@string/about"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+	</application>
 
 </manifest>
