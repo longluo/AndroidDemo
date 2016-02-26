@@ -1,16 +1,13 @@
 package com.longluo.demo.grahpics;
 
-import com.longluo.demo.R;
-import com.longluo.demo.util.BitmapUtils;
-
 import android.app.Activity;
-import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.provider.DocumentsContract.Root;
 import android.view.View;
-import android.view.View.MeasureSpec;
 import android.widget.FrameLayout;
 import android.widget.ImageView;
+
+import com.longluo.demo.R;
+import com.longluo.demo.util.BitmapUtils;
 
 public class GrahpicsDemoActivity extends Activity {
 	private FrameLayout mRoot;

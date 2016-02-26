@@ -26,6 +26,7 @@ import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
 import com.longluo.demo.grahpics.GrahpicsDemoActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
+import com.longluo.demo.launcher.LauncherDemo2Activity;
 import com.longluo.demo.launcher.LauncherDemoActivity;
 import com.longluo.demo.listview.ListViewDemoActivity;
 import com.longluo.demo.log.LogDemoActivity;
@@ -41,6 +42,7 @@ import com.longluo.demo.searchview.SearchViewActivity;
 import com.longluo.demo.slideview.SlideViewDemoActivity;
 import com.longluo.demo.swipelistview.SwipeListViewDemoActivity;
 import com.longluo.demo.tagflowlayout.TagFlowLayoutCategoryActivity;
+import com.longluo.demo.textview.TextViewDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.util.LinkUtils;
 import com.longluo.demo.util.UIUtils;
@@ -53,19 +55,38 @@ public class MainActivity extends Activity {
 	private static final String TAG = MainActivity.class.getSimpleName();
 
 	private static final String[] mDemoStrings = { "BadgeView Demo",
-			"MonthActivityCard Demo", "CalendarCard Demo",
-			"NumberProgressBar Demo", "Animation Demo", "ViewPager Demo",
-			"ViewPager Multi Fragment Demo", "SearchView Demo",
-			"RoundedImageView Demo", "MIUI TabPage Indicator Demo",
-			"Fragment Demo", "SwipeListView Demo", "SlideView Demo",
-			"JPush Demo", "LoginActivity Demo", "FriendsActivity Demo",
-			"Notifications Demo", "Media Demo", "Adherent Demo",
-			"Progress Demo", "ListView Demo", "ProviderActivity Demo", "LauncherActivity Demo",
-			"GaussianBlur Activity", "NDK JNI Demo",
-			"Touch Event Demo Activity", "ViewGroup Demo Activity",
-			"Log Demo Activity", "FlowLayout Demo Activity",
+			"MonthActivityCard Demo", 
+			"CalendarCard Demo",
+			"NumberProgressBar Demo", 
+			"Animation Demo", 
+			"ViewPager Demo",
+			"ViewPager Multi Fragment Demo", 
+			"SearchView Demo",
+			"RoundedImageView Demo", 
+			"MIUI TabPage Indicator Demo",
+			"Fragment Demo", 
+			"SwipeListView Demo", 
+			"SlideView Demo",
+			"JPush Demo", 
+			"LoginActivity Demo", 
+			"FriendsActivity Demo",
+			"Notifications Demo", 
+			"Media Demo", 
+			"Adherent Demo",
+			"Progress Demo", 
+			"ListView Demo", 
+			"ProviderActivity Demo", 
+			"LauncherActivity Demo 1",
+			"LauncherActivity Demo 2",
+			"GaussianBlur Activity", 
+			"NDK JNI Demo",
+			"Touch Event Demo Activity", 
+			"ViewGroup Demo Activity",
+			"Log Demo Activity", 
+			"FlowLayout Demo Activity",
 			"TagFlowLayout Demo Activity",
-			"Graphics Demo Activity"};
+			"Graphics Demo Activity",
+			"TextView Demo Activity"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -191,35 +212,43 @@ public class MainActivity extends Activity {
 					break;
 					
 				case 23:
-					startActivity(GaussianBlurActivity.class);
+					startActivity(LauncherDemo2Activity.class);
 					break;
 					
 				case 24:
-					startActivity(NdkDemoActivity.class);
+					startActivity(GaussianBlurActivity.class);
 					break;
 					
 				case 25:
-					startActivity(TouchEventDemoActivity.class);
+					startActivity(NdkDemoActivity.class);
 					break;
 					
 				case 26:
-					startActivity(ViewGroupDemoActivity.class);
+					startActivity(TouchEventDemoActivity.class);
 					break;
 					
 				case 27:
-					startActivity(LogDemoActivity.class);
+					startActivity(ViewGroupDemoActivity.class);
 					break;
 					
 				case 28:
+					startActivity(LogDemoActivity.class);
+					break;
+					
+				case 29:
 					startActivity(FlowLayoutDemoActivity.class);
 					break;
 				
-				case 29:
+				case 30:
 					startActivity(TagFlowLayoutCategoryActivity.class);
 					break;
 					
-				case 30:
+				case 31:
 					startActivity(GrahpicsDemoActivity.class);
+					break;
+					
+				case 32:
+					startActivity(TextViewDemoActivity.class);
 					break;
 
 				default:

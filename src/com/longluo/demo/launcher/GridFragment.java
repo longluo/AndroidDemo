@@ -55,6 +55,7 @@ public class GridFragment extends Fragment {
 	boolean mGridShown;
 
 	public GridFragment() {
+		
 	}
 
 	/**

@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.support.v4.app.LoaderManager;
 import android.support.v4.content.Loader;
 import android.view.View;
+import android.view.ViewGroup;
+import android.view.ViewParent;
 import android.widget.GridView;
 
 import java.util.ArrayList;
@@ -55,6 +57,7 @@ public class AppsGridFragment extends GridFragment implements
 	@Override
 	public void onGridItemClick(GridView g, View v, int position, long id) {
 		AppModel app = (AppModel) getGridAdapter().getItem(position);
+		
 		if (app != null) {
 			Intent intent = getActivity().getPackageManager()
 					.getLaunchIntentForPackage(app.getApplicationPackageName());
