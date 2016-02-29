@@ -1,8 +1,5 @@
 package com.longluo.demo.listview;
 
-import java.util.ArrayList;
-import java.util.List;
-
 import com.longluo.demo.R;
 import com.longluo.demo.util.ToastUtils;
 
@@ -17,7 +14,6 @@ import android.widget.AbsListView;
 import android.widget.AbsListView.OnScrollListener;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
-import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
@@ -30,7 +26,7 @@ public class ListViewDemoActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_listview);
+		setContentView(R.layout.activity_listview_demo);
 
 		initViews();
 	}

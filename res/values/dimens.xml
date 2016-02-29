@@ -23,5 +23,8 @@
     <dimen name="text_size_medium">16sp</dimen>
     <dimen name="text_size_large">24sp</dimen>
     <dimen name="text_size_huge">80sp</dimen>
+    
+    
+	<dimen name="notepad_margin">30dp</dimen>
 
 </resources>

@@ -331,4 +331,18 @@
         <item>@color/rainbow_blue</item>
         <item>@color/rainbow_purple</item>
     </integer-array>
+    
+    
+	<color name="unfocused">#cccccccc</color>  
+	<color name="pressed">#fff22fff</color>  
+	<color name="selected">#fff33fff</color>  
+	<color name="focused">#ffff44ff</color> 
+    
+	
+	<color name="notepad_paper">#EEF8E0A0</color>
+    <color name="notepad_lines">#EE0000FF</color>
+    <color name="notepad_margin">#EE0000FF</color>
+    <color name="notepad_text">#AA0000FF</color>
+	
+    
 </resources>
