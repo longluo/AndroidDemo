@@ -39,6 +39,7 @@ import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.progress.ProgressActivity;
 import com.longluo.demo.provider.ProviderActivity;
+import com.longluo.demo.ripple.RippleViewDemoActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
 import com.longluo.demo.slideview.SlideViewDemoActivity;
@@ -92,7 +93,8 @@ public class MainActivity extends Activity {
 			"TextView Demo Activity",
 			"Advanced Text View Demo Activity",
 			"WaterWave Demo ",
-			"ForceTouch Demo" };
+			"ForceTouch Demo",
+			"Ripple View Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -267,6 +269,10 @@ public class MainActivity extends Activity {
 					
 				case 35:
 					startActivity(ForceTouchDemoActivity.class);
+					break;
+					
+				case 36:
+					startActivity(RippleViewDemoActivity.class);
 					break;
 
 				default:
