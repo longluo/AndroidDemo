@@ -171,7 +171,7 @@ public class GaussianBlurActivity extends Activity {
 
 		final NativeBlur nativeBlur = new NativeBlur();
 		mTestView.setImageBitmap(nativeBlur.blur(
-				getBitmapFromAsset(this, "android_platform_256.png"), 15));
+				getBitmapFromAsset(this, "android_platform_256.png"), 40));
 	}
 
 	private void whiteImageTest() {
@@ -190,7 +190,7 @@ public class GaussianBlurActivity extends Activity {
 		mWhiteImageView.setDrawingCacheEnabled(false);
 		
 		final NativeBlur nativeBlur = new NativeBlur();
-		mWhiteImageView.setImageBitmap(nativeBlur.blur(bmp, 16));
+		mWhiteImageView.setImageBitmap(nativeBlur.blur(bmp, 40));
 	}
 
 }

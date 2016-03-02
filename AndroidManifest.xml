@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="44"
-    android:versionName="4.4.3" >
+    android:versionCode="45"
+    android:versionName="4.4.4" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -532,6 +532,13 @@
             android:name="com.longluo.demo.advancedtextview.AboutActivity"
             android:label="@string/about"
             android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <!-- WaterWave -->
+        <activity
+		    android:name="com.longluo.demo.waterwave.WaterWaveDemoActivity"
+		    android:label="Water Wave Demo"
+            android:screenOrientation="portrait" >
+		</activity>
         
 	</application>
 

@@ -40,7 +40,7 @@ public class MyTestView extends FrameLayout {
 		paint.setFlags(Paint.FILTER_BITMAP_FLAG | Paint.ANTI_ALIAS_FLAG);
 
 		Path path = new Path();
-		RectF viewBounus = new RectF(10, 10, 200, 200);
+		RectF viewBounus = new RectF(10, 60, 300, 300);
 		path.addRoundRect(viewBounus, 30, 30, Path.Direction.CCW);
 
 		canvas.clipPath(path);
@@ -48,7 +48,7 @@ public class MyTestView extends FrameLayout {
 		canvas.drawBitmap(bkg, 0, 0, paint);
 
 		final NativeBlur nativeBlur = new NativeBlur();
-		mActivity.getImageView().setImageBitmap(nativeBlur.blur(overlay, 30));
+		mActivity.getImageView().setImageBitmap(nativeBlur.blur(overlay, 60));
 	}
 
 }

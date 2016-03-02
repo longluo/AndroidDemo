@@ -8,5 +8,4 @@
     android:drawablePadding="8dp"
     android:drawableRight="@drawable/animated_wifi"
     android:gravity="center"
-    android:text="@string/animation"
-    tools:context=".AnimatedCompoundDrawableActivity" />
+    android:text="@string/animation" />

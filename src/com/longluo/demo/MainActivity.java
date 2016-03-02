@@ -51,6 +51,7 @@ import com.longluo.demo.viewgroup.ViewGroupDemoActivity;
 import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
+import com.longluo.demo.waterwave.WaterWaveDemoActivity;
 
 public class MainActivity extends Activity {
 	private static final String TAG = MainActivity.class.getSimpleName();
@@ -88,7 +89,8 @@ public class MainActivity extends Activity {
 			"TagFlowLayout Demo Activity",
 			"Graphics Demo Activity",
 			"TextView Demo Activity",
-			"Advanced Text View Demo Activity"};
+			"Advanced Text View Demo Activity",
+			"WaterWave Demo " };
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -255,6 +257,10 @@ public class MainActivity extends Activity {
 					
 				case 33 :
 					startActivity(AdvancedTextViewActivity.class);
+					break;
+					
+				case 34:
+					startActivity(WaterWaveDemoActivity.class);
 					break;
 
 				default:

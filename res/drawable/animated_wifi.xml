@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android" >
+
     <item
         android:drawable="@drawable/ic_wifi_0"
-        android:duration="250" />
+        android:duration="250"/>
     <item
         android:drawable="@drawable/ic_wifi_1"
-        android:duration="250" />
+        android:duration="250"/>
     <item
         android:drawable="@drawable/ic_wifi_2"
-        android:duration="250" />
+        android:duration="250"/>
     <item
         android:drawable="@drawable/ic_wifi_3"
-        android:duration="250" />
+        android:duration="250"/>
+
 </animation-list>

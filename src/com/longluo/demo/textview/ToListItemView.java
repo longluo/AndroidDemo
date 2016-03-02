@@ -40,6 +40,7 @@ public class ToListItemView extends TextView {
 	private void init() {
 		// 获得最资源表的引用
 		Resources resources = getResources();
+		
 		// 创建在onDraw方法中使用的画刷
 		marginPaint = new Paint(Paint.ANTI_ALIAS_FLAG);
 		marginPaint.setColor(resources.getColor(R.color.notepad_margin));
@@ -57,15 +58,19 @@ public class ToListItemView extends TextView {
 	protected void onDraw(Canvas canvas) {
 		// 绘制页面的颜色
 		canvas.drawColor(paperColor);
+		
 		// 绘制边缘
 		canvas.drawLine(margin, 0, margin, getMeasuredHeight(), linePaint);
 		canvas.drawLine(0, getMeasuredHeight(), getMeasuredWidth(),
 				getMeasuredHeight(), linePaint);
+		
 		// 绘制margin
 		canvas.drawLine(margin, 0, margin, getMeasuredHeight(), marginPaint);
+		
 		// 移动文本，让它跨过边缘
 		canvas.save();
 		canvas.translate(margin, 0);
+		
 		// 使用TextView渲染文本
 		super.onDraw(canvas);
 		canvas.restore();

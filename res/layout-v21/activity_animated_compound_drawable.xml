@@ -1,14 +1,12 @@
-<TextView
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/text"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:layout_gravity="center"
-    android:gravity="center"
-    android:text="@string/animation"
-    android:drawableLeft="@drawable/rotating_loading"
-    android:drawableRight="@drawable/animated_wifi"
     android:drawableBottom="@drawable/animated_clock"
+    android:drawableLeft="@drawable/rotating_loading"
     android:drawablePadding="8dp"
-    tools:context=".AnimatedCompoundDrawableActivity"/>
+    android:drawableRight="@drawable/animated_wifi"
+    android:gravity="center"
+    android:text="@string/animation" />

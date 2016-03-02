@@ -4,6 +4,7 @@
     <target
         android:name="hours"
         android:animation="@anim/hours_rotation" />
+    
     <target
         android:name="minutes"
         android:animation="@anim/minutes_rotation" />
