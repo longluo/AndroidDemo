@@ -22,6 +22,7 @@ import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
+import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
@@ -90,7 +91,8 @@ public class MainActivity extends Activity {
 			"Graphics Demo Activity",
 			"TextView Demo Activity",
 			"Advanced Text View Demo Activity",
-			"WaterWave Demo " };
+			"WaterWave Demo ",
+			"ForceTouch Demo" };
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -261,6 +263,10 @@ public class MainActivity extends Activity {
 					
 				case 34:
 					startActivity(WaterWaveDemoActivity.class);
+					break;
+					
+				case 35:
+					startActivity(ForceTouchDemoActivity.class);
 					break;
 
 				default:
