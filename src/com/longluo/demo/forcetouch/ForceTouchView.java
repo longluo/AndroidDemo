@@ -1,26 +1,29 @@
 package com.longluo.demo.forcetouch;
 
-import com.longluo.demo.R;
-
+import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.RectF;
+import android.graphics.Rect;
 import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
 import android.view.View;
 
+import com.longluo.demo.R;
+
 public class ForceTouchView extends View {
 
 	private Context mContext;
+	
 	private int mScreenWidth;
 	private int mScreenHeight;
 
 	private Bitmap mRippleBitmap;
+	
 	private Paint mRipplePaint = new Paint();
 
 	private int mBitmapWidth;
@@ -28,20 +31,14 @@ public class ForceTouchView extends View {
 
 	private boolean isStartRipple;
 
-	private int heightPaddingTop;
-	private int heightPaddingBottom;
-	private int widthPaddingLeft;
-	private int widthPaddingRight;
+	private Rect mRect;
 
-	private RectF mRect = new RectF();
+	private int rippleRadius = 0;
 
-	private int rippleFirstRadius = 0;
-	private int rippleSecendRadius = -33;
-	private int rippleThirdRadius = -66;
-
-	private Paint textPaint = new Paint();
+	private Paint mTextPaint = new Paint();
 	private String mText = "Click Me";
 
+	@SuppressLint("HandlerLeak")
 	private Handler mHandler = new Handler() {
 		@Override
 		public void handleMessage(Message msg) {
@@ -50,19 +47,12 @@ public class ForceTouchView extends View {
 			invalidate();
 
 			if (isStartRipple) {
-				rippleFirstRadius++;
-				if (rippleFirstRadius > 100) {
-					rippleFirstRadius = 0;
+				rippleRadius++;
+				if (rippleRadius > 100) {
+					rippleRadius = 100;
 				}
-				rippleSecendRadius++;
-				if (rippleSecendRadius > 100) {
-					rippleSecendRadius = 0;
-				}
-				rippleThirdRadius++;
-				if (rippleThirdRadius > 100) {
-					rippleThirdRadius = 0;
-				}
-				sendEmptyMessageDelayed(0, 20);
+				
+				sendEmptyMessageDelayed(0, 50);
 			}
 		}
 	};
@@ -86,105 +76,67 @@ public class ForceTouchView extends View {
 	}
 
 	private void init() {
-		mRipplePaint.setColor(4961729);
+		mRipplePaint.setColor(Color.RED);
 		mRipplePaint.setAntiAlias(true);
 		mRipplePaint.setStyle(Paint.Style.FILL);
 
-		textPaint.setTextSize(30);
-		textPaint.setAntiAlias(true);
-		textPaint.setStyle(Paint.Style.FILL);
-		textPaint.setColor(Color.WHITE);
+		mTextPaint.setTextSize(30);
+		mTextPaint.setAntiAlias(true);
+		mTextPaint.setStyle(Paint.Style.FILL);
+		mTextPaint.setColor(Color.WHITE);
 
-		mRippleBitmap = BitmapFactory.decodeStream(getResources()
-				.openRawResource(R.drawable.easy3d_ic_apply));
+		mRippleBitmap = BitmapFactory.decodeStream(getResources().openRawResource(R.drawable.clear_background));
+		
 		mBitmapWidth = mRippleBitmap.getWidth();
 		mBitmapHeight = mRippleBitmap.getHeight();
+		
+		
 	}
 
 	@Override
 	protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
 		super.onMeasure(widthMeasureSpec, heightMeasureSpec);
-		int mh = getMeasuredHeight() - getPaddingTop() - getPaddingBottom();
-		int mw = getMeasuredWidth() - getPaddingLeft() - getPaddingRight();
-		if (mBitmapWidth < 2 * mBitmapHeight) {
-			mBitmapWidth = (2 * mBitmapHeight);
-		}
-		setMeasuredDimension(mBitmapWidth, mBitmapHeight);
+		
+		setMeasuredDimension(720, 1280);
 	}
 
+	@SuppressLint("NewApi")
 	@Override
 	protected void onDraw(Canvas canvas) {
 		super.onDraw(canvas);
+		
 		if (isStartRipple) {
-			float f1 = 3 * mBitmapHeight / 10;
+			float f = 3 * mBitmapHeight / 10;
+			
 			mRipplePaint.setAlpha(255);
-			canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight,
-					7 * mBitmapHeight / 10, mRipplePaint);
-			int i1 = (int) (220.0F - (220.0F - 0.0F) / 100.0F
-					* rippleFirstRadius);
-			mRipplePaint.setAlpha(i1);
-			canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight, 7
-					* mBitmapHeight / 10 + f1 * rippleFirstRadius / 100.0F,
-					mRipplePaint);
-			if (rippleSecendRadius >= 0) {
-				int i3 = (int) (220.0F - (220.0F - 0.0F) / 100.0F
-						* rippleSecendRadius);
-				mRipplePaint.setAlpha(i3);
-				canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight,
-						7 * mBitmapHeight / 10 + f1 * rippleSecendRadius
-								/ 100.0F, mRipplePaint);
-			}
-			if (rippleThirdRadius >= 0) {
-				int i2 = (int) (220.0F - (220.0F - 0.0F) / 100.0F
-						* rippleThirdRadius);
-				mRipplePaint.setAlpha(i2);
-				canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight, 7
-						* mBitmapHeight / 10 + f1 * rippleThirdRadius / 100.0F,
-						mRipplePaint);
-			}
+			
+			int i = (int) (220.0F - (220.0F - 0.0F) / 100.0F
+					* rippleRadius);
+			
+			mRipplePaint.setAlpha(i);
+			
+			mRipplePaint.setColor(Color.GREEN);
+			
+			canvas.drawRoundRect(100, 100, 100 + mBitmapWidth, 200 + mBitmapHeight, 7
+					* mBitmapHeight / 10 + f * rippleRadius / 100.0F, 7
+					* mBitmapHeight / 10 + f * rippleRadius / 100.0F, mRipplePaint);
 		}
 		
-		mRipplePaint.setAlpha(30);
-		canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight, mBitmapHeight,
-				mRipplePaint);
-		mRipplePaint.setAlpha(120);
-		canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight,
-				9 * mBitmapHeight / 10, mRipplePaint);
-		mRipplePaint.setAlpha(180);
-		canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight,
-				8 * mBitmapHeight / 10, mRipplePaint);
+		mRipplePaint.setColor(Color.BLUE);
 		mRipplePaint.setAlpha(255);
-		canvas.drawCircle(mBitmapWidth / 2, mBitmapHeight,
-				7 * mBitmapHeight / 10, mRipplePaint);
-		float length = textPaint.measureText(mText);
-		canvas.drawText(mText, (mBitmapWidth - length) / 2,
-				mBitmapHeight * 3 / 4, textPaint);
+		
+		mRect = new Rect(100, 100, 100 + mRippleBitmap.getWidth(), 100 + mRippleBitmap.getHeight());
+		canvas.drawBitmap(mRippleBitmap, mRect, mRect, mRipplePaint);
+		
+		float length = mTextPaint.measureText(mText);
+		canvas.drawText(mText, 50, 70, mTextPaint);
 	}
 
 	@Override
 	protected void onSizeChanged(int w, int h, int oldw, int oldh) {
 		super.onSizeChanged(w, h, oldw, oldh);
-		mScreenWidth = w;
-		mScreenHeight = h;
-		confirmSize();
+		
 		invalidate();
-	}
-
-	private void confirmSize() {
-		int minScreenSize = Math.min(mScreenWidth, mScreenHeight);
-		int widthOverSize = mScreenWidth - minScreenSize;
-		int heightOverSize = mScreenHeight - minScreenSize;
-		heightPaddingTop = (getPaddingTop() + heightOverSize / 2);
-		heightPaddingBottom = (getPaddingBottom() + heightOverSize / 2);
-		widthPaddingLeft = (getPaddingLeft() + widthOverSize / 2);
-		widthPaddingRight = (getPaddingRight() + widthOverSize / 2);
-
-		int width = getWidth();
-		int height = getHeight();
-
-		mRect = new RectF(widthPaddingLeft, heightPaddingTop, width
-				- widthPaddingRight, height * 2 - heightPaddingBottom);
-
 	}
 
 	public void startRipple() {

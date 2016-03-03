@@ -54,6 +54,7 @@ import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
 import com.longluo.demo.waterwave.WaterWaveDemoActivity;
+import com.longluo.demo.xml.XmlParserDemoActivity;
 
 public class MainActivity extends Activity {
 	private static final String TAG = MainActivity.class.getSimpleName();
@@ -94,7 +95,8 @@ public class MainActivity extends Activity {
 			"Advanced Text View Demo Activity",
 			"WaterWave Demo ",
 			"ForceTouch Demo",
-			"Ripple View Demo"};
+			"Ripple View Demo",
+			"XML Parser Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -273,6 +275,10 @@ public class MainActivity extends Activity {
 					
 				case 36:
 					startActivity(RippleViewDemoActivity.class);
+					break;
+					
+				case 37:
+					startActivity(XmlParserDemoActivity.class);
 					break;
 
 				default:

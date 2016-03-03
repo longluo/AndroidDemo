@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="47"
-    android:versionName="4.4.6" >
+    android:versionCode="48"
+    android:versionName="4.4.7" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -552,6 +552,11 @@
             android:screenOrientation="portrait" >
 		</activity>
 		
+		<activity
+		    android:name="com.longluo.demo.xml.XmlParserDemoActivity"
+		    android:label="XML Parser Demo"
+            android:screenOrientation="portrait" >
+		</activity>
         
 	</application>
 

@@ -55,6 +55,7 @@ public class WaterWave extends View {
 	int alphaC = 0;
 
 	int times = 0;
+	
 	int width = 5;
 
 	int xDown = 300;
@@ -87,6 +88,7 @@ public class WaterWave extends View {
 	double SIN_A;
 	double SIN_B;
 	double SIN_C;
+	
 	double COS_A;
 	double COS_B;
 	double COS_C;
@@ -183,6 +185,7 @@ public class WaterWave extends View {
 		yDown = y;
 
 		radius = MAX_RADIUS;
+		
 		radius1 = 0;
 		radius2 = 0;
 		radius3 = 0;
@@ -359,6 +362,7 @@ public class WaterWave extends View {
 			case 0:// 实现主要动画
 				flushState();
 				invalidate();
+				
 				if (isExpand) {
 					if (alpha != 0) {
 						// 如果透明度没有到0，则继续刷新，否則停止刷新
@@ -471,7 +475,7 @@ public class WaterWave extends View {
 			}
 		}
 
-		/** * 刷新状态 */
+		/** * 刷新状态    */
 		private void flushState() {
 			// 起始增速，后半段减速
 			if (times < MAX_TIMES / 2 && mCurProgress < 80) {
