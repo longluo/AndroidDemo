@@ -31,6 +31,7 @@ public class ForceTouchDemoActivity extends Activity {
 		mForceTouchView.setBackground(getResources().getDrawable(
 				R.drawable.homescreen));
 		
+		/*
 		mForceTouchView.setOnTouchListener(new OnTouchListener() {
 			
 			@SuppressLint("ClickableViewAccessibility")
@@ -47,14 +48,14 @@ public class ForceTouchDemoActivity extends Activity {
 				case MotionEvent.ACTION_MOVE:
 					Log.d(TAG, "ACTION_MOVE ");
 					
-					mForceTouchView.startRipple();
+//					mForceTouchView.startRipple();
 					
 					break;
 					
 				case MotionEvent.ACTION_UP:
 					Log.d(TAG, "ACTION_UP");
 					
-					mForceTouchView.stopRipple();
+//					mForceTouchView.stopRipple();
 					
 					break;
 				}
@@ -63,6 +64,7 @@ public class ForceTouchDemoActivity extends Activity {
 			}
 		});
 		
+		*/
 
 	}
 

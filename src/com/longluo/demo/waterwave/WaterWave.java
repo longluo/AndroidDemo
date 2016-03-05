@@ -11,12 +11,15 @@ import android.os.Handler;
 import android.os.Message;
 import android.util.AttributeSet;
 import android.util.DisplayMetrics;
+import android.util.Log;
 import android.view.MotionEvent;
 import android.view.View;
 
 import com.longluo.demo.R;
 
 public class WaterWave extends View {
+	
+	private static final String TAG = "WaterWave";
 
 	// 大动画参数
 	Paint paint;
@@ -665,6 +668,9 @@ public class WaterWave extends View {
 		drawLarge(canvas, radius2, paint2);
 		drawLarge(canvas, radius3, paint3);
 		drawLarge(canvas, radius4, paint4);
+		
+		Log.d(TAG, "0=" + radius + ",1=" + radius1 + ",2=" + radius2 + ",3=" + radius3 + ",4=" + radius4
+				+ ",A=" + radiusA + ",B=" + radiusB + ",C=" + radiusC);
 
 		if (radiusA > 50) {
 			int r = radiusA / 40;
@@ -884,6 +890,8 @@ public class WaterWave extends View {
 		mBrushDrawable.draw(canvas);
 		float rate = (float) progress / mMaxProgress;
 		float sweep = 360 * rate;
+		
+		Log.d(TAG, "setCurrentProgress, progress=" + progress + ",mStartAngle=" + mStartAngle);
 
 		if (mIsRunning) {
 			if (mTurnSpeed > MAX_TURN_SPEED) {
