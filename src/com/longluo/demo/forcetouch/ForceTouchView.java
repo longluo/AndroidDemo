@@ -389,14 +389,21 @@ public class ForceTouchView extends View {
 
 	void drawLarge(Canvas canvas, int r, Paint p) {
 		if (r > 0) {
-			drawArt(canvas, xDown, yDown, r, SECTOR_TOP_LEFT, p);
-			drawArt(canvas, xDown, yDown, r, SECTOR_TOP_RIGHT, p);
-			drawArt(canvas, xDown, yDown, r, SECTOR_BOTTOM_LEFT, p);
-			drawArt(canvas, xDown, yDown, r, SECTOR_BOTTOM_RIGHT, p);
-
-			drawRect(canvas, xDown, yDown, r, RECT_TOP, p);
-			drawRect(canvas, xDown, yDown, r, RECT_MIDDLE, p);
-			drawRect(canvas, xDown, yDown, r, RECT_BOTTOM, p);
+//			drawArt(canvas, xDown, yDown, r, SECTOR_TOP_LEFT, p);
+//			drawArt(canvas, xDown, yDown, r, SECTOR_TOP_RIGHT, p);
+//			drawArt(canvas, xDown, yDown, r, SECTOR_BOTTOM_LEFT, p);
+//			drawArt(canvas, xDown, yDown, r, SECTOR_BOTTOM_RIGHT, p);
+//			drawRect(canvas, xDown, yDown, r, RECT_TOP, p);
+//			drawRect(canvas, xDown, yDown, r, RECT_MIDDLE, p);
+//			drawRect(canvas, xDown, yDown, r, RECT_BOTTOM, p);
+			
+			RectF mRect = new RectF();
+			mRect.left = xDown - (16 * r) / 6;
+			mRect.top = yDown - (16 * r) / 6;
+			mRect.right = xDown + (16 * r) / 6;
+			mRect.bottom = yDown + (16 * r) / 6;
+			
+			canvas.drawRoundRect(mRect, r, r, p);
 		}
 	}
 
