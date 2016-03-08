@@ -838,6 +838,7 @@ public class WaterWave extends View {
 		mStartAngle = START_ANGLE;
 		mCurProgress = INIT_PROGRESS;
 		mMaxProgress = 100;
+		
 		mRoundPaints.setColor(mPaintColorDark);
 
 		if (mRoundOval == null) {

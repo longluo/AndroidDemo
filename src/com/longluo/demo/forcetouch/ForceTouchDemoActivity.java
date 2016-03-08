@@ -30,42 +30,6 @@ public class ForceTouchDemoActivity extends Activity {
 		mForceTouchView = (ForceTouchView) findViewById(R.id.forcetouch);
 		mForceTouchView.setBackground(getResources().getDrawable(
 				R.drawable.homescreen));
-		
-		/*
-		mForceTouchView.setOnTouchListener(new OnTouchListener() {
-			
-			@SuppressLint("ClickableViewAccessibility")
-			@Override
-			public boolean onTouch(View v, MotionEvent ev) {
-				Log.d(TAG, "onTouch, v=" + v + ",event=" + ev.getAction());
-				
-				switch (ev.getAction()) {
-				case MotionEvent.ACTION_DOWN:
-					Log.d(TAG, "ACTION_DOWN ");
-					
-					break;
-					
-				case MotionEvent.ACTION_MOVE:
-					Log.d(TAG, "ACTION_MOVE ");
-					
-//					mForceTouchView.startRipple();
-					
-					break;
-					
-				case MotionEvent.ACTION_UP:
-					Log.d(TAG, "ACTION_UP");
-					
-//					mForceTouchView.stopRipple();
-					
-					break;
-				}
-				
-				return true;
-			}
-		});
-		
-		*/
-
 	}
 
 }
