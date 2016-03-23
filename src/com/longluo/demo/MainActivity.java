@@ -30,6 +30,7 @@ import com.longluo.demo.grahpics.GrahpicsDemoActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
 import com.longluo.demo.launcher.LauncherDemo2Activity;
 import com.longluo.demo.launcher.LauncherDemoActivity;
+import com.longluo.demo.lbs.LBSDemoActivity;
 import com.longluo.demo.listview.ListViewDemoActivity;
 import com.longluo.demo.log.LogDemoActivity;
 import com.longluo.demo.login.LoginActivity;
@@ -96,7 +97,8 @@ public class MainActivity extends Activity {
 			"WaterWave Demo ",
 			"ForceTouch Demo",
 			"Ripple View Demo",
-			"XML Parser Demo"};
+			"XML Parser Demo",
+			"LBS Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -279,6 +281,10 @@ public class MainActivity extends Activity {
 					
 				case 37:
 					startActivity(XmlParserDemoActivity.class);
+					break;
+					
+				case 38:
+					startActivity(LBSDemoActivity.class);
 					break;
 
 				default:

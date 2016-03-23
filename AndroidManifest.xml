@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="48"
-    android:versionName="4.4.7" >
+    android:versionCode="50"
+    android:versionName="4.4.9" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <permission
@@ -19,21 +19,22 @@
     <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
     <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    
     <uses-permission android:name="android.permission.BROADCAST_STICKY" />
     <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    
+	<uses-permission android:name="android.permission.READ_LOGS" />
 
     <!-- Optional for location -->
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
-    
-	<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <!-- Media -->
     <uses-feature android:name="android:hardware.camera" />
@@ -42,7 +43,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <uses-sdk
-        android:minSdkVersion="14"
+        android:minSdkVersion="15"
         android:targetSdkVersion="22" />
 
     <application
@@ -558,6 +559,34 @@
             android:screenOrientation="portrait" >
 		</activity>
         
+		<!-- LBS -->
+		<activity
+		    android:name="com.longluo.demo.lbs.LBSDemoActivity"
+		    android:label="LBS Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+		
+		<activity
+		    android:name="com.longluo.demo.lbs.LocationDemoActivity"
+		    android:label="Location Demo"
+            android:screenOrientation="portrait" >
+		</activity>	
+		
+		<!-- Baidu LBS -->
+		<service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>       
+        
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Q2zmqoBcOhskD5NFN4H9jw71" />
+		
 	</application>
 
 </manifest>
