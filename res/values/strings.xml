@@ -217,5 +217,7 @@
 		501～700：key验证失败\n</string>
     
     
-    
+    <string name="add_succeed">添加成功</string>
+    <string name="remove_succeed">移除成功</string>
+        
 </resources>
