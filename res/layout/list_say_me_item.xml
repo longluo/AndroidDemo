@@ -18,7 +18,7 @@
         android:gravity="center_vertical"
         android:orientation="vertical" >
 
-        <com.suntek.contact.view.CustomTextView
+        <com.longluo.demo.contact.view.CustomTextView
             android:id="@+id/messagedetail_row_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
