@@ -19,6 +19,7 @@ public class CameraActivity extends Activity {
 	final int CAPTURE_PHOTO = 0x01;
 
 	private Button mCaptureBtn;
+	private Button mSelfieBtn;
 	private ImageView mPicView;
 
 	@Override
@@ -32,6 +33,7 @@ public class CameraActivity extends Activity {
 
 	private void initViews() {
 		mCaptureBtn = (Button) findViewById(R.id.btn_launch);
+		mSelfieBtn = (Button) findViewById(R.id.btn_selfie_launch);
 		mPicView = (ImageView) findViewById(R.id.iv_photo);
 	}
 
@@ -42,6 +44,17 @@ public class CameraActivity extends Activity {
 			public void onClick(View v) {
 				Intent captureIntent = new Intent(
 						MediaStore.ACTION_IMAGE_CAPTURE);
+				startActivityForResult(captureIntent, CAPTURE_PHOTO);
+			}
+		});
+		
+		mSelfieBtn.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent captureIntent = new Intent(
+						MediaStore.ACTION_IMAGE_CAPTURE);
+				
 				startActivityForResult(captureIntent, CAPTURE_PHOTO);
 			}
 		});

@@ -1,4 +1,4 @@
-package com.longluo.demo.contacts;
+package com.longluo.demo.contact;
 
 import com.longluo.demo.R;
 

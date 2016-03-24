@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="51"
-    android:versionName="4.4.10" >
+    android:versionCode="53"
+    android:versionName="4.4.12" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
-    <permission
+<!--     <permission
         android:name="com.longluo.demo.permission.JPUSH_MESSAGE"
-        android:protectionLevel="signature" />
+        android:protectionLevel="signature" /> -->
 
     <uses-permission android:name="com.longluo.demo.permission.JPUSH_MESSAGE" />
     <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
@@ -599,11 +599,36 @@
             android:value="Q2zmqoBcOhskD5NFN4H9jw71" />
         
 		<activity
-		    android:name="com.longluo.demo.contacts.ContactsDemoActivity"
+		    android:name="com.longluo.demo.contact.ContactsDemoActivity"
 		    android:label="Contacts Demo"
             android:screenOrientation="portrait" >
 		</activity>	
+
+		<activity
+		    android:name="com.longluo.demo.contact.message.MessageDemoActivity"
+		    android:label="Message Demo"
+            android:screenOrientation="portrait" >
+		</activity>	
 		
+		<activity
+		    android:name="com.longluo.demo.contact.ContactDemoActivity"
+		    android:label="Contact Demo"
+            android:screenOrientation="portrait" >
+		</activity>		
+		
+		<activity android:name="com.longluo.demo.contact.ContactListActivity" >
+        </activity>
+        
+        <activity android:name="com.longluo.demo.contact.dial.ContactRecordListActivity" >
+        </activity>
+        
+        <activity android:name="com.longluo.demo.contact.message.SMSListActivity" >
+        </activity>
+        
+        <activity android:name="com.longluo.demo.contact.message.MessageBoxList" >
+        </activity>
+			
+				
 	</application>
 
 </manifest>

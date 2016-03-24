@@ -13,6 +13,16 @@ public class LogDemoActivity extends Activity {
 
 		setContentView(R.layout.activity_log);
 
+		initViews();
+		
+		
 	}
+	
+	private void initViews() {
+		
+		
+	}
+	
+	
 
 }

@@ -21,7 +21,9 @@ import com.longluo.demo.advancedtextview.AdvancedTextViewActivity;
 import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
-import com.longluo.demo.contacts.ContactsDemoActivity;
+import com.longluo.demo.contact.ContactDemoActivity;
+import com.longluo.demo.contact.ContactsDemoActivity;
+import com.longluo.demo.contact.message.MessageDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
@@ -100,7 +102,9 @@ public class MainActivity extends Activity {
 			"Ripple View Demo",
 			"XML Parser Demo",
 			"LBS Demo",
-			"Contacts Demo"};
+			"Contacts Demo",
+			"Message Demo",
+			"Contact Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -291,6 +295,14 @@ public class MainActivity extends Activity {
 					
 				case 39:
 					startActivity(ContactsDemoActivity.class);
+					break;
+					
+				case 40:
+					startActivity(MessageDemoActivity.class);
+					break;
+					
+				case 41:
+					startActivity(ContactDemoActivity.class);
 					break;
 
 				default:
