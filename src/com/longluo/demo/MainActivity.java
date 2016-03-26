@@ -24,6 +24,7 @@ import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.contact.ContactDemoActivity;
 import com.longluo.demo.contact.StarredContactsActivity;
 import com.longluo.demo.contact.message.MessageDemoActivity;
+import com.longluo.demo.dial.DialDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
@@ -103,7 +104,8 @@ public class MainActivity extends Activity {
 			"XML Parser Demo",
 			"LBS Demo",
 			"Message Demo",
-			"Contacts Demo"};
+			"Contacts Demo",
+			"Dial Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -298,6 +300,10 @@ public class MainActivity extends Activity {
 					
 				case 40:
 					startActivity(ContactDemoActivity.class);
+					break;
+					
+				case 41:
+					startActivity(DialDemoActivity.class);
 					break;
 					
 				default:
