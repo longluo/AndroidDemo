@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="53"
-    android:versionName="4.4.12" >
+    android:versionCode="54"
+    android:versionName="4.4.13" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
 <!--     <permission
@@ -599,12 +599,6 @@
             android:value="Q2zmqoBcOhskD5NFN4H9jw71" />
         
 		<activity
-		    android:name="com.longluo.demo.contact.ContactsDemoActivity"
-		    android:label="Contacts Demo"
-            android:screenOrientation="portrait" >
-		</activity>	
-
-		<activity
 		    android:name="com.longluo.demo.contact.message.MessageDemoActivity"
 		    android:label="Message Demo"
             android:screenOrientation="portrait" >
@@ -613,6 +607,11 @@
 		<activity
 		    android:name="com.longluo.demo.contact.ContactDemoActivity"
 		    android:label="Contact Demo"
+            android:screenOrientation="portrait" >
+		</activity>	
+		
+		<activity
+		    android:name="com.longluo.demo.contact.StarredContactsActivity"
             android:screenOrientation="portrait" >
 		</activity>		
 		

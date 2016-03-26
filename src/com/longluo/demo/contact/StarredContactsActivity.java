@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import com.longluo.demo.R;
 
-public class ContactsDemoActivity extends Activity {
+public class StarredContactsActivity extends Activity {
 
 	private TextView mContactInfoTv = null;
 
@@ -20,7 +20,6 @@ public class ContactsDemoActivity extends Activity {
 
 		initViews();
 		initData();
-
 	}
 
 	private void initViews() {
@@ -87,7 +86,7 @@ public class ContactsDemoActivity extends Activity {
 					Log.d("test00", "getFavoriteContacts, name=" + name
 							+ ",phoneNumbers=" + strPhoneNumber);
 					
-					sb.append(name).append(strPhoneNumber);
+					sb.append(name).append(strPhoneNumber).append("\n");
 
 				} while (cursor.moveToNext());
 			}

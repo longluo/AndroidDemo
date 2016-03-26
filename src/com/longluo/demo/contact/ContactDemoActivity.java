@@ -13,6 +13,7 @@ import com.longluo.demo.contact.message.SMSListActivity;
 
 public class ContactDemoActivity extends Activity implements OnClickListener {
 	private Button btnLoadContacts;
+	private Button btnGetStarredContacts;
 	private Button btnGetRecentContacts;
 	private Button btnGetSMS;
 
@@ -20,11 +21,18 @@ public class ContactDemoActivity extends Activity implements OnClickListener {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_contact_demo);
+
+		initViews();
+	}
+
+	private void initViews() {
 		btnLoadContacts = (Button) findViewById(R.id.btn_load_contacts);
+		btnGetStarredContacts = (Button) findViewById(R.id.btn_get_starred_contacts);
 		btnGetRecentContacts = (Button) findViewById(R.id.btn_get_recent_contact);
 		btnGetSMS = (Button) findViewById(R.id.btn_get_sms);
 
 		btnLoadContacts.setOnClickListener(this);
+		btnGetStarredContacts.setOnClickListener(this);
 		btnGetRecentContacts.setOnClickListener(this);
 		btnGetSMS.setOnClickListener(this);
 	}
@@ -37,6 +45,10 @@ public class ContactDemoActivity extends Activity implements OnClickListener {
 			intent = new Intent(this, ContactListActivity.class);
 			break;
 
+		case R.id.btn_get_starred_contacts:
+			intent = new Intent(this, StarredContactsActivity.class);
+			break;
+
 		case R.id.btn_get_recent_contact: // 获取通话记录
 			intent = new Intent(this, ContactRecordListActivity.class);
 			break;
@@ -45,6 +57,7 @@ public class ContactDemoActivity extends Activity implements OnClickListener {
 			intent = new Intent(this, SMSListActivity.class);
 			break;
 		}
+		
 		startActivity(intent);
 	}
 }
