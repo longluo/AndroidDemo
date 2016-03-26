@@ -24,6 +24,7 @@ import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.contact.ContactDemoActivity;
 import com.longluo.demo.contact.StarredContactsActivity;
 import com.longluo.demo.contact.message.MessageDemoActivity;
+import com.longluo.demo.contentprovider.ProviderDemoActivity;
 import com.longluo.demo.dial.DialDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
@@ -44,7 +45,6 @@ import com.longluo.demo.ndk.NdkDemoActivity;
 import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.progress.ProgressActivity;
-import com.longluo.demo.provider.ProviderActivity;
 import com.longluo.demo.ripple.RippleViewDemoActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
@@ -225,7 +225,7 @@ public class MainActivity extends Activity {
 					break;
 					
 				case 21:
-					startActivity(ProviderActivity.class);
+					startActivity(ProviderDemoActivity.class);
 					break;
 					
 				case 22:

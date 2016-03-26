@@ -73,4 +73,17 @@ public class DialDemoActivity extends Activity {
 
 	}
 
+	private void dial(String number) {
+
+		// 只进入拨号界面，不拨打
+		Uri uri = Uri.parse("tel:" + number);
+		Intent intent = new Intent(Intent.ACTION_DIAL, uri);
+		startActivity(intent);
+
+		// 直接拨打
+		Uri uri2 = Uri.parse("tel:" + number);
+		Intent intent2 = new Intent(Intent.ACTION_CALL, uri);
+		startActivity(intent);
+	}
+
 }
