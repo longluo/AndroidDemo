@@ -28,6 +28,7 @@ public class SMSListActivity extends Activity {
 		smsListView = (ListView) findViewById(R.id.sms_list);
 		smsAdpter = new SMSAdpter(SMSListActivity.this);
 		rsms = new RexseeSMS(SMSListActivity.this);
+		
 		List<SMSBean> list_mmt = rsms.getThreadsNum(rsms.getThreads(0));
 		smsAdpter.assignment(list_mmt);
 		smsListView.setAdapter(smsAdpter);

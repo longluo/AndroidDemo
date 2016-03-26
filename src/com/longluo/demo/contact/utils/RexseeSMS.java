@@ -3,22 +3,23 @@ package com.longluo.demo.contact.utils;
 import java.util.ArrayList;
 import java.util.List;
 
+import com.longluo.demo.contact.message.SMSBean;
+
 import android.content.ContentResolver;
 import android.content.Context;
 import android.database.Cursor;
 import android.net.Uri;
 
-import com.longluo.demo.contact.message.SMSBean;
-
 public class RexseeSMS {
 
-	public static final String CONTENT_URI_SMS = "content://sms"; // ����
-	public static final String CONTENT_URI_SMS_INBOX = "content://sms/inbox";// �ռ���
-	public static final String CONTENT_URI_SMS_SENT = "content://sms/sent"; // ����
+	public static final String CONTENT_URI_SMS = "content://sms"; // 短信
+	public static final String CONTENT_URI_SMS_INBOX = "content://sms/inbox";// 收件箱
+	public static final String CONTENT_URI_SMS_SENT = "content://sms/sent"; // 发送
 	public static final String CONTENT_URI_SMS_CONVERSATIONS = "content://sms/conversations";
 
 	public RexseeSMS(Context mContext) {
 		this.mContext = mContext;
+		
 	}
 
 	public static String[] SMS_COLUMNS = new String[] { "_id", // 0
@@ -32,6 +33,7 @@ public class RexseeSMS {
 					// 6:queued
 			"service_center" // 8
 	};
+	
 	public static String[] THREAD_COLUMNS = new String[] { "thread_id",
 			"msg_count", "snippet" };
 
@@ -128,12 +130,14 @@ public class RexseeSMS {
 			}
 			if (cursor == null || cursor.getCount() == 0)
 				return list;
+			
 			for (int i = 0; i < cursor.getCount(); i++) {
 				cursor.moveToPosition(i);
 				SMSBean mmt = new SMSBean(cursor.getString(0),
 						cursor.getString(1), cursor.getString(2));
 				list.add(mmt);
 			}
+			
 			return list;
 		} catch (Exception e) {
 			return list;

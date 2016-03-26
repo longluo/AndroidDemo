@@ -29,9 +29,13 @@ public class MessageDemoActivity extends Activity {
 	private void initData() {
 		StringBuilder str = new StringBuilder(256);
 
-		final Uri SMS_INBOX = Uri.parse("content://sms/");
-		Cursor cursor = getContentResolver().query(SMS_INBOX, null, "type =2",
+		final Uri SMS_INBOX = Uri.parse("content://sms");
+		Cursor cursor = getContentResolver().query(SMS_INBOX, null, null,
 				null, "date desc limit 3");
+		
+//		final Uri SMS_INBOX = Uri.parse("content://sms/conversations");
+//		Cursor cursor = mContext.getContentResolver().query(SMS_INBOX, null,
+//				"type=0", null, "date desc limit 3");
 
 		if (cursor == null) {
 			return;

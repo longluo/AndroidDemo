@@ -10,7 +10,5 @@
         android:layout_height="match_parent"
         android:text="定位" 
         android:textSize="18sp" />
-    
-    
 
 </LinearLayout>
