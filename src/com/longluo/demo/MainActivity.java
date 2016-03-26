@@ -32,6 +32,7 @@ import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
 import com.longluo.demo.grahpics.GrahpicsDemoActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
+import com.longluo.demo.json.JsonDemoActivity;
 import com.longluo.demo.launcher.LauncherDemo2Activity;
 import com.longluo.demo.launcher.LauncherDemoActivity;
 import com.longluo.demo.lbs.LBSDemoActivity;
@@ -59,7 +60,7 @@ import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
 import com.longluo.demo.waterwave.WaterWaveDemoActivity;
-import com.longluo.demo.xml.XmlParserDemoActivity;
+import com.longluo.demo.xml.XmlDemoActivity;
 
 public class MainActivity extends Activity {
 	private static final String TAG = MainActivity.class.getSimpleName();
@@ -102,6 +103,7 @@ public class MainActivity extends Activity {
 			"ForceTouch Demo",
 			"Ripple View Demo",
 			"XML Parser Demo",
+			"JSON Demo",
 			"LBS Demo",
 			"Message Demo",
 			"Contacts Demo",
@@ -287,22 +289,26 @@ public class MainActivity extends Activity {
 					break;
 					
 				case 37:
-					startActivity(XmlParserDemoActivity.class);
+					startActivity(XmlDemoActivity.class);
 					break;
 					
 				case 38:
-					startActivity(LBSDemoActivity.class);
+					startActivity(JsonDemoActivity.class);
 					break;
 					
 				case 39:
-					startActivity(MessageDemoActivity.class);
+					startActivity(LBSDemoActivity.class);
 					break;
 					
 				case 40:
-					startActivity(ContactDemoActivity.class);
+					startActivity(MessageDemoActivity.class);
 					break;
 					
 				case 41:
+					startActivity(ContactDemoActivity.class);
+					break;
+					
+				case 42:
 					startActivity(DialDemoActivity.class);
 					break;
 					

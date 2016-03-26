@@ -8,7 +8,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.TextView;
 
-public class XmlParserDemoActivity extends Activity {
+public class XmlDemoActivity extends Activity {
 	private List<TouchAppInfo> mAppInfos;
 	private TextView mTvAppInfo;
 
@@ -18,7 +18,7 @@ public class XmlParserDemoActivity extends Activity {
 		setContentView(R.layout.activity_xml_demo);
 		
 		try {
-			mAppInfos = TouchShortcutListManager.getInstance(XmlParserDemoActivity.this).initData();
+			mAppInfos = TouchShortcutListManager.getInstance(XmlDemoActivity.this).initData();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
