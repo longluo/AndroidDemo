@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="57"
-    android:versionName="4.4.16" >
+    android:versionCode="58"
+    android:versionName="5.0.0" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
 <!--     <permission
@@ -643,6 +643,11 @@
 		<activity android:name="com.longluo.demo.dial.DialDemoActivity" 
 		    android:label="Dial Demo">
         </activity>
+        
+		<activity android:name="com.longluo.demo.view.ViewDemoActivity" 
+		    android:label="View Demo">
+        </activity> 
+		
 				
 	</application>
 

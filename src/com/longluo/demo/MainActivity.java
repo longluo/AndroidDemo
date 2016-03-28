@@ -55,6 +55,7 @@ import com.longluo.demo.textview.TextViewDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.util.LinkUtils;
 import com.longluo.demo.util.UIUtils;
+import com.longluo.demo.view.ViewDemoActivity;
 import com.longluo.demo.viewgroup.ViewGroupDemoActivity;
 import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
@@ -107,7 +108,8 @@ public class MainActivity extends Activity {
 			"LBS Demo",
 			"Message Demo",
 			"Contacts Demo",
-			"Dial Demo"};
+			"Dial Demo",
+			"View Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -310,6 +312,10 @@ public class MainActivity extends Activity {
 					
 				case 42:
 					startActivity(DialDemoActivity.class);
+					break;
+					
+				case 43:
+					startActivity(ViewDemoActivity.class);
 					break;
 					
 				default:
