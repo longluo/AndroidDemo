@@ -3,7 +3,7 @@ package com.longluo.demo.swipelistview;
 import java.util.List;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.swipelistview.SwipeListView;
+import com.longluo.demo.widget.swipelistview.SwipeListView;
 
 import android.view.View;
 import android.view.ViewGroup;

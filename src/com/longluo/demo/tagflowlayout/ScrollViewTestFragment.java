@@ -11,9 +11,9 @@ import android.widget.TextView;
 import java.util.Set;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.tagflowlayout.FlowLayout;
-import com.longluo.demo.widgets.tagflowlayout.TagAdapter;
-import com.longluo.demo.widgets.tagflowlayout.TagFlowLayout;
+import com.longluo.demo.widget.tagflowlayout.FlowLayout;
+import com.longluo.demo.widget.tagflowlayout.TagAdapter;
+import com.longluo.demo.widget.tagflowlayout.TagFlowLayout;
 
 public class ScrollViewTestFragment extends Fragment {
 

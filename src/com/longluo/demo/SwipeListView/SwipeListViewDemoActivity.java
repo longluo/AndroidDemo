@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.swipelistview.BaseSwipeListViewListener;
-import com.longluo.demo.widgets.swipelistview.SwipeListView;
+import com.longluo.demo.widget.swipelistview.BaseSwipeListViewListener;
+import com.longluo.demo.widget.swipelistview.SwipeListView;
 
 import android.app.Activity;
 import android.os.Bundle;

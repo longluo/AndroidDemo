@@ -33,6 +33,7 @@ import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
 import com.longluo.demo.grahpics.GrahpicsDemoActivity;
+import com.longluo.demo.image.ImageCacheDemoActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
 import com.longluo.demo.json.JsonDemoActivity;
 import com.longluo.demo.launcher.LauncherDemo2Activity;
@@ -111,7 +112,8 @@ public class MainActivity extends Activity {
 			"Contacts Demo",
 			"Dial Demo",
 			"View Demo",
-			"Crash Demo"};
+			"Crash Demo",
+			"ImageCache Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -322,6 +324,10 @@ public class MainActivity extends Activity {
 					
 				case 44:
 					startActivity(CrashDemoActivity.class);
+					break;
+					
+				case 45:
+					startActivity(ImageCacheDemoActivity.class);
 					break;
 					
 				default:

@@ -4,8 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.slideview.ListViewCompat;
-import com.longluo.demo.widgets.slideview.SlideView;
+import com.longluo.demo.widget.slideview.ListViewCompat;
+import com.longluo.demo.widget.slideview.SlideView;
 
 import android.app.Activity;
 import android.os.Bundle;
@@ -51,14 +51,14 @@ public class SlideViewDemoActivity extends Activity implements
 			MessageItem item = new MessageItem();
 			if (i % 3 == 0) {
 				item.iconRes = R.drawable.default_qq_avatar;
-				item.title = "ÌÚÑ¶ĞÂÎÅ";
-				item.msg = "Çàµº±¬Õ¨ÂúÔÂ£º´óÁ¿ÓãÏºËÀÍö";
-				item.time = "ÍíÉÏ18:18";
+				item.title = "ï¿½ï¿½Ñ¶ï¿½ï¿½ï¿½ï¿½";
+				item.msg = "ï¿½àµºï¿½ï¿½Õ¨ï¿½ï¿½ï¿½Â£ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ïºï¿½ï¿½ï¿½ï¿½";
+				item.time = "ï¿½ï¿½ï¿½ï¿½18:18";
 			} else {
 				item.iconRes = R.drawable.wechat_icon;
-				item.title = "Î¢ĞÅÍÅ¶Ó";
-				item.msg = "»¶Ó­ÄãÊ¹ÓÃÎ¢ĞÅ";
-				item.time = "12ÔÂ18ÈÕ";
+				item.title = "Î¢ï¿½ï¿½ï¿½Å¶ï¿½";
+				item.msg = "ï¿½ï¿½Ó­ï¿½ï¿½Ê¹ï¿½ï¿½Î¢ï¿½ï¿½";
+				item.time = "12ï¿½ï¿½18ï¿½ï¿½";
 			}
 			mMessageItems.add(item);
 		}

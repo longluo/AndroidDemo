@@ -1,7 +1,7 @@
 package com.longluo.demo.badgeview;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.badgeview.BadgeView;
+import com.longluo.demo.widget.badgeview.BadgeView;
 
 import android.graphics.Color;
 import android.graphics.Typeface;

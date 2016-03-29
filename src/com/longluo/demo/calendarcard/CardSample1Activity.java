@@ -9,9 +9,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.calendarcard.CalendarCard;
-import com.longluo.demo.widgets.calendarcard.OnCellItemClick;
-import com.longluo.demo.widgets.calendarcard.CardGridItem;
+import com.longluo.demo.widget.calendarcard.CalendarCard;
+import com.longluo.demo.widget.calendarcard.CardGridItem;
+import com.longluo.demo.widget.calendarcard.OnCellItemClick;
 
 
 public class CardSample1Activity extends Activity {

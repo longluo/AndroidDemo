@@ -1,7 +1,7 @@
 package com.longluo.demo.roundedimageview;
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.image.RoundedImageView;
+import com.longluo.demo.widget.image.RoundedImageView;
 
 import android.app.Activity;
 import android.os.Bundle;

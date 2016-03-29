@@ -32,6 +32,7 @@
     </declare-styleable>
 
     <attr name="borderRadius" format="dimension" />
+    
     <attr name="type">
         <enum name="circle" value="0" />
         <enum name="round" value="1" />
@@ -54,7 +55,6 @@
         <attr name="item_count" />
     </declare-styleable>
     
-    
     <declare-styleable name="TagFlowLayout">
         <attr name="auto_select_effect" format="boolean"></attr>
         <attr name="max_select" format="integer"></attr>
@@ -63,6 +63,10 @@
             <enum name="center" value="0" />
             <enum name="right" value="1" />
         </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="CircleView">
+        <attr name="circle_color" format="color" />
     </declare-styleable>
 
 </resources>

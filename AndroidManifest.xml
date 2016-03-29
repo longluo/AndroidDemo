@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="59"
-    android:versionName="5.0.1" >
+    android:versionCode="60"
+    android:versionName="5.0.2" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
 <!--     <permission
@@ -651,7 +651,11 @@
 		<activity android:name="com.longluo.demo.crash.CrashDemoActivity" 
 		    android:label="Crash Demo">
         </activity> 
-        				
+       
+		<activity android:name="com.longluo.demo.image.ImageCacheDemoActivity" 
+		    android:label="Image Cache Demo">
+        </activity> 		
+						
 	</application>
 
 </manifest>

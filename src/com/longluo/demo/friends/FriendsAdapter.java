@@ -5,7 +5,7 @@ import java.util.List;
 
 
 import com.longluo.demo.R;
-import com.longluo.demo.widgets.image.RoundImageView;
+import com.longluo.demo.widget.image.RoundImageView;
 
 import android.content.Context;
 import android.view.LayoutInflater;

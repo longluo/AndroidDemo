@@ -344,6 +344,7 @@
     <color name="notepad_margin">#EE0000FF</color>
     <color name="notepad_text">#AA0000FF</color>
 
-	<color name="reveal_color">#1b000000</color>   	
+    <color name="reveal_color">#1b000000</color>
+   <!--  <color name="light_green">#0ac39e</color> -->
     
 </resources>

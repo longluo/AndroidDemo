@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <com.longluo.demo.widgets.slideview.ListViewCompat
+    <com.longluo.demo.widget.slideview.ListViewCompat
         android:id="@+id/list"
         android:layout_width="match_parent"
         android:layout_height="match_parent"

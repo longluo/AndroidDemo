@@ -18,7 +18,7 @@ import com.longluo.demo.activitycard.bean.DayActivityInfo;
 import com.longluo.demo.activitycard.bean.MonthActivityInfo;
 import com.longluo.demo.util.DateUtils;
 import com.longluo.demo.util.FileUtils;
-import com.longluo.demo.widgets.imgcard.MonthActivityCard;
+import com.longluo.demo.widget.imgcard.MonthActivityCard;
 
 /**
  * MonthActivityCardActivity

@@ -9,7 +9,7 @@ import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 
 import com.longluo.demo.activitycard.bean.MonthActivityInfo;
-import com.longluo.demo.widgets.imgcard.MonthActivityCard;
+import com.longluo.demo.widget.imgcard.MonthActivityCard;
 
 /**
  * MonthActivityAdapter

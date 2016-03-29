@@ -16,6 +16,7 @@ public class ContactDemoActivity extends Activity implements OnClickListener {
 	private Button btnGetStarredContacts;
 	private Button btnGetRecentContacts;
 	private Button btnGetSMS;
+	private Button btnOpenTheContactDetail;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -30,11 +31,13 @@ public class ContactDemoActivity extends Activity implements OnClickListener {
 		btnGetStarredContacts = (Button) findViewById(R.id.btn_get_starred_contacts);
 		btnGetRecentContacts = (Button) findViewById(R.id.btn_get_recent_contact);
 		btnGetSMS = (Button) findViewById(R.id.btn_get_sms);
+		btnOpenTheContactDetail = (Button) findViewById(R.id.btn_open_contact_detail);
 
 		btnLoadContacts.setOnClickListener(this);
 		btnGetStarredContacts.setOnClickListener(this);
 		btnGetRecentContacts.setOnClickListener(this);
 		btnGetSMS.setOnClickListener(this);
+		btnOpenTheContactDetail.setOnClickListener(this);
 	}
 
 	@Override
@@ -55,6 +58,10 @@ public class ContactDemoActivity extends Activity implements OnClickListener {
 
 		case R.id.btn_get_sms: // 获取短信记录
 			intent = new Intent(this, SMSListActivity.class);
+			break;
+			
+		case R.id.btn_open_contact_detail:
+			intent = new Intent(this, ContactDetailActivity.class);
 			break;
 		}
 		
