@@ -676,12 +676,15 @@ public class WaterWave extends View {
 			int r = radiusA / 40;
 			int x = (int) (radiusA * SIN_A) + xDown;
 			int y = yDown - (int) (radiusA * COS_A);
+			
 			// 小框圆角半径最小为3
 			if (r < 3) {
 				r = 3;
 			}
+			
 			drawSmall(canvas, x, y, r, paintA);
 		}
+		
 		if (radiusB > 50) {
 			int r = radiusB / 40;
 			int x = (int) (radiusB * SIN_B) + xDown;
@@ -691,6 +694,7 @@ public class WaterWave extends View {
 			}
 			drawSmall(canvas, x, y, r, paintB);
 		}
+		
 		if (radiusC > 50) {
 			int r = radiusC / 40;
 			int x = (int) (radiusC * SIN_C) + xDown;

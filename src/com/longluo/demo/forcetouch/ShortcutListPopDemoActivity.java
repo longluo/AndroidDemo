@@ -1,12 +1,12 @@
 package com.longluo.demo.forcetouch;
 
-import com.longluo.demo.R;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Window;
 import android.view.WindowManager;
+
+import com.longluo.demo.R;
 
 public class ShortcutListPopDemoActivity extends Activity {
 
@@ -26,9 +26,12 @@ public class ShortcutListPopDemoActivity extends Activity {
 
 	@SuppressLint("NewApi")
 	private void initViews() {
-//		mShortcutPopView = (ShortcutListPopWindowView) findViewById(R.id.forcetouch);
-//		mShortcutPopView.setBackground(getResources().getDrawable(
-//				R.drawable.homescreen));
+		mShortcutPopView = (ShortcutListPopWindowView) findViewById(R.id.shortcut_list_pop);
+		mShortcutPopView.setBackground(getResources().getDrawable(
+				R.drawable.homescreen));
+		
+		mShortcutPopView.startAnim();
 	}
+	
 	
 }

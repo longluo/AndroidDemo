@@ -61,6 +61,8 @@ public class AppIconForceTouchView extends View {
 
 	private CheckLongPressHelper mLongPressHelper;
 
+	private float mPressValue;
+
 	public AppIconForceTouchView(Context context) {
 		super(context);
 
@@ -90,12 +92,22 @@ public class AppIconForceTouchView extends View {
 	@Override
 	protected void onDraw(Canvas canvas) {
 		Log.d(TAG, "onDraw");
-
+	
+		/*
 		if (mIsExpand) {
 			expand(canvas);
 		} else {
 			shrink(canvas);
 		}
+		*/
+		
+		mRadius = 18 + mPressValue * 80;
+		
+		if (mRadius > 31) {
+			mRadius = 31;
+		}
+		
+		drawRectBg(canvas, mRadius);		
 	}
 
 	private void initPaint() {
@@ -163,12 +175,14 @@ public class AppIconForceTouchView extends View {
 
 		private void flushState() {
 			Log.d(TAG, "flushState, mRadius=" + mRadius);
-
-			if (mRadius >= 60.0) {
-				return;
+		
+			mRadius = 30 + mPressValue * 80;
+			
+			if (mRadius > 42) {
+				mRadius = 42;
 			}
-
-			mRadius += 2;
+			
+			
 		}
 
 		private void flushShrinkState() {
@@ -194,6 +208,12 @@ public class AppIconForceTouchView extends View {
 
 			canvas.drawRoundRect(mRect, r, r, p);
 		}
+	}
+
+	private void drawRectBg(Canvas canvas, float radius) {
+		drawLarge(canvas, radius, mPaint);
+
+//		setCurrentProgress(canvas);
 	}
 
 	private void expand(Canvas canvas) {
@@ -376,6 +396,7 @@ public class AppIconForceTouchView extends View {
 		mBrushDrawable.draw(canvas);
 	}
 
+	/*
 	@Override
 	public boolean onTouchEvent(MotionEvent event) {
 
@@ -434,11 +455,17 @@ public class AppIconForceTouchView extends View {
 
 		return true;
 	}
+	*/
 
 	public boolean pointInView(View v, float localX, float localY, float slop) {
 		return localX >= -slop && localY >= -slop
 				&& localX < (v.getWidth() + slop)
 				&& localY < (v.getHeight() + slop);
+	}
+	
+	public void setPressValue(float pressValue) {
+		mPressValue = pressValue;
+		invalidate();
 	}
 
 }
