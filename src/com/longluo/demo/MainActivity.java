@@ -25,6 +25,7 @@ import com.longluo.demo.contact.ContactDemoActivity;
 import com.longluo.demo.contact.StarredContactsActivity;
 import com.longluo.demo.contact.message.MessageDemoActivity;
 import com.longluo.demo.contentprovider.ProviderDemoActivity;
+import com.longluo.demo.crash.CrashDemoActivity;
 import com.longluo.demo.dial.DialDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
@@ -109,7 +110,8 @@ public class MainActivity extends Activity {
 			"Message Demo",
 			"Contacts Demo",
 			"Dial Demo",
-			"View Demo"};
+			"View Demo",
+			"Crash Demo"};
 
 	private static final int mTotal = mDemoStrings.length - 1;
 
@@ -316,6 +318,10 @@ public class MainActivity extends Activity {
 					
 				case 43:
 					startActivity(ViewDemoActivity.class);
+					break;
+					
+				case 44:
+					startActivity(CrashDemoActivity.class);
 					break;
 					
 				default:
