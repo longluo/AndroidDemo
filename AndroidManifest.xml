@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="60"
-    android:versionName="5.0.2" >
+    android:versionCode="61"
+    android:versionName="5.0.3" >
 
     <!-- Required 自定义用来收发消息的相关权限 -->
 <!--     <permission
@@ -563,7 +563,19 @@
 		    android:label="Force Touch Demo"
             android:screenOrientation="portrait" >
 		</activity>
+
+		<activity
+		    android:name="com.longluo.demo.forcetouch.AppIconPressDemoActivity"
+		    android:label="App Icon Press Demo"
+            android:screenOrientation="portrait" >
+		</activity>		
 		
+		<activity
+		    android:name="com.longluo.demo.forcetouch.ShortcutListPopDemoActivity"
+		    android:label="Shortcut List Pop Window Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+						
 		<activity
 		    android:name="com.longluo.demo.ripple.RippleViewDemoActivity"
 		    android:label="Ripple View Demo"

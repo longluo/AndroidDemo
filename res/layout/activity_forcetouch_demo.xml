@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/wallpaper_water_wave_demo" >
+    android:orientation="vertical" >
 
-    <com.longluo.demo.forcetouch.ForceTouchView
-        android:id="@+id/forcetouch"
+    <Button
+        android:id="@+id/btn_app_icon_force_touch"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_centerInParent="true" />
+        android:layout_height="wrap_content"
+        android:text="App Icon Force Touch" />
 
-</RelativeLayout>
+    <Button
+        android:id="@+id/btn_shortcut_list_pop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Shortcut List Pop" />
+
+</LinearLayout>

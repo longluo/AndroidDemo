@@ -20,7 +20,7 @@ import android.widget.Toast;
 
 import com.longluo.demo.R;
 
-public class ForceTouchView extends View {
+public class AppIconForceTouchView extends View {
 	private static final String TAG = "ForceTouchView";
 
 	private static final int MSG_ANIMATION_BEGIN = 101;
@@ -61,17 +61,17 @@ public class ForceTouchView extends View {
 
 	private CheckLongPressHelper mLongPressHelper;
 
-	public ForceTouchView(Context context) {
+	public AppIconForceTouchView(Context context) {
 		super(context);
 
 	}
 
-	public ForceTouchView(Context context, AttributeSet attrs) {
+	public AppIconForceTouchView(Context context, AttributeSet attrs) {
 		this(context, attrs, 0);
 
 	}
 
-	public ForceTouchView(Context context, AttributeSet attrs, int defStyleAttr) {
+	public AppIconForceTouchView(Context context, AttributeSet attrs, int defStyleAttr) {
 		super(context, attrs, defStyleAttr);
 
 		mContext = context;

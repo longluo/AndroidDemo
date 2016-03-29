@@ -1,35 +1,49 @@
 package com.longluo.demo.forcetouch;
 
-import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
-import android.view.MotionEvent;
 import android.view.View;
-import android.view.View.OnTouchListener;
-import android.view.Window;
-import android.view.WindowManager;
+import android.widget.Button;
 
 import com.longluo.demo.R;
 
 public class ForceTouchDemoActivity extends Activity {
-	private static final String TAG = "ForceTouch";
+	private static final String TAG = "ForceTouchDemoActivity";
 
-	private ForceTouchView mForceTouchView;
+	private Button mBtnIconPressDemo;
+	private Button mBtnShortCutListPop;
 
-	@SuppressLint("NewApi")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		requestWindowFeature(Window.FEATURE_NO_TITLE);
-
-		getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
-				WindowManager.LayoutParams.FLAG_FULLSCREEN);
 		setContentView(R.layout.activity_forcetouch_demo);
 
-		mForceTouchView = (ForceTouchView) findViewById(R.id.forcetouch);
-		mForceTouchView.setBackground(getResources().getDrawable(
-				R.drawable.homescreen));
+		initViews();
+	}
+
+	private void initViews() {
+		mBtnIconPressDemo = (Button) findViewById(R.id.btn_app_icon_force_touch);
+		mBtnIconPressDemo.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(ForceTouchDemoActivity.this,
+						AppIconPressDemoActivity.class);
+				startActivity(intent);
+			}
+		});
+
+		mBtnShortCutListPop = (Button) findViewById(R.id.btn_shortcut_list_pop);
+		mBtnShortCutListPop.setOnClickListener(new View.OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(ForceTouchDemoActivity.this,
+						ShortcutListPopDemoActivity.class);
+				startActivity(intent);
+			}
+		});
 	}
 
 }
