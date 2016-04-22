@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
         android:id="@+id/start_recording_btn"
         android:orderInCategory="0"
         android:showAsAction="ifRoom|withText"
-        android:title="Start Recording"></item>
+        android:title="Start Recording">
+    </item>
     <item
         android:id="@+id/stop_recording"
         android:orderInCategory="1"
         android:showAsAction="ifRoom|withText"
-        android:title="Stop Recording"></item>
+        android:title="Stop Recording">
+    </item>
 
 </menu>

@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">AndroidDemo</string>
     <string name="app_guide">App Guide</string>
     <string name="badgeview_demo_activity_title">BadgeView Demo</string>
@@ -56,16 +58,16 @@
     <string name="desc_miui_tabpage_indicator">MIUI TabPage Indicator</string>
     <string name="desc_default">Long Luo</string>
     <string name="month">Month</string>
-    <string name="tag_hint">TagΪ��Сд��ĸ�����֣��»���,���ģ� ������Զ��ŷָ�</string>
-    <string name="alias_hint">AliasΪ��Сд��ĸ�����֣��»���</string>
-    <string name="style_hint">styleΪ����</string>
-    <string name="error_style_empty">style����Ϊ��</string>
-    <string name="error_alias_empty">alias����Ϊ��</string>
-    <string name="error_tag_empty">tag����Ϊ��</string>
-    <string name="error_tag_gs_empty">��ʽ����</string>
-    <string name="error_network">���������쳣,��ʼ��ʧ�� �������磡</string>
-    <string name="logining">�����ں�ִ̨��, ��鿴��־��</string>
-    <string name="setting_su">���óɹ�</string>
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias为大小写字母，数字，下划线</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="setting_su">设置成功</string>
     <string name="title_benchmark">StackBlur Benchmark</string>
     <string name="java">Java</string>
     <string name="nativ">Native</string>
@@ -194,32 +196,32 @@
     ]]>
     </string>
 
-    <string name="startlocation">��ʼ��λ</string>
-    <string name="stoplocation">ֹͣ��λ</string>
-    <string name="error_code_desc">������˵��</string>
-    <string name="diy_call_back">�Զ���ص�</string>
-    <string name="diy_call_back_ps">ps:���綨λ���ھ��ȵ���gps�����������в���ƫ��</string>
-    <string name="qa_title">��������</string>
-    <string name="hight_accuracy_desc">�߾��ȶ�λģʽ�£���ͬʱʹ��GPS��Wifi�ͻ�վ��λ�����ص��ǵ�ǰ�����¾�����õĶ�λ���</string>
-    <string name="saving_battery_desc">�͹��Ķ�λģʽ�£���ʹ�����綨λ��Wifi�ͻ�վ��λ�����ص��ǵ�ǰ�����¾�����õ����綨λ���</string>
-    <string name="device_sensor_desc">�����豸��λģʽ�£�ֻʹ���û���GPS���ж�λ�����ģʽ�£�����GPSоƬ����Ҫʱ�䣬�״ζ�λ�ٶȻ���Ҫһ����ʱ��</string>
-    <string name="error_code_detail"> 61 �� GPS��λ���\n
-		62 �� ɨ����϶�λ����ʧ�ܡ���ʱ��λ�����Ч��\n
-		63 �� �����쳣��û�гɹ���������������󡣴�ʱ��λ�����Ч��\n
-		65 �� ��λ����Ľ��\n
-		66 �� ���߶�λ���ͨ��requestOfflineLocaiton����ʱ��Ӧ�ķ��ؽ��\n
-		67 �� ���߶�λʧ�ܡ�ͨ��requestOfflineLocaiton����ʱ��Ӧ�ķ��ؽ��\n
-		68 �� ��������ʧ��ʱ�����ұ������߶�λʱ��Ӧ�ķ��ؽ��\n
-		161�� ��ʾ���綨λ���\n
-		162~167�� ����˶�λʧ��\n
-		502��key�������\n
-		505��key�����ڻ��߷Ƿ�\n
-		601��key���񱻿������Լ�����\n
-		602��key mcode��ƥ��\n
-		501��700��key��֤ʧ��\n</string>
+    <string name="startlocation">开始定位</string>
+    <string name="stoplocation">停止定位</string>
+    <string name="error_code_desc">错误码说明</string>
+    <string name="diy_call_back">自定义回调</string>
+    <string name="diy_call_back_ps">ps:网络定位由于精度低于gps，计算距离会有部分偏差</string>
+    <string name="qa_title">常见问题</string>
+    <string name="hight_accuracy_desc">高精度定位模式下，会同时使用GPS、Wifi和基站定位，返回的是当前条件下精度最好的定位结果</string>
+    <string name="saving_battery_desc">低功耗定位模式下，仅使用网络定位即Wifi和基站定位，返回的是当前条件下精度最好的网络定位结果</string>
+    <string name="device_sensor_desc">仅用设备定位模式下，只使用用户的GPS进行定位。这个模式下，由于GPS芯片锁定需要时间，首次定位速度会需要一定的时间</string>
+    <string name="error_code_detail"> 61 ： GPS定位结果\n
+		62 ： 扫描整合定位依据失败。此时定位结果无效。\n
+		63 ： 网络异常，没有成功向服务器发起请求。此时定位结果无效。\n
+		65 ： 定位缓存的结果。\n
+		66 ： 离线定位结果。通过requestOfflineLocaiton调用时对应的返回结果\n
+		67 ： 离线定位失败。通过requestOfflineLocaiton调用时对应的返回结果\n
+		68 ： 网络连接失败时，查找本地离线定位时对应的返回结果\n
+		161： 表示网络定位结果\n
+		162~167： 服务端定位失败\n
+		502：key参数错误\n
+		505：key不存在或者非法\n
+		601：key服务被开发者自己禁用\n
+		602：key mcode不匹配\n
+		501～700：key验证失败\n</string>
 
 
-    <string name="add_succeed">��ӳɹ�</string>
-    <string name="remove_succeed">�Ƴ�ɹ�</string>
+    <string name="add_succeed">添加成功</string>
+    <string name="remove_succeed">移除成功</string>
 
 </resources>
