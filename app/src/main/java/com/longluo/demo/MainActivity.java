@@ -2,9 +2,12 @@ package com.longluo.demo;
 
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import com.longluo.demo.gyrorotate.GyroRotateActivity;
 
 public class MainActivity extends Activity{
 	private static final String TAG = MainActivity.class.getSimpleName();
@@ -14,6 +17,8 @@ public class MainActivity extends Activity{
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 
+		Intent intent = new Intent(MainActivity.this, GyroRotateActivity.class);
+		startActivity(intent);
 	}
 
 	@Override

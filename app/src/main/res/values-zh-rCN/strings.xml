@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AndroidDemo</string>
+    <string name="app_guide">App Guide</string>
+    <string name="badgeview_demo_activity_title">BadgeView Demo</string>
+    <string name="animation_demo_activity_title">Animation Demo</string>
+    <string name="activity_card_demo_activity_title">ActivityCard Demo</string>
+    <string name="calendar_card_demo_activity_title">CalendarCard Demo</string>
+    <string name="number_progress_bar_demo_activity_title">NumberProgressBar Demo</string>
+    <string name="view_pager_demo_activity_title">ViewPager Demo</string>
+    <string name="view_pager_multi_fragment_demo_activity_title">ViewPager Multi Fragment Demo</string>
+    <string name="search_view_demo_activity_title">SearchView Demo</string>
+    <string name="rounded_image_view_demo_activity_title">Rounded Image View Demo</string>
+    <string name="miui_tabpage_indicator_demo_activity_title">MIUI TabPage Indicator Demo</string>
+    <string name="fragment_demo_activity_title">Fragment Demo</string>
+    <string name="swipelistview_demo_activity_title">SwipeListView Demo</string>
+    <string name="slideview_demo_activity_title">SlideView Demo</string>
+    <string name="jpush_demo_activity_title">JPush Demo</string>
+    <string name="share_demo_activity_title">Share Demo</string>
+    <string name="friends_demo_activity_title">Friends Demo</string>
+
+    <string name="guide">Guide</string>
+    <string name="action_settings">Settings</string>
+    <string name="start">Start</string>
+    <string name="dialog">Dialog</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="title">Calendar Card Sample</string>
+    <string name="card">Calendar Card</string>
+    <string name="card_pager">Calendar Card Pager</string>
+    <string name="sel_date">Selected date: %s</string>
+    <string name="finish">ProgressBar is finished.</string>
+    <string name="title_list">ListView</string>
+    <string name="title_views">Views</string>
+    <string name="update_at">updated at:&#160;</string>
+    <string name="github">GitHub</string>
+    <string name="github_tip">Long Luo on GitHub</string>
+    <string name="image_content">image</string>
+    <string name="profile">Profile:&#160;</string>
+    <string name="description">Description:&#160;</string>
+    <string name="http_cache_get">Get content</string>
+    <string name="drop_down_tip">Pull down to refresh or scroll to bottom to load more</string>
+    <string name="on_border_tip">Scroll to top or bottom to experience</string>
+    <string name="desc_search_view">SearchView Desc And Implement Search Tip</string>
+    <string name="desc_view_pager_multi_page">Viewpager With Multi Page</string>
+    <string name="desc_download_manager">Download Manager Usage</string>
+    <string name="desc_slide_gallery">Slide One Page Gallery Usage</string>
+    <string name="desc_view_pager">ViewPager And Fragment Usage</string>
+    <string name="desc_service">Android Service Usage</string>
+    <string name="desc_broadcast_receiver">Android BroadcastReceiver Usage</string>
+    <string name="desc_border_scroll_view">BorderScrollView Usage</string>
+    <string name="desc_drop_down_listview">Drop Down And On Bottom Listview</string>
+    <string name="desc_image_cache">ImageCache Usage</string>
+    <string name="desc_image_sdcard_cache">ImageSDCardCache Usage</string>
+    <string name="desc_http_cache">HttpCache Usage</string>
+    <string name="desc_auto_scroll_view_pager_inner">Autoscroll ViewPager in ViewPager Usage</string>
+    <string name="desc_auto_scroll_view_pager">Autoscroll ViewPager Usage</string>
+    <string name="desc_rounded_image_view">Rounded Image View Usage</string>
+    <string name="desc_miui_tabpage_indicator">MIUI TabPage Indicator</string>
+    <string name="desc_default">Long Luo</string>
+
+    <string name="month">月</string>
+
+    <string name="tag_hint">Tag为大小写字母，数字，下划线,中文， 多个用以逗号分隔</string>
+    <string name="alias_hint">Alias为大小写字母，数字，下划线</string>
+    <string name="style_hint">style为数字</string>
+    <string name="error_style_empty">style不能为空</string>
+    <string name="error_alias_empty">alias不能为空</string>
+    <string name="error_tag_empty">tag不能为空</string>
+    <string name="error_tag_gs_empty">格式不对</string>
+    <string name="error_network">网络连接异常,初始化失败 请检查网络！</string>
+    <string name="logining">程序在后台执行, 请查看日志！</string>
+    <string name="setting_su">设置成功</string>
+
+
+</resources>
