@@ -1,6 +1,0 @@
-<objectAnimator xmlns:android="http://schemas.android.com/apk/res/android"
-    android:interpolator="@android:anim/linear_interpolator"
-    android:propertyName="scaleX"
-    android:valueFrom="1"
-    android:valueTo="3"
-    android:valueType="floatType" />

@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<com.longluo.demo.widget.imgcard.ImageCellLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    style="@style/ImageCard.Cell"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1"
-    android:clickable="false" >
-
-</com.longluo.demo.widget.imgcard.ImageCellLayout>
