@@ -9,645 +9,37 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="No Filters" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/dexedLibs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/libs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/android_platform_256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/category/force_touch_shortcut.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/gmvote2.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/image_transparency.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/Android.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/Application.mk" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/armeabi-v7a/libRSSupport.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/armeabi-v7a/librsjni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/blur.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/mips/libRSSupport.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/mips/librsjni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/nativeblur.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/ndkdemo.c" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/x86/libRSSupport.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/jni/x86/librsjni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/android-support-v7-recyclerview.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arm64-v8a/libBaiduMapSDK_v3_5_0_9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arm64-v8a/libblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arm64-v8a/libfirst_jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arm64-v8a/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/arm64-v8a/libndkblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi-v7a/libBaiduMapSDK_v3_5_0_9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi-v7a/libblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi-v7a/libfirst_jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi-v7a/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi-v7a/libndkblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi/libBaiduMapSDK_v3_5_0_9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi/libblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi/libfirst_jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi/libndkblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/baidumapapi_v3_5_0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/jpush-sdk-release1.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/locSDK_6.13.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips/libblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips/libfirst_jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips/libndkblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips64/libblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips64/libfirst_jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips64/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/mips64/libndkblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/nineoldandroids-2.4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/renderscript-v8.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86/libBaiduMapSDK_v3_5_0_9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86/libblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86/libfirst_jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86/libndkblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86_64/libBaiduMapSDK_v3_5_0_9.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86_64/libblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86_64/libfirst_jni.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86_64/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/x86_64/libndkblur.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim-v21/hours_rotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim-v21/minutes_rotation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim-v21/rect_big.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/alpha.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/continue_anim.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/fade_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/fade_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/rotate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/scale.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/translate.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/zoom_in.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/anim/zoom_out.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/color/go_to_settings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/badge_blue.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/black_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bomb0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bomb1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bomb2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bomb3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bomb4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/border_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bottom_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_next.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_pause.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_play.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_prev.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/button_press.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/cheetah_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/corners_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/default_qq_avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/del_icon_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/explore_normal_btn.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/explore_pressed_btn.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/five.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/four.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/guide_image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/guide_image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/guide_image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_calllog_call_active.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_calllog_call_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_calllog_incomming_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_calllog_missed_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_calllog_outgoing_nomal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_richpush_actionbar_back.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_richpush_actionbar_divider.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_wifi_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_wifi_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_wifi_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_wifi_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/incoming_off.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/incoming_pressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/jpush_notification_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/meinv00.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/meinv01.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/one.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/outgoing_off.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/outgoing_pressed.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/recent_contact_list_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/richpush_btn_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/six.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/sort_icon_bg_click.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/stripes.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/three.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/tiledstripes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/title_bar_bg_one_row.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/top_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/touxiang.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/two.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/wechat_icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-ldpi/badge_blue.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-ldpi/badge_orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-ldpi/button_press.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-ldpi/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-ldpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-ldpi/icon_stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/badge_blue.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/badge_orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_press.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/cheetah_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_wifi_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_wifi_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_wifi_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_wifi_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/icon_stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-nodpi/android_platform_256.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-nodpi/image_transparency.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-nodpi/octopus.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-v21/animated_clock.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-v21/animated_round_rect.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-v21/clock.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-v21/round_rect.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/back.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/badge_blue.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/badge_orange.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/button_press.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/cheetah_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/five.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/four.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_wifi_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_wifi_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_wifi_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_wifi_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/icon.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/icon_stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/image_default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/one.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/sing_icon.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/six.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/three.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/two.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/beauty_girl.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/button_press.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/cheetah_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/clear_background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/clear_brush.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/da_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/easy3d_ic_apply.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/friends_icon_normal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/github.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/guide_tap_to_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/homescreen.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_launcher.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_loading.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_wifi_0.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_wifi_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_wifi_2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/ic_wifi_3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/icon_stop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/wallpaper.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxhdpi/wallpaper_water_wave_demo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xxxhdpi/cheetah_tile.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/animated_wifi.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/animation_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/bubble_outline.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/button_press_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/card_grid_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/card_item_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/checked_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/dic_background.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/explore_btn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/flag_01.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/flag_02.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/flag_03.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/flag_04.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/holder_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/ic_calllog_call_btn.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/image_card_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/image_card_item_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/image_card_item_10_49.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/image_card_item_1_9.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/image_card_item_50.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/incoming.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/item_point_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/list_item_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/list_view_bg_shape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/listview_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/normal_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/outgoing.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/rotating_loading.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/tag_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/text_color.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/tip_anim.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/white_rect_shape.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-v21/activity_animated_compound_drawable.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout-v21/activity_textview_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_about.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_adherent_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_alignment_span.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_animated_compound_drawable.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_animated_rainbow_span.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_animation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_animation_all.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_animation_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_app_icon_press_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_audio_capture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_audio_record.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_camcorder.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_camera.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_capture_image.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_card_display_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_card_sample1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_card_sample2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_clickable_span.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_contact_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_contact_detail_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_contacts_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_crash_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_custom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_custom_font.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_dial_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_dialog_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_emoji.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_flowlayout_demo1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_flowlayout_demo2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_forcetouch_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_fraction.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_fragment.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_friends.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_from_html.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_gaussianblur.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_gradient_text.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_grahpics_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_guide.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_im.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_image_cache_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_jpush.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_json_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_launcher_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_lbs_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_lined_paper.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_listview_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_location_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_log.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_login.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_main_sc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_media.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_message_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_miui_tabpageindicator.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_month_activity_card.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_ndkdemo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_non_breaking_space.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_notification_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_notifications.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_number_progress_bar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_patterned_text.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_provider_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_rainbow_span.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_recycler_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_rippleview_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_rounded_image.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_search_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_shadow_text.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_share.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_shortcut_list_pop_window_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_slideview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_styled_string.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_swipelistview.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_tagflowlayout_category.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_textview_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_touchevent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_video_capture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_video_record.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_view_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_viewgroup_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_viewpager.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_waterwave_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_window_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/activity_xml_demo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/card_cell.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/card_item_simple.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/card_row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/card_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/contact_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/contact_list_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/contact_record_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/contact_record_list_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/customer_notitfication_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/customer_notitfication_layout_one.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/divider.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_gravity_flow_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_single_choose.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/fragment_views.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/homescreen.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/image_card_cell.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/image_card_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/image_card_row.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/image_card_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/jpush_richpush_actionbar_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/layout_alert_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/layout_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/layout_friend_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/layout_image_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/layout_list_view_demo_adpter.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/layout_no_friends.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/list_item_icon_text.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/list_row_badge.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/list_say_he_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/list_say_me_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/longluo_info.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/message_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/message_list_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/push_set_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/search_view_title.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/set_push_time.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/slideview_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/slideview_merge.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/sms_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/sms_list_view.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/swipelistview_list_item.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/tv.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/view_custom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/view_custom_button.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/view_custom_progress.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/activity_tab.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/main.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/menu_activity_audio_capture.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/menu_activity_camcorder.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/menu_activity_capture_image.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v11/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v14/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v21/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-v21/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-w820dp/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-zh-rCN/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/ids.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/swipelistview__attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/DemoApp.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/SwipeListView/DataAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/SwipeListView/SwipeListViewDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/actionbar/ActionBarDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/actionbar/BaseActionBarActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/activitycard/MonthActivityCardActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/activitycard/adapter/MonthActivityAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/activitycard/bean/DayActivityInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/activitycard/bean/MonthActivityInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/adherent/AdherentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/adherent/AdherentLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/AboutActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/AdvancedTextViewActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/AlignmentSpanActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/AnimatedCompoundDrawableActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/AnimatedRainbowSpanActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/ClickableSpanActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/CustomFontActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/EmojiActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/FractionActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/FromHtmlActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/GradientTextActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/LinedPaperActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/NonBreakingSpaceActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/PatternedTextActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/RainbowSpanActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/ShadowTextActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/StyledStringActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/advancedtextview/widget/LinedEditText.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/animation/AllAnimationTypeActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/animation/AnimationActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/animation/AnimationListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/badgeview/BadgeViewDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/badgeview/Cheeses.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/badgeview/ListFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/badgeview/ViewsFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/calendarcard/CalendarCardDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/calendarcard/CardSample1Activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/calendarcard/CardSample2Activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/ContactBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/ContactDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/ContactDetailActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/ContactListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/ContactListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/StarredContactsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/StarredContactsUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/TestActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/dial/CallLogBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/dial/ContactRecordListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/dial/DialAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/message/MessageBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/message/MessageBoxList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/message/MessageBoxListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/message/MessageDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/message/SMSAdpter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/message/SMSBean.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/message/SMSListActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/utils/BaseIntentUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/utils/RexseeSMS.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/view/CustomTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/view/QuickAlphabeticBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contact/view/SlidingLinearLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contentprovider/AppDemoContentProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contentprovider/ProviderConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/contentprovider/ProviderDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/crash/CrashDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/crash/CrashHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/database/DataBaseDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/db/AndroidDemoDataBase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/db/SQLiteUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/dial/DialDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/dialog/DialogDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/flowlayout/FlowLayoutDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/forcetouch/AppIconForceTouchView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/forcetouch/AppIconPressDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/forcetouch/CheckLongPressHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/forcetouch/ForceTouchDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/forcetouch/ShortcutListPopDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/forcetouch/ShortcutListPopWindowView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/fragment/FragmentDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/friends/FriendData.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/friends/FriendsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/friends/FriendsAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/gaussianblur/GaussianBlurActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/gaussianblur/NativeBlur.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/grahpic/BlurProcess.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/grahpic/JavaBlurProcess.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/grahpic/NativeBlurProcess.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/grahpic/StackBlurManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/grahpics/GrahpicsDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/grahpics/MyGrahpicsView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/grahpics/MyTestView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/guide/GuideActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/guide/GuideUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/im/ConversationActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/im/IMActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/image/ImageCacheDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/image/loader/DiskLruCache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/image/loader/ImageLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/image/loader/ImageResizer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/jpush/JPushDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/jpush/JPushUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/jpush/MyReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/jpush/PushSetActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/jpush/SettingActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/jpush/TestActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/json/JsonDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/AppListAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/AppListFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/AppModel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/AppsGridFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/AppsLoader.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/GridFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/LauncherDemo2Activity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/LauncherDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/launcher/PackageIntentReceiver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/lbs/LBSDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/lbs/LocationDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/lbs/service/LocationService.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/lbs/service/Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/lbs/service/WriteLog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/listview/ListViewDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/listview/MyAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/CrashReport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/CrashReportObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/LogDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/LogReport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/LogUtil.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/LogUtilSetObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/NetworkErrorReport.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/NetworkReportObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/log/ReportObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/login/LoginActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/map/BDMapDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/MediaActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/audio/AudioCaptureActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/audio/AudioRecordActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/camera/CameraActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/camera/CaptureImageActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/video/CamcorderActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/video/VideoCaptureActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/media/video/VideoRecordActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/myprofile/MyProfileActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/ndk/Jni.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/ndk/NdkDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/network/NetworkDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/notifications/BaseActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/notifications/BaseTools.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/notifications/CustomActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/notifications/NotificationActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/notifications/NotificationProgressAcitivty.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/numberprogressbar/NumberProgressBarActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/ChaseProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/HorizontalProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/MixProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/ProgressActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/RoundProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/ScatterProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/ShuttleProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/SkipProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/progress/SwapProgress.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/recyclerview/RecyclerViewActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/recyclerview/RecyclerViewAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/ripple/RippleView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/ripple/RippleViewDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/roundedimageview/RoundedImageViewActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/searchview/SearchViewActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/share/ShareActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/slideview/SlideViewDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/tagflowlayout/EventTestFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/tagflowlayout/GravityFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/tagflowlayout/LimitSelectedFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/tagflowlayout/ScrollViewTestFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/tagflowlayout/SimpleFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/tagflowlayout/SingleChooseFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/textview/BubbleTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/textview/TextViewDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/textview/ToListItemView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/touch/MyTouchButton.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/touch/TouchEventDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/AppUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/BitmapUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/DateUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/DensityUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/FileUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/HttpUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/KeyBoardUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/LinkUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/LogUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/MyUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/NetworkUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/SDCardUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/SPUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/ScreenUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/ToastUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/util/UIUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/view/ViewDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewgroup/CustomImgContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewgroup/MyScrollView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewgroup/ViewGroupDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/ViewPagerActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/anim/DepthPageTransformer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/anim/ZoomOutPageTransformer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/compat/ViewPagerCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/fragments/ViewPagerMultiFragmentActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/tabpageindicator/miui/MIUITabPageIndicatorActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/tabpageindicator/miui/ViewPagerSimpleFragment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/viewpager/tabpageindicator/miui/widget/ViewPagerIndicator.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/volley/VolleyDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/waterwave/WaterWave.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/waterwave/WaterWaveDemoActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/RevealLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/SquareImageView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/badgeview/BadgeView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/calendarcard/CalendarCard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/calendarcard/CalendarCardPager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/calendarcard/CardGridItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/calendarcard/CardPagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/calendarcard/CheckableLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/calendarcard/OnCellItemClick.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/calendarcard/OnItemRender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/flowlayout/FlowLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/image/RoundImageView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/image/RoundImageViewByXfermode.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/image/RoundedDrawable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/image/RoundedImageView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/imgcard/ImageCellLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/imgcard/MonthActivityCard.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/numberprogressbar/NumberProgressBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/numberprogressbar/OnProgressBarListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/slideview/ListViewCompat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/slideview/SlideView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/swipelistview/BaseSwipeListViewListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/swipelistview/SwipeListView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/swipelistview/SwipeListViewListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/swipelistview/SwipeListViewTouchListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/tagflowlayout/FlowLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/tagflowlayout/TagAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/widget/tagflowlayout/TagView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/xml/TouchAppInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/xml/TouchAppInfoItem.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/xml/TouchShortcutListManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/com/longluo/demo/xml/XmlDemoActivity.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="update some files.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/alpha.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/continue_anim.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/fade_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/rotate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/scale.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/translate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/zoom_in.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/anim/zoom_out.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/card_grid_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/card_item_bg.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/flag_01.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/flag_02.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/flag_03.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/flag_04.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/activity_tab.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/main.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_activity_audio_capture.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_activity_camcorder.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_activity_capture_image.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/swipelistview__attrs.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/longluo/demo/ApplicationTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/test/java/com/longluo/demo/ExampleUnitTest.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidDemo.iml" afterPath="$PROJECT_DIR$/AndroidDemo.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
     </list>
     <ignored path="AndroidDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -671,7 +63,7 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
@@ -691,18 +83,8 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.0">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/settings.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.04415011">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -712,22 +94,28 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#443#444#0" expanded="false" />
-                <element signature="e#465#466#0" expanded="false" />
-                <element signature="e#506#507#0" expanded="false" />
-                <element signature="e#529#530#0" expanded="false" />
-                <element signature="e#569#570#0" expanded="false" />
-                <element signature="e#591#592#0" expanded="false" />
-                <element signature="e#633#634#0" expanded="false" />
-                <element signature="e#657#658#0" expanded="false" />
-                <element signature="e#696#697#0" expanded="false" />
-                <element signature="e#717#718#0" expanded="false" />
-                <element signature="e#759#760#0" expanded="false" />
-                <element signature="e#783#784#0" expanded="false" />
-              </folding>
+              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styles.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-95.254234">
+              <caret line="281" column="0" selection-start-line="281" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="menu_activity_audio_capture.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_activity_audio_capture.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.28235295">
+              <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -2255,9 +1643,10 @@
       <list>
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/DemoApp.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
       </list>
     </option>
   </component>
@@ -2305,6 +1694,38 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="Gradle Scripts" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -2626,23 +2047,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1452" height="876" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286908" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286908" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286908" sideWeight="0.50287354" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.50574714" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729805" sideWeight="0.5086207" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32729805" sideWeight="0.49137932" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.49712643" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32729805" sideWeight="0.48850575" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -2651,7 +2073,6 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -2668,6 +2089,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="update some files." />
+    <option name="LAST_COMMIT_MESSAGE" value="update some files." />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -2694,21 +2121,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#443#444#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#717#718#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -2737,31 +2150,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#443#444#0" expanded="false" />
-            <element signature="e#465#466#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#529#530#0" expanded="false" />
-            <element signature="e#569#570#0" expanded="false" />
-            <element signature="e#591#592#0" expanded="false" />
-            <element signature="e#633#634#0" expanded="false" />
-            <element signature="e#657#658#0" expanded="false" />
-            <element signature="e#696#697#0" expanded="false" />
-            <element signature="e#717#718#0" expanded="false" />
-            <element signature="e#759#760#0" expanded="false" />
-            <element signature="e#783#784#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -2796,18 +2187,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.04415011">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.0">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.04415011">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-95.254234">
+          <caret line="281" column="0" selection-start-line="281" selection-start-column="0" selection-end-line="282" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/menu_activity_audio_capture.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.28235295">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
           <folding />
         </state>
       </provider>
