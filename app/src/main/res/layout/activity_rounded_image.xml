@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:round="http://schemas.android.com/apk/res/com.longluo.demo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_rounded_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Rounded Image View"
+            android:textSize="12sp" />
+
+        <com.longluo.demo.widget.image.RoundedImageView
+            android:id="@+id/ri_avatar"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:clickable="false"
+            android:scaleType="centerCrop"
+            round:corner_radius="100dp" />
+
+        <com.longluo.demo.widget.image.RoundImageViewByXfermode
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/meinv01" />
+
+        <com.longluo.demo.widget.image.RoundImageViewByXfermode
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/meinv00"
+            round:borderRadius="30dp"
+            round:type="round" />
+
+        <com.longluo.demo.widget.image.RoundImageViewByXfermode
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:src="@drawable/meinv01"
+            round:type="circle" />
+
+        <com.longluo.demo.widget.image.RoundImageViewByXfermode
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/meinv00"
+            round:type="circle" />
+    </LinearLayout>
+
+</ScrollView>

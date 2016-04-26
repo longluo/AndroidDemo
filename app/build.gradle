@@ -12,6 +12,14 @@ android {
         versionName "6.0.0"
     }
 
+    /*
+     * native build settings: taking default for almost everything
+     */
+/*    ndk {
+        moduleName = 'Demo-JNI'
+        CFlags.addAll(['-Wall', '-Werror'])
+    }*/
+
     buildTypes {
         release {
             minifyEnabled false
@@ -19,23 +27,47 @@ android {
         }
     }
 
-    task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
-        destinationDir file("$projectDir/libs")
-        baseName "Native_Libs2"
-        extension "jar"
-        from fileTree(dir: "libs", include: "**/*.so")
-        into "lib"
+    sourceSets {
+        main {
+            jniLibs.srcDirs = ['libs']
+        }
     }
 
-    tasks.withType(JavaCompile) {
-        compileTask -> compileTask.dependsOn(nativeLibsToJar)
-    }
+
+/*    productFlavors {
+        // for detailed abiFilter descriptions, refer to "Supported ABIs" @
+        // https://developer.android.com/ndk/guides/abis.html#sa
+        create("arm") {
+            ndk.abiFilters.add("armeabi")
+        }
+        create("arm7") {
+            ndk.abiFilters.add("armeabi-v7a")
+        }
+        create("arm8") {
+            ndk.abiFilters.add("arm64-v8a")
+        }
+        create("x86") {
+            ndk.abiFilters.add("x86")
+        }
+        create("x86-64") {
+            ndk.abiFilters.add("x86_64")
+        }
+        create("mips") {
+            ndk.abiFilters.add("mips")
+        }
+        create("mips-64") {
+            ndk.abiFilters.add("mips64")
+        }
+        // To include all cpu architectures, leaves abiFilters empty
+        create("all")
+    }*/
+
 }
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'com.android.support:recyclerview-v7:21.0.0'
     compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/jpush-sdk-release1.8.1.jar')
 }
-
-
