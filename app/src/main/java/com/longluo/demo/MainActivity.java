@@ -59,6 +59,7 @@ import com.longluo.demo.viewgroup.ViewGroupDemoActivity;
 import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
+import com.longluo.demo.vr.VRPlayerDemoActivity;
 import com.longluo.demo.waterwave.WaterWaveDemoActivity;
 import com.longluo.demo.webview.WebViewDemoActivity;
 import com.longluo.demo.xml.XmlDemoActivity;
@@ -116,7 +117,9 @@ public class MainActivity extends Activity{
             "Crash Demo",
             "ImageCache Demo",
             "WebView Demo",
-            "Gyrorotate Demo"};
+            "Gyrorotate Demo",
+            "VR Player Demo",
+    };
 
     private static final int mTotal = mDemoStrings.length - 1;
 
@@ -339,6 +342,10 @@ public class MainActivity extends Activity{
 
                     case 47:
                         startActivity(GyroRotateActivity.class);
+                        break;
+
+                    case 48:
+                        startActivity(VRPlayerDemoActivity.class);
                         break;
 
                     default:
