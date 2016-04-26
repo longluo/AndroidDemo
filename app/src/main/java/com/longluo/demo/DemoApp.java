@@ -7,6 +7,8 @@ import android.content.Context;
 import android.os.Vibrator;
 
 import com.longluo.demo.crash.CrashHandler;
+import com.squareup.leakcanary.LeakCanary;
+import com.squareup.leakcanary.RefWatcher;
 
 import java.util.List;
 
@@ -30,6 +32,14 @@ public class DemoApp extends Application {
 //	public LocationService mLocationService;
 	public Vibrator mVibrator;
 
+    //
+    private static RefWatcher sRefWatcher;
+    /*
+    use to watch the memory leak.
+    MyApplication.getRefWatcher().watch(sLeaky);
+     */
+
+
 	@Override
 	public void onCreate() {
 		super.onCreate();
@@ -48,7 +58,10 @@ public class DemoApp extends Application {
 		//在这里为应用设置异常处理程序，然后我们的程序才能捕获未处理的异常
 		CrashHandler crashHandler = CrashHandler.getInstance();
 		crashHandler.init(this);
-	}
+
+        //
+        sRefWatcher = LeakCanary.install(this);
+    }
 
 	@Override
 	public void onTerminate() {
@@ -100,5 +113,9 @@ public class DemoApp extends Application {
 //		WriteLog.getInstance().init(); // 初始化日志
 //		SDKInitializer.initialize(getApplicationContext());
 	}
+
+    public static RefWatcher getRefWatcher() {
+        return sRefWatcher;
+    }
 
 }
