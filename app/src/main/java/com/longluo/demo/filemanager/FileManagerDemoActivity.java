@@ -71,10 +71,12 @@ public class FileManagerDemoActivity extends Activity {
                 Cursor cursor = this.getContentResolver().query(
                         data.getData(), null, null, null, null);
                 cursor.moveToFirst();
-                String imagePath = cursor.getString(
-                        cursor.getColumnIndex("_data"));
+
+                String imagePath = cursor.getString(cursor.getColumnIndex("_data"));
 
                 updateTextContent(imagePath);
+
+                cursor.close();
 
             } else if (requestCode == RESULT_VIDEO) {
 
@@ -145,28 +147,21 @@ public class FileManagerDemoActivity extends Activity {
             startActivityForResult(intent, RESULT_FILE);
         } catch (android.content.ActivityNotFoundException ex) {
             // Potentially direct the user to the Market with a Dialog
-            Toast.makeText(FileManagerDemoActivity.this, "请安装文件管理器", Toast.LENGTH_SHORT)
-                    .show();
+            Toast.makeText(FileManagerDemoActivity.this, "请安装文件管理器", Toast.LENGTH_SHORT).show();
         }
     }
 
     private void openImageChooser() {
-        Intent intent = new Intent(
-                Intent.ACTION_PICK, null);
-        intent.setDataAndType(
-                MediaStore.Images.Media.EXTERNAL_CONTENT_URI,
-                IMAGE_TYPE);
+        Intent intent = new Intent(Intent.ACTION_PICK, null);
+        intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, IMAGE_TYPE);
         startActivityForResult(intent, RESULT_IMAGE);
     }
 
     private void openCamera() {
         // 系统相机
-        Intent intent = new Intent(
-                MediaStore.ACTION_IMAGE_CAPTURE);
+        Intent intent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
         Uri photoUri = Uri.fromFile(new File(TEMP_IMAGE_PATH));
-        intent.putExtra(
-                MediaStore.EXTRA_OUTPUT,
-                photoUri);
+        intent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
         startActivityForResult(intent, RESULT_CAMERA);
     }
 

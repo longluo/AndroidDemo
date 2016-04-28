@@ -53,6 +53,7 @@ import com.longluo.demo.slideview.SlideViewDemoActivity;
 import com.longluo.demo.swipelistview.SwipeListViewDemoActivity;
 import com.longluo.demo.tagflowlayout.TagFlowLayoutCategoryActivity;
 import com.longluo.demo.textview.TextViewDemoActivity;
+import com.longluo.demo.toolbar.ToolBarDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.util.LinkUtils;
 import com.longluo.demo.view.ViewDemoActivity;
@@ -121,6 +122,7 @@ public class MainActivity extends Activity{
             "Gyrorotate Demo",
             "VR Player Demo",
             "FileManager Demo",
+            "ToolBar Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -352,6 +354,10 @@ public class MainActivity extends Activity{
 
                     case 49:
                         startActivity(FileManagerDemoActivity.class);
+                        break;
+
+                    case 50:
+                        startActivity(ToolBarDemoActivity.class);
                         break;
 
                     default:

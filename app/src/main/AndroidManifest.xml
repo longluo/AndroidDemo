@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="65"
-    android:versionName="6.0.2">
+    android:versionCode="66"
+    android:versionName="6.0.3">
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <!--     <permission
@@ -625,7 +625,7 @@
         <activity
             android:name=".gyrorotate.GyroRotateActivity"
             android:screenOrientation="portrait" />
-        
+
         <activity android:name=".vr.VRPlayerDemoActivity" />
 
         <activity
