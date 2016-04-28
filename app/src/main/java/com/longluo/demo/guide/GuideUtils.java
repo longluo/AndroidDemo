@@ -13,7 +13,7 @@ import android.widget.ImageView;
 import android.widget.ImageView.ScaleType;
 
 import com.longluo.demo.R;
-import com.longluo.demo.util.ScreenUtils;
+import com.longluo.demo.utils.ScreenUtils;
 
 /**
  * GuideUtils

@@ -1,8 +1,5 @@
 package com.longluo.demo.listview;
 
-import com.longluo.demo.R;
-import com.longluo.demo.util.ToastUtils;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.os.Bundle;
@@ -16,6 +13,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 import android.widget.ListView;
 import android.widget.Toast;
+
+import com.longluo.demo.R;
+import com.longluo.demo.utils.ToastUtils;
 
 public class ListViewDemoActivity extends Activity {
 	private static final String TAG = "ListViewDemoActivity";

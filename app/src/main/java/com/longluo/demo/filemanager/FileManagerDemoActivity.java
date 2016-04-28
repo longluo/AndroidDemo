@@ -81,7 +81,9 @@ public class FileManagerDemoActivity extends Activity {
             } else if (requestCode == RESULT_VIDEO) {
 
 
+
             } else if (requestCode == RESULT_CAMERA) {
+
 
             }
         }
@@ -163,6 +165,53 @@ public class FileManagerDemoActivity extends Activity {
         Uri photoUri = Uri.fromFile(new File(TEMP_IMAGE_PATH));
         intent.putExtra(MediaStore.EXTRA_OUTPUT, photoUri);
         startActivityForResult(intent, RESULT_CAMERA);
+    }
+
+    public String getImagePathFromUri(Uri fileUrl) {
+        String fileName = null;
+        Uri filePathUri = fileUrl;
+
+        if (fileUrl != null) {
+            if (fileUrl.getScheme().toString().compareTo("content") == 0) {
+                // content://开头的uri
+                Cursor cursor = getContentResolver().query(fileUrl, null, null, null, null);
+                if (cursor != null && cursor.moveToFirst()) {
+                    int column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+                    fileName = cursor.getString(column_index); // 取出文件路径
+
+                    // Android 4.1 更改了SD的目录，sdcard映射到/storage/sdcard0
+                    if (!fileName.startsWith("/storage") && !fileName.startsWith("/mnt")) {
+                        // 检查是否有”/mnt“前缀
+                        fileName = "/mnt" + fileName;
+                    }
+                    cursor.close();
+                }
+            } else if (fileUrl.getScheme().compareTo("file") == 0) {
+                // file:///开头的uri
+                fileName = filePathUri.toString();// 替换file://
+                fileName = filePathUri.toString().replace("file://", "");
+                int index = fileName.indexOf("/sdcard");
+                fileName = index == -1 ? fileName : fileName.substring(index);
+
+                if (!fileName.startsWith("/mnt")) {
+                    // 加上"/mnt"头
+                    fileName += "/mnt";
+                }
+            }
+        }
+
+        return fileName;
+    }
+
+    public String uri2Path(Uri uri) {
+        int actual_image_column_index;
+        String img_path;
+        String[] proj = {MediaStore.Images.Media.DATA};
+        Cursor cursor = getContentResolver().query(uri, proj, null, null, null);
+        actual_image_column_index = cursor.getColumnIndexOrThrow(MediaStore.Images.Media.DATA);
+        cursor.moveToFirst();
+        img_path = cursor.getString(actual_image_column_index);
+        return img_path;
     }
 
 }

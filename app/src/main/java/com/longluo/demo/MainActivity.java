@@ -55,7 +55,7 @@ import com.longluo.demo.tagflowlayout.TagFlowLayoutCategoryActivity;
 import com.longluo.demo.textview.TextViewDemoActivity;
 import com.longluo.demo.toolbar.ToolBarDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
-import com.longluo.demo.util.LinkUtils;
+import com.longluo.demo.utils.LinkUtils;
 import com.longluo.demo.view.ViewDemoActivity;
 import com.longluo.demo.viewgroup.ViewGroupDemoActivity;
 import com.longluo.demo.viewpager.ViewPagerActivity;

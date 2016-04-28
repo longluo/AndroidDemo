@@ -1,9 +1,5 @@
 package com.longluo.demo.media.camera;
 
-import java.io.File;
-import java.io.FileOutputStream;
-import java.io.IOException;
-
 import android.app.Activity;
 import android.hardware.Camera;
 import android.hardware.Camera.PictureCallback;
@@ -15,7 +11,11 @@ import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
 import com.longluo.demo.R;
-import com.longluo.demo.util.ToastUtils;
+import com.longluo.demo.utils.ToastUtils;
+
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.IOException;
 
 public class CaptureImageActivity extends Activity implements
 		SurfaceHolder.Callback {

@@ -16,7 +16,7 @@ import android.util.Log;
 import android.widget.ImageView;
 
 import com.longluo.demo.R;
-import com.longluo.demo.util.MyUtils;
+import com.longluo.demo.utils.MyUtils;
 
 import java.io.BufferedInputStream;
 import java.io.BufferedOutputStream;

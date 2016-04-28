@@ -18,9 +18,9 @@ import android.widget.ImageView;
 
 import com.longluo.demo.R;
 import com.longluo.demo.image.loader.ImageLoader;
-import com.longluo.demo.util.DensityUtils;
-import com.longluo.demo.util.NetworkUtils;
-import com.longluo.demo.util.ScreenUtils;
+import com.longluo.demo.utils.DensityUtils;
+import com.longluo.demo.utils.NetworkUtils;
+import com.longluo.demo.utils.ScreenUtils;
 
 import java.util.ArrayList;
 import java.util.List;

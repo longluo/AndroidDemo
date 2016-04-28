@@ -1,10 +1,5 @@
 package com.longluo.demo.media.video;
 
-import java.io.IOException;
-
-import com.longluo.demo.R;
-import com.longluo.demo.util.ToastUtils;
-
 import android.app.Activity;
 import android.media.MediaRecorder;
 import android.media.MediaRecorder.OnErrorListener;
@@ -13,6 +8,11 @@ import android.os.Bundle;
 import android.os.Environment;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+
+import com.longluo.demo.R;
+import com.longluo.demo.utils.ToastUtils;
+
+import java.io.IOException;
 
 public class VideoCaptureActivity extends Activity implements
 		SurfaceHolder.Callback, OnInfoListener, OnErrorListener {

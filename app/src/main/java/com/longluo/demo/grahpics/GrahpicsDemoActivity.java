@@ -7,7 +7,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 
 import com.longluo.demo.R;
-import com.longluo.demo.util.BitmapUtils;
+import com.longluo.demo.utils.BitmapUtils;
 
 public class GrahpicsDemoActivity extends Activity {
     private FrameLayout mRoot;

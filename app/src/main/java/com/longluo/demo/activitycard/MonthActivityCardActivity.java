@@ -10,8 +10,8 @@ import com.longluo.demo.R;
 import com.longluo.demo.activitycard.adapter.MonthActivityAdapter;
 import com.longluo.demo.activitycard.bean.DayActivityInfo;
 import com.longluo.demo.activitycard.bean.MonthActivityInfo;
-import com.longluo.demo.util.DateUtils;
-import com.longluo.demo.util.FileUtils;
+import com.longluo.demo.utils.DateUtils;
+import com.longluo.demo.utils.FileUtils;
 import com.longluo.demo.widget.imgcard.MonthActivityCard;
 
 import org.json.JSONArray;
