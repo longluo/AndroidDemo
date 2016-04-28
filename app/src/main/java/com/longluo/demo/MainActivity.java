@@ -24,6 +24,7 @@ import com.longluo.demo.contact.message.MessageDemoActivity;
 import com.longluo.demo.contentprovider.ProviderDemoActivity;
 import com.longluo.demo.crash.CrashDemoActivity;
 import com.longluo.demo.dial.DialDemoActivity;
+import com.longluo.demo.filemanager.FileManagerDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
@@ -119,6 +120,7 @@ public class MainActivity extends Activity{
             "WebView Demo",
             "Gyrorotate Demo",
             "VR Player Demo",
+            "FileManager Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -346,6 +348,10 @@ public class MainActivity extends Activity{
 
                     case 48:
                         startActivity(VRPlayerDemoActivity.class);
+                        break;
+
+                    case 49:
+                        startActivity(FileManagerDemoActivity.class);
                         break;
 
                     default:
