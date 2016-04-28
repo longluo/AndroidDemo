@@ -85,8 +85,7 @@
             android:name="com.longluo.demo.badgeview.BadgeViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/badgeview_demo_activity_title"
-            android:screenOrientation="portrait"
-            android:theme="@style/AppTheme" />
+            android:screenOrientation="portrait" />
         <activity
             android:name="com.longluo.demo.activitycard.MonthActivityCardActivity"
             android:configChanges="orientation|keyboardHidden"
