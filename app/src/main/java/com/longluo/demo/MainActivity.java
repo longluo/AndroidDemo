@@ -47,6 +47,7 @@ import com.longluo.demo.media.MediaActivity;
 import com.longluo.demo.ndk.NdkDemoActivity;
 import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
+import com.longluo.demo.palette.PaletteDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
 import com.longluo.demo.ripple.RippleViewDemoActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
@@ -127,6 +128,7 @@ public class MainActivity extends Activity{
             "ToolBar Demo",
             "CardView Demo",
             "ActivityTranslation Demo",
+            "Palette Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -370,6 +372,10 @@ public class MainActivity extends Activity{
 
                     case 52:
                         startActivity(ActivityTransDemoActivity.class);
+                        break;
+
+                    case 53:
+                        startActivity(PaletteDemoActivity.class);
                         break;
 
                     default:
