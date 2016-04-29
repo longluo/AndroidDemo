@@ -14,6 +14,7 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import com.longluo.demo.activitycard.MonthActivityCardActivity;
+import com.longluo.demo.activitytrans.ActivityTransDemoActivity;
 import com.longluo.demo.adherent.AdherentActivity;
 import com.longluo.demo.advancedtextview.AdvancedTextViewActivity;
 import com.longluo.demo.animation.AnimationActivity;
@@ -125,6 +126,7 @@ public class MainActivity extends Activity{
             "FileManager Demo",
             "ToolBar Demo",
             "CardView Demo",
+            "ActivityTranslation Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -364,6 +366,10 @@ public class MainActivity extends Activity{
 
                     case 51:
                         startActivity(CardViewDemoActivity.class);
+                        break;
+
+                    case 52:
+                        startActivity(ActivityTransDemoActivity.class);
                         break;
 
                     default:
