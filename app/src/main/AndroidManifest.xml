@@ -632,6 +632,10 @@
             android:name=".filemanager.FileManagerDemoActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".toolbar.ToolBarDemoActivity"
+            android:label="ToolBar Demo" />
+
     </application>
 
 </manifest>
