@@ -224,4 +224,13 @@
     <string name="add_succeed">添加成功</string>
     <string name="remove_succeed">移除成功</string>
 
+
+    <string name="saturation">Saturation</string>
+    <string name="contrast">Contrast</string>
+    <string name="lightness">Luminary</string>
+
+    <string name="alpha">Alpha</string>
+
+    <string name="copyright">Copyright &#169; 2015 LuoLong. All Rights Reserved.</string>
+
 </resources>

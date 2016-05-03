@@ -67,6 +67,7 @@ import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActi
 import com.longluo.demo.vr.VRPlayerDemoActivity;
 import com.longluo.demo.waterwave.WaterWaveDemoActivity;
 import com.longluo.demo.webview.WebViewDemoActivity;
+import com.longluo.demo.widget.imageprocess.ImageProcessDemoActivity;
 import com.longluo.demo.xml.XmlDemoActivity;
 
 import java.util.Arrays;
@@ -129,6 +130,7 @@ public class MainActivity extends Activity{
             "CardView Demo",
             "ActivityTranslation Demo",
             "Palette Demo",
+            "ImageProcess Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -376,6 +378,10 @@ public class MainActivity extends Activity{
 
                     case 53:
                         startActivity(PaletteDemoActivity.class);
+                        break;
+
+                    case 54:
+                        startActivity(ImageProcessDemoActivity.class);
                         break;
 
                     default:

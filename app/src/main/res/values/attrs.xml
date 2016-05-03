@@ -69,4 +69,22 @@
         <attr name="circle_color" format="color" />
     </declare-styleable>
 
+    <declare-styleable name="SelfSeekBar">
+        <attr name="progressValue" format="string" />
+        <attr name="progressTextSize" format="dimension" />
+        <attr name="progressTextColor" format="color" />
+    </declare-styleable>
+
+    <declare-styleable name="ButtonBar">
+        <attr name="btn1Desc" format="string" />
+        <attr name="btn1Icon" format="reference" />
+        <attr name="btn2Desc" format="string" />
+        <attr name="btn2Icon" format="reference" />
+        <attr name="btn3Desc" format="string" />
+        <attr name="btn3Icon" format="reference" />
+        <attr name="descTextSize" format="dimension" />
+        <attr name="descTextColor" format="color" />
+        <attr name="bgColor" format="color" />
+    </declare-styleable>
+
 </resources>
