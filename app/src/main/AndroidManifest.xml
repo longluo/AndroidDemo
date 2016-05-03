@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="69"
-    android:versionName="6.0.6">
+    android:versionCode="70"
+    android:versionName="6.0.7">
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <!--     <permission
@@ -634,7 +634,8 @@
 
         <activity
             android:name=".toolbar.ToolBarDemoActivity"
-            android:label="ToolBar Demo" />
+            android:label="ToolBar Demo"
+            android:theme="@style/AppTheme" />
 
         <activity
             android:name=".cardview.CardViewDemoActivity"
