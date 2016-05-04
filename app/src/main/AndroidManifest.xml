@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="71"
-    android:versionName="6.0.8">
+    android:versionCode="72"
+    android:versionName="6.0.9">
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <!--     <permission
@@ -651,6 +651,8 @@
             android:name=".widget.imageprocess.ImageProcessDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:screenOrientation="portrait" />
+
+        <activity android:name=".creditsroll.CreditsRollDemoActivity" />
 
     </application>
 

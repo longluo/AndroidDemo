@@ -25,6 +25,7 @@ import com.longluo.demo.contact.ContactDemoActivity;
 import com.longluo.demo.contact.message.MessageDemoActivity;
 import com.longluo.demo.contentprovider.ProviderDemoActivity;
 import com.longluo.demo.crash.CrashDemoActivity;
+import com.longluo.demo.creditsroll.CreditsRollDemoActivity;
 import com.longluo.demo.dial.DialDemoActivity;
 import com.longluo.demo.filemanager.FileManagerDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
@@ -131,6 +132,7 @@ public class MainActivity extends Activity{
             "ActivityTranslation Demo",
             "Palette Demo",
             "ImageProcess Demo",
+            "CreditsRoll Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -382,6 +384,10 @@ public class MainActivity extends Activity{
 
                     case 54:
                         startActivity(ImageProcessDemoActivity.class);
+                        break;
+
+                    case 55:
+                        startActivity(CreditsRollDemoActivity.class);
                         break;
 
                     default:

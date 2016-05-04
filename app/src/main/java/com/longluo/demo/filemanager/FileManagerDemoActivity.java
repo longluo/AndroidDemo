@@ -117,6 +117,7 @@ public class FileManagerDemoActivity extends Activity {
             @Override
             public void onClick(View v) {
 
+                openVideoChooser();
 
             }
         });
@@ -157,6 +158,15 @@ public class FileManagerDemoActivity extends Activity {
         Intent intent = new Intent(Intent.ACTION_PICK, null);
         intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, IMAGE_TYPE);
         startActivityForResult(intent, RESULT_IMAGE);
+
+
+    }
+
+    private void openVideoChooser() {
+        Intent intent = new Intent();
+        intent.setType("video/*");
+        intent.setAction(Intent.ACTION_GET_CONTENT);
+        startActivityForResult(intent, RESULT_VIDEO);
     }
 
     private void openCamera() {
