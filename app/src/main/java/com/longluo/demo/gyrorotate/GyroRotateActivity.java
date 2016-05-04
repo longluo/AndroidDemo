@@ -25,6 +25,9 @@ public class GyroRotateActivity extends Activity implements SensorEventListener 
 
     private int i = 0;
 
+    private long lastTime = System.currentTimeMillis();
+    private long nowTime = 0l;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -69,6 +72,10 @@ public class GyroRotateActivity extends Activity implements SensorEventListener 
 
     @Override
     public void onSensorChanged(SensorEvent event) {
+        nowTime = System.currentTimeMillis();
+        Log.d("gyro", "time gap=" + (nowTime - lastTime) + ",last=" + lastTime + ",nowTime=" + nowTime);
+        lastTime = nowTime;
+
         x = event.values[0];
         y = event.values[1];
         z = event.values[2];

@@ -30,12 +30,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The Like Button Demo.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/android_logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/grahpics/camera/CameraDemoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_camera_demo.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java" />
     </list>
     <ignored path="AndroidDemo.iws" />
@@ -2487,7 +2482,13 @@
       <option name="project" value="LOCAL" />
       <updated>1462341109719</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="The Camera Demo.">
+      <created>1462351980965</created>
+      <option name="number" value="00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1462351980965</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -2565,7 +2566,8 @@
     <MESSAGE value="The ImageProcess" />
     <MESSAGE value="The CreditsRoll Demo." />
     <MESSAGE value="The Like Button Demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="The Like Button Demo." />
+    <MESSAGE value="The Camera Demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="The Camera Demo." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
