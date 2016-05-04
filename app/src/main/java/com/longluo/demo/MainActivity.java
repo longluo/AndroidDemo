@@ -41,6 +41,7 @@ import com.longluo.demo.json.JsonDemoActivity;
 import com.longluo.demo.launcher.LauncherDemo2Activity;
 import com.longluo.demo.launcher.LauncherDemoActivity;
 import com.longluo.demo.lbs.LBSDemoActivity;
+import com.longluo.demo.likebutton.LikeButtonDemoActivity;
 import com.longluo.demo.listview.ListViewDemoActivity;
 import com.longluo.demo.log.LogDemoActivity;
 import com.longluo.demo.login.LoginActivity;
@@ -133,6 +134,7 @@ public class MainActivity extends Activity{
             "Palette Demo",
             "ImageProcess Demo",
             "CreditsRoll Demo",
+            "LikeButton Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -390,6 +392,10 @@ public class MainActivity extends Activity{
                         startActivity(CreditsRollDemoActivity.class);
                         break;
 
+                    case 56:
+                        startActivity(LikeButtonDemoActivity.class);
+                        break;
+
                     default:
                         break;
                 }
@@ -446,8 +452,8 @@ public class MainActivity extends Activity{
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
 		// Inflate the menu; this adds items to the action bar if it is present.
-		getMenuInflater().inflate(R.menu.main, menu);
-		return true;
+        getMenuInflater().inflate(R.menu.menu_main, menu);
+        return true;
 	}
 
 	@Override
