@@ -34,6 +34,7 @@ import com.longluo.demo.fragment.FragmentDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
 import com.longluo.demo.grahpics.GrahpicsDemoActivity;
+import com.longluo.demo.grahpics.camera.CameraDemoActivity;
 import com.longluo.demo.gyrorotate.GyroRotateActivity;
 import com.longluo.demo.image.ImageCacheDemoActivity;
 import com.longluo.demo.jpush.JPushDemoActivity;
@@ -135,6 +136,7 @@ public class MainActivity extends Activity{
             "ImageProcess Demo",
             "CreditsRoll Demo",
             "LikeButton Demo",
+            "Camera Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -394,6 +396,10 @@ public class MainActivity extends Activity{
 
                     case 56:
                         startActivity(LikeButtonDemoActivity.class);
+                        break;
+
+                    case 57:
+                        startActivity(CameraDemoActivity.class);
                         break;
 
                     default:

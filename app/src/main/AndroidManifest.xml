@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="73"
-    android:versionName="6.0.10">
+    android:versionCode="74"
+    android:versionName="6.0.11">
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <!--     <permission
@@ -658,6 +658,8 @@
             android:name=".likebutton.LikeButtonDemoActivity"
             android:label="@string/like_button"
             android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".grahpics.camera.CameraDemoActivity" />
 
     </application>
 
