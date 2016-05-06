@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="74"
-    android:versionName="6.0.11">
+    android:versionCode="75"
+    android:versionName="6.0.12">
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <!--     <permission

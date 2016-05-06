@@ -4,6 +4,8 @@ import android.app.ActionBar;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -76,8 +78,8 @@ import com.longluo.demo.xml.XmlDemoActivity;
 import java.util.Arrays;
 import java.util.LinkedList;
 
-public class MainActivity extends Activity{
-	private static final String TAG = MainActivity.class.getSimpleName();
+public class MainActivity extends AppCompatActivity {
+    private static final String TAG = MainActivity.class.getSimpleName();
 
     private static final String[] mDemoStrings = {"BadgeView Demo",
             "MonthActivityCard Demo",
@@ -141,6 +143,8 @@ public class MainActivity extends Activity{
 
     private static final int mTotal = mDemoStrings.length - 1;
 
+    private Toolbar mToolbar;
+
     private ListView mDemoListView;
 
 	@Override
@@ -153,6 +157,26 @@ public class MainActivity extends Activity{
         initViews();
         init(this);
         initData();
+    }
+
+    private void initViews() {
+        mToolbar = (Toolbar) findViewById(R.id.toolbar);
+
+        mDemoListView = (ListView) findViewById(R.id.lv_demos);
+
+        initToolbar();
+    }
+
+    private void initToolbar() {
+        mToolbar.setTitle(R.string.app_name);
+        setSupportActionBar(mToolbar);
+
+    }
+
+    private void init(Activity activity) {
+        LinkUtils.initAuthorInfo(activity);
+
+//		UIUtils.initActionBar(activity);
     }
 
     private void initData() {
@@ -407,17 +431,6 @@ public class MainActivity extends Activity{
                 }
             }
         });
-    }
-
-    private void init(Activity activity) {
-        LinkUtils.initAuthorInfo(activity);
-
-//		UIUtils.initActionBar(activity);
-
-    }
-
-    private void initViews() {
-        mDemoListView = (ListView) findViewById(R.id.lv_demos);
     }
 
     private void startActivity(Class<?> cls) {
