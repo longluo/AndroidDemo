@@ -21,6 +21,12 @@
         <item name="searchViewStyle">@style/MySearchView</item>
     </style>
 
+    <!--    <style name="AppTheme" parent="AppTheme.Base">
+            &lt;!&ndash;Navigation bar color&ndash;&gt;
+            <item name="android:navigationBarColor">@color/accent_material_light</item>
+        </style>-->
+
+
     <style name="MySearchView" parent="Widget.AppCompat.SearchView" />
 
 

@@ -3,6 +3,8 @@ package com.longluo.demo.login;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -54,6 +56,72 @@ public class LoginDemoActivity extends AppCompatActivity implements View.OnClick
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
         mToolbar.setTitle(R.string.login_demo_activity_title);
         setSupportActionBar(mToolbar);
+
+        mLoginButton = (Button) findViewById(R.id.login_button);
+        mLoginButton.setOnClickListener(this);
+        // QQ登录
+        mQQButton = (LinearLayout) findViewById(R.id.qq_login_button);
+        mQQButton.setOnClickListener(this);
+        // 支付宝钱包隐藏
+        mQQBtuttonVisible = (LinearLayout) findViewById(R.id.llayout);
+        mLinearlayout_content = (LinearLayout) findViewById(R.id.linearlayout_content);
+        mAccountInput = (EditText) findViewById(R.id.account_input);
+        mAccountInput.setOnFocusChangeListener(this);
+        mPasswordInput = (EditText) findViewById(R.id.password_input);
+
+        mPasswordInput.setOnFocusChangeListener(this);
+
+        mForgetpassword_text = (TextView) findViewById(R.id.forgetpassword_text);
+        mForgetpassword_text.setOnClickListener(this);
+
+        mPasswordImageView = (ImageView) findViewById(R.id.password_imageview);
+        mPhoneImageView = (ImageView) findViewById(R.id.phone_imageview);
+        mPhoneDelIV = (ImageView) findViewById(R.id.imageView);
+        mPasswordDelIV = (ImageView) findViewById(R.id.imageView2);
+        mPhoneDelIV.setOnClickListener(this);
+        mPasswordDelIV.setOnClickListener(this);
+
+        mAccountInput.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (s.length() == 0) {
+                    mPhoneDelIV.setVisibility(View.GONE);
+                } else {
+                    mPhoneDelIV.setVisibility(View.VISIBLE);
+                }
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count,
+                                          int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before,
+                                      int count) {
+            }
+        });
+
+        mPasswordInput.addTextChangedListener(new TextWatcher() {
+            @Override
+            public void afterTextChanged(Editable s) {
+                if (s.length() == 0) {
+                    mPasswordDelIV.setVisibility(View.GONE);
+                } else {
+                    mPasswordDelIV.setVisibility(View.VISIBLE);
+                }
+            }
+
+            @Override
+            public void beforeTextChanged(CharSequence s, int start, int count,
+                                          int after) {
+            }
+
+            @Override
+            public void onTextChanged(CharSequence s, int start, int before,
+                                      int count) {
+            }
+        });
 
 
     }
