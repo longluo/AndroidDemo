@@ -19,7 +19,7 @@
     <string name="jpush_demo_activity_title">JPush Demo</string>
     <string name="share_demo_activity_title">Share Demo</string>
     <string name="friends_demo_activity_title">Friends Demo</string>
-    <string name="rounded_image_view_demo_activity">Rounded Image View</string>
+    <string name="login_demo_activity_title">Login Demo</string>
     <string name="guide">Guide</string>
     <string name="action_settings">Settings</string>
     <string name="start">Start</string>
@@ -312,6 +312,15 @@ Never gonna say goodbye\n
 Never gonna tell a lie and hurt you</string>
 
     <string name="like_button">Like Button</string>
+
+    <string name="phonenum_id">请输入手机号或ID</string>
+
+    <string name="password_six_twenty">请输入密码(6&#8211;20位)</string>
+    <string name="forgot_password"><a><u>忘记密码?</u></a></string>
+    <string name="qq_login">QQ帐号登录</string>
+
+    <string name="following_way">还可以用以下方式登录</string>
+    <string name="login">登\t录</string>
 
 
 </resources>

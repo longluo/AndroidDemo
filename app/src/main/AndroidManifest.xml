@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.longluo.demo"
-    android:versionCode="75"
-    android:versionName="6.0.12">
+    android:versionCode="76"
+    android:versionName="6.0.13">
 
     <!-- Required 自定义用来收发消息的相关权限 -->
     <!--     <permission
@@ -410,7 +410,11 @@
 
         <activity
             android:name="com.longluo.demo.log.LogDemoActivity"
-            android:label="Log Demo"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".login.LoginDemoActivity"
+            android:label="@string/login_demo_activity_title"
             android:screenOrientation="portrait" />
 
         <activity

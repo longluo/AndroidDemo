@@ -24,7 +24,7 @@ public class RoundedImageViewActivity extends AppCompatActivity {
 
     private void initViews() {
         mToolbar = (Toolbar) findViewById(R.id.toolbar);
-        mToolbar.setTitle(R.string.rounded_image_view_demo_activity);
+        mToolbar.setTitle(R.string.rounded_image_view_demo_activity_title);
         setSupportActionBar(mToolbar);
 
         mAvatarRIV = (RoundedImageView) findViewById(R.id.ri_avatar);

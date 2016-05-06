@@ -8,8 +8,8 @@ android {
         applicationId "com.longluo.demo"
         minSdkVersion 21
         targetSdkVersion 21
-        versionCode 73
-        versionName "6.0.4"
+        versionCode 76
+        versionName "6.0.15"
         vectorDrawables.useSupportLibrary = true
     }
 

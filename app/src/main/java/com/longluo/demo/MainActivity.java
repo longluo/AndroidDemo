@@ -47,7 +47,7 @@ import com.longluo.demo.lbs.LBSDemoActivity;
 import com.longluo.demo.likebutton.LikeButtonDemoActivity;
 import com.longluo.demo.listview.ListViewDemoActivity;
 import com.longluo.demo.log.LogDemoActivity;
-import com.longluo.demo.login.LoginActivity;
+import com.longluo.demo.login.LoginDemoActivity;
 import com.longluo.demo.media.MediaActivity;
 import com.longluo.demo.ndk.NdkDemoActivity;
 import com.longluo.demo.notifications.NotificationActivity;
@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
             "SwipeListView Demo",
             "SlideView Demo",
             "JPush Demo",
-            "LoginActivity Demo",
+            "LoginDemoActivity Demo",
             "FriendsActivity Demo",
             "Notifications Demo",
             "Media Demo",
@@ -251,7 +251,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 14:
-                        startActivity(LoginActivity.class);
+                        startActivity(LoginDemoActivity.class);
                         break;
 
                     case 15:

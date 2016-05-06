@@ -27,4 +27,17 @@
 
     <dimen name="notepad_margin">30dp</dimen>
 
+
+    <dimen name="input_icon_margin">13.3dip</dimen>
+    <dimen name="input_icon_margin_right">12dip</dimen>
+
+    <dimen name="input_edittext_height">48.0dip</dimen>
+
+    <dimen name="login_padding_top">19.0dip</dimen>
+    <dimen name="login_marginLeft">12dip</dimen>
+    <dimen name="login_marginright">40dip</dimen>
+    <dimen name="input_margin">10.0dip</dimen>
+
+    <dimen name="line_view_height">1px</dimen>
+
 </resources>
