@@ -5,9 +5,6 @@ import android.opengl.GLSurfaceView;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 
-import javax.microedition.khronos.egl.EGLConfig;
-import javax.microedition.khronos.opengles.GL10;
-
 /**
  * Created by luolong on 2016/4/22.
  */
@@ -19,7 +16,7 @@ public class TouchSurfaceView extends GLSurfaceView {
     private float mPreviousY;
     private float mPreviousZ;
 
-    private CubeRenderer mRenderer = new CubeRenderer();
+    private CubeRender mRenderer = new CubeRender();
 
     public TouchSurfaceView(Context context) {
         super(context);
@@ -64,7 +61,7 @@ public class TouchSurfaceView extends GLSurfaceView {
         mPreviousZ = z;
     }
 
-    private class CubeRenderer implements GLSurfaceView.Renderer {
+/*    private class CubeRenderer implements GLSurfaceView.Renderer {
         public float mAngleX;
         public float mAngleY;
         public float mAngleZ;
@@ -113,5 +110,5 @@ public class TouchSurfaceView extends GLSurfaceView {
             gl.glShadeModel(GL10.GL_SMOOTH);
             gl.glEnable(GL10.GL_DEPTH_TEST);
         }
-    }
+    }*/
 }
