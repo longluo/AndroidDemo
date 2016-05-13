@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 点击状态 -->
+    <item android:state_enabled="true" android:state_pressed="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffb5e3ff" />
+            <gradient android:angle="270" android:endColor="#ffefefef" android:startColor="#ffefefef" />
+            <corners android:bottomLeftRadius="8.0dip" android:bottomRightRadius="8.0dip" android:topLeftRadius="1.0dip" android:topRightRadius="1.0dip" />
+            <stroke android:width="0.5dp" android:color="@color/divider_color" />
+        </shape>
+    </item>
+    <!-- 焦点 -->
+    <item android:state_enabled="true" android:state_focused="true">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffb5e3ff" />
+            <!-- 渐变 -->
+            <gradient android:angle="270" android:endColor="#ffefefef" android:startColor="#ffefefef" />
+            <corners android:bottomLeftRadius="8.0dip" android:bottomRightRadius="8.0dip" android:topLeftRadius="1.0dip" android:topRightRadius="1.0dip" />
+            <stroke android:width="0.5dp" android:color="@color/divider_color" />
+        </shape>
+    </item>
+    <!-- enable -->
+    <item android:state_enabled="true">
+        <shape android:shape="rectangle">
+            <solid android:color="@android:color/white" />
+            <corners android:bottomLeftRadius="8dp" android:bottomRightRadius="8dp" android:topLeftRadius="1dp" android:topRightRadius="1dp" />
+            <stroke android:width="0.5dp" android:color="@android:color/white" />
+        </shape>
+    </item>
+    <!-- disable -->
+    <item android:state_enabled="false">
+        <shape android:shape="rectangle">
+            <solid android:color="#ffe8e8e8" />
+            <corners android:bottomLeftRadius="8dp" android:bottomRightRadius="8dp" android:topLeftRadius="1dp" android:topRightRadius="1dp" />
+            <stroke android:width="0.5dp" android:color="@color/divider_color" />
+        </shape>
+    </item>
+</selector>

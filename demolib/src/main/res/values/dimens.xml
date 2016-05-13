@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="divider_size">0.5dp</dimen>
+
+    <dimen name="popup_window_margin_left">10dp</dimen>
+    <dimen name="popup_window_margin_right">10dp</dimen>
+    <dimen name="popup_window_margin_bottom">10dp</dimen>
+
+    <!--对话框-->
+    <dimen name="vinder_lib_dialog_radio">8dp</dimen>
+    <dimen name="vinder_custom_dialog_btn_radius">20dp</dimen>
+
+    <!-- Tab Msg -->
+    <dimen name="vinder_lib_tv_tab_msg_margin_left">55dp</dimen>
+
+</resources>
