@@ -360,4 +360,41 @@
     <color name="forget_password_color_2">#703987</color>
 
 
+    <color name="background_translucent_dark">#8a000000</color>
+    <color name="background_translucent_light">#ddffffff</color>
+    <color name="background_translucent_white">#26ffffff</color>
+    <color name="background_window_dark">#ff212b30</color>
+    <color name="background_window_light">#ffeaeef4</color>
+
+    <color name="colorAccent_dark">#ff263238</color>
+    <color name="colorAccent_light">#ff0077d9</color>
+    <color name="colorAnonymous">#ff757575</color>
+    <color name="colorPrimaryDark_dark">#ff1e282d</color>
+    <color name="colorPrimaryDark_light">#ff005fae</color>
+    <color name="colorPrimary_dark">#ff263238</color>
+    <color name="colorPrimary_light">#ff0077d9</color>
+    <color name="color_status_bar_mask">#33000000</color>
+
+    <color name="text_highlight_dark">#8a03a9f4</color>
+    <color name="text_highlight_light">#ff0077d9</color>
+    <color name="text_hint_dark">#4cffffff</color>
+    <color name="text_hint_light">#4c000000</color>
+    <color name="text_hint_primary_dark">#4dffffff</color>
+    <color name="text_hint_primary_light">#4d000000</color>
+    <color name="text_hint_secondary_dark">#8cffffff</color>
+    <color name="text_hint_secondary_light">#8c000000</color>
+    <color name="text_link_dark">#8a03a9f4</color>
+    <color name="text_link_light">#ff0077d9</color>
+
+    <color name="ic_drawer_chat">#ff1dc4f7</color>
+
+    <color name="ic_icon_grey">#ff9e9e9e</color>
+    <color name="ic_icon_grey_shadow">#ff939393</color>
+    <color name="icon_badge">@color/ic_drawer_chat</color>
+    <color name="icon_dark_100">#ff000000</color>
+    <color name="icon_dark_12">#1e000000</color>
+    <color name="icon_dark_38">#60000000</color>
+    <color name="icon_dark_54">#89000000</color>
+    <color name="icon_dark_87">#dd000000</color>
+
 </resources>

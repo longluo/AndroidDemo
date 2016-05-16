@@ -40,4 +40,7 @@
 
     <dimen name="line_view_height">1px</dimen>
 
+    <dimen name="navigation_drawer_width">304.0dip</dimen>
+
+
 </resources>

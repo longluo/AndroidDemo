@@ -16,7 +16,8 @@ public class TouchSurfaceView extends GLSurfaceView {
     private float mPreviousY;
     private float mPreviousZ;
 
-    private CubeRender mRenderer = new CubeRender();
+    //    private CubeRender mRenderer = new CubeRender();
+    private MyRenderer mRenderer = new MyRenderer();
 
     public TouchSurfaceView(Context context) {
         super(context);
@@ -29,18 +30,18 @@ public class TouchSurfaceView extends GLSurfaceView {
     public boolean onKeyDown(int keyCode, KeyEvent event) {
 
         if (keyCode == KeyEvent.KEYCODE_MENU) {
-            mRenderer.mAngleZ = 0.0F;
-            mRenderer.mAngleY = 0.0F;
-            mRenderer.mAngleX = 0.0F;
+//            mRenderer.mAngleZ = 0.0F;
+//            mRenderer.mAngleY = 0.0F;
+//            mRenderer.mAngleX = 0.0F;
         }
 
         return super.onKeyDown(keyCode, event);
     }
 
     public boolean onTouchEvent(MotionEvent event) {
-        mRenderer.mAngleZ = 0.0F;
-        mRenderer.mAngleY = 0.0F;
-        mRenderer.mAngleX = 0.0F;
+//        mRenderer.mAngleZ = 0.0F;
+//        mRenderer.mAngleY = 0.0F;
+//        mRenderer.mAngleX = 0.0F;
 
         return true;
     }
@@ -50,9 +51,9 @@ public class TouchSurfaceView extends GLSurfaceView {
         float lastY = mPreviousY;
         float lastZ = mPreviousZ;
 
-        mRenderer.mAngleX += (x - lastX) * TOUCH_SCALE_FACTOR;
-        mRenderer.mAngleY += (y - lastY) * TOUCH_SCALE_FACTOR;
-        mRenderer.mAngleZ += (z - lastZ) * TOUCH_SCALE_FACTOR;
+//        mRenderer.mAngleX += (x - lastX) * TOUCH_SCALE_FACTOR;
+//        mRenderer.mAngleY += (y - lastY) * TOUCH_SCALE_FACTOR;
+//        mRenderer.mAngleZ += (z - lastZ) * TOUCH_SCALE_FACTOR;
 
         requestRender();
 

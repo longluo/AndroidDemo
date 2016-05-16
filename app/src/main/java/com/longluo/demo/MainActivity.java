@@ -74,6 +74,8 @@ import com.longluo.demo.waterwave.WaterWaveDemoActivity;
 import com.longluo.demo.webview.WebViewDemoActivity;
 import com.longluo.demo.widget.imageprocess.ImageProcessDemoActivity;
 import com.longluo.demo.xml.XmlDemoActivity;
+import com.longluo.demo.zhihu.ZhihuDailyMainActivity;
+import com.longluo.demo.zhihu.ZhihuHomeActivity;
 
 import java.util.Arrays;
 import java.util.LinkedList;
@@ -139,6 +141,8 @@ public class MainActivity extends AppCompatActivity {
             "CreditsRoll Demo",
             "LikeButton Demo",
             "Camera Demo",
+            "Zhihu Demo",
+            "Zhihu Daily",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -189,6 +193,7 @@ public class MainActivity extends AppCompatActivity {
                             default:
                                 break;
                         }
+
                         return true;
                     }
                 });
@@ -446,6 +451,14 @@ public class MainActivity extends AppCompatActivity {
 
                     case 57:
                         startActivity(CameraDemoActivity.class);
+                        break;
+
+                    case 58:
+                        startActivity(ZhihuHomeActivity.class);
+                        break;
+
+                    case 59:
+                        startActivity(ZhihuDailyMainActivity.class);
                         break;
 
                     default:

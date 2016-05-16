@@ -323,4 +323,33 @@ Never gonna tell a lie and hurt you</string>
     <string name="login">登\t录</string>
 
 
+    <string name="action_notification_done_all">标记所有已读</string>
+    <string name="action_notify">通知</string>
+    <string name="action_prev">上一篇</string>
+    <string name="action_reverse_order">倒序排列</string>
+    <string name="action_search">搜索</string>
+    <string name="action_send">发布</string>
+    <string name="action_share">分享</string>
+    <string name="action_shuffle">随机看</string>
+
+    <string name="status_bar_notification_info_overflow">999+</string>
+    <string name="action_comment_compose">写点评</string>
+    <string name="action_comment_compose_done">发布</string>
+    <string name="action_dark_mode_dark">夜间模式</string>
+    <string name="action_dark_mode_light">日间模式</string>
+    <string name="action_news_comment_default">...</string>
+    <string name="action_news_like_default">...</string>
+    <string name="action_notification">消息</string>
+
+    <string name="drawer_day">白天</string>
+    <string name="drawer_favorite">我的收藏</string>
+    <string name="drawer_night">夜间</string>
+    <string name="drawer_notification">消息</string>
+    <string name="drawer_offline">离线下载</string>
+    <string name="drawer_open" />
+    <string name="drawer_settings">设置</string>
+    <string name="drawer_theme_subscribe_success">关注成功，关注内容会在首页呈现</string>
+    <string name="drawer_user_default_name">请登录</string>
+
+
 </resources>

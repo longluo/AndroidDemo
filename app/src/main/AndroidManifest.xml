@@ -69,6 +69,7 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity
             android:name="com.longluo.demo.MainActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -84,23 +85,28 @@
         <activity
             android:name="com.longluo.demo.badgeview.BadgeViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
+            android:theme="@style/AppTheme"
             android:label="@string/badgeview_demo_activity_title"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.activitycard.MonthActivityCardActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/activity_card_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.calendarcard.CalendarCardDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/calendar_card_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.numberprogressbar.NumberProgressBarActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/number_progress_bar_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.animation.AnimationActivity"
             android:label="@string/animation_demo_activity_title"
@@ -110,6 +116,7 @@
         <activity android:name="com.longluo.demo.animation.AllAnimationTypeActivity" />
 
         <activity android:name="com.longluo.demo.animation.AnimationListActivity" />
+
         <activity
             android:name="com.longluo.demo.guide.GuideActivity"
             android:label="@string/guide"
@@ -119,7 +126,6 @@
              <activity
             android:name="com.longluo.demo.dialog.DialogDemoActivity"
             android:label="@string/dialog" />
-
         -->
 
         <activity
@@ -131,36 +137,42 @@
              <activity
             android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-
         -->
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
+
         <activity android:name="com.longluo.demo.calendarcard.CardSample2Activity" />
+
         <activity
             android:name="com.longluo.demo.searchview.SearchViewActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/search_view_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.roundedimageview.RoundedImageViewActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/rounded_image_view_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/miui_tabpage_indicator_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.fragment.FragmentDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/fragment_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.swipelistview.SwipeListViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
             android:label="@string/fragment_demo_activity_title"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name="com.longluo.demo.slideview.SlideViewDemoActivity"
             android:configChanges="orientation|keyboardHidden"
@@ -250,6 +262,7 @@
                 <action android:name="android.intent.action.USER_PRESENT" />
                 <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
             </intent-filter>
+
             <!-- Optional -->
             <intent-filter>
                 <action android:name="android.intent.action.PACKAGE_ADDED" />
@@ -289,6 +302,7 @@
         <meta-data
             android:name="JPUSH_CHANNEL"
             android:value="developer-default" />
+
         <meta-data
             android:name="JPUSH_APPKEY"
             android:value="c4797d51425545e4e4905ca4" />
@@ -306,37 +320,47 @@
             android:label="@string/friends_demo_activity_title" />
 
         <activity android:name="com.longluo.demo.notifications.NotificationActivity" />
+
         <activity android:name="com.longluo.demo.notifications.CustomActivity" />
 
         <!-- Media -->
         <activity
             android:name="com.longluo.demo.media.MediaActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.media.audio.AudioCaptureActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.media.audio.AudioRecordActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.media.camera.CameraActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.media.camera.CaptureImageActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.media.video.VideoCaptureActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.media.video.CamcorderActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.media.video.VideoRecordActivity"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.adherent.AdherentActivity"
             android:label="Adherent"
             android:screenOrientation="portrait" />
+
         <activity
             android:name="com.longluo.demo.progress.ProgressActivity"
             android:label="Progress"
@@ -558,7 +582,6 @@
             android:label="JSON Parser Demo"
             android:screenOrientation="portrait" />
 
-
         <!-- LBS -->
         <activity
             android:name="com.longluo.demo.lbs.LBSDemoActivity"
@@ -664,6 +687,20 @@
             android:theme="@style/AppTheme.NoActionBar" />
 
         <activity android:name=".grahpics.camera.CameraDemoActivity" />
+
+        <activity
+            android:name=".zhihu.ZhihuHomeActivity"
+            android:exported="true"
+            android:label="Zhihu"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden"
+            android:theme="@style/Zhihu.Theme.AppTheme.Light" />
+
+        <activity
+            android:name=".zhihu.ZhihuDailyMainActivity"
+            android:label="Zhihu Daily"
+            android:screenOrientation="portrait" />
 
     </application>
 

@@ -108,4 +108,30 @@
         <attr name="anim_scale_factor" format="float" />
     </declare-styleable>
 
+    <!-- zhihu -->
+    <attr name="zhihu.background.toolbar.gray" format="reference|color" />
+    <attr name="zhihu.background.toolbar.primary" format="reference|color" />
+    <attr name="zhihu.background.translucent" format="reference|color" />
+    <attr name="zhihu.background.window" format="reference|color" />
+
+    <attr name="toolbarTintColor" format="reference" />
+    <attr name="toolbarTintColorGray" format="reference" />
+    <attr name="zhihu.background.card" format="reference|color" />
+
+    <!--    <attr name="colorPrimary" format="color" />
+        <attr name="colorPrimaryDark" format="color" />
+
+        <attr name="actionBarSize" format="dimension">
+            <enum name="wrap_content" value="0" />
+        </attr>-->
+
+    <attr name="daily.textAppearance.drawer.item.primary" format="reference|color" />
+    <attr name="daily.textAppearance.drawer.item.secondary" format="reference|color" />
+    <attr name="daily.textAppearance.drawer.primary" format="reference" />
+    <attr name="daily.textAppearance.drawer.secondary" format="reference|color" />
+
+    <attr name="drawer.background.item.primary" format="reference|color" />
+    <attr name="drawer.background.primary" format="reference|color" />
+    <attr name="drawer.divider.background" format="reference|color" />
+
 </resources>

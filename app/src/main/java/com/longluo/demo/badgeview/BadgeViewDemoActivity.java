@@ -1,7 +1,6 @@
 package com.longluo.demo.badgeview;
 
 import android.app.ActionBar;
-import android.app.ActionBar.Tab;
 import android.app.FragmentTransaction;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
@@ -10,7 +9,6 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.view.Menu;
-import android.view.Window;
 
 import com.longluo.demo.R;
 
@@ -23,12 +21,12 @@ public class BadgeViewDemoActivity extends FragmentActivity implements ActionBar
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        requestWindowFeature(Window.FEATURE_ACTION_BAR);
+//        requestWindowFeature(Window.FEATURE_ACTION_BAR);
         setContentView(R.layout.activity_tab);
 
-        // Set up the action bar.
+/*        // Set up the action bar.
         final ActionBar actionBar = getActionBar();
-        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
+        actionBar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);*/
 
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the app.
@@ -41,20 +39,22 @@ public class BadgeViewDemoActivity extends FragmentActivity implements ActionBar
         // When swiping between different sections, select the corresponding
         // tab. We can also use ActionBar.Tab#select() to do this if we have
         // a reference to the Tab.
+/*
         mViewPager.setOnPageChangeListener(new ViewPager.SimpleOnPageChangeListener() {
             @Override
             public void onPageSelected(int position) {
                 actionBar.setSelectedNavigationItem(position);
             }
         });
+*/
 
         // For each of the sections in the app, add a tab to the action bar.
-        for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
+/*        for (int i = 0; i < mSectionsPagerAdapter.getCount(); i++) {
             Tab tab = actionBar.newTab()
                     .setText(mSectionsPagerAdapter.getPageTitle(i))
                     .setTabListener(this);
             actionBar.addTab(tab);
-        }
+        }*/
     }
 
     @Override
@@ -103,6 +103,7 @@ public class BadgeViewDemoActivity extends FragmentActivity implements ActionBar
                 case 0:
                     fragment = new ViewsFragment();
                     break;
+
                 case 1:
                     fragment = new ListFragment();
                     break;
@@ -110,6 +111,7 @@ public class BadgeViewDemoActivity extends FragmentActivity implements ActionBar
                 default:
                     break;
             }
+
             return fragment;
         }
 
@@ -118,9 +120,11 @@ public class BadgeViewDemoActivity extends FragmentActivity implements ActionBar
             switch (position) {
                 case 0:
                     return getString(R.string.title_views);
+
                 case 1:
                     return getString(R.string.title_list);
             }
+
             return null;
         }
     }
