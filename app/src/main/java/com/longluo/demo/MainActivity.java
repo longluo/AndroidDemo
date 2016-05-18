@@ -20,6 +20,7 @@ import com.longluo.demo.activitytrans.ActivityTransDemoActivity;
 import com.longluo.demo.adherent.AdherentActivity;
 import com.longluo.demo.advancedtextview.AdvancedTextViewActivity;
 import com.longluo.demo.animation.AnimationActivity;
+import com.longluo.demo.areachartsview.AreaChartsViewDemoActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.cardview.CardViewDemoActivity;
@@ -147,6 +148,7 @@ public class MainActivity extends AppCompatActivity {
             "Zhihu Daily",
             "OpenGL Demo",
             "Fresco Demo",
+            "AreaChartsView Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -471,6 +473,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 61:
                         startActivity(FrescoDemoActivity.class);
+                        break;
+
+                    case 62:
+                        startActivity(AreaChartsViewDemoActivity.class);
                         break;
 
                     default:

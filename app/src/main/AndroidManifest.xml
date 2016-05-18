@@ -772,6 +772,14 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".fresco.FrescoDemoActivity"
+            android:label="Fresco Demo" />
+
+        <activity
+            android:name=".areachartsview.AreaChartsViewDemoActivity"
+            android:label="AreaChartsView Demo" />
+
     </application>
 
 </manifest>

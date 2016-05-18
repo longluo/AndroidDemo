@@ -8,8 +8,8 @@ android {
         applicationId "com.longluo.demo"
         minSdkVersion 21
         targetSdkVersion 21
-        versionCode 78
-        versionName "6.0.17"
+        versionCode 79
+        versionName "6.0.18"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -73,7 +73,9 @@ dependencies {
     compile 'com.android.support:cardview-v7:23.0.0'
     compile 'com.android.support:palette-v7:23.0.0'
     compile 'com.android.support:design:23.3.0'
+
     compile files('libs/nineoldandroids-2.4.0.jar')
+
     compile files('libs/jpush-sdk-release1.8.1.jar')
 
     compile 'org.apache.httpcomponents:httpcore:4.4.2'
@@ -90,6 +92,6 @@ dependencies {
     // or 1.4-beta1
 
     // Facebook Fresco
-    compile 'com.facebook.fresco:fresco:0.1.0+'
+//    compile 'com.facebook.fresco:fresco:0.1.0+'
 
 }

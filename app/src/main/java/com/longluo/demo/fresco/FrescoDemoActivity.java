@@ -1,14 +1,14 @@
 package com.longluo.demo.fresco;
 
 import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.facebook.drawee.backends.pipeline.Fresco;
-import com.facebook.drawee.interfaces.DraweeController;
-import com.facebook.drawee.view.SimpleDraweeView;
 import com.longluo.demo.R;
+
+//import com.facebook.drawee.backends.pipeline.Fresco;
+//import com.facebook.drawee.interfaces.DraweeController;
+//import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
  * Created by luolong on 2016/5/18.
@@ -19,22 +19,22 @@ public class FrescoDemoActivity extends AppCompatActivity {
 
     private Creater mCreater;
 
-    private SimpleDraweeView mSimpleDraweeView;
-    private SimpleDraweeView mSimpleDraweeView1;
-    private SimpleDraweeView mSimpleDraweeView2;
-    private SimpleDraweeView mSimpleDraweeView3;
-    private SimpleDraweeView mSimpleDraweeView4;
+//    private SimpleDraweeView mSimpleDraweeView;
+//    private SimpleDraweeView mSimpleDraweeView1;
+//    private SimpleDraweeView mSimpleDraweeView2;
+//    private SimpleDraweeView mSimpleDraweeView3;
+//    private SimpleDraweeView mSimpleDraweeView4;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fresco_demo);
 
-        init();
-        testHttpData();
+//        init();
+//        testHttpData();
     }
 
-    private void init() {
+/*    private void init() {
         mContext = this;
 
         mSimpleDraweeView = (SimpleDraweeView) this.findViewById(R.id.id_simple_drawee_view);
@@ -67,6 +67,6 @@ public class FrescoDemoActivity extends AppCompatActivity {
 
         //显示一张HTTP的图片，以圆形带边框图片显示
         mSimpleDraweeView4.setImageURI(Uri.parse(mCreater.getPic()));
-    }
+    }*/
 
 }

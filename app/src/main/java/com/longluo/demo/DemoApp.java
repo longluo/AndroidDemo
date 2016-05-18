@@ -6,12 +6,13 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Vibrator;
 
-import com.facebook.drawee.backends.pipeline.Fresco;
 import com.longluo.demo.crash.CrashHandler;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
 import java.util.List;
+
+//import com.facebook.drawee.backends.pipeline.Fresco;
 
 //import com.baidu.mapapi.SDKInitializer;
 //import com.longluo.demo.lbs.service.LocationService;
@@ -123,7 +124,7 @@ public class DemoApp extends Application {
     }
 
     private void initFresco() {
-        Fresco.initialize(getApplicationContext());
+//        Fresco.initialize(getApplicationContext());
 
     }
 
