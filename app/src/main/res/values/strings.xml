@@ -351,5 +351,14 @@ Never gonna tell a lie and hurt you</string>
     <string name="drawer_theme_subscribe_success">关注成功，关注内容会在首页呈现</string>
     <string name="drawer_user_default_name">请登录</string>
 
+    <!-- OpenGL -->
+    <string name="activity_opengl">OpenGL Demo</string>
+    <string name="activity_helloworld">Hello World</string>
+    <string name="activity_drawpoint">Draw Point</string>
+    <string name="activity_drawicosahedron">Draw Icosahedron</string>
+    <string name="activity_drawline">Draw Line</string>
+    <string name="activity_drawtriangle">Draw Triangle</string>
+    <string name="activity_drawsolarsystem">Draw Solar Sytem</string>
+
 
 </resources>

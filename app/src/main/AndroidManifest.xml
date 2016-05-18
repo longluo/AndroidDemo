@@ -702,6 +702,76 @@
             android:label="Zhihu Daily"
             android:screenOrientation="portrait" />
 
+        <!-- OpenGL -->
+        <activity
+            android:name=".opengl.OpenGLDemoActivity"
+            android:label="@string/activity_opengl"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".opengl.HelloWorld"
+            android:label="@string/activity_helloworld">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="longluo.intent.category.opengl.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".opengl.DrawPoint"
+            android:label="@string/activity_drawpoint">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".opengl.DrawLine"
+            android:label="@string/activity_drawline">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".opengl.DrawTriangle"
+            android:label="@string/activity_drawtriangle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".opengl.DrawIcosahedron"
+            android:label="@string/activity_drawicosahedron">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".opengl.DrawSolarSystem"
+            android:label="@string/activity_drawsolarsystem">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="guidebee.intent.category.opengl.SAMPLE_CODE" />
+            </intent-filter>
+        </activity>
+
     </application>
 
 </manifest>

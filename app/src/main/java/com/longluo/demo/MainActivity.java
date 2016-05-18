@@ -33,6 +33,7 @@ import com.longluo.demo.filemanager.FileManagerDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
+import com.longluo.demo.fresco.FrescoDemoActivity;
 import com.longluo.demo.friends.FriendsActivity;
 import com.longluo.demo.gaussianblur.GaussianBlurActivity;
 import com.longluo.demo.grahpics.GrahpicsDemoActivity;
@@ -52,6 +53,7 @@ import com.longluo.demo.media.MediaActivity;
 import com.longluo.demo.ndk.NdkDemoActivity;
 import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
+import com.longluo.demo.opengl.OpenGLDemoActivity;
 import com.longluo.demo.palette.PaletteDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
 import com.longluo.demo.ripple.RippleViewDemoActivity;
@@ -143,6 +145,8 @@ public class MainActivity extends AppCompatActivity {
             "Camera Demo",
             "Zhihu Demo",
             "Zhihu Daily",
+            "OpenGL Demo",
+            "Fresco Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -459,6 +463,14 @@ public class MainActivity extends AppCompatActivity {
 
                     case 59:
                         startActivity(ZhihuDailyMainActivity.class);
+                        break;
+
+                    case 60:
+                        startActivity(OpenGLDemoActivity.class);
+                        break;
+
+                    case 61:
+                        startActivity(FrescoDemoActivity.class);
                         break;
 
                     default:

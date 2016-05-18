@@ -6,6 +6,7 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Vibrator;
 
+import com.facebook.drawee.backends.pipeline.Fresco;
 import com.longluo.demo.crash.CrashHandler;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
@@ -61,6 +62,9 @@ public class DemoApp extends Application {
 
         //
         sRefWatcher = LeakCanary.install(this);
+
+        initFresco();
+
     }
 
 	@Override
@@ -116,6 +120,11 @@ public class DemoApp extends Application {
 
     public static RefWatcher getRefWatcher() {
         return sRefWatcher;
+    }
+
+    private void initFresco() {
+        Fresco.initialize(getApplicationContext());
+
     }
 
 }

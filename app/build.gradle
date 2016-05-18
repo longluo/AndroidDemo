@@ -8,8 +8,8 @@ android {
         applicationId "com.longluo.demo"
         minSdkVersion 21
         targetSdkVersion 21
-        versionCode 76
-        versionName "6.0.15"
+        versionCode 78
+        versionName "6.0.17"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -88,4 +88,8 @@ dependencies {
     // or 1.4-beta1
     testCompile 'com.squareup.leakcanary:leakcanary-android-no-op:1.3.1'
     // or 1.4-beta1
+
+    // Facebook Fresco
+    compile 'com.facebook.fresco:fresco:0.1.0+'
+
 }
