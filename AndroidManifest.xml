@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.longluo.demo"
+    android:versionCode="62"
+    android:versionName="5.0.4" >
+
+    <!-- Required 自定义用来收发消息的相关权限 -->
+<!--     <permission
+        android:name="com.longluo.demo.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" /> -->
+
+    <uses-permission android:name="com.longluo.demo.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
+    
+    <uses-permission android:name="android.permission.READ_LOGS" />
+
+    <!-- Optional for location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+
+    <!-- Media -->
+    <uses-feature android:name="android:hardware.camera" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    
+    <!-- For Contacts -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+        
+	<uses-permission android:name="android.permission.READ_CALL_LOG"/>  
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/>
+    
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>  
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    
+    <uses-permission android:name="android.permission.READ_SMS"/>
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="22" />
+
+    <application
+        android:name="com.longluo.demo.DemoApp"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.longluo.demo.MainActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.longluo.demo.badgeview.BadgeViewDemoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/badgeview_demo_activity_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.activitycard.MonthActivityCardActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/activity_card_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.calendarcard.CalendarCardDemoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/calendar_card_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.numberprogressbar.NumberProgressBarActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/number_progress_bar_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.animation.AnimationActivity"
+            android:label="@string/animation_demo_activity_title"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity android:name="com.longluo.demo.animation.AllAnimationTypeActivity" >
+        </activity>
+        <activity android:name="com.longluo.demo.animation.AnimationListActivity" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.guide.GuideActivity"
+            android:label="@string/guide"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar.Fullscreen" />
+
+        <!--
+             <activity
+            android:name="com.longluo.demo.dialog.DialogDemoActivity"
+            android:label="@string/dialog" />
+        -->
+
+        <activity
+            android:name="com.longluo.demo.viewpager.ViewPagerActivity"
+            android:label="@string/viewpager"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <!--
+             <activity
+            android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+        -->
+
+        <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
+        <activity android:name="com.longluo.demo.calendarcard.CardSample2Activity" />
+        <activity
+            android:name="com.longluo.demo.searchview.SearchViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/search_view_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.roundedimageview.RoundedImageViewActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/rounded_image_view_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/miui_tabpage_indicator_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.fragment.FragmentDemoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/fragment_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.swipelistview.SwipeListViewDemoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/fragment_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.slideview.SlideViewDemoActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/slideview_demo_activity_title"
+            android:theme="@style/AppTheme" >
+        </activity>
+
+        <!-- JPush -->
+        <activity
+            android:name="com.longluo.demo.jpush.JPushDemoActivity"
+            android:label="@string/jpush_demo_activity_title" >
+        </activity>
+
+        <!-- For test only 测试高级功能 -->
+        <activity
+            android:name="com.example.jpushdemo.PushSetActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- For test only 测试设置 -->
+        <activity
+            android:name="com.example.jpushdemo.SettingActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <!-- For test only 测试状态通知栏，需要打开的Activity -->
+        <activity android:name="com.example.jpushdemo.TestActivity" >
+            <intent-filter>
+                <action android:name="jpush.testAction" />
+
+                <category android:name="jpush.testCategory" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.longluo.demo" />
+            </intent-filter>
+        </activity>
+
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <!-- Required SDK 核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+
+        <!-- since 1.8.0 option 可选项。用于同一设备中不同应用的JPush服务相互拉起的功能。 -->
+        <!-- 若不启用该功能可删除该组件，将不拉起其他应用也不能被其他应用拉起 -->
+        <service
+            android:name="cn.jpush.android.service.DaemonService"
+            android:enabled="true"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.DaemonService" />
+
+                <category android:name="com.longluo.demo" />
+            </intent-filter>
+        </service>
+
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter android:priority="1000" >
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" />
+                <!-- Required  显示通知栏 -->
+                <category android:name="com.longluo.demo" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required SDK核心功能 -->
+        <receiver android:name="cn.jpush.android.service.AlarmReceiver" />
+
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name="com.longluo.demo.jpush.MyReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" />
+                <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.UNREGISTRATION" />
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" />
+                <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" />
+                <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" />
+                <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.ACTION_RICHPUSH_CALLBACK" />
+                <!-- Optional 用户接受Rich Push Javascript 回调函数的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" />
+                <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.longluo.demo" />
+            </intent-filter>
+        </receiver>
+
+        <!-- Required . Enable it you can get statistics data with channel -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="c4797d51425545e4e4905ca4" />
+
+        <!-- ShareSDK -->
+        <activity
+            android:name="com.longluo.demo.share.ShareActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/share_demo_activity_title" >
+        </activity>
+
+        <!-- Friends Activity -->
+        <activity
+            android:name="com.longluo.demo.friends.FriendsActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/friends_demo_activity_title" >
+        </activity>
+        <activity android:name="com.longluo.demo.notifications.NotificationActivity" >
+        </activity>
+        <activity android:name="com.longluo.demo.notifications.CustomActivity" >
+        </activity>
+        <activity android:name="com.longluo.demo.notifications.ProgressActivity" >
+        </activity>
+
+        <!-- Media -->
+        <activity
+            android:name="com.longluo.demo.media.MediaActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.media.audio.AudioCaptureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.media.audio.AudioRecordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.media.camera.CameraActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.media.camera.CaptureImageActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.media.video.VideoCaptureActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.media.video.CamcorderActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.media.video.VideoRecordActivity"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.adherent.AdherentActivity"
+            android:label="Adherent"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.longluo.demo.progress.ProgressActivity"
+            android:label="Progress"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+        <activity
+            android:name="com.longluo.demo.listview.ListViewDemoActivity"
+            android:label="ListView Demo"
+            android:screenOrientation="portrait" 
+            android:theme="@style/ListViewTheme" >
+        </activity>
+        
+		<activity
+            android:name="com.longluo.demo.launcher.LauncherDemoActivity"
+            android:label="Launcher Demo"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            
+            <intent-filter>
+                
+                <!-- The following two intent-filters are the key to set homescreen -->
+                <category android:name="android.intent.category.HOME" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+ 
+		<activity
+            android:name="com.longluo.demo.launcher.LauncherDemo2Activity"
+            android:label="Launcher Demo 2"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" >
+            
+            <intent-filter>
+                
+                <!-- The following two intent-filters are the key to set homescreen -->
+                <category android:name="android.intent.category.HOME" />
+                 <category android:name="android.intent.category.LAUNCHER" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>		
+		
+		<activity
+            android:name="com.longluo.demo.contentprovider.ProviderDemoActivity"
+            android:label="Provider Demo"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+		<provider
+    		android:name="com.longluo.demo.contentprovider.AppDemoContentProvider"
+    		android:exported="true"
+    		android:authorities="com.longluo.demo.contentprovider">
+		</provider>
+        
+		<activity
+            android:name="com.longluo.demo.gaussianblur.GaussianBlurActivity"
+            android:label="Gaussian Blur"
+            android:screenOrientation="portrait" >
+        </activity>
+
+		<activity
+            android:name="com.longluo.demo.ndk.NdkDemoActivity"
+            android:label="Jni Demo"
+            android:screenOrientation="portrait" >
+        </activity>
+	
+		<activity
+            android:name="com.longluo.demo.touch.TouchEventDemoActivity"
+            android:label="Touch Event Demo"
+            android:screenOrientation="portrait" >
+        </activity>
+        
+		<activity
+            android:name="com.longluo.demo.viewgroup.ViewGroupDemoActivity"
+            android:label="ViewGroup Demo"
+            android:screenOrientation="portrait" >
+        </activity>	
+
+		<activity
+            android:name="com.longluo.demo.log.LogDemoActivity"
+            android:label="Log Demo"
+            android:screenOrientation="portrait" >
+        </activity>	
+        
+		<activity
+            android:name="com.longluo.demo.flowlayout.FlowLayoutDemoActivity"
+            android:label="Flow Layout Demo"
+            android:screenOrientation="portrait" >
+        </activity>		
+        
+		<activity
+            android:name="com.longluo.demo.tagflowlayout.TagFlowLayoutCategoryActivity"
+            android:label="TagFlowLayout Demo"
+            android:screenOrientation="portrait" >
+        </activity>	
+        
+		<activity
+		    android:name="com.longluo.demo.grahpics.GrahpicsDemoActivity"
+		    android:label="Grahpics Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+		
+		<activity
+		    android:name="com.longluo.demo.textview.TextViewDemoActivity"
+		    android:label="TextView Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+		
+		<activity
+            android:name="com.longluo.demo.advancedtextview.AdvancedTextViewActivity"
+            android:label="@string/advanced_text_view" >
+        </activity>
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AnimatedCompoundDrawableActivity"
+            android:label="@string/animated_compound_drawable"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.ShadowTextActivity"
+            android:label="@string/shadow_text"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.CustomFontActivity"
+            android:label="@string/custom_font"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.NonBreakingSpaceActivity"
+            android:label="@string/non_breaking_space"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.GradientTextActivity"
+            android:label="@string/gradient_text"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.PatternedTextActivity"
+            android:label="@string/patterned_text"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.FromHtmlActivity"
+            android:label="@string/from_html"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.FractionActivity"
+            android:label="@string/fraction"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.StyledStringActivity"
+            android:label="@string/styled_string"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AlignmentSpanActivity"
+            android:label="@string/alignment_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.RainbowSpanActivity"
+            android:label="@string/rainbow_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity"
+            android:windowSoftInputMode="adjustResize" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AnimatedRainbowSpanActivity"
+            android:label="@string/animated_rainbow_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.ClickableSpanActivity"
+            android:label="@string/clickable_span"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.LinedPaperActivity"
+            android:label="@string/lined_paper"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.EmojiActivity"
+            android:label="@string/emoji"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <activity
+            android:name="com.longluo.demo.advancedtextview.AboutActivity"
+            android:label="@string/about"
+            android:parentActivityName="com.longluo.demo.advancedtextview.AdvancedTextViewActivity" />
+        
+        <!-- WaterWave -->
+        <activity
+		    android:name="com.longluo.demo.waterwave.WaterWaveDemoActivity"
+		    android:label="Water Wave Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+		
+		<activity
+		    android:name="com.longluo.demo.forcetouch.ForceTouchDemoActivity"
+		    android:label="Force Touch Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+
+		<activity
+		    android:name="com.longluo.demo.forcetouch.AppIconPressDemoActivity"
+		    android:label="App Icon Press Demo"
+            android:screenOrientation="portrait" >
+		</activity>		
+		
+		<activity
+		    android:name="com.longluo.demo.forcetouch.ShortcutListPopDemoActivity"
+		    android:label="Shortcut List Pop Window Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+						
+		<activity
+		    android:name="com.longluo.demo.ripple.RippleViewDemoActivity"
+		    android:label="Ripple View Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+		
+		<activity
+		    android:name="com.longluo.demo.xml.XmlDemoActivity"
+		    android:label="XML Parser Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+   
+		<activity
+		    android:name="com.longluo.demo.json.JsonDemoActivity"
+		    android:label="JSON Parser Demo"
+            android:screenOrientation="portrait" >
+		</activity>		
+		
+		
+		<!-- LBS -->
+		<activity
+		    android:name="com.longluo.demo.lbs.LBSDemoActivity"
+		    android:label="LBS Demo"
+            android:screenOrientation="portrait" >
+		</activity>
+		
+		<activity
+		    android:name="com.longluo.demo.lbs.LocationDemoActivity"
+		    android:label="Location Demo"
+            android:screenOrientation="portrait" >
+		</activity>	
+		
+       <!-- Baidu LBS -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>        
+        
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="Q2zmqoBcOhskD5NFN4H9jw71" />
+        
+		<activity
+		    android:name="com.longluo.demo.contact.message.MessageDemoActivity"
+		    android:label="Message Demo"
+            android:screenOrientation="portrait" >
+		</activity>	
+		
+		<activity
+		    android:name="com.longluo.demo.contact.ContactDemoActivity"
+		    android:label="Contact Demo"
+            android:screenOrientation="portrait" >
+		</activity>	
+		
+		<activity
+		    android:name="com.longluo.demo.contact.StarredContactsActivity"
+            android:screenOrientation="portrait" >
+		</activity>		
+		
+		<activity android:name="com.longluo.demo.contact.ContactListActivity" >
+        </activity>
+        
+        <activity android:name="com.longluo.demo.contact.dial.ContactRecordListActivity" >
+        </activity>
+        
+        <activity android:name="com.longluo.demo.contact.message.SMSListActivity" >
+        </activity>
+        
+        <activity android:name="com.longluo.demo.contact.message.MessageBoxList" >
+        </activity>
+			
+		<activity android:name="com.longluo.demo.dial.DialDemoActivity" 
+		    android:label="Dial Demo">
+        </activity>
+        
+		<activity android:name="com.longluo.demo.view.ViewDemoActivity" 
+		    android:label="View Demo">
+        </activity> 
+		
+		<activity android:name="com.longluo.demo.crash.CrashDemoActivity" 
+		    android:label="Crash Demo">
+        </activity> 
+       
+		<activity android:name="com.longluo.demo.image.ImageCacheDemoActivity" 
+		    android:label="Image Cache Demo">
+        </activity> 		
+			
+		<activity android:name="com.longluo.demo.webview.WebViewDemoActivity" 
+		    android:label="WebView Demo">
+        </activity> 		
+					
+	</application>
+
+</manifest>
