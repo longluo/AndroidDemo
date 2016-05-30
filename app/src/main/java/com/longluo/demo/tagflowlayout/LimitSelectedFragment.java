@@ -13,21 +13,20 @@ import com.longluo.demo.widget.tagflowlayout.FlowLayout;
 import com.longluo.demo.widget.tagflowlayout.TagAdapter;
 import com.longluo.demo.widget.tagflowlayout.TagFlowLayout;
 
+
 public class LimitSelectedFragment extends Fragment {
-    private String[] mVals = new String[]{"Hello", "Android", "Weclome Hi ",
-            "Button", "TextView", "Hello", "Android", "Weclome",
-            "Button ImageView", "TextView", "Helloworld", "Android",
-            "Weclome Hello", "Button Text", "TextView", "Hello", "Android",
-            "Weclome Hi ", "Button", "TextView", "Hello", "Android", "Weclome",
-            "Button ImageView"};
+    private String[] mVals = new String[]
+            {"Hello", "Android", "Weclome Hi ", "Button", "TextView", "Hello",
+                    "Android", "Weclome", "Button ImageView", "TextView", "Helloworld",
+                    "Android", "Weclome Hello", "Button Text", "TextView", "Hello", "Android", "Weclome Hi ", "Button", "TextView", "Hello",
+                    "Android", "Weclome", "Button ImageView"};
 
     private TagFlowLayout mFlowLayout;
 
     @Nullable
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.activity_main, container, false);
+    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+        return inflater.inflate(R.layout.fragment_event_test, container, false);
     }
 
     @Override
@@ -39,7 +38,7 @@ public class LimitSelectedFragment extends Fragment {
 
             @Override
             public View getView(FlowLayout parent, int position, String s) {
-                TextView tv = (TextView) mInflater.inflate(R.layout.tv,
+                TextView tv = (TextView) mInflater.inflate(R.layout.tagflowlayout_tv,
                         mFlowLayout, false);
                 tv.setText(s);
                 return tv;

@@ -46,6 +46,7 @@ public class AreaChartsView extends View {
     @Override
     protected void onLayout(boolean changed, int left, int top, int right, int bottom) {
         super.onLayout(changed, left, top, right, bottom);
+
         mWidth = getWidth();
         mHight = getHeight();
     }
@@ -64,9 +65,11 @@ public class AreaChartsView extends View {
         //初始化坐标图的xy交点原点坐标
         mZeroPos[0] = mXYTitleTextSize * 2;
         mZeroPos[1] = mHight - mXYTitleTextSize * 4;
+
         //初始化坐标图的X轴最大值坐标
         mMaxXPos[0] = mWidth;
         mMaxXPos[1] = mHight - mXYTitleTextSize * 4;
+
         //初始化坐标图的Y轴最大值坐标
         mMaxYPos[0] = mXYTitleTextSize * 2;
         mMaxYPos[1] = mXYTitleTextSize * 2;
@@ -76,9 +79,11 @@ public class AreaChartsView extends View {
         mPaint.setColor(Color.parseColor("#1FB0E7"));
         mPaint.setTextSize(mXYTitleTextSize);
         mPaint.setTextAlign(Paint.Align.LEFT);
+
         //画Y轴顶的title
         canvas.drawText(mTitleY, mMaxYPos[0] - mXYTitleTextSize * 2, mMaxYPos[1] - mXYTitleTextSize, mPaint);
         mPaint.setTextAlign(Paint.Align.RIGHT);
+
         //画X轴顶的title
         canvas.drawText(mTitleX, mMaxXPos[0], mMaxXPos[1] + mXYTitleTextSize * 2, mPaint);
     }
@@ -86,6 +91,7 @@ public class AreaChartsView extends View {
     private void drawXYLine(Canvas canvas) {
         mPaint.setColor(Color.DKGRAY);
         mPaint.setTextAlign(Paint.Align.RIGHT);
+
         //画XY轴
         canvas.drawLine(mMaxYPos[0], mMaxYPos[1], mZeroPos[0], mZeroPos[1], mPaint);
         canvas.drawLine(mZeroPos[0], mZeroPos[1], mMaxXPos[0], mMaxXPos[1], mPaint);
@@ -93,17 +99,21 @@ public class AreaChartsView extends View {
 
     private void drawContent(Canvas canvas) {
         mGridLevel = mXLevel.size() - 1;
+
         //计算出偏移title等显示尺标后的真实XY轴长度，便于接下来等分
         mRealWidth = (mWidth - mXYTitleTextSize * 2);
         mRealHight = (mHight - mXYTitleTextSize * 4);
+
         //算出等分间距
         int offsetX = mRealWidth / (mGridLevel);
         int offsetY = mRealHight / (mGridLevel + 1);
+
         //循环绘制content
         for (int index = 0; index < mGridLevel + 1; index++) {
             mPaint.setColor(Color.DKGRAY);
             mPaint.setTextAlign(Paint.Align.RIGHT);
             mPaint.setTextSize(mXYTitleTextSize - 5);
+
             //绘制X轴的那些坐标区间点，包含0点坐标
             canvas.drawText(String.valueOf(mXLevel.get(index)), mZeroPos[0] + (index * offsetX), mZeroPos[1] + mXYTitleTextSize, mPaint);
 
@@ -119,16 +129,19 @@ public class AreaChartsView extends View {
 
             mPaint.setColor(mGridColorLevel.get(mGridLevel - 1 - index));
             mPaint.setStyle(Paint.Style.FILL);
+
             //绘制区间叠加图谱方块，从远到0坐标，因为小的图会覆盖大的图
             canvas.drawRect(mMaxYPos[0], mMaxYPos[1] + index * offsetY, mMaxXPos[0] - index * offsetX, mMaxXPos[1], mPaint);
 
             mPaint.setColor(mGridTxtColorLevel.get(index));
             mPaint.setTextAlign(Paint.Align.RIGHT);
             mPaint.setTextSize(mXYTitleTextSize);
+
             //绘制每个方块状态区间的提示文字
             canvas.drawText(mGridLevelText.get(index), mMaxXPos[0] - index * offsetX - mXYTitleTextSize,
                     mMaxYPos[1] + index * offsetY + mXYTitleTextSize, mPaint);
         }
+
         //绘制当前坐标
         drawNotice(canvas, offsetX, offsetY);
     }
@@ -136,6 +149,7 @@ public class AreaChartsView extends View {
     private void drawNotice(Canvas canvas, int offsetX, int offsetY) {
         int realPosX = 0;
         int realPosY = 0;
+
         //计算传入的x值与真实屏幕坐标的像素值的百分比差值转换
         for (int index = 0; index < mGridLevel; index++) {
             if (mMeasureXpos >= mXLevel.get(index) && mMeasureXpos < mXLevel.get(index + 1)) {
@@ -145,6 +159,7 @@ public class AreaChartsView extends View {
                 break;
             }
         }
+
         //计算传入的y值与真实屏幕坐标的像素值的百分比差值转换
         for (int index = 0; index < mGridLevel; index++) {
             if (mMeasureYpos >= mYLevel.get(index) && mMeasureYpos < mYLevel.get(index + 1)) {
@@ -154,6 +169,7 @@ public class AreaChartsView extends View {
                 break;
             }
         }
+
         //画我们传入的坐标点的标记小红点
         mPaint.setColor(Color.RED);
         mPaint.setStyle(Paint.Style.FILL);
@@ -165,6 +181,7 @@ public class AreaChartsView extends View {
         mPaint.setStyle(Paint.Style.FILL_AND_STROKE);
         RectF rectF = null;
         Path path = new Path();
+
         //画红点旁边的提示框和文字，有四个区域，然后提示框的小三角指标方位不同
         if (realPosX <= centerPos[0] && realPosY >= centerPos[1]) {
             //left-bottom
@@ -172,9 +189,11 @@ public class AreaChartsView extends View {
             path.moveTo(realPosX + 5, realPosY + 5);
             path.lineTo(realPosX + 15, realPosY + 15);
             path.lineTo(realPosX + 15, realPosY - 15);
+
             //画矩形背景
             rectF = new RectF(realPosX + 15, realPosY - 40, realPosX + 200, realPosY + 30);
             canvas.drawRoundRect(rectF, 15, 15, mPaint);
+
             //画提示框的文字
             mPaint.reset();
             mPaint.setColor(Color.RED);

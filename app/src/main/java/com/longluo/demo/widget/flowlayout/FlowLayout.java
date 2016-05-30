@@ -48,6 +48,7 @@ public class FlowLayout extends ViewGroup {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+
         // 获得它的父容器为它设置的测量模式和大小
         int sizeWidth = MeasureSpec.getSize(widthMeasureSpec);
         int sizeHeight = MeasureSpec.getSize(heightMeasureSpec);
@@ -59,10 +60,12 @@ public class FlowLayout extends ViewGroup {
         // 如果是warp_content情况下，记录宽和高
         int width = 0;
         int height = 0;
+
         /**
          * 记录每一行的宽度，width不断取最大宽度
          */
         int lineWidth = 0;
+
         /**
          * 每一行的高度，累加至height
          */
@@ -73,14 +76,18 @@ public class FlowLayout extends ViewGroup {
         // 遍历每个子元素
         for (int i = 0; i < cCount; i++) {
             View child = getChildAt(i);
+
             // 测量每一个child的宽和高
             measureChild(child, widthMeasureSpec, heightMeasureSpec);
+
             // 得到child的lp
             MarginLayoutParams lp = (MarginLayoutParams) child
                     .getLayoutParams();
+
             // 当前子空间实际占据的宽度
             int childWidth = child.getMeasuredWidth() + lp.leftMargin
                     + lp.rightMargin;
+
             // 当前子空间实际占据的高度
             int childHeight = child.getMeasuredHeight() + lp.topMargin
                     + lp.bottomMargin;
@@ -105,18 +112,18 @@ public class FlowLayout extends ViewGroup {
                 width = Math.max(width, lineWidth);
                 height += lineHeight;
             }
-
         }
+
         setMeasuredDimension((modeWidth == MeasureSpec.EXACTLY) ? sizeWidth
                 : width, (modeHeight == MeasureSpec.EXACTLY) ? sizeHeight
                 : height);
-
     }
 
     /**
      * 存储所有的View，按行记录
      */
     private List<List<View>> mAllViews = new ArrayList<List<View>>();
+
     /**
      * 记录每一行的最大高度
      */
@@ -131,9 +138,11 @@ public class FlowLayout extends ViewGroup {
 
         int lineWidth = 0;
         int lineHeight = 0;
+
         // 存储每一行所有的childView
         List<View> lineViews = new ArrayList<View>();
         int cCount = getChildCount();
+
         // 遍历所有的孩子
         for (int i = 0; i < cCount; i++) {
             View child = getChildAt(i);
@@ -151,6 +160,7 @@ public class FlowLayout extends ViewGroup {
                 lineWidth = 0;// 重置行宽
                 lineViews = new ArrayList<View>();
             }
+
             /**
              * 如果不需要换行，则累加
              */
@@ -159,17 +169,21 @@ public class FlowLayout extends ViewGroup {
                     + lp.bottomMargin);
             lineViews.add(child);
         }
+
         // 记录最后一行
         mLineHeight.add(lineHeight);
         mAllViews.add(lineViews);
 
         int left = 0;
         int top = 0;
+
         // 得到总行数
         int lineNums = mAllViews.size();
+
         for (int i = 0; i < lineNums; i++) {
             // 每一行的所有的views
             lineViews = mAllViews.get(i);
+
             // 当前行的最大高度
             lineHeight = mLineHeight.get(i);
 
@@ -179,9 +193,11 @@ public class FlowLayout extends ViewGroup {
             // 遍历当前行所有的View
             for (int j = 0; j < lineViews.size(); j++) {
                 View child = lineViews.get(j);
+
                 if (child.getVisibility() == View.GONE) {
                     continue;
                 }
+
                 MarginLayoutParams lp = (MarginLayoutParams) child
                         .getLayoutParams();
 
@@ -199,6 +215,7 @@ public class FlowLayout extends ViewGroup {
                 left += child.getMeasuredWidth() + lp.rightMargin
                         + lp.leftMargin;
             }
+
             left = 0;
             top += lineHeight;
         }

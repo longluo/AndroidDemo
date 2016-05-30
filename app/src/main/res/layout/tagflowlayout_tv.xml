@@ -4,7 +4,7 @@
     android:layout_height="wrap_content"
     android:layout_margin="5dp"
     android:background="@drawable/tag_bg"
-    android:text="Hello World"
+    android:text="Helloworld"
     android:textColor="@drawable/text_color">
 
 </TextView>
