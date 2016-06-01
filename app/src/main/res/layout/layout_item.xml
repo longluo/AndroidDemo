@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:descendantFocusability="blocksDescendants">
+
+    <RelativeLayout
+        android:id="@+id/mainLayout"
+        style="?article_item_bg"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/profile_item_margin"
+        android:layout_marginRight="@dimen/profile_item_margin"
+        android:layout_marginTop="4dp"
+        android:descendantFocusability="blocksDescendants">
+
+        <RelativeLayout
+            android:id="@+id/userInfo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginBottom="-7dp"
+            android:layout_marginLeft="12dip"
+            android:layout_marginTop="12dip">
+
+            <TextView
+                android:id="@+id/type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="16dp"
+                android:textColor="#969696"
+                android:textSize="@dimen/g_txt_small"
+                android:visibility="invisible" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:id="@+id/contentLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@id/userInfo"
+            android:layout_marginLeft="12dip"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="19dip">
+
+            <TextView
+                android:id="@+id/content"
+                style="?listitem_content"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </FrameLayout>
+
+        <RelativeLayout
+            android:id="@+id/imageLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignWithParentIfMissing="true"
+            android:layout_below="@id/contentLayout"
+            android:layout_marginTop="6dip">
+
+            <com.longluo.demo.video.VideoPlayView
+                android:id="@+id/videoView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image"
+                android:layout_alignLeft="@id/image"
+                android:layout_alignRight="@id/image"
+                android:layout_alignTop="@id/image"
+                android:visibility="gone" />
+
+            <qsbk.app.widget.ThemeableImageView
+                android:id="@+id/image"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@null"
+                android:drawingCacheQuality="low"
+                android:minHeight="60dp"
+                android:scaleType="fitXY" />
+
+            <ProgressBar
+                android:id="@+id/progress"
+                style="?attr/progressbar_image_loading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@id/image"
+                android:layout_alignRight="@id/image"
+                android:layout_alignTop="@id/image"
+                android:indeterminate="true"
+                android:max="100" />
+
+            <ProgressBar
+                android:id="@+id/video_progress"
+                style="?video_loading_progress"
+                android:layout_width="46dip"
+                android:layout_height="46dip"
+                android:layout_centerInParent="true"
+                android:indeterminate="true"
+                android:max="100"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/imageLoading"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/image"
+                android:layout_alignLeft="@id/image"
+                android:layout_alignRight="@id/image"
+                android:layout_alignTop="@id/image"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="点击加载图片"
+                android:textColor="#ad9883"
+                android:visibility="gone" />
+
+            <ImageView
+                android:id="@+id/play_video"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:src="@drawable/video_play_selector"
+                android:visibility="gone" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/points_and_comments_count_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageLayout"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp">
+
+            <TextView
+                android:id="@+id/points_and_comments_count"
+                style="?listitem_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true" />
+
+            <TextView
+                android:id="@+id/loop"
+                style="?listitem_comment"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@id/points_and_comments_count"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_toLeftOf="@id/location"
+                android:layout_toRightOf="@id/points_and_comments_count" />
+
+            <TextView
+                android:id="@+id/location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/points_and_comments_count"
+                android:layout_marginRight="12dp"
+                android:drawableLeft="@drawable/ic_location_small"
+                android:drawablePadding="8dp"
+                android:textColor="@color/g_txt_small"
+                android:textSize="@dimen/g_txt_small"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+        <qsbk.app.widget.DiggerBar
+            android:id="@+id/diggerbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/subscribe_diggerbar_height"
+            android:layout_below="@id/operation_bar"
+            android:gravity="center_vertical"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layerMask"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="4dp"
+        android:layout_marginLeft="@dimen/profile_item_margin"
+        android:layout_marginRight="@dimen/profile_item_margin"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/edit_info_items_card_mask"
+        android:visibility="gone" />
+</FrameLayout>

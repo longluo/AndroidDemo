@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:padding="@dimen/details_content_margin">
+
+        <EditText
+            android:id="@+id/input"
+            android:layout_width="match_parent"
+            android:layout_height="220.0dip"
+            android:background="@drawable/internal_monolog_edittext_bg"
+            android:gravity="top"
+            android:hint="@string/feedback_hint" />
+
+        <ImageButton
+            android:id="@+id/delete_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/input"
+            android:layout_alignRight="@id/input"
+            android:layout_marginBottom="10.0dip"
+            android:layout_marginRight="10.0dip"
+            android:background="@drawable/iphoneedittext_del_btn"
+            android:contentDescription="@string/image_contentDescription"
+            android:visibility="gone" />
+
+        <TextView
+            android:id="@+id/words_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/input"
+            android:layout_below="@id/input"
+            android:layout_marginRight="5.0dip"
+            android:layout_marginTop="5.0dip"
+            android:textColor="@color/gray" />
+
+        <TextView
+            android:id="@+id/kefu_qq_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/words_textview"
+            android:layout_marginTop="7dp"
+            android:background="@color/transparent"
+            android:gravity="left"
+            android:text="Custom Service"
+            android:textColor="@color/gray_color"
+            android:textIsSelectable="true"
+            android:textSize="14sp"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

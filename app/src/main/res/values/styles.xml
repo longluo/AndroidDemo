@@ -345,5 +345,23 @@
         <item name="toolbarTintColorGray">@color/icon_dark_54</item>
     </style>
 
+    <style name="ContentText">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dip</item>
+    </style>
+
+
+    <style name="shadow_white_style">
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+    </style>
+
+    <style name="listItemLinearlayout_style">
+        <item name="android:padding">10dip</item>
+    </style>
+
+
+
 
 </resources>

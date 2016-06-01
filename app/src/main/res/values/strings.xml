@@ -360,5 +360,41 @@ Never gonna tell a lie and hurt you</string>
     <string name="activity_drawtriangle">Draw Triangle</string>
     <string name="activity_drawsolarsystem">Draw Solar Sytem</string>
 
+   <!-- <string name="copyright">XXX  版权所有</string>-->
+    <string name="version">App V%1$s</string>
+    <string name="terms_of_service">服务条款</string>
+    <string name="copyright_time">Copyright © 2013&#8211;2016</string>
+    <string name="arrow">箭头</string>
+    <string name="age">年龄</string>
+    <string name="sign_out">退出登录</string>
+    <string name="feedback_sumbit_success">提交成功</string>
+    <string name="get_data_error">网络不给力哦，请稍后再试！</string>
+
+    <string name="push_setting">推送设置</string>
+
+    <string name="change_password">修改密码</string>
+    <string name="change_phonenum">更换手机号</string>
+
+    <string name="clear_image_cache">清除缓存</string>
+    <string name="invite_friends">邀请好友使用</string>
+    <string name="is_clear_image_cache">确定要清除图片缓存吗?</string>
+    <string name="feedback">意见反馈</string>
+    <string name="report">不良信息举报</string>
+    <string name="app_recommed">应用推荐</string>
+<!--    <string name="about">关于</string>-->
+
+    <string name="version_update_check">检查更新</string>
+    <string name="version_update_newest">已经是最新版本！</string>
+    <string name="version_update_dialog_title">版本升级</string>
+    <string name="version_update_dialog_btn_now">马上升级</string>
+    <string name="version_update_dialog_btn_later">以后再说</string>
+    <string name="version_update_dialog_btn_exit">退出</string>
+
+    <string name="feedback_hint">感谢您对珍爱网的关注和支持，请输入您的意见和建议.</string>
+
+    <string name="image_contentDescription">图片加载中</string>
+
+
+
 
 </resources>

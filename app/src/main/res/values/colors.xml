@@ -397,4 +397,38 @@
     <color name="icon_dark_54">#89000000</color>
     <color name="icon_dark_87">#dd000000</color>
 
+   <color name="textDark">#222</color>
+    <color name="textLight">#555</color>
+
+
+    <color name="bg">#fff5f2f7</color>
+
+    <color name="normal_text_force_text_color">#ff828287</color>
+    <color name="normal_text_force_text_color_2">#9d9d9d</color>
+
+    <!--
+    <color name="normal_text_force_text_color_3">#a2a7ab</color>
+    -->
+
+    <color name="term_text_text_color">#703987</color>
+    <color name="terms_of_service_text_color">#703987</color>
+    <color name="listitem_content_text_color">#ffbcbcbc</color>
+    <color name="send_verify_gray">#ff7d8084</color>
+    <color name="list_item_title_color">#ff383838</color>
+
+    <!-- listitem text color -->
+    <color name="listitem_content_gray">#ff535353</color>
+    <!-- listitem line color -->
+    <color name="listitem_content_line">#ffefefef</color>
+    <!-- listitem line content color and time color-->
+    <color name="listitem_content_time">#ff7d7d7d</color>
+
+    <color name="linearylayout_bg">#ffe8e8e8</color>
+
+    <color name="gray_color">#ff888888</color>
+    <color name="blue_color">#ff79b4c3</color>
+
+    <color name="transparent">#00000000</color>
+
+
 </resources>

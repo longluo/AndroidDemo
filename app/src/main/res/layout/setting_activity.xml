@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dip"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bg"
+                android:orientation="vertical">
+
+                <!-- 推送设置 -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_push"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/push_setting" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <!-- 更换手机号 -->
+
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_change_phone"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/change_phonenum" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <!-- 更改密码 -->
+
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_change_password"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:contentSize="14sp"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/change_password" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_clear_image_cache"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/clear_image_cache" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_invite_friends"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/invite_friends" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25.0dip"
+                android:orientation="vertical">
+
+                <View
+                    android:id="@+id/view_line"
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_app_recommed"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:rightForIcon="@drawable/new_msg_m"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/app_recommed" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <!-- 意见反馈 -->
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_feedback"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/feedback" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <!-- 检查更新 -->
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_check_update"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/version_update_check" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <!-- 关于我们 -->
+                <com.longluo.demo.widget.ListItemLinearLayout
+                    android:id="@+id/listitemlinearlayout_setting_about_us"
+                    style="@style/listItemLinearlayout_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:clickable="true"
+                    app:isleftIconFiter="true"
+                    app:titleSize="@dimen/listitem_title_textsize"
+                    app:titleText="@string/about" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line"
+                    android:visibility="gone" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="48dip"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="25.0dip"
+                android:background="@drawable/shape_bg"
+                android:orientation="vertical">
+
+                <!-- 退出登录 -->
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+
+                <Button
+                    android:id="@+id/listitemlinearlayout_setting_sign_out"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dip"
+                    android:layout_weight="1.0"
+                    android:background="@drawable/shape_bg_mid_selector"
+                    android:text="@string/sign_out"
+                    android:textColor="@color/black"
+                    android:textSize="18dip" />
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="1.0px"
+                    android:background="@drawable/shape_line" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

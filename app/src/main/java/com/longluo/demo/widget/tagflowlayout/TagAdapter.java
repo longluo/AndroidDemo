@@ -48,7 +48,6 @@ public abstract class TagAdapter<T> {
         return mCheckedPosList;
     }
 
-
     public int getCount() {
         return mTagDatas == null ? 0 : mTagDatas.size();
     }
@@ -66,6 +65,5 @@ public abstract class TagAdapter<T> {
     public boolean setSelected(int position, T t) {
         return false;
     }
-
 
 }

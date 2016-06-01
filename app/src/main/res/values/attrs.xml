@@ -134,5 +134,22 @@
     <attr name="drawer.background.item.primary" format="reference|color" />
     <attr name="drawer.background.primary" format="reference|color" />
     <attr name="drawer.divider.background" format="reference|color" />
+    
+        <declare-styleable name="ListItemLinearlayout">
+        <attr name="singleLine" />
+        <attr name="titleSize" format="dimension" />
+        <attr name="titleColor" format="reference|color" />
+        <attr name="contentSize" format="dimension" />
+        <attr name="contentColor" format="reference|color" />
+        <attr name="titleText" format="reference|string" />
+        <attr name="contentText" format="reference|string" />
+        <attr name="arrowIconVisibility" format="boolean" />
+        <attr name="arrowIcon" format="reference" />
+        <attr name="leftIcon" format="reference" />
+        <attr name="isleftIconFiter" format="boolean" />
+        <attr name="rightForIcon" format="reference" />
+        <attr name="rightIconVisibility" format="boolean" />
+        <attr name="normalSelected" format="boolean" />
+    </declare-styleable>
 
 </resources>

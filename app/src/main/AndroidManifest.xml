@@ -780,6 +780,12 @@
             android:name=".areachartsview.AreaChartsViewDemoActivity"
             android:label="AreaChartsView Demo" />
 
+        <activity android:name=".settings.SettingDemoActivity" />
+
+        <activity android:name=".settings.AboutActivity" />
+
+        <activity android:name=".settings.FeedBackActivity" />
+
     </application>
 
 </manifest>

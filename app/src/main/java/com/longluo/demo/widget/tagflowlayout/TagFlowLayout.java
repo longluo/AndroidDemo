@@ -27,7 +27,6 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
 
     private Set<Integer> mSelectedView = new HashSet<Integer>();
 
-
     public TagFlowLayout(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
         TypedArray ta = context.obtainStyledAttributes(attrs, R.styleable.TagFlowLayout);
@@ -48,18 +47,19 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
         this(context, null);
     }
 
-
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         int cCount = getChildCount();
 
         for (int i = 0; i < cCount; i++) {
             TagView tagView = (TagView) getChildAt(i);
+
             if (tagView.getVisibility() == View.GONE) continue;
             if (tagView.getTagView().getVisibility() == View.GONE) {
                 tagView.setVisibility(View.GONE);
             }
         }
+
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
     }
 
@@ -85,20 +85,21 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
         if (onTagClickListener != null) setClickable(true);
     }
 
-
     public void setAdapter(TagAdapter adapter) {
         mTagAdapter = adapter;
         mTagAdapter.setOnDataChangedListener(this);
         mSelectedView.clear();
         changeAdapter();
-
     }
 
     private void changeAdapter() {
         removeAllViews();
+
         TagAdapter adapter = mTagAdapter;
         TagView tagViewContainer = null;
+
         HashSet preCheckedList = mTagAdapter.getPreCheckedList();
+
         for (int i = 0; i < adapter.getCount(); i++) {
             View tagView = adapter.getView(this, i, adapter.getItem(i));
 
@@ -122,9 +123,9 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
                         dip2px(getContext(), 5));
                 tagViewContainer.setLayoutParams(lp);
             }
+
             tagViewContainer.addView(tagView);
             addView(tagViewContainer);
-
 
             if (preCheckedList.contains(i)) {
                 tagViewContainer.setChecked(true);
@@ -135,16 +136,16 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
                 tagViewContainer.setChecked(true);
             }
         }
+
         mSelectedView.addAll(preCheckedList);
-
     }
-
 
     @Override
     public boolean onTouchEvent(MotionEvent event) {
         if (event.getAction() == MotionEvent.ACTION_UP) {
             mMotionEvent = MotionEvent.obtain(event);
         }
+
         return super.onTouchEvent(event);
     }
 
@@ -164,15 +165,16 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
                 return mOnTagClickListener.onTagClick(child.getTagView(), pos, this);
             }
         }
+
         return true;
     }
-
 
     public void setMaxSelectCount(int count) {
         if (mSelectedView.size() > count) {
             Log.w(TAG, "you has already select more than " + count + " views , so it will be clear .");
             mSelectedView.clear();
         }
+
         mSelectedMax = count;
     }
 
@@ -212,10 +214,8 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
         return mTagAdapter;
     }
 
-
     private static final String KEY_CHOOSE_POS = "key_choose_pos";
     private static final String KEY_DEFAULT = "key_default";
-
 
     @Override
     protected Parcelable onSaveInstanceState() {
@@ -230,6 +230,7 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
             selectPos = selectPos.substring(0, selectPos.length() - 1);
         }
         bundle.putString(KEY_CHOOSE_POS, selectPos);
+
         return bundle;
     }
 
@@ -251,8 +252,10 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
 
             }
             super.onRestoreInstanceState(bundle.getParcelable(KEY_DEFAULT));
+
             return;
         }
+
         super.onRestoreInstanceState(state);
     }
 
@@ -262,6 +265,7 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
             View v = getChildAt(i);
             if (v == child) return i;
         }
+
         return -1;
     }
 
@@ -276,6 +280,7 @@ public class TagFlowLayout extends FlowLayout implements TagAdapter.OnDataChange
                 return v;
             }
         }
+
         return null;
     }
 

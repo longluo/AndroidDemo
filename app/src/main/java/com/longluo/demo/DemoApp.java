@@ -7,6 +7,7 @@ import android.content.Context;
 import android.os.Vibrator;
 
 import com.longluo.demo.crash.CrashHandler;
+import com.longluo.demo.task.TaskObserver;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
@@ -26,13 +27,13 @@ import java.util.List;
  */
 public class DemoApp extends Application {
 
-	private static Context mContext;
+    private static Context mContext;
 
-	private CrashHandler mCrashHandler;
+    private CrashHandler mCrashHandler;
 
-	// Baidu Location
+    // Baidu Location
 //	public LocationService mLocationService;
-	public Vibrator mVibrator;
+    public Vibrator mVibrator;
 
     //
     private static RefWatcher sRefWatcher;
@@ -41,25 +42,27 @@ public class DemoApp extends Application {
     MyApplication.getRefWatcher().watch(sLeaky);
      */
 
+    private static TaskObserver mTaskObserver;
 
-	@Override
-	public void onCreate() {
-		super.onCreate();
 
-		mContext = getApplicationContext();
+    @Override
+    public void onCreate() {
+        super.onCreate();
+
+        mContext = getApplicationContext();
 
 /*		if (isMainProcessType()) {
-			// initJPush();
+            // initJPush();
 
 			mCrashHandler = CrashHandler.getInstance();
 			mCrashHandler.init(mContext);
 		}*/
 
-		initBaiduLBSSDK();
+        initBaiduLBSSDK();
 
-		//在这里为应用设置异常处理程序，然后我们的程序才能捕获未处理的异常
-		CrashHandler crashHandler = CrashHandler.getInstance();
-		crashHandler.init(this);
+        //在这里为应用设置异常处理程序，然后我们的程序才能捕获未处理的异常
+        CrashHandler crashHandler = CrashHandler.getInstance();
+        crashHandler.init(this);
 
         //
         sRefWatcher = LeakCanary.install(this);
@@ -68,56 +71,66 @@ public class DemoApp extends Application {
 
     }
 
-	@Override
-	public void onTerminate() {
-		super.onTerminate();
+    @Override
+    public void onTerminate() {
+        super.onTerminate();
 
-	}
+    }
 
-	public static Context getContext() {
-		return mContext;
-	}
+    public static Context getContext() {
+        return mContext;
+    }
 
-	private void initJPush() {
-		// Init JPush
-		// JPushInterface.setDebugMode(true); // 设置开启日志,发布时请关闭日志
-		// JPushInterface.init(this); // 初始化 JPush
-	}
+    /**
+     * @return 异步任务管理器
+     */
+    public static TaskObserver getTaskObserver() {
+        if (mTaskObserver == null) {
+            mTaskObserver = new TaskObserver();
+        }
+        return mTaskObserver;
+    }
 
-	private boolean isMainProcessType() {
-		String processName = getCurrentProcessName();
-		if (getPackageName().equals(processName)) {
-			return true;
-		} else {
-			return false;
-		}
-	}
+    private void initJPush() {
+        // Init JPush
+        // JPushInterface.setDebugMode(true); // 设置开启日志,发布时请关闭日志
+        // JPushInterface.init(this); // 初始化 JPush
+    }
 
-	private String getCurrentProcessName() {
-		int pid = android.os.Process.myPid();
-		ActivityManager am = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
-		List<RunningAppProcessInfo> infos = am.getRunningAppProcesses();
-		if (infos != null && infos.size() > 0) {
-			for (RunningAppProcessInfo appProcess : infos) {
-				if (appProcess.pid == pid) {
-					return appProcess.processName;
-				}
-			}
-		}
+    private boolean isMainProcessType() {
+        String processName = getCurrentProcessName();
+        if (getPackageName().equals(processName)) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 
-		return "";
-	}
+    private String getCurrentProcessName() {
+        int pid = android.os.Process.myPid();
+        ActivityManager am = (ActivityManager) getSystemService(Context.ACTIVITY_SERVICE);
+        List<RunningAppProcessInfo> infos = am.getRunningAppProcesses();
+        if (infos != null && infos.size() > 0) {
+            for (RunningAppProcessInfo appProcess : infos) {
+                if (appProcess.pid == pid) {
+                    return appProcess.processName;
+                }
+            }
+        }
 
-	private void initBaiduLBSSDK() {
-		/***
-		 * 初始化定位sdk，建议在Application中创建
-		 */
+        return "";
+    }
+
+    private void initBaiduLBSSDK() {
+        /***
+         * 初始化定位sdk，建议在Application中创建
+         */
 //		mLocationService = new LocationService(getApplicationContext());
 //		mVibrator = (Vibrator) getApplicationContext().getSystemService(
 //				Service.VIBRATOR_SERVICE);
 //		WriteLog.getInstance().init(); // 初始化日志
 //		SDKInitializer.initialize(getApplicationContext());
-	}
+    }
 
     public static RefWatcher getRefWatcher() {
         return sRefWatcher;

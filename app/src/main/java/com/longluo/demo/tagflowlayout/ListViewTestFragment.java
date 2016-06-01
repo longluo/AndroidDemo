@@ -56,7 +56,9 @@ public class ListViewTestFragment extends Fragment {
                         return tv;
                     }
                 };
+
                 tagFlowLayout.setAdapter(tagAdapter);
+
                 //重置状态
 /*                tagAdapter.setSelectedList(selectedMap.get(viewHolder.getItemPosition()));
 
@@ -66,9 +68,9 @@ public class ListViewTestFragment extends Fragment {
                         selectedMap.put(viewHolder.getItemPosition(), selectPosSet);
                     }
                 });*/
+
             }
         });
-
     }
 
     private void initDatas() {
@@ -77,6 +79,7 @@ public class ListViewTestFragment extends Fragment {
             for (int j = 0; j < 3; j++) {
                 itemData.add((char) i + "");
             }
+
             mDatas.add(itemData);
         }
     }
