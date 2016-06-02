@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+    <!--    <com.sina.weibo.view.InterceptTouchEventLinearLayout
+            android:id="@+id/video_feed_item_above_video_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="12.0dip">
+
+            <com.sina.weibo.feed.view.VideoFeedTitleView
+                android:id="@id/mblogHeadtitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </com.sina.weibo.view.InterceptTouchEventLinearLayout>
+
+        <ViewStub
+            android:id="@+id/stub_player_view"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inflatedId="@id/video_feed_player_view"
+            android:layout="@layout/video_feed_player_view_layout" />
+
+        <com.sina.weibo.view.InterceptTouchEventLinearLayout
+            android:id="@+id/video_feed_item_below_video_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingTop="20.0dip">
+
+            <com.sina.weibo.feed.view.VideoFeedBottomButtonsView
+                android:id="@id/ly_bottom_btns"
+                android:layout_width="fill_parent"
+                android:layout_height="36.0dip"
+                android:duplicateParentState="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="1.0dip"
+                android:background="@color/video_feed_list_divide" />
+        </com.sina.weibo.view.InterceptTouchEventLinearLayout>-->
+</merge>

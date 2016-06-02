@@ -57,6 +57,7 @@ import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.opengl.OpenGLDemoActivity;
 import com.longluo.demo.palette.PaletteDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
+import com.longluo.demo.recyclerview.RecyclerViewDemoActivity;
 import com.longluo.demo.ripple.RippleViewDemoActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
@@ -68,6 +69,7 @@ import com.longluo.demo.textview.TextViewDemoActivity;
 import com.longluo.demo.toolbar.ToolBarDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.utils.LinkUtils;
+import com.longluo.demo.video.VideoFeedDemoActivity;
 import com.longluo.demo.view.ViewDemoActivity;
 import com.longluo.demo.viewgroup.ViewGroupDemoActivity;
 import com.longluo.demo.viewpager.ViewPagerActivity;
@@ -151,6 +153,8 @@ public class MainActivity extends AppCompatActivity {
             "Fresco Demo",
             "AreaChartsView Demo",
             "Settings Demo",
+            "Video Feed Demo",
+            "RecyclerView Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -483,6 +487,14 @@ public class MainActivity extends AppCompatActivity {
 
                     case 63:
                         startActivity(SettingDemoActivity.class);
+                        break;
+
+                    case 64:
+                        startActivity(VideoFeedDemoActivity.class);
+                        break;
+
+                    case 65:
+                        startActivity(RecyclerViewDemoActivity.class);
                         break;
 
                     default:

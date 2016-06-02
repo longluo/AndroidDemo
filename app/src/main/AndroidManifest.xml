@@ -133,12 +133,6 @@
             android:label="@string/viewpager"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
 
-        <!--
-             <activity
-            android:name="com.longluo.demo.recyclerview.RecyclerViewActivity"
-            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
-        -->
-
         <activity android:name="com.longluo.demo.calendarcard.CardSample1Activity" />
 
         <activity android:name="com.longluo.demo.calendarcard.CardSample2Activity" />
@@ -785,6 +779,17 @@
         <activity android:name=".settings.AboutActivity" />
 
         <activity android:name=".settings.FeedBackActivity" />
+
+        <!-- Video Feed -->
+        <activity
+            android:name=".video.VideoFeedDemoActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- RecyclerView -->
+        <activity
+            android:name=".recyclerview.RecyclerViewDemoActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
 
     </application>
 

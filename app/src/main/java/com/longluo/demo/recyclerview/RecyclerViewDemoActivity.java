@@ -16,7 +16,7 @@ import com.longluo.demo.R;
  * @version 0.1
  * @date 2015-6-10 上午10:48:11
  */
-public class RecyclerViewActivity extends Activity {
+public class RecyclerViewDemoActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -134,9 +134,8 @@
     <attr name="drawer.background.item.primary" format="reference|color" />
     <attr name="drawer.background.primary" format="reference|color" />
     <attr name="drawer.divider.background" format="reference|color" />
-    
-        <declare-styleable name="ListItemLinearlayout">
-        <attr name="singleLine" />
+
+    <declare-styleable name="ListItemLinearlayout">
         <attr name="titleSize" format="dimension" />
         <attr name="titleColor" format="reference|color" />
         <attr name="contentSize" format="dimension" />
