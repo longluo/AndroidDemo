@@ -39,18 +39,10 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The TagFlowLayout Demo.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/video/VideoFeedDemoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_video_feed.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_video_feed_item_view.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_video_loading_progress.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/video/list/BaseVideoAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/res/layout/layout_item.xml" afterPath="" />
+    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="the RecyclerView Demo.">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/attrs.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java" />
     </list>
     <ignored path="AndroidDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -91,11 +83,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RecyclerViewDemoActivity.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RecyclerViewDemoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.60475165">
-              <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -103,14 +95,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RecyclerViewAdapter.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="RecyclerViewAdapter.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewAdapter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.76025915">
+              <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
               <folding>
-                <element signature="e#970#971#0" expanded="true" />
-                <element signature="e#1008#1009#0" expanded="true" />
+                <element signature="e#1403#1678#0" expanded="true" />
+                <element signature="e#1677#1678#0" expanded="true" />
+                <element signature="e#1738#2062#0" expanded="true" />
+                <element signature="e#2061#2062#0" expanded="true" />
+                <element signature="e#2127#2128#0" expanded="true" />
+                <element signature="e#2165#2166#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -122,8 +118,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.830508">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+            <state vertical-scroll-proportion="-3.0508475">
+              <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -462,7 +458,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-10.034483">
-              <caret line="788" column="48" selection-start-line="788" selection-start-column="48" selection-end-line="788" selection-end-column="48" />
+              <caret line="789" column="48" selection-start-line="789" selection-start-column="48" selection-end-line="789" selection-end-column="48" />
               <folding>
                 <element signature="e#3055#3073#0" expanded="true" />
                 <element signature="e#3315#3333#0" expanded="true" />
@@ -3761,10 +3757,10 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_video_loading_progress.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_video_feed.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/video/VideoFeedDemoActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_video_feed_item_view.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewAdapter.java" />
       </list>
     </option>
@@ -4509,7 +4505,13 @@
       <option name="project" value="LOCAL" />
       <updated>1464591743941</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="the RecyclerView Demo.">
+      <created>1464835284031</created>
+      <option name="number" value="00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1464835284031</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TodoView">
@@ -4532,7 +4534,7 @@
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33095577" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45221114" sideWeight="0.45434782" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.45434782" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -4569,7 +4571,6 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Add File Manager Module." />
     <MESSAGE value="update some methods." />
     <MESSAGE value="The ToolBar Demo." />
     <MESSAGE value="change the Utils folder." />
@@ -4594,7 +4595,8 @@
     <MESSAGE value="the Zhihu and Rotate Vector." />
     <MESSAGE value="the Fresco Module." />
     <MESSAGE value="The TagFlowLayout Demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="The TagFlowLayout Demo." />
+    <MESSAGE value="the RecyclerView Demo." />
+    <option name="LAST_COMMIT_MESSAGE" value="the RecyclerView Demo." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -5256,7 +5258,7 @@
         <state vertical-scroll-proportion="0.6060606">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -5272,7 +5274,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.034483">
-          <caret line="788" column="48" selection-start-line="788" selection-start-column="48" selection-end-line="788" selection-end-column="48" />
+          <caret line="789" column="48" selection-start-line="789" selection-start-column="48" selection-end-line="789" selection-end-column="48" />
           <folding>
             <element signature="e#3055#3073#0" expanded="true" />
             <element signature="e#3315#3333#0" expanded="true" />
@@ -5349,29 +5351,33 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.830508">
-          <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
+        <state vertical-scroll-proportion="-3.0508475">
+          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="e#970#971#0" expanded="true" />
-            <element signature="e#1008#1009#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.60475165">
-          <caret line="23" column="23" selection-start-line="23" selection-start-column="23" selection-end-line="23" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76025915">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
+          <folding>
+            <element signature="e#1403#1678#0" expanded="true" />
+            <element signature="e#1677#1678#0" expanded="true" />
+            <element signature="e#1738#2062#0" expanded="true" />
+            <element signature="e#2061#2062#0" expanded="true" />
+            <element signature="e#2127#2128#0" expanded="true" />
+            <element signature="e#2165#2166#0" expanded="true" />
           </folding>
         </state>
       </provider>
