@@ -51,12 +51,14 @@ import com.longluo.demo.listview.ListViewDemoActivity;
 import com.longluo.demo.log.LogDemoActivity;
 import com.longluo.demo.login.LoginDemoActivity;
 import com.longluo.demo.media.MediaActivity;
+import com.longluo.demo.mediamanager.MediaManagerDemoActivity;
 import com.longluo.demo.ndk.NdkDemoActivity;
 import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.opengl.OpenGLDemoActivity;
 import com.longluo.demo.palette.PaletteDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
+import com.longluo.demo.recyclerview.RecyclerViewDemo2Activity;
 import com.longluo.demo.recyclerview.RecyclerViewDemoActivity;
 import com.longluo.demo.ripple.RippleViewDemoActivity;
 import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
@@ -138,7 +140,7 @@ public class MainActivity extends AppCompatActivity {
             "WebView Demo",
             "Gyrorotate Demo",
             "VR Player Demo",
-            "FileManager Demo",
+            "MediaManager Demo",
             "ToolBar Demo",
             "CardView Demo",
             "ActivityTranslation Demo",
@@ -155,6 +157,8 @@ public class MainActivity extends AppCompatActivity {
             "Settings Demo",
             "Video Feed Demo",
             "RecyclerView Demo",
+            "RecyclerView Demo2",
+            "FileManager Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -430,7 +434,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 49:
-                        startActivity(FileManagerDemoActivity.class);
+                        startActivity(MediaManagerDemoActivity.class);
                         break;
 
                     case 50:
@@ -495,6 +499,14 @@ public class MainActivity extends AppCompatActivity {
 
                     case 65:
                         startActivity(RecyclerViewDemoActivity.class);
+                        break;
+
+                    case 66:
+                        startActivity(RecyclerViewDemo2Activity.class);
+                        break;
+
+                    case 67:
+                        startActivity(FileManagerDemoActivity.class);
                         break;
 
                     default:

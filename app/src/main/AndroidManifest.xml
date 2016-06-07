@@ -650,7 +650,7 @@
         <activity android:name=".vr.VRPlayerDemoActivity" />
 
         <activity
-            android:name=".filemanager.FileManagerDemoActivity"
+            android:name=".mediamanager.MediaManagerDemoActivity"
             android:screenOrientation="portrait" />
 
         <activity
@@ -789,6 +789,13 @@
         <activity
             android:name=".recyclerview.RecyclerViewDemoActivity"
             android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+
+        <activity android:name=".recyclerview.RecyclerViewDemo2Activity" />
+
+        <!-- File Manager -->
+        <activity
+            android:name=".filemanager.FileManagerDemoActivity"
+            android:screenOrientation="portrait" />
 
 
     </application>

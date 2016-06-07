@@ -19,10 +19,10 @@ import com.longluo.demo.R;
  * @date 2015-6-10 上午10:48:11
  */
 public class RecyclerViewDemoActivity extends Activity {
-    private RecyclerView mHorizonRecyclerView;
+    private RecyclerView mHorizontalRecyclerView;
     private RecyclerView mVerticalRecyclerView;
 
-    private RecyclerViewAdapter mHorizonAdapter;
+    private RecyclerViewAdapter mHorizontalAdapter;
     private RecyclerViewAdapter mVerticalAdapter;
 
     @Override
@@ -38,7 +38,7 @@ public class RecyclerViewDemoActivity extends Activity {
     }
 
     private void initHorizontal() {
-        mHorizonRecyclerView = (RecyclerView) findViewById(R.id.recyclerview_horizontal);
+        mHorizontalRecyclerView = (RecyclerView) findViewById(R.id.recyclerview_horizontal);
 
         // 创建一个线性布局管理器
         LinearLayoutManager layoutManager = new LinearLayoutManager(this);
@@ -47,7 +47,7 @@ public class RecyclerViewDemoActivity extends Activity {
         LinearLayout.LayoutParams params = new LinearLayout.LayoutParams(LayoutParams.MATCH_PARENT, LayoutParams.MATCH_PARENT);
 
         // 设置布局管理器
-        mHorizonRecyclerView.setLayoutManager(layoutManager);
+        mHorizontalRecyclerView.setLayoutManager(layoutManager);
 
         // 创建数据集
         String[] dataset = new String[10];
@@ -56,9 +56,9 @@ public class RecyclerViewDemoActivity extends Activity {
         }
 
         // 创建Adapter，并指定数据集
-        mHorizonAdapter = new RecyclerViewAdapter(dataset);
+        mHorizontalAdapter = new RecyclerViewAdapter(dataset);
         // 设置Adapter
-        mHorizonRecyclerView.setAdapter(mHorizonAdapter);
+        mHorizontalRecyclerView.setAdapter(mHorizontalAdapter);
     }
 
     public void initVertical() {
@@ -85,7 +85,7 @@ public class RecyclerViewDemoActivity extends Activity {
     }
 
     private void initEvent() {
-        mHorizonAdapter.setOnItemClickListener(new RecyclerViewAdapter.OnItemClickListener() {
+        mHorizontalAdapter.setOnItemClickListener(new RecyclerViewAdapter.OnItemClickListener() {
             @Override
             public void onItemClick(View view, int position) {
                 Toast.makeText(RecyclerViewDemoActivity.this, "Horizontal " + position + " click",
