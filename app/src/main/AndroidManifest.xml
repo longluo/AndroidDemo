@@ -797,6 +797,11 @@
             android:name=".filemanager.FileManagerDemoActivity"
             android:screenOrientation="portrait" />
 
+        <!-- Sensor -->
+        <activity
+            android:name=".sensor.SensorDemoActivity"
+            android:screenOrientation="portrait" />
+
 
     </application>
 
