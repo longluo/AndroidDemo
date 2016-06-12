@@ -8,6 +8,7 @@ import android.os.Vibrator;
 
 import com.longluo.demo.crash.CrashHandler;
 import com.longluo.demo.task.TaskObserver;
+import com.longluo.demo.threadpool.ThreadPool;
 import com.squareup.leakcanary.LeakCanary;
 import com.squareup.leakcanary.RefWatcher;
 
@@ -43,6 +44,8 @@ public class DemoApp extends Application {
      */
 
     private static TaskObserver mTaskObserver;
+
+    private ThreadPool mThreadPool;
 
 
     @Override
@@ -139,6 +142,14 @@ public class DemoApp extends Application {
     private void initFresco() {
 //        Fresco.initialize(getApplicationContext());
 
+    }
+
+    public synchronized ThreadPool getThreadPool() {
+        if (mThreadPool == null) {
+            mThreadPool = new ThreadPool();
+        }
+
+        return mThreadPool;
     }
 
 }

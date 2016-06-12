@@ -802,6 +802,8 @@
             android:name=".sensor.SensorDemoActivity"
             android:screenOrientation="portrait" />
 
+        <activity android:name=".video.VideoListDemoActivity" />
+
 
     </application>
 

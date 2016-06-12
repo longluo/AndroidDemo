@@ -73,6 +73,7 @@ import com.longluo.demo.toolbar.ToolBarDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
 import com.longluo.demo.utils.LinkUtils;
 import com.longluo.demo.video.VideoFeedDemoActivity;
+import com.longluo.demo.video.VideoListDemoActivity;
 import com.longluo.demo.view.ViewDemoActivity;
 import com.longluo.demo.viewgroup.ViewGroupDemoActivity;
 import com.longluo.demo.viewpager.ViewPagerActivity;
@@ -161,6 +162,7 @@ public class MainActivity extends AppCompatActivity {
             "RecyclerView Demo2",
             "FileManager Demo",
             "Sensor Demo",
+            "Video List Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -513,6 +515,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 68:
                         startActivity(SensorDemoActivity.class);
+                        break;
+
+                    case 69:
+                        startActivity(VideoListDemoActivity.class);
                         break;
 
                     default:

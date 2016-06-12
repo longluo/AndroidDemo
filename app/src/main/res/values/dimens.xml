@@ -58,5 +58,16 @@
     <dimen name="details_content_margin">10dip</dimen>
 
 
+    <dimen name="video_list_item_margin_left">15dip</dimen>
+    <dimen name="video_list_item_margin_right">10dip</dimen>
+
+    <dimen name="thumb_bookmark_icon_width">90dip</dimen>
+    <dimen name="thumb_bookmark_icon_height">68dip</dimen>
+    <dimen name="thumb_bookmark_icon_margin_left">12dip</dimen>
+    <dimen name="bookmarkicon_width">30dip</dimen>
+    <dimen name="bookmarkicon_height">30dip</dimen>
+
+    <dimen name="image_view_border_size">0.3dip</dimen>
+
 
 </resources>

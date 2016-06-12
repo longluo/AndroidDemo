@@ -431,4 +431,8 @@
     <color name="transparent">#00000000</color>
 
 
+    <color name="video_name">#333333</color>
+    <color name="video_duration">#6C6D6F</color>
+
+
 </resources>
