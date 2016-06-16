@@ -802,6 +802,22 @@
             android:name=".sensor.SensorDemoActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".sensor.AccActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".sensor.GyroActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".sensor.GameRotateVectorActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".sensor.PressureDemoActivity"
+            android:screenOrientation="portrait" />
+
         <activity android:name=".video.VideoListDemoActivity" />
 
 

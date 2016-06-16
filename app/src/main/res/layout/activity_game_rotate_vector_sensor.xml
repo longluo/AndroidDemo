@@ -11,31 +11,31 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="选择Sensor"
-        android:textSize="22sp" />
+        android:text="Game Rotate Vector"
+        android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/btn_acc"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tv_axis_a"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Acc 加速度" />
+        android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/btn_gyro"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tv_axis_b"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Gyro Sensor" />
+        android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/btn_game_rotate_vector"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tv_axis_c"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Game Rotate Vector" />
+        android:textSize="18sp" />
 
-    <Button
-        android:id="@+id/btn_pressure"
-        android:layout_width="wrap_content"
+    <TextView
+        android:id="@+id/tv_axis_d"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Pressure Sensor" />
+        android:textSize="18sp" />
 
 </LinearLayout>

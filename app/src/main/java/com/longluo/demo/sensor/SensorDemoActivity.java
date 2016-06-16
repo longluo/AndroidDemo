@@ -1,61 +1,65 @@
 package com.longluo.demo.sensor;
 
-import android.hardware.Sensor;
-import android.hardware.SensorEvent;
-import android.hardware.SensorEventListener;
-import android.hardware.SensorManager;
+import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
-import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
-import android.widget.TextView;
+import android.view.View;
+import android.widget.Button;
 
 import com.longluo.demo.R;
 
-/**
- * Created by luolong on 2016/6/12.
- */
-public class SensorDemoActivity extends AppCompatActivity implements SensorEventListener {
+public class SensorDemoActivity extends Activity {
 
-    private SensorManager mSensorManager;
-
-    private TextView mAxisA;
-    private TextView mAxisB;
-    private TextView mAxisC;
-    private TextView mAxisD;
-
-    private float x;
-    private float y;
-    private float z;
-    private float w;
-
-    private long lastTime = System.currentTimeMillis();
-    private long nowTime = 0l;
-    private long lastTimeStamp;
-    private long nowTimeStamp;
+    private Button mBtnAcc;
+    private Button mBtnGyro;
+    private Button mBtnGRV;
+    private Button mBtnPressure;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sensor_demo);
 
         initViews();
-
-        init();
     }
 
     private void initViews() {
 
-        mAxisA = (TextView) findViewById(R.id.tv_axis_a);
-        mAxisB = (TextView) findViewById(R.id.tv_axis_b);
-        mAxisC = (TextView) findViewById(R.id.tv_axis_c);
-        mAxisD = (TextView) findViewById(R.id.tv_axis_d);
+        mBtnAcc = (Button) findViewById(R.id.btn_acc);
+        mBtnAcc.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SensorDemoActivity.this, AccActivity.class);
+                startActivity(intent);
+            }
+        });
 
-    }
+        mBtnGyro = (Button) findViewById(R.id.btn_gyro);
+        mBtnGyro.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SensorDemoActivity.this, GyroActivity.class);
+                startActivity(intent);
+            }
+        });
 
-    private void init() {
-        mSensorManager = (SensorManager) getSystemService(SENSOR_SERVICE);
+        mBtnGRV = (Button) findViewById(R.id.btn_game_rotate_vector);
+        mBtnGRV.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SensorDemoActivity.this, GameRotateVectorActivity.class);
+                startActivity(intent);
+            }
+        });
 
+        mBtnPressure = (Button) findViewById(R.id.btn_pressure);
+        mBtnPressure.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SensorDemoActivity.this, PressureDemoActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
@@ -63,23 +67,17 @@ public class SensorDemoActivity extends AppCompatActivity implements SensorEvent
     protected void onStart() {
         super.onStart();
 
-
     }
 
     @Override
     protected void onResume() {
         super.onResume();
 
-        if (mSensorManager != null) {
-            mSensorManager.registerListener(this, mSensorManager.getDefaultSensor(Sensor.TYPE_GAME_ROTATION_VECTOR),
-                    SensorManager.SENSOR_DELAY_FASTEST);
-        }
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-
 
     }
 
@@ -87,44 +85,6 @@ public class SensorDemoActivity extends AppCompatActivity implements SensorEvent
     protected void onStop() {
         super.onStop();
 
-        if (mSensorManager != null) {
-            mSensorManager.unregisterListener(this);
-        }
     }
 
-
-    @Override
-    public void onAccuracyChanged(Sensor sensor, int accuracy) {
-
-    }
-
-    @Override
-    public void onSensorChanged(SensorEvent event) {
-        nowTime = System.currentTimeMillis();
-        nowTimeStamp = event.timestamp;
-
-        x = event.values[0];
-        y = event.values[1];
-        z = event.values[2];
-        w = event.values[3];
-
-        Log.d("sensor", "time gap=" + (nowTimeStamp - lastTimeStamp) + ",last=" + lastTimeStamp
-                + ",nowTime=" + nowTimeStamp);
-
-        lastTime = nowTime;
-        lastTimeStamp = nowTimeStamp;
-
-        String xVal = " " + x;
-        String yVal = " " + y;
-        String zVal = " " + z;
-        String wVal = " " + w;
-
-        Log.d("sensor", "x=" + xVal + " y=" + yVal + " z=" + zVal + " w=" + w);
-
-        mAxisA.setText("X =" + x);
-        mAxisB.setText("Y =" + y);
-        mAxisC.setText("Z =" + z);
-        mAxisD.setText("W =" + w);
-
-    }
 }
