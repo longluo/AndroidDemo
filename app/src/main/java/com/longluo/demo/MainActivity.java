@@ -20,6 +20,7 @@ import com.longluo.demo.activitytrans.ActivityTransDemoActivity;
 import com.longluo.demo.adherent.AdherentActivity;
 import com.longluo.demo.advancedtextview.AdvancedTextViewActivity;
 import com.longluo.demo.animation.AnimationActivity;
+import com.longluo.demo.applicationbackup.AppBackupDemoActivity;
 import com.longluo.demo.areachartsview.AreaChartsViewDemoActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
@@ -27,6 +28,7 @@ import com.longluo.demo.cardview.CardViewDemoActivity;
 import com.longluo.demo.contact.ContactDemoActivity;
 import com.longluo.demo.contact.message.MessageDemoActivity;
 import com.longluo.demo.contentprovider.ProviderDemoActivity;
+import com.longluo.demo.coolcloud.CoolCloudDemoActivity;
 import com.longluo.demo.crash.CrashDemoActivity;
 import com.longluo.demo.creditsroll.CreditsRollDemoActivity;
 import com.longluo.demo.dial.DialDemoActivity;
@@ -163,6 +165,8 @@ public class MainActivity extends AppCompatActivity {
             "FileManager Demo",
             "Sensor Demo",
             "Video List Demo",
+            "Cool Cloud Demo",
+            "Application Backup Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -519,6 +523,14 @@ public class MainActivity extends AppCompatActivity {
 
                     case 69:
                         startActivity(VideoListDemoActivity.class);
+                        break;
+
+                    case 70:
+                        startActivity(CoolCloudDemoActivity.class);
+                        break;
+
+                    case 71:
+                        startActivity(AppBackupDemoActivity.class);
                         break;
 
                     default:

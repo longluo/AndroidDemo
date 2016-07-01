@@ -397,7 +397,7 @@
     <color name="icon_dark_54">#89000000</color>
     <color name="icon_dark_87">#dd000000</color>
 
-   <color name="textDark">#222</color>
+    <color name="textDark">#222</color>
     <color name="textLight">#555</color>
 
 
@@ -433,6 +433,16 @@
 
     <color name="video_name">#333333</color>
     <color name="video_duration">#6C6D6F</color>
+
+
+    <color name="offWhite">#DDDDDD</color>
+    <color name="darkGray">#333333</color>
+    <color name="lightGray">#777777</color>
+    <color name="brightRed">#FF0000</color>
+    <color name="brightGreen">#00FF00</color>
+    <color name="brightBlue">#0000FF</color>
+    <color name="darkBlue">#880000FF</color>
+    <color name="transGray">#cc444444</color>
 
 
 </resources>
