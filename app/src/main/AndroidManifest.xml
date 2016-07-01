@@ -852,6 +852,33 @@
 
         <activity android:name=".process.ProcessManagerDemoActivity" />
 
+        <activity android:name=".filemanager.FileManagerMainDemoActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.GET_CONTENT" />
+
+                <data android:mimeType="*/*" />
+
+                <category android:name="android.intent.category.OPENABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".filemanager.DirectoryInfo"
+            android:label="Folder Information"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <data android:mimeType="application/manager" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".filemanager.HelpManager"
+            android:label="About File Manager"
+            android:theme="@android:style/Theme.Dialog" />
+
 
     </application>
 

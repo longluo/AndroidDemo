@@ -33,6 +33,7 @@ import com.longluo.demo.crash.CrashDemoActivity;
 import com.longluo.demo.creditsroll.CreditsRollDemoActivity;
 import com.longluo.demo.dial.DialDemoActivity;
 import com.longluo.demo.filemanager.FileManagerDemoActivity;
+import com.longluo.demo.filemanager.FileManagerMainDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
 import com.longluo.demo.fragment.FragmentDemoActivity;
@@ -516,7 +517,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 67:
-                        startActivity(FileManagerDemoActivity.class);
+                        startActivity(FileManagerMainDemoActivity.class);
                         break;
 
                     case 68:

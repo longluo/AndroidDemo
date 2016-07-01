@@ -397,6 +397,11 @@ Never gonna tell a lie and hurt you</string>
 
     <string name="details_ms">"%1$02d:%2$02d"</string>
     <string name="details_hms">"%1$02d:%2$02d:%3$02d"</string>
+    
+    
+    <string name="media_dialog">Media preview</string>
+    <string name="dir_info">Folder Information</string>
+    <string name="manager_act">Phone Management</string>
 
 
 </resources>
