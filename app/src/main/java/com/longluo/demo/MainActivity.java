@@ -59,6 +59,7 @@ import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.opengl.OpenGLDemoActivity;
 import com.longluo.demo.palette.PaletteDemoActivity;
+import com.longluo.demo.process.ProcessManagerDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
 import com.longluo.demo.recyclerview.RecyclerViewDemo2Activity;
 import com.longluo.demo.recyclerview.RecyclerViewDemoActivity;
@@ -167,6 +168,7 @@ public class MainActivity extends AppCompatActivity {
             "Video List Demo",
             "Cool Cloud Demo",
             "Application Backup Demo",
+            "ProcessManager Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -531,6 +533,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 71:
                         startActivity(AppBackupDemoActivity.class);
+                        break;
+
+                    case 72:
+                        startActivity(ProcessManagerDemoActivity.class);
                         break;
 
                     default:

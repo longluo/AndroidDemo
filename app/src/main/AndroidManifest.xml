@@ -850,6 +850,8 @@
 
         <activity android:name=".applicationbackup.AppBackupDemoActivity" />
 
+        <activity android:name=".process.ProcessManagerDemoActivity" />
+
 
     </application>
 
