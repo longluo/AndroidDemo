@@ -12,6 +12,7 @@ public class SensorDemoActivity extends Activity {
 
     private Button mBtnAcc;
     private Button mBtnGyro;
+    private Button mBtnRotateVector;
     private Button mBtnGRV;
     private Button mBtnPressure;
 
@@ -39,6 +40,15 @@ public class SensorDemoActivity extends Activity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(SensorDemoActivity.this, GyroActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mBtnRotateVector = (Button) findViewById(R.id.btn_rotate_vector);
+        mBtnRotateVector.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(SensorDemoActivity.this, RotateVectorActivity.class);
                 startActivity(intent);
             }
         });

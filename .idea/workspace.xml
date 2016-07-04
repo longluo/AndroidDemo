@@ -49,124 +49,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The Process Manager Demo.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/config32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/excel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/folder_full.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/html32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/icon_back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/jar32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/logout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/movies.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/multiselect_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/multiselectbox_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/newfolder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/ppt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/rename.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/setting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/space.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/toolbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/word.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/xml32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/config32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/excel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/folder_full.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/html32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/jar32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/logout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/movies.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/multiselect_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/multiselectbox_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/newfolder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/ppt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/rename.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/setting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/space.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/toolbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/word.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/xml32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-ldpi/zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/back.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/color.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/config32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/excel.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/filter.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/folder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/folder_full.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/help.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/home.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/html32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/icon64.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/image.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/jar32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/logout.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/more.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/movies.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/multiselect_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/multiselectbox_38.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/music.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/newfolder.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/pdf.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/ppt.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/rename.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/search.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/setting.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/space.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/text.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/toolbox.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/warning.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/wireless.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/word.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/xml32.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-mdpi/zip.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/DirectoryInfo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/EventHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/FileManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/FileManagerMainDemoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/HelpManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/Settings.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/ThumbnailCreator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_file_manager_main.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_file_manager_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/help_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/info_layout.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/input_layout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/RotateVectorActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_rotate_vector_sensor.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/edit_layout.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_sensor_demo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_sensor_demo.xml" />
     </list>
     <ignored path="AndroidDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -207,16 +96,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="FileManagerDemoActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="FileManagerMainDemoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/FileManagerMainDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -224,34 +103,16 @@
               <caret line="179" column="5" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#13106#13858#0" expanded="true" />
-                <element signature="e#13857#13858#0" expanded="true" />
-                <element signature="e#23841#24039#0" expanded="true" />
-                <element signature="e#24038#24039#0" expanded="true" />
-                <element signature="e#24094#24347#0" expanded="true" />
-                <element signature="e#24346#24347#0" expanded="true" />
-                <element signature="e#28479#29398#0" expanded="true" />
-                <element signature="e#29397#29398#0" expanded="true" />
-                <element signature="e#29443#29598#0" expanded="true" />
-                <element signature="e#29597#29598#0" expanded="true" />
-                <element signature="e#30550#31501#0" expanded="true" />
-                <element signature="e#31500#31501#0" expanded="true" />
-                <element signature="e#31553#31708#0" expanded="true" />
-                <element signature="e#31707#31708#0" expanded="true" />
-                <element signature="e#32626#32960#0" expanded="true" />
-                <element signature="e#32959#32960#0" expanded="true" />
-                <element signature="e#33013#33168#0" expanded="true" />
-                <element signature="e#33167#33168#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.71428573">
-              <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -261,77 +122,145 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="519" column="65" selection-start-line="519" selection-start-column="65" selection-end-line="519" selection-end-column="65" />
+              <caret line="523" column="45" selection-start-line="523" selection-start-column="45" selection-end-line="523" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Settings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/Settings.java">
+      <file leaf-file-name="SensorDemoActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
+              <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#1440#1692#0" expanded="true" />
+                <element signature="e#1691#1692#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_file_manager_main.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_file_manager_main.xml">
+      <file leaf-file-name="activity_sensor_demo.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sensor_demo.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-4.898305">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="e#254#287#0" expanded="true" />
+                <element signature="e#312#347#0" expanded="true" />
+                <element signature="e#373#408#0" expanded="true" />
+                <element signature="e#432#465#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
           <provider editor-type-id="android-designer">
             <state />
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameRotateVectorActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/GameRotateVectorActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.0508475">
-              <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectoryInfo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/DirectoryInfo.java">
+      <file leaf-file-name="RotateVectorActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/RotateVectorActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.17857143">
+              <caret line="99" column="27" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EventHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/EventHandler.java">
+      <file leaf-file-name="activity_game_rotate_vector_sensor.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_rotate_vector_sensor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="318" column="62" selection-start-line="318" selection-start-column="51" selection-end-line="318" selection-end-column="62" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-4.220339">
+              <caret line="40" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HelpManager.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/HelpManager.java">
+      <file leaf-file-name="activity_rotate_vector_sensor.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rotate_vector_sensor.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
+            <state vertical-scroll-proportion="-4.40678">
+              <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#254#287#0" expanded="true" />
+                <element signature="e#312#347#0" expanded="true" />
+                <element signature="e#373#408#0" expanded="true" />
+                <element signature="e#432#465#0" expanded="true" />
               </folding>
             </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
           </provider>
         </entry>
       </file>
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6551723">
-              <caret line="849" column="0" selection-start-line="849" selection-start-column="0" selection-end-line="849" selection-end-column="0" />
-              <folding />
+            <state vertical-scroll-proportion="-3.4482758">
+              <caret line="817" column="46" selection-start-line="817" selection-start-column="46" selection-end-line="817" selection-end-column="46" />
+              <folding>
+                <element signature="e#3196#3214#0" expanded="true" />
+                <element signature="e#3456#3474#0" expanded="true" />
+                <element signature="e#3972#4011#0" expanded="true" />
+                <element signature="e#4255#4298#0" expanded="true" />
+                <element signature="e#4536#4579#0" expanded="true" />
+                <element signature="e#4823#4872#0" expanded="true" />
+                <element signature="e#5037#5076#0" expanded="true" />
+                <element signature="e#5457#5472#0" expanded="true" />
+                <element signature="e#5841#5860#0" expanded="true" />
+                <element signature="e#6291#6332#0" expanded="true" />
+                <element signature="e#6574#6622#0" expanded="true" />
+                <element signature="e#6883#6935#0" expanded="true" />
+                <element signature="e#7165#7203#0" expanded="true" />
+                <element signature="e#7443#7481#0" expanded="true" />
+                <element signature="e#7713#7752#0" expanded="true" />
+                <element signature="e#7936#7971#0" expanded="true" />
+                <element signature="e#13390#13425#0" expanded="true" />
+                <element signature="e#13639#13676#0" expanded="true" />
+                <element signature="e#18252#18287#0" expanded="true" />
+                <element signature="e#19245#19273#0" expanded="true" />
+                <element signature="e#19416#19452#0" expanded="true" />
+                <element signature="e#19681#19702#0" expanded="true" />
+                <element signature="e#19931#19952#0" expanded="true" />
+                <element signature="e#20187#20215#0" expanded="true" />
+                <element signature="e#20446#20469#0" expanded="true" />
+                <element signature="e#20701#20725#0" expanded="true" />
+                <element signature="e#20952#20971#0" expanded="true" />
+                <element signature="e#21198#21216#0" expanded="true" />
+                <element signature="e#21447#21470#0" expanded="true" />
+                <element signature="e#21702#21726#0" expanded="true" />
+                <element signature="e#21956#21978#0" expanded="true" />
+                <element signature="e#22271#22302#0" expanded="true" />
+                <element signature="e#22534#22558#0" expanded="true" />
+                <element signature="e#22787#22808#0" expanded="true" />
+                <element signature="e#23032#23047#0" expanded="true" />
+                <element signature="e#23271#23286#0" expanded="true" />
+                <element signature="e#28452#28473#0" expanded="true" />
+                <element signature="e#29263#29288#0" expanded="true" />
+                <element signature="e#29576#29605#0" expanded="true" />
+                <element signature="e#29931#29959#0" expanded="true" />
+                <element signature="e#30285#30312#0" expanded="true" />
+                <element signature="e#30642#30673#0" expanded="true" />
+                <element signature="e#31006#31040#0" expanded="true" />
+                <element signature="e#31373#31407#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -3498,8 +3427,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/video/VideoFeedDemoActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_video_feed_item_view.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/recyclerview/RecyclerViewDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/MediaManagerDemoActivity.java" />
@@ -3525,9 +3452,7 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/AccActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/GameRotateVectorActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/GyroActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sensor_demo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_pressure_demo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cool_cloud_demo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/coolcloud/CoolCloudDemoActivity.java" />
@@ -3546,9 +3471,13 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_file_manager_main.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/DirectoryInfo.java" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/FileManagerMainDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_rotate_vector_sensor.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/RotateVectorActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_sensor_demo.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -3581,7 +3510,119 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidResFolderNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="demo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sensor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="manifests" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidManifestsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3630,61 +3671,7 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Gradle Scripts" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3695,12 +3682,13 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../sdk/sample/android-studio/DataLayer" />
-    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity&#10;cube&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/Cube.java" />
+    <property name="SearchEverywhereHistoryKey" value="maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;main&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity&#10;cube&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/Cube.java" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-mdpi" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.longluo.demo.sensor" />
       <recent name="com.longluo.demo.widget" />
       <recent name="com.longluo.demo.areachartsview" />
     </key>
@@ -4303,7 +4291,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="860" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4318,13 +4306,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.58832115" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32051283" sideWeight="0.4152174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32051283" sideWeight="0.4152174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43162394" sideWeight="0.42318842" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18768115" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25507247" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927536" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -4339,14 +4327,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.45434782" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.58832115" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4074074" sideWeight="0.4152174" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4074074" sideWeight="0.4152174" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23913044" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927536" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4415,20 +4403,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/threadpool/ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="18" column="41" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/threadpool/Future.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/threadpool/FutureListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4459,25 +4433,25 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_video_list_demo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-4.0677967">
           <caret line="12" column="15" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_video_list_item.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_video_list_item.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="18" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/video/VideoThumbUtils.java">
@@ -4537,24 +4511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_rotate_vector_sensor.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/GameRotateVectorActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="24" selection-start-line="48" selection-start-column="24" selection-end-line="48" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/GyroActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4576,44 +4532,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sensor_demo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="37" selection-start-line="38" selection-start-column="37" selection-end-line="38" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_pressure_demo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="20" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="37" selection-start-line="59" selection-start-column="37" selection-end-line="59" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cool_cloud_demo.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cool_cloud_demo.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="10" column="31" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="jar://$PROJECT_DIR$/app/libs/uac-sdk-internal-base.2.2.3.jar!/com/coolcloud/uac/android/api/internal/Coolcloud2.class">
@@ -4634,9 +4572,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="49" column="0" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4654,25 +4589,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#863#864#0" expanded="false" />
-            <element signature="e#890#891#0" expanded="false" />
-            <element signature="e#1029#1030#0" expanded="false" />
-            <element signature="e#1053#1054#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_app_backup_demo_layout.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
@@ -4684,32 +4612,20 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/layout_app_backup_item.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="27" column="42" selection-start-line="27" selection-start-column="42" selection-end-line="27" selection-end-column="42" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://E:/Android/SDK/sources/android-23/android/content/pm/PackageManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="2733" column="42" selection-start-line="2733" selection-start-column="42" selection-end-line="2733" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#203356#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#2646#2647#0" expanded="false" />
-            <element signature="e#2681#2682#0" expanded="false" />
-            <element signature="e#188020#188021#0" expanded="false" />
-            <element signature="e#188071#188072#0" expanded="false" />
-            <element signature="e#202370#202371#0" expanded="false" />
-            <element signature="e#202410#202411#0" expanded="false" />
-            <element signature="e#202996#202997#0" expanded="false" />
-            <element signature="e#203036#203037#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4717,32 +4633,24 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="247" column="1" selection-start-line="247" selection-start-column="1" selection-end-line="247" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_process_manage_demo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.2372882">
           <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
           <folding />
         </state>
       </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/process/ProcessManagerDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="188" column="46" selection-start-line="188" selection-start-column="46" selection-end-line="188" selection-end-column="46" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2395#3378#0" expanded="true" />
-            <element signature="e#3377#3378#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4750,7 +4658,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4758,26 +4665,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="104" column="9" selection-start-line="104" selection-start-column="9" selection-end-line="104" selection-end-column="9" />
-          <folding>
-            <element signature="e#860#861#0" expanded="false" />
-            <element signature="e#902#903#0" expanded="false" />
-            <element signature="e#955#956#0" expanded="false" />
-            <element signature="e#983#984#0" expanded="false" />
-            <element signature="e#2714#3005#0" expanded="false" />
-            <element signature="e#3004#3005#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_file_manager_settings.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.169492">
           <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/Settings.java">
@@ -4785,7 +4684,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="111" column="38" selection-start-line="111" selection-start-column="38" selection-end-line="111" selection-end-column="38" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4795,7 +4694,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="318" column="62" selection-start-line="318" selection-start-column="51" selection-end-line="318" selection-end-column="62" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -4805,16 +4704,8 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="54" selection-start-line="23" selection-start-column="54" selection-end-line="23" selection-end-column="54" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="519" column="65" selection-start-line="519" selection-start-column="65" selection-end-line="519" selection-end-column="65" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -4827,21 +4718,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_file_manager_main.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0508475">
+        <state vertical-scroll-proportion="0.0">
           <caret line="33" column="48" selection-start-line="33" selection-start-column="48" selection-end-line="33" selection-end-column="48" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/DirectoryInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -4853,46 +4746,151 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6551723">
-          <caret line="849" column="0" selection-start-line="849" selection-start-column="0" selection-end-line="849" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/filemanager/FileManagerMainDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="179" column="5" selection-start-line="179" selection-start-column="5" selection-end-line="179" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#13106#13858#0" expanded="true" />
-            <element signature="e#13857#13858#0" expanded="true" />
-            <element signature="e#23841#24039#0" expanded="true" />
-            <element signature="e#24038#24039#0" expanded="true" />
-            <element signature="e#24094#24347#0" expanded="true" />
-            <element signature="e#24346#24347#0" expanded="true" />
-            <element signature="e#28479#29398#0" expanded="true" />
-            <element signature="e#29397#29398#0" expanded="true" />
-            <element signature="e#29443#29598#0" expanded="true" />
-            <element signature="e#29597#29598#0" expanded="true" />
-            <element signature="e#30550#31501#0" expanded="true" />
-            <element signature="e#31500#31501#0" expanded="true" />
-            <element signature="e#31553#31708#0" expanded="true" />
-            <element signature="e#31707#31708#0" expanded="true" />
-            <element signature="e#32626#32960#0" expanded="true" />
-            <element signature="e#32959#32960#0" expanded="true" />
-            <element signature="e#33013#33168#0" expanded="true" />
-            <element signature="e#33167#33168#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.71428573">
-          <caret line="16" column="54" selection-start-line="16" selection-start-column="54" selection-end-line="16" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="523" column="45" selection-start-line="523" selection-start-column="45" selection-end-line="523" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/GameRotateVectorActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="28" column="40" selection-start-line="28" selection-start-column="40" selection-end-line="28" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_game_rotate_vector_sensor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.220339">
+          <caret line="40" column="15" selection-start-line="0" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_rotate_vector_sensor.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.40678">
+          <caret line="13" column="41" selection-start-line="13" selection-start-column="41" selection-end-line="13" selection-end-column="41" />
+          <folding>
+            <element signature="e#254#287#0" expanded="true" />
+            <element signature="e#312#347#0" expanded="true" />
+            <element signature="e#373#408#0" expanded="true" />
+            <element signature="e#432#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_sensor_demo.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.898305">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="e#254#287#0" expanded="true" />
+            <element signature="e#312#347#0" expanded="true" />
+            <element signature="e#373#408#0" expanded="true" />
+            <element signature="e#432#465#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="88" selection-start-line="50" selection-start-column="88" selection-end-line="50" selection-end-column="88" />
+          <folding>
+            <element signature="e#1440#1692#0" expanded="true" />
+            <element signature="e#1691#1692#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.4482758">
+          <caret line="817" column="46" selection-start-line="817" selection-start-column="46" selection-end-line="817" selection-end-column="46" />
+          <folding>
+            <element signature="e#3196#3214#0" expanded="true" />
+            <element signature="e#3456#3474#0" expanded="true" />
+            <element signature="e#3972#4011#0" expanded="true" />
+            <element signature="e#4255#4298#0" expanded="true" />
+            <element signature="e#4536#4579#0" expanded="true" />
+            <element signature="e#4823#4872#0" expanded="true" />
+            <element signature="e#5037#5076#0" expanded="true" />
+            <element signature="e#5457#5472#0" expanded="true" />
+            <element signature="e#5841#5860#0" expanded="true" />
+            <element signature="e#6291#6332#0" expanded="true" />
+            <element signature="e#6574#6622#0" expanded="true" />
+            <element signature="e#6883#6935#0" expanded="true" />
+            <element signature="e#7165#7203#0" expanded="true" />
+            <element signature="e#7443#7481#0" expanded="true" />
+            <element signature="e#7713#7752#0" expanded="true" />
+            <element signature="e#7936#7971#0" expanded="true" />
+            <element signature="e#13390#13425#0" expanded="true" />
+            <element signature="e#13639#13676#0" expanded="true" />
+            <element signature="e#18252#18287#0" expanded="true" />
+            <element signature="e#19245#19273#0" expanded="true" />
+            <element signature="e#19416#19452#0" expanded="true" />
+            <element signature="e#19681#19702#0" expanded="true" />
+            <element signature="e#19931#19952#0" expanded="true" />
+            <element signature="e#20187#20215#0" expanded="true" />
+            <element signature="e#20446#20469#0" expanded="true" />
+            <element signature="e#20701#20725#0" expanded="true" />
+            <element signature="e#20952#20971#0" expanded="true" />
+            <element signature="e#21198#21216#0" expanded="true" />
+            <element signature="e#21447#21470#0" expanded="true" />
+            <element signature="e#21702#21726#0" expanded="true" />
+            <element signature="e#21956#21978#0" expanded="true" />
+            <element signature="e#22271#22302#0" expanded="true" />
+            <element signature="e#22534#22558#0" expanded="true" />
+            <element signature="e#22787#22808#0" expanded="true" />
+            <element signature="e#23032#23047#0" expanded="true" />
+            <element signature="e#23271#23286#0" expanded="true" />
+            <element signature="e#28452#28473#0" expanded="true" />
+            <element signature="e#29263#29288#0" expanded="true" />
+            <element signature="e#29576#29605#0" expanded="true" />
+            <element signature="e#29931#29959#0" expanded="true" />
+            <element signature="e#30285#30312#0" expanded="true" />
+            <element signature="e#30642#30673#0" expanded="true" />
+            <element signature="e#31006#31040#0" expanded="true" />
+            <element signature="e#31373#31407#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/sensor/RotateVectorActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17857143">
+          <caret line="99" column="27" selection-start-line="99" selection-start-column="15" selection-end-line="99" selection-end-column="27" />
           <folding />
         </state>
       </provider>

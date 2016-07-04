@@ -815,6 +815,10 @@
             android:screenOrientation="portrait" />
 
         <activity
+            android:name=".sensor.RotateVectorActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
             android:name=".sensor.GameRotateVectorActivity"
             android:screenOrientation="portrait" />
 
