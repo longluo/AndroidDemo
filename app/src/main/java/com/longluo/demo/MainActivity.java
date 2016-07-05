@@ -31,8 +31,8 @@ import com.longluo.demo.contentprovider.ProviderDemoActivity;
 import com.longluo.demo.coolcloud.CoolCloudDemoActivity;
 import com.longluo.demo.crash.CrashDemoActivity;
 import com.longluo.demo.creditsroll.CreditsRollDemoActivity;
+import com.longluo.demo.customview.CustomViewDemoActivity;
 import com.longluo.demo.dial.DialDemoActivity;
-import com.longluo.demo.filemanager.FileManagerDemoActivity;
 import com.longluo.demo.filemanager.FileManagerMainDemoActivity;
 import com.longluo.demo.flowlayout.FlowLayoutDemoActivity;
 import com.longluo.demo.forcetouch.ForceTouchDemoActivity;
@@ -170,6 +170,7 @@ public class MainActivity extends AppCompatActivity {
             "Cool Cloud Demo",
             "Application Backup Demo",
             "ProcessManager Demo",
+            "CustomView Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -538,6 +539,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 72:
                         startActivity(ProcessManagerDemoActivity.class);
+                        break;
+
+                    case 73:
+                        startActivity(CustomViewDemoActivity.class);
                         break;
 
                     default:

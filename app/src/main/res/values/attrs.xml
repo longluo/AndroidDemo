@@ -151,4 +151,11 @@
         <attr name="normalSelected" format="boolean" />
     </declare-styleable>
 
+    <declare-styleable name="MyQQSport">
+        <attr name="rankText" format="string"></attr>
+        <attr name="textColor" format="color"></attr>
+        <attr name="outCircleColor" format="color"></attr>
+        <attr name="inCircleColor" format="color"></attr>
+    </declare-styleable>
+
 </resources>

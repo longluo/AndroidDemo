@@ -22,8 +22,7 @@ public class DirectoryInfo extends Activity {
     private static final int MG = KB * KB;
     private static final int GB = MG * KB;
     private String mPathName;
-    private TextView mNameLabel, mPathLabel, mDirLabel,
-            mFileLabel, mTimeLabel, mTotalLabel;
+    private TextView mNameLabel, mPathLabel, mDirLabel, mFileLabel, mTimeLabel, mTotalLabel;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

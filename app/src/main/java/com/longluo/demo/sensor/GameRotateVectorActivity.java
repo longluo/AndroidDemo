@@ -100,7 +100,6 @@ public class GameRotateVectorActivity extends Activity implements SensorEventLis
         Log.d("gamerotatevector", "time gap=" + (nowTimeStamp - lastTimeStamp) + ",last=" + lastTimeStamp
                 + ",nowTime=" + nowTimeStamp);
 
-
         lastTime = nowTime;
         lastTimeStamp = nowTimeStamp;
 

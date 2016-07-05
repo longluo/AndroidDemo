@@ -12,7 +12,6 @@ import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
 import android.os.StatFs;
-import android.util.Log;
 import android.view.ContextMenu;
 import android.view.ContextMenu.ContextMenuInfo;
 import android.view.KeyEvent;
@@ -44,7 +43,7 @@ import java.io.File;
  * press logic and to control the data displayed on its ListView. This class
  * also relies on the FileManager class to handle all file operations such as
  * copy/paste zip/unzip etc. However most interaction with the FileManager class
- * is done via the EventHandler class. Also the SettingsMangager class to load
+ * is done via the EventHandler class. Also the SettingsManager class to load
  * and save user settings.
  * <br>
  * <p/>
@@ -208,6 +207,9 @@ public final class FileManagerMainDemoActivity extends ListActivity {
                 getExternalStorageDirectory().getPath());
 
         total = fs.getBlockCount() * (fs.getBlockSize() / kb);
+
+//        total = fs.getBlockCountLong() * (fs.getBlockSizeLong() / kb);
+
         aval = fs.getAvailableBlocks() * (fs.getBlockSize() / kb);
 
         mStorageLabel.setText(String.format("sdcard: Total %.2f GB " +
@@ -482,7 +484,7 @@ public final class FileManagerMainDemoActivity extends ListActivity {
         int color, sort, space;
 
     	/* resultCode must equal RESULT_CANCELED because the only way
-    	 * out of that activity is pressing the back button on the phone
+         * out of that activity is pressing the back button on the phone
     	 * this publishes a canceled result code not an ok result code
     	 */
         if (requestCode == SETTING_REQ && resultCode == RESULT_CANCELED) {

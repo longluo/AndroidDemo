@@ -341,7 +341,7 @@ public class EventHandler implements OnClickListener {
              * three hidden buttons for multiselect
 			 */
             case R.id.hidden_attach:
-				/* check if user selected objects before going further */
+                /* check if user selected objects before going further */
                 if (mMultiSelectData == null || mMultiSelectData.isEmpty()) {
                     mDelegate.killMultiSelect(true);
                     break;

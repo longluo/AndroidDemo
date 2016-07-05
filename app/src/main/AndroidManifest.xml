@@ -883,6 +883,15 @@
             android:label="About File Manager"
             android:theme="@android:style/Theme.Dialog" />
 
+        <!-- CustomView -->
+        <activity android:name=".customview.CustomViewDemoActivity" />
+
+        <activity android:name=".customview.CheckActivity" />
+
+        <activity android:name=".customview.MyQQSportActivity" />
+
+        <activity android:name=".customview.ZombieActivity" />
+
 
     </application>
 
