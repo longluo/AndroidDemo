@@ -23,7 +23,7 @@ package com.longluo.demo.qrcode.zxing.client.android.book;
  */
 final class SearchBookContentsResult {
 
-    private static String query;
+    private static String query = null;
 
     private final String pageId;
     private final String pageNumber;

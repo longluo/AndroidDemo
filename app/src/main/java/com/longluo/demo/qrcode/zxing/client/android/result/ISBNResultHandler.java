@@ -1,7 +1,6 @@
 package com.longluo.demo.qrcode.zxing.client.android.result;
 
 import android.app.Activity;
-import android.view.View;
 
 import com.google.zxing.Result;
 import com.google.zxing.client.result.ISBNParsedResult;
@@ -10,8 +9,6 @@ import com.longluo.demo.R;
 
 /**
  * Handles books encoded by their ISBN values.
- *
- * @author dswitkin@google.com (Daniel Switkin)
  */
 public final class ISBNResultHandler extends ResultHandler {
     private static final int[] buttons = {
@@ -23,13 +20,6 @@ public final class ISBNResultHandler extends ResultHandler {
 
     public ISBNResultHandler(Activity activity, ParsedResult result, Result rawResult) {
         super(activity, result, rawResult);
-        showGoogleShopperButton(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                ISBNParsedResult isbnResult = (ISBNParsedResult) getResult();
-                openGoogleShopper(isbnResult.getISBN());
-            }
-        });
     }
 
     @Override

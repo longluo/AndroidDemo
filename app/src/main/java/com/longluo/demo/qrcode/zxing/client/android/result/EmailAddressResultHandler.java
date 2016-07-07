@@ -8,8 +8,6 @@ import com.longluo.demo.R;
 
 /**
  * Handles email addresses.
- *
- * @author dswitkin@google.com (Daniel Switkin)
  */
 public final class EmailAddressResultHandler extends ResultHandler {
     private static final int[] buttons = {
@@ -36,15 +34,14 @@ public final class EmailAddressResultHandler extends ResultHandler {
         EmailAddressParsedResult emailResult = (EmailAddressParsedResult) getResult();
         switch (index) {
             case 0:
-                sendEmailFromUri(emailResult.getMailtoURI(),
-                        emailResult.getEmailAddress(),
+                sendEmail(emailResult.getTos(),
+                        emailResult.getCCs(),
+                        emailResult.getBCCs(),
                         emailResult.getSubject(),
                         emailResult.getBody());
                 break;
             case 1:
-                String[] addresses = new String[1];
-                addresses[0] = emailResult.getEmailAddress();
-                addEmailOnlyContact(addresses, null);
+                addEmailOnlyContact(emailResult.getTos(), null);
                 break;
         }
     }

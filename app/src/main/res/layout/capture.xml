@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent">
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
 
     <SurfaceView
         android:id="@+id/preview_view"
@@ -11,8 +10,7 @@
     <com.longluo.demo.qrcode.zxing.client.android.ViewfinderView
         android:id="@+id/viewfinder_view"
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:background="@color/transparent" />
+        android:layout_height="fill_parent" />
 
     <LinearLayout
         android:id="@+id/result_view"
@@ -21,7 +19,6 @@
         android:background="@color/result_view"
         android:baselineAligned="false"
         android:orientation="vertical"
-        android:padding="4dip"
         android:visibility="gone">
 
         <LinearLayout
@@ -30,7 +27,7 @@
             android:layout_weight="1"
             android:gravity="center"
             android:orientation="horizontal"
-            android:padding="12dip">
+            android:padding="@dimen/standard_padding">
 
             <LinearLayout
                 android:layout_width="wrap_content"
@@ -42,11 +39,12 @@
                     android:id="@+id/barcode_image_view"
                     android:layout_width="160dip"
                     android:layout_height="wrap_content"
-                    android:layout_marginBottom="4dip"
+                    android:layout_marginBottom="@dimen/half_padding"
                     android:adjustViewBounds="true"
                     android:maxHeight="160dip"
                     android:maxWidth="160dip"
-                    android:scaleType="centerInside" />
+                    android:scaleType="centerInside"
+                    tools:ignore="ContentDescription" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -54,21 +52,18 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/format_text_view_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingRight="4dip"
+                        android:paddingRight="@dimen/half_padding"
                         android:text="@string/msg_default_format"
                         android:textColor="@color/result_minor_text"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/format_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/result_minor_text"
-                        android:textSize="14sp" />
+                        android:textColor="@color/result_minor_text" />
 
                 </LinearLayout>
 
@@ -78,21 +73,18 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/type_text_view_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingRight="4dip"
+                        android:paddingRight="@dimen/half_padding"
                         android:text="@string/msg_default_type"
                         android:textColor="@color/result_minor_text"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/type_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/result_minor_text"
-                        android:textSize="14sp" />
+                        android:textColor="@color/result_minor_text" />
 
                 </LinearLayout>
 
@@ -102,21 +94,18 @@
                     android:orientation="horizontal">
 
                     <TextView
-                        android:id="@+id/time_text_view_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingRight="4dip"
+                        android:paddingRight="@dimen/half_padding"
                         android:text="@string/msg_default_time"
                         android:textColor="@color/result_minor_text"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/time_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/result_minor_text"
-                        android:textSize="14sp" />
+                        android:textColor="@color/result_minor_text" />
 
                 </LinearLayout>
 
@@ -129,18 +118,16 @@
                         android:id="@+id/meta_text_view_label"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:paddingRight="4dip"
+                        android:paddingRight="@dimen/half_padding"
                         android:text="@string/msg_default_meta"
                         android:textColor="@color/result_minor_text"
-                        android:textSize="14sp"
                         android:textStyle="bold" />
 
                     <TextView
                         android:id="@+id/meta_text_view"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textColor="@color/result_minor_text"
-                        android:textSize="14sp" />
+                        android:textColor="@color/result_minor_text" />
 
                 </LinearLayout>
 
@@ -163,6 +150,7 @@
                         android:paddingLeft="12dip"
                         android:textColor="@color/result_text"
                         android:textColorLink="@color/result_text"
+                        android:textIsSelectable="true"
                         android:textSize="22sp" />
 
                     <TextView
@@ -170,10 +158,10 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:autoLink="web"
-                        android:padding="24dip"
+                        android:paddingLeft="12dip"
                         android:textColor="@color/result_text"
                         android:textColorLink="@color/result_text"
-                        android:textSize="14sp" />
+                        android:textIsSelectable="true" />
 
                 </LinearLayout>
 
@@ -189,42 +177,19 @@
             android:orientation="horizontal">
 
             <Button
-                android:layout_width="0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="14sp"
+                style="@style/ResultButton"
                 android:visibility="gone" />
 
             <Button
-                android:layout_width="0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="14sp"
+                style="@style/ResultButton"
                 android:visibility="gone" />
 
             <Button
-                android:layout_width="0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="14sp"
+                style="@style/ResultButton"
                 android:visibility="gone" />
 
             <Button
-                android:layout_width="0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:textSize="14sp"
-                android:visibility="gone" />
-
-            <Button
-                android:id="@+id/shopper_button"
-                android:layout_width="0dip"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:drawableLeft="@drawable/shopper_icon"
-                android:drawablePadding="4dip"
-                android:text="@string/button_google_shopper"
-                android:textSize="14sp"
+                style="@style/ResultButton"
                 android:visibility="gone" />
 
         </LinearLayout>
@@ -238,7 +203,6 @@
         android:layout_gravity="bottom|center_horizontal"
         android:background="@color/transparent"
         android:text="@string/msg_default_status"
-        android:textColor="@color/status_text"
-        android:textSize="14sp" />
+        android:textColor="@color/status_text" />
 
-</FrameLayout>
+</merge>

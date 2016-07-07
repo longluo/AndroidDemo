@@ -38,13 +38,17 @@ public final class TelResultHandler extends ResultHandler {
         switch (index) {
             case 0:
                 dialPhoneFromUri(telResult.getTelURI());
+                // When dialer comes up, it allows underlying display activity to continue or something,
+                // but app can't get camera in this state. Avoid issues by just quitting, only in the
+                // case of a phone number
+                getActivity().finish();
                 break;
             case 1:
                 String[] numbers = new String[1];
                 numbers[0] = telResult.getNumber();
                 addPhoneOnlyContact(numbers, null);
                 break;
-        }
+    }
     }
 
     // Overriden so we can take advantage of Android's phone number hyphenation routines.

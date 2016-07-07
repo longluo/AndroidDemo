@@ -9,7 +9,6 @@ import android.view.View.OnClickListener;
 import com.longluo.demo.R;
 import com.longluo.demo.qrcode.zxing.client.android.CaptureActivity;
 
-
 public class QRCodeDemoActivity extends Activity implements OnClickListener {
 
     @Override

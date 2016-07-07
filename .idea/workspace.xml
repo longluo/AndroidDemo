@@ -53,105 +53,98 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The CustomView Demo.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/zxing-core.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/barcode_scanner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/shopper_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable-hdpi/zxing_info.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/barcode_scanner.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/share_via_barcode.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/drawable/shopper_icon.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/raw/beep.ogg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/ImageActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/QRCodeDemoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/ui/HelpActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/util/RGBLuminanceSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/BeepManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivityHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/Contents.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeFormatManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeThread.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/FinishListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HttpHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/InactivityTimer.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/IntentSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/Intents.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/LocaleManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PlanarYUVLuminanceSource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderResultPointCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/BrowseBookListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/NetworkWorker.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsListItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsResult.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/AutoFocusCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/PreviewCallback.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/ContactEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/EncodeActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/Formatter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/MECARDContactEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/QRCodeEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardContactEncoder.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/DBHelper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItemAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/AddressBookResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/CalendarResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/EmailAddressResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/GeoResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ISBNResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultButtonListener.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandlerFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/SMSResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TelResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TextResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/URIResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/BookResultInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/KillerCallable.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/SupplementalInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/URIResultInfoRetriever.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppPickerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkAdapter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkPickerActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/LoadPackagesAsyncTask.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/NetworkType.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/WifiConfigManager.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_demo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_help.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_image.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bookmark_picker_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/capture.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/encode.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/helpactivity.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/history_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_book_contents.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_book_contents_header.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/search_book_contents_list_item.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/share.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
+    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The ZXing BarCode Scanner.">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/libs/ZXing-core-3.2.1.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/AmbientLightManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHintManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesFragment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ScanFromWebPageManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/AutoFocusManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/FrontLightMode.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/open/CameraFacing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/open/OpenCamera.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/open/OpenCameraInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/clipboard/ClipboardInterface.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardFieldFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardTelDisplayFormatter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/TitleRetriever.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppInfo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/app_picker_list_item.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/capture.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/encode.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/menu/history.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/zxing-core.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PlanarYUVLuminanceSource.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/NetworkWorker.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/AutoFocusCallback.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/KillerCallable.java" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/QRCodeDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/QRCodeDemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/BeepManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/BeepManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivityHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivityHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeFormatManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeFormatManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeThread.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeThread.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/FinishListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/FinishListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HttpHelper.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HttpHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/InactivityTimer.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/InactivityTimer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/Intents.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/Intents.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/LocaleManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/LocaleManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderView.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/BrowseBookListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/BrowseBookListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsListItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsListItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsResult.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsResult.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/PreviewCallback.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/PreviewCallback.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/ContactEncoder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/ContactEncoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/EncodeActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/EncodeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/Formatter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/Formatter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/MECARDContactEncoder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/MECARDContactEncoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/QRCodeEncoder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/QRCodeEncoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardContactEncoder.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardContactEncoder.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItem.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItem.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItemAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItemAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/AddressBookResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/AddressBookResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/CalendarResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/CalendarResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/EmailAddressResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/EmailAddressResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ISBNResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ISBNResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultButtonListener.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultButtonListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/SMSResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/SMSResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TelResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TelResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/URIResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/URIResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/BookResultInfoRetriever.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/BookResultInfoRetriever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/SupplementalInfoRetriever.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/SupplementalInfoRetriever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/URIResultInfoRetriever.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/URIResultInfoRetriever.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppPickerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppPickerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkPickerActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkPickerActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/LoadPackagesAsyncTask.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/LoadPackagesAsyncTask.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/NetworkType.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/NetworkType.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/WifiConfigManager.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/WifiConfigManager.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_help.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_help.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/bookmark_picker_list_item.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/bookmark_picker_list_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/capture.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/capture.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" afterPath="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" afterPath="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
     </list>
     <ignored path="AndroidDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -192,48 +185,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CaptureActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="142" column="37" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="capture.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/capture.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.474577">
-              <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BookmarkPickerActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkPickerActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ShareActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
+              <caret line="113" column="49" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreferencesActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="41" column="101" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="101" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -241,81 +207,95 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.137931">
-              <caret line="1083" column="0" selection-start-line="1083" selection-start-column="0" selection-end-line="1083" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.25277162">
+              <caret line="932" column="0" selection-start-line="932" selection-start-column="0" selection-end-line="932" selection-end-column="0" />
               <folding>
-                <element signature="e#39886#39912#0" expanded="true" />
-                <element signature="e#40100#40120#0" expanded="true" />
-                <element signature="e#41263#41281#0" expanded="true" />
-                <element signature="e#41746#41766#0" expanded="true" />
-                <element signature="e#42270#42293#0" expanded="true" />
-                <element signature="e#42691#42721#0" expanded="true" />
-                <element signature="e#43162#43187#0" expanded="true" />
+                <element signature="e#39769#39795#0" expanded="true" />
+                <element signature="e#41012#41030#0" expanded="true" />
+                <element signature="e#41919#41942#0" expanded="true" />
+                <element signature="e#42118#42148#0" expanded="true" />
+                <element signature="e#42319#42344#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="QRCodeDemoActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/QRCodeDemoActivity.java">
+      <file leaf-file-name="themes.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/themes.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.75786924">
-              <caret line="35" column="2" selection-start-line="35" selection-start-column="0" selection-end-line="38" selection-end-column="24" />
+            <state vertical-scroll-proportion="-3.0508475">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_qrcode_demo.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_demo.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.661017">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="0" selection-end-line="28" selection-end-column="38" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PreferencesFragment.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesFragment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#3124#3150#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProductResultHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WifiResultHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="VCardContactEncoder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardContactEncoder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HelpActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/ui/HelpActivity.java">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+              <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpactivity.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/helpactivity.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.423729">
-              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_qrcode_help.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_help.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="7.254237">
-              <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -326,8 +306,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="resourceFile" />
-        <option value="Class" />
         <option value="layoutResourceFile_vertical" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -2914,7 +2894,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="7322386242767" />
+        <entry key="$PROJECT_DIR$" value="7322470959406" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -3159,7 +3139,7 @@
                             <option value="$MODULE_DIR$/libs/nineoldandroids-2.4.0.jar" />
                             <option value="$MODULE_DIR$/libs/renderscript-v8.jar" />
                             <option value="$MODULE_DIR$/libs/uac-sdk-internal-base.2.2.3.jar" />
-                            <option value="$MODULE_DIR$/libs/zxing-core.jar" />
+                            <option value="$MODULE_DIR$/libs/ZXing-core-3.2.1.jar" />
                           </list>
                         </option>
                         <option name="path" value="$PROJECT_DIR$/app" />
@@ -3483,57 +3463,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/main/res/values/ids.xml" />
-        <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/BrowseBookListener.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsListItem.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivityHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderView.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/AddressBookResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/GeoResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ISBNResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandlerFactory.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/SMSResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/BookResultInfoRetriever.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/SupplementalInfoRetriever.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/EmailAddressResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TelResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TextResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/URIResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/QRCodeEncoder.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHandler.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/EncodeActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItemAdapter.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/BeepManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/CalendarResultHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/URIResultInfoRetriever.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/BookResultInfoRetriever.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/ProductResultInfoRetriever.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/CalendarResultHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/EmailAddressResultHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ISBNResultHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppInfo.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/AmbientLightManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/NetworkType.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/WifiConfigManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHintManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeThread.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/Intents.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/strings.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationManager.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryManager.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_help.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/PreviewCallback.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/clipboard/ClipboardInterface.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/AddressBookResultHandler.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppPickerActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkPickerActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/LoadPackagesAsyncTask.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/bookmark_picker_list_item.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderView.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_help.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/capture.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/styles.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/xml/preferences.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/arrays.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationUtils.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HttpHelper.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeFormatManager.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ScanFromWebPageManager.java" />
+        <option value="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivityHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/EncodeActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardContactEncoder.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesFragment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/values/themes.xml" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/helpactivity.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/ui/HelpActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_demo.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/QRCodeDemoActivity.java" />
       </list>
     </option>
   </component>
@@ -3566,6 +3546,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -3573,6 +3554,16 @@
               <option name="myItemId" value="AndroidDemo" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Gradle Scripts" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidBuildScriptsGroupNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AndroidDemo" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -3582,28 +3573,35 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="demo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="app">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -3652,32 +3650,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="app">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3687,10 +3659,10 @@
     <property name="device.picker.selection" value="faa1c5e0" />
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs/zxing-core.jar" />
-    <property name="SearchEverywhereHistoryKey" value="qrcode&#9;PSI&#9;JAVA://com.longluo.demo.qrcode.QRCodeDemoActivity&#10;cap&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;main&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity&#10;cube&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/Cube.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/libs/ZXing-core-3.2.1.jar" />
+    <property name="SearchEverywhereHistoryKey" value="arra&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/arrays.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;qrcode&#9;PSI&#9;JAVA://com.longluo.demo.qrcode.QRCodeDemoActivity&#10;cap&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java&#10;maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;main&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity&#10;cube&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/Cube.java" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable-hdpi" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/values" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="115" />
   </component>
   <component name="RecentsManager">
@@ -3700,11 +3672,11 @@
       <recent name="com.longluo.demo.areachartsview" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Code\AndroidDemo\app\src\main\res\drawable-hdpi" />
-      <recent name="E:\Code\AndroidDemo\app\src\main\res" />
-      <recent name="E:\Code\AndroidDemo\app\src\main\res\drawable" />
+      <recent name="E:\Code\AndroidDemo\app\src\main\res\values" />
       <recent name="E:\Code\AndroidDemo\app\src\main\res\layout" />
+      <recent name="E:\Code\AndroidDemo\app\src\main\res\menu" />
       <recent name="E:\Code\AndroidDemo\app\libs" />
+      <recent name="E:\Code\AndroidDemo\app\src\main\res\drawable-hdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.app">
@@ -3989,12 +3961,6 @@
       <created>1461309772362</created>
       <option name="number" value="Default" />
       <updated>1461309772362</updated>
-    </task>
-    <task id="LOCAL-00007" summary="update project files.">
-      <created>1461324337738</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1461324337738</updated>
     </task>
     <task id="LOCAL-00008" summary="update project files.">
       <created>1461324467123</created>
@@ -4284,7 +4250,13 @@
       <option name="project" value="LOCAL" />
       <updated>1467711910964</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="The ZXing BarCode Scanner.">
+      <created>1467862663214</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1467862663214</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TodoView">
@@ -4306,6 +4278,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2834758" sideWeight="0.48550725" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33048433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43019944" sideWeight="0.45434782" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -4313,19 +4286,18 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.58832115" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37037036" sideWeight="0.4152174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27492878" sideWeight="0.4152174" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43162394" sideWeight="0.42318842" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33333334" sideWeight="0.42318842" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19782609" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21376811" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927536" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33048433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -4334,14 +4306,14 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39942938" sideWeight="0.45434782" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30769232" sideWeight="0.58832115" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4074074" sideWeight="0.4152174" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4074074" sideWeight="0.4152174" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23913044" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927536" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -4374,7 +4346,6 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="Complete the ToolBar Demo." />
     <MESSAGE value="The ImageProcess" />
     <MESSAGE value="The CreditsRoll Demo." />
     <MESSAGE value="The Like Button Demo." />
@@ -4399,7 +4370,8 @@
     <MESSAGE value="The Process Manager Demo." />
     <MESSAGE value="The Rotate Vector Demo." />
     <MESSAGE value="The CustomView Demo." />
-    <option name="LAST_COMMIT_MESSAGE" value="The CustomView Demo." />
+    <MESSAGE value="The ZXing BarCode Scanner." />
+    <option name="LAST_COMMIT_MESSAGE" value="The ZXing BarCode Scanner." />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -4418,323 +4390,165 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/CalendarResultHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="24" selection-start-line="8" selection-start-column="24" selection-end-line="8" selection-end-column="24" />
+          <caret line="115" column="13" selection-start-line="115" selection-start-column="13" selection-end-line="115" selection-end-column="13" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="551" column="30" selection-start-line="551" selection-start-column="30" selection-end-line="551" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/BrowseBookListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsListItem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivityHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="53" column="27" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="83" column="37" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/AddressBookResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-46.627117">
-          <caret line="525" column="0" selection-start-line="525" selection-start-column="0" selection-end-line="525" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="544" column="22" selection-start-line="544" selection-start-column="22" selection-end-line="544" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#15110#15161#0" expanded="false" />
-            <element signature="e#15976#16027#0" expanded="false" />
-            <element signature="e#16978#17030#0" expanded="false" />
-            <element signature="e#20504#20539#0" expanded="false" />
-            <element signature="e#20573#20608#0" expanded="false" />
-            <element signature="e#20703#20721#0" expanded="false" />
-            <element signature="e#20785#20807#0" expanded="false" />
-            <element signature="e#21330#21347#0" expanded="false" />
-            <element signature="e#21385#21411#0" expanded="false" />
-            <element signature="e#21456#21474#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/GeoResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="2" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ISBNResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandlerFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/SMSResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/BookResultInfoRetriever.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="40" selection-start-line="35" selection-start-column="40" selection-end-line="35" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/SupplementalInfoRetriever.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="49" selection-start-line="11" selection-start-column="49" selection-end-line="11" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="38" selection-start-line="0" selection-start-column="38" selection-end-line="0" selection-end-column="38" />
-          <folding>
-            <element signature="e#156#192#0" expanded="true" />
-            <element signature="e#336#373#0" expanded="true" />
-            <element signature="e#519#556#0" expanded="true" />
-            <element signature="e#711#757#0" expanded="true" />
-            <element signature="e#825#860#0" expanded="true" />
-            <element signature="e#1004#1041#0" expanded="true" />
-            <element signature="e#1186#1221#0" expanded="true" />
-            <element signature="e#1375#1420#0" expanded="true" />
-            <element signature="e#1579#1628#0" expanded="true" />
-            <element signature="e#1655#1702#0" expanded="true" />
-            <element signature="e#1853#1895#0" expanded="true" />
-            <element signature="e#1922#1962#0" expanded="true" />
-            <element signature="e#2030#2064#0" expanded="true" />
-            <element signature="e#2182#2233#0" expanded="true" />
-            <element signature="e#2260#2309#0" expanded="true" />
-            <element signature="e#2377#2412#0" expanded="true" />
-            <element signature="e#2561#2602#0" expanded="true" />
-            <element signature="e#2629#2668#0" expanded="true" />
-            <element signature="e#2817#2856#0" expanded="true" />
-            <element signature="e#2883#2920#0" expanded="true" />
-            <element signature="e#3073#3116#0" expanded="true" />
-            <element signature="e#3143#3184#0" expanded="true" />
-            <element signature="e#3434#3470#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/EmailAddressResultHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/ProductResultInfoRetriever.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="58" column="48" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TelResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/URIResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="3" selection-start-line="44" selection-start-column="3" selection-end-line="44" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/TextResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="59" column="41" selection-start-line="59" selection-start-column="41" selection-end-line="59" selection-end-column="41" />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ISBNResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/NetworkType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="9" selection-start-line="74" selection-start-column="9" selection-end-line="74" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/Intents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/book/SearchBookContentsActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="4.5945945">
-          <caret line="85" column="59" selection-start-line="85" selection-start-column="59" selection-end-line="85" selection-end-column="59" />
+          <caret line="200" column="7" selection-start-line="200" selection-start-column="7" selection-end-line="200" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/EncodeActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/QRCodeEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-          <folding>
-            <element signature="e#2210#2211#0" expanded="false" />
-            <element signature="e#2241#2242#0" expanded="false" />
-            <element signature="e#2276#2277#0" expanded="false" />
-            <element signature="e#2314#2315#0" expanded="false" />
-            <element signature="e#2339#2340#0" expanded="false" />
-            <element signature="e#2367#2368#0" expanded="false" />
-            <element signature="e#2395#2396#0" expanded="false" />
-            <element signature="e#2426#2427#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryItemAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        <state vertical-scroll-proportion="-3.4745762">
+          <caret line="400" column="0" selection-start-line="400" selection-start-column="0" selection-end-line="401" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/BeepManager.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/menu/history.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="26" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/clipboard/ClipboardInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.621118">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.768116">
+          <caret line="91" column="17" selection-start-line="91" selection-start-column="17" selection-end-line="91" selection-end-column="17" />
           <folding>
-            <element signature="e#2838#2839#0" expanded="false" />
-            <element signature="e#2886#2887#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/CalendarResultHandler.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/PreviewCallback.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/AddressBookResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="145" column="13" selection-start-line="145" selection-start-column="13" selection-end-line="145" selection-end-column="13" />
           <folding>
-            <element signature="e#1083#1084#0" expanded="false" />
-            <element signature="e#1120#1121#0" expanded="false" />
-            <element signature="e#1177#1178#0" expanded="false" />
-            <element signature="e#1214#1215#0" expanded="false" />
-            <element signature="e#4066#4067#0" expanded="false" />
-            <element signature="e#4113#4114#0" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/supplement/URIResultInfoRetriever.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkAdapter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="48" column="23" selection-start-line="48" selection-start-column="23" selection-end-line="48" selection-end-column="23" />
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkPickerActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/LoadPackagesAsyncTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="86" column="20" selection-start-line="86" selection-start-column="20" selection-end-line="86" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/bookmark_picker_list_item.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0338984">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.206897">
+          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -4742,56 +4556,7 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="93" column="48" selection-start-line="93" selection-start-column="48" selection-end-line="93" selection-end-column="48" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/history/HistoryManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="20" selection-start-line="142" selection-start-column="20" selection-end-line="142" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#2511#2524#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="91" column="50" selection-start-line="91" selection-start-column="50" selection-end-line="91" selection-end-column="50" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="61" column="30" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Android/SDK/sources/android-23/android/provider/Browser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="36" selection-start-line="44" selection-start-column="36" selection-end-line="44" selection-end-column="36" />
+          <caret line="33" column="12" selection-start-line="33" selection-start-column="12" selection-end-line="33" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -4801,50 +4566,25 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/AppPickerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/BookmarkPickerActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ViewfinderView.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="6" selection-start-line="20" selection-start-column="6" selection-end-line="20" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="22" column="2" selection-start-line="22" selection-start-column="2" selection-end-line="22" selection-end-column="2" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/wifi/WifiConfigManager.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="140" column="12" selection-start-line="140" selection-start-column="12" selection-end-line="140" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="142" column="37" selection-start-line="142" selection-start-column="37" selection-end-line="142" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/capture.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.474577">
-          <caret line="244" column="0" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
           <folding />
         </state>
       </provider>
@@ -4854,65 +4594,319 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="7.254237">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state vertical-scroll-proportion="-4.745763">
+          <caret line="35" column="48" selection-start-line="35" selection-start-column="48" selection-end-line="35" selection-end-column="48" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/helpactivity.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43396226">
+          <caret line="361" column="12" selection-start-line="361" selection-start-column="12" selection-end-line="361" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/capture.xml">
       <provider editor-type-id="android-designer">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.423729">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        <state vertical-scroll-proportion="-5.1525426">
+          <caret line="208" column="0" selection-start-line="208" selection-start-column="0" selection-end-line="208" selection-end-column="0" />
+          <folding>
+            <element signature="e#1075#1100#0" expanded="true" />
+            <element signature="e#1577#1598#0" expanded="true" />
+            <element signature="e#2249#2270#0" expanded="true" />
+            <element signature="e#2308#2336#0" expanded="true" />
+            <element signature="e#3169#3190#0" expanded="true" />
+            <element signature="e#3228#3254#0" expanded="true" />
+            <element signature="e#4085#4106#0" expanded="true" />
+            <element signature="e#4144#4170#0" expanded="true" />
+            <element signature="e#5064#5085#0" expanded="true" />
+            <element signature="e#5123#5149#0" expanded="true" />
+            <element signature="e#8093#8121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/preferences.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.965517">
+          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+          <folding>
+            <element signature="e#155#191#0" expanded="true" />
+            <element signature="e#343#388#0" expanded="true" />
+            <element signature="e#545#593#0" expanded="true" />
+            <element signature="e#739#776#0" expanded="true" />
+            <element signature="e#931#977#0" expanded="true" />
+            <element signature="e#1127#1167#0" expanded="true" />
+            <element signature="e#1318#1359#0" expanded="true" />
+            <element signature="e#1427#1462#0" expanded="true" />
+            <element signature="e#1606#1643#0" expanded="true" />
+            <element signature="e#1788#1823#0" expanded="true" />
+            <element signature="e#1977#2022#0" expanded="true" />
+            <element signature="e#2173#2214#0" expanded="true" />
+            <element signature="e#2373#2422#0" expanded="true" />
+            <element signature="e#2449#2496#0" expanded="true" />
+            <element signature="e#2642#2679#0" expanded="true" />
+            <element signature="e#2706#2741#0" expanded="true" />
+            <element signature="e#2892#2934#0" expanded="true" />
+            <element signature="e#2961#3001#0" expanded="true" />
+            <element signature="e#3069#3104#0" expanded="true" />
+            <element signature="e#3393#3434#0" expanded="true" />
+            <element signature="e#3461#3500#0" expanded="true" />
+            <element signature="e#3647#3685#0" expanded="true" />
+            <element signature="e#3836#3877#0" expanded="true" />
+            <element signature="e#3904#3943#0" expanded="true" />
+            <element signature="e#4092#4131#0" expanded="true" />
+            <element signature="e#4158#4195#0" expanded="true" />
+            <element signature="e#4343#4382#0" expanded="true" />
+            <element signature="e#4450#4484#0" expanded="true" />
+            <element signature="e#4602#4653#0" expanded="true" />
+            <element signature="e#4680#4729#0" expanded="true" />
+            <element signature="e#4979#5015#0" expanded="true" />
+            <element signature="e#5083#5133#0" expanded="true" />
+            <element signature="e#5294#5348#0" expanded="true" />
+            <element signature="e#5375#5427#0" expanded="true" />
+            <element signature="e#5580#5624#0" expanded="true" />
+            <element signature="e#5777#5821#0" expanded="true" />
+            <element signature="e#5984#6038#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.827586">
+          <caret line="7" column="23" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/ui/HelpActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="25" column="44" selection-start-line="25" selection-start-column="44" selection-end-line="25" selection-end-column="44" />
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#11758#12203#0" expanded="true" />
+            <element signature="e#12202#12203#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/camera/CameraConfigurationManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="107" column="51" selection-start-line="107" selection-start-column="27" selection-end-line="107" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HttpHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.137931">
-          <caret line="1083" column="0" selection-start-line="1083" selection-start-column="0" selection-end-line="1083" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.66459626">
+          <caret line="146" column="21" selection-start-line="146" selection-start-column="21" selection-end-line="146" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHintManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="15" column="12" selection-start-line="15" selection-start-column="12" selection-end-line="15" selection-end-column="12" />
           <folding>
-            <element signature="e#39886#39912#0" expanded="true" />
-            <element signature="e#40100#40120#0" expanded="true" />
-            <element signature="e#41263#41281#0" expanded="true" />
-            <element signature="e#41746#41766#0" expanded="true" />
-            <element signature="e#42270#42293#0" expanded="true" />
-            <element signature="e#42691#42721#0" expanded="true" />
-            <element signature="e#43162#43187#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_qrcode_demo.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeFormatManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.661017">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="0" selection-end-line="28" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/AmbientLightManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/ScanFromWebPageManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="59" column="1" selection-start-line="59" selection-start-column="1" selection-end-line="59" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1269#1270#0" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.37931">
+          <caret line="854" column="42" selection-start-line="854" selection-start-column="42" selection-end-line="854" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/QRCodeDemoActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivityHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.75786924">
-          <caret line="35" column="2" selection-start-line="35" selection-start-column="0" selection-end-line="38" selection-end-column="24" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="74" column="39" selection-start-line="74" selection-start-column="39" selection-end-line="74" selection-end-column="39" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/DecodeHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="94" column="40" selection-start-line="94" selection-start-column="40" selection-end-line="94" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="476" column="34" selection-start-line="476" selection-start-column="34" selection-end-line="476" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="532" column="46" selection-start-line="532" selection-start-column="46" selection-end-line="532" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#17531#17587#0" expanded="true" />
+            <element signature="e#30125#30153#0" expanded="true" />
+            <element signature="e#30183#30227#0" expanded="true" />
+            <element signature="e#30264#30282#0" expanded="true" />
+            <element signature="e#30722#30749#0" expanded="true" />
+            <marker date="1467887504887" expanded="true" signature="29969:29974" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/EncodeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="65" column="0" selection-start-line="65" selection-start-column="0" selection-end-line="65" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/encode/VCardContactEncoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="23" selection-start-line="104" selection-start-column="23" selection-end-line="104" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/HelpActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="42" column="13" selection-start-line="42" selection-start-column="13" selection-end-line="42" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="41" column="101" selection-start-line="41" selection-start-column="82" selection-end-line="41" selection-end-column="101" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/PreferencesFragment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="78" column="34" selection-start-line="78" selection-start-column="34" selection-end-line="78" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#3124#3150#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/ProductResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="56" column="40" selection-start-line="56" selection-start-column="40" selection-end-line="56" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/result/WifiResultHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/share/ShareActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="113" column="49" selection-start-line="113" selection-start-column="49" selection-end-line="113" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/themes.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0508475">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.25277162">
+          <caret line="932" column="0" selection-start-line="932" selection-start-column="0" selection-end-line="932" selection-end-column="0" />
+          <folding>
+            <element signature="e#39769#39795#0" expanded="true" />
+            <element signature="e#41012#41030#0" expanded="true" />
+            <element signature="e#41919#41942#0" expanded="true" />
+            <element signature="e#42118#42148#0" expanded="true" />
+            <element signature="e#42319#42344#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

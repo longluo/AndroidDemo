@@ -18,6 +18,7 @@ package com.longluo.demo.qrcode.zxing.client.android.encode;
 
 import java.util.Collection;
 import java.util.HashSet;
+import java.util.List;
 
 /**
  * Implementations encode according to some scheme for encoding contact information, like VCard or
@@ -27,69 +28,69 @@ import java.util.HashSet;
  */
 abstract class ContactEncoder {
 
-    /**
-     * @return first, the best effort encoding of all data in the appropriate format; second, a
-     * display-appropriate version of the contact information
-     */
-    abstract String[] encode(Iterable<String> names,
-                             String organization,
-                             Iterable<String> addresses,
-                             Iterable<String> phones,
-                             Iterable<String> emails,
-                             String url,
-                             String note);
+  /**
+   * @return first, the best effort encoding of all data in the appropriate format; second, a
+   * display-appropriate version of the contact information
+   */
+  abstract String[] encode(List<String> names,
+                           String organization,
+                           List<String> addresses,
+                           List<String> phones,
+                           List<String> phoneTypes,
+                           List<String> emails,
+                           List<String> urls,
+                           String note);
 
-    /**
-     * @return null if s is null or empty, or result of s.trim() otherwise
-     */
-    static String trim(String s) {
-        if (s == null) {
-            return null;
-        }
-        String result = s.trim();
-        return result.length() == 0 ? null : result;
+  /**
+   * @return null if s is null or empty, or result of s.trim() otherwise
+   */
+  static String trim(String s) {
+    if (s == null) {
+      return null;
     }
+    String result = s.trim();
+    return result.isEmpty() ? null : result;
+  }
 
-    static void doAppend(StringBuilder newContents,
-                         StringBuilder newDisplayContents,
-                         String prefix,
-                         String value,
-                         Formatter fieldFormatter,
-                         char terminator) {
-        String trimmed = trim(value);
-        if (trimmed != null) {
-            newContents.append(prefix).append(':').append(fieldFormatter.format(trimmed)).append(terminator);
-            newDisplayContents.append(trimmed).append('\n');
-        }
+  static void append(StringBuilder newContents,
+                     StringBuilder newDisplayContents,
+                     String prefix,
+                     String value,
+                     Formatter fieldFormatter,
+                     char terminator) {
+    String trimmed = trim(value);
+    if (trimmed != null) {
+      newContents.append(prefix).append(fieldFormatter.format(trimmed, 0)).append(terminator);
+      newDisplayContents.append(trimmed).append('\n');
     }
+  }
 
-    static void doAppendUpToUnique(StringBuilder newContents,
-                                   StringBuilder newDisplayContents,
-                                   String prefix,
-                                   Iterable<String> values,
-                                   int max,
-                                   Formatter formatter,
-                                   Formatter fieldFormatter,
-                                   char terminator) {
-        if (values == null) {
-            return;
-        }
-        int count = 0;
-        Collection<String> uniques = new HashSet<String>(2);
-        for (String value : values) {
-            String trimmed = trim(value);
-            if (trimmed != null) {
-                if (!uniques.contains(trimmed)) {
-                    newContents.append(prefix).append(':').append(fieldFormatter.format(trimmed)).append(terminator);
-                    String display = formatter == null ? trimmed : formatter.format(trimmed);
-                    newDisplayContents.append(display).append('\n');
-                    if (++count == max) {
-                        break;
-                    }
-                    uniques.add(trimmed);
-                }
-            }
-        }
+  static void appendUpToUnique(StringBuilder newContents,
+                               StringBuilder newDisplayContents,
+                               String prefix,
+                               List<String> values,
+                               int max,
+                               Formatter displayFormatter,
+                               Formatter fieldFormatter,
+                               char terminator) {
+    if (values == null) {
+      return;
     }
+    int count = 0;
+    Collection<String> uniques = new HashSet<>(2);
+    for (int i = 0; i < values.size(); i++) {
+      String value = values.get(i);
+      String trimmed = trim(value);
+      if (trimmed != null && !trimmed.isEmpty() && !uniques.contains(trimmed)) {
+        newContents.append(prefix).append(fieldFormatter.format(trimmed, i)).append(terminator);
+        CharSequence display = displayFormatter == null ? trimmed : displayFormatter.format(trimmed, i);
+        newDisplayContents.append(display).append('\n');
+        if (++count == max) {
+          break;
+        }
+        uniques.add(trimmed);
+      }
+    }
+  }
 
 }

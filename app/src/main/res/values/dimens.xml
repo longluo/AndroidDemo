@@ -69,5 +69,7 @@
 
     <dimen name="image_view_border_size">0.3dip</dimen>
 
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
 
 </resources>
