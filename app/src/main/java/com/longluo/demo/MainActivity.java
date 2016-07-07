@@ -62,6 +62,7 @@ import com.longluo.demo.opengl.OpenGLDemoActivity;
 import com.longluo.demo.palette.PaletteDemoActivity;
 import com.longluo.demo.process.ProcessManagerDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
+import com.longluo.demo.qrcode.QRCodeDemoActivity;
 import com.longluo.demo.recyclerview.RecyclerViewDemo2Activity;
 import com.longluo.demo.recyclerview.RecyclerViewDemoActivity;
 import com.longluo.demo.ripple.RippleViewDemoActivity;
@@ -171,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
             "Application Backup Demo",
             "ProcessManager Demo",
             "CustomView Demo",
+            "QRCode Scan",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -543,6 +545,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 73:
                         startActivity(CustomViewDemoActivity.class);
+                        break;
+
+                    case 74:
+                        startActivity(QRCodeDemoActivity.class);
                         break;
 
                     default:

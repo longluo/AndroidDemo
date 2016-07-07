@@ -8,8 +8,8 @@ android {
         applicationId "com.longluo.demo"
         minSdkVersion 21
         targetSdkVersion 21
-        versionCode 82
-        versionName "6.1.0"
+        versionCode 83
+        versionName "6.2.0"
         vectorDrawables.useSupportLibrary = true
     }
 
@@ -89,4 +89,5 @@ dependencies {
     // Facebook Fresco
     //    compile 'com.facebook.fresco:fresco:0.1.0+'
     compile files('libs/uac-sdk-internal-base.2.2.3.jar')
+    compile files('libs/zxing-core.jar')
 }
