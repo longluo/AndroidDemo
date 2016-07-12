@@ -1069,6 +1069,13 @@
 
         <activity android:name=".fragment.ContentActivity" />
 
+        <!-- Clip Image -->
+        <activity
+            android:name=".clip.ImageClipDemoActivity"
+            android:label="@string/app_name" />
+
+        <activity android:name=".clip.ShowImageActivity" />
+
     </application>
 
 </manifest>

@@ -25,6 +25,7 @@ import com.longluo.demo.areachartsview.AreaChartsViewDemoActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.cardview.CardViewDemoActivity;
+import com.longluo.demo.clip.ImageClipDemoActivity;
 import com.longluo.demo.contact.ContactDemoActivity;
 import com.longluo.demo.contact.message.MessageDemoActivity;
 import com.longluo.demo.contentprovider.ProviderDemoActivity;
@@ -173,6 +174,7 @@ public class MainActivity extends AppCompatActivity {
             "ProcessManager Demo",
             "CustomView Demo",
             "QRCode Scan",
+            "Image Clip",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -549,6 +551,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 74:
                         startActivity(QRCodeDemoActivity.class);
+                        break;
+
+                    case 75:
+                        startActivity(ImageClipDemoActivity.class);
                         break;
 
                     default:
