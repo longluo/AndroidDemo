@@ -1062,6 +1062,13 @@
                     </intent-filter>
                 </activity>-->
 
+
+        <activity
+            android:name=".fragment.ListTitleActivity"
+            android:label="@string/app_name" />
+
+        <activity android:name=".fragment.ContentActivity" />
+
     </application>
 
 </manifest>
