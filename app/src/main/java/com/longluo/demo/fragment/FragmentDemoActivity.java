@@ -15,7 +15,6 @@ public class FragmentDemoActivity extends Activity {
     private Button mBtnListTitle;
     private Button mBtnContent;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,8 +22,6 @@ public class FragmentDemoActivity extends Activity {
         setContentView(R.layout.activity_fragment_demo);
 
         initViews();
-
-
     }
 
     private void initViews() {

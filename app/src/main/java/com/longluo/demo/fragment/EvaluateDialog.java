@@ -24,19 +24,20 @@ public class EvaluateDialog extends DialogFragment {
                         setResult(which);
                     }
                 });
+
         return builder.create();
     }
 
     // 设置返回数据
     protected void setResult(int which) {
         // 判断是否设置了targetFragment
-        if (getTargetFragment() == null)
+        if (getTargetFragment() == null) {
             return;
+        }
 
         Intent intent = new Intent();
         intent.putExtra(RESPONSE_EVALUATE, mEvaluteVals[which]);
         getTargetFragment().onActivityResult(ContentFragment.REQUEST_EVALUATE,
                 Activity.RESULT_OK, intent);
-
     }
 }
