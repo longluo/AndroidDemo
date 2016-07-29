@@ -71,6 +71,7 @@ import com.longluo.demo.roundedimageview.RoundedImageViewActivity;
 import com.longluo.demo.searchview.SearchViewActivity;
 import com.longluo.demo.sensor.SensorDemoActivity;
 import com.longluo.demo.settings.SettingDemoActivity;
+import com.longluo.demo.shake.ShakeDemoActivity;
 import com.longluo.demo.slideview.SlideViewDemoActivity;
 import com.longluo.demo.swipelistview.SwipeListViewDemoActivity;
 import com.longluo.demo.tagflowlayout.TagFlowLayoutCategoryActivity;
@@ -175,6 +176,7 @@ public class MainActivity extends AppCompatActivity {
             "CustomView Demo",
             "QRCode Scan",
             "Image Clip",
+            "Shake Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -236,6 +238,7 @@ public class MainActivity extends AppCompatActivity {
         LinkUtils.initAuthorInfo(activity);
 
 //		UIUtils.initActionBar(activity);
+
     }
 
     private void initData() {
@@ -555,6 +558,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 75:
                         startActivity(ImageClipDemoActivity.class);
+                        break;
+
+                    case 76:
+                        startActivity(ShakeDemoActivity.class);
                         break;
 
                     default:
