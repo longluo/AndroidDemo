@@ -46,8 +46,7 @@ public class ShakeListener implements SensorEventListener {
     // 开始
     public void start() {
         // 获得传感器管理器
-        sensorManager = (SensorManager) mContext
-                .getSystemService(Context.SENSOR_SERVICE);
+        sensorManager = (SensorManager) mContext.getSystemService(Context.SENSOR_SERVICE);
 
         if (sensorManager != null) {
             // 获得重力传感器
@@ -56,10 +55,8 @@ public class ShakeListener implements SensorEventListener {
 
         // 注册
         if (sensor != null) {
-            sensorManager.registerListener(this, sensor,
-                    SensorManager.SENSOR_DELAY_GAME);
+            sensorManager.registerListener(this, sensor, SensorManager.SENSOR_DELAY_GAME);
         }
-
     }
 
     // 停止检测

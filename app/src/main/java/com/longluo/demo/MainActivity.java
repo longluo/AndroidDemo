@@ -19,6 +19,7 @@ import com.longluo.demo.activitycard.MonthActivityCardActivity;
 import com.longluo.demo.activitytrans.ActivityTransDemoActivity;
 import com.longluo.demo.adherent.AdherentActivity;
 import com.longluo.demo.advancedtextview.AdvancedTextViewActivity;
+import com.longluo.demo.analogclock.ClockDemoActivity;
 import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.applicationbackup.AppBackupDemoActivity;
 import com.longluo.demo.areachartsview.AreaChartsViewDemoActivity;
@@ -177,6 +178,7 @@ public class MainActivity extends AppCompatActivity {
             "QRCode Scan",
             "Image Clip",
             "Shake Demo",
+            "Clock Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -562,6 +564,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 76:
                         startActivity(ShakeDemoActivity.class);
+                        break;
+
+                    case 77:
+                        startActivity(ClockDemoActivity.class);
                         break;
 
                     default:

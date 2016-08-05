@@ -1079,6 +1079,8 @@
 
         <activity android:name=".shake.ShakeDemoActivity" />
 
+        <activity android:name=".analogclock.ClockDemoActivity" />
+
     </application>
 
 </manifest>
