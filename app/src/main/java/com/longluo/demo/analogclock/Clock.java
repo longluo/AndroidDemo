@@ -33,7 +33,6 @@ public class Clock extends View {
 
     @Override
     protected void onDraw(Canvas canvas) {
-        mTime.setToNow();
 
         // 获取宽高参数
         mWidth = getMeasuredWidth();
@@ -89,10 +88,15 @@ public class Clock extends View {
     }
 
     private void drawTime(Canvas canvas) {
+        // 当前时间
+        mTime.setToNow();
+
+        // 当前时间对应的角度
         float secRot = mTime.second * 6;
         float minRot = mTime.minute * 6 + 6 * mTime.second / 60F;
         float hrRot = (mTime.hour % 12) * 30 + 30 * minRot / 360F;
 
+        Log.d(TAG, "hr=" + mTime.hour + ",min=" + mTime.minute + ",sec=" + mTime.second);
         Log.d(TAG, "hrRot=" + hrRot + ",minRot=" + minRot + ",secRot=" + secRot);
 
         // 画指针
@@ -105,16 +109,19 @@ public class Clock extends View {
 
         canvas.save();
 
+        // 时针
         canvas.rotate(hrRot, mWidth / 2, mHeight / 2);
         canvas.drawLine(mWidth / 2, mHeight / 2, mWidth / 2, mHeight / 2 - mWidth / 2 + 320,
                 paintHour);
         canvas.rotate(-hrRot, mWidth / 2, mHeight / 2);
 
+        // 分针
         canvas.rotate(minRot, mWidth / 2, mHeight / 2);
         canvas.drawLine(mWidth / 2, mHeight / 2, mWidth / 2, mHeight / 2 - mWidth / 2 + 230,
                 paintMinute);
         canvas.rotate(-minRot, mWidth / 2, mHeight / 2);
 
+        // 秒针
         canvas.rotate(secRot, mWidth / 2, mHeight / 2);
         canvas.drawLine(mWidth / 2, mHeight / 2, mWidth / 2, mHeight / 2 - mWidth / 2 + 150,
                 paintSecond);
