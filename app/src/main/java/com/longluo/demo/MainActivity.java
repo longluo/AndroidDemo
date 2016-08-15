@@ -62,6 +62,7 @@ import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.opengl.OpenGLDemoActivity;
 import com.longluo.demo.palette.PaletteDemoActivity;
+import com.longluo.demo.pointerlocation.PointerLocationDemoActivity;
 import com.longluo.demo.process.ProcessManagerDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
 import com.longluo.demo.qrcode.QRCodeDemoActivity;
@@ -179,6 +180,7 @@ public class MainActivity extends AppCompatActivity {
             "Image Clip",
             "Shake Demo",
             "Clock Demo",
+            "PointerLocation Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -568,6 +570,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 77:
                         startActivity(ClockDemoActivity.class);
+                        break;
+
+                    case 78:
+                        startActivity(PointerLocationDemoActivity.class);
                         break;
 
                     default:

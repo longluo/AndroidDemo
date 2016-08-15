@@ -1081,6 +1081,10 @@
 
         <activity android:name=".analogclock.ClockDemoActivity" />
 
+        <activity
+            android:name=".pointerlocation.PointerLocationDemoActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
