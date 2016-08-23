@@ -1,4 +1,5 @@
-package com.longluo.demo.analogclock;
+package com.longluo.demo.widget.clock;
+
 
 import android.content.Context;
 import android.graphics.Canvas;

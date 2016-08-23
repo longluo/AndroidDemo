@@ -953,7 +953,16 @@
             android:label="@string/app_name" />
         <activity android:name=".clip.ShowImageActivity" />
         <activity android:name=".shake.ShakeDemoActivity" />
-        <activity android:name=".analogclock.ClockDemoActivity" />
+
+        <activity android:name=".watch.WatchDemoActivity" />
+
+        <activity android:name=".watch.ClockDemoActivity" />
+
+        <activity android:name=".watch.ClockDemoTwoActivity" />
+
+        <activity android:name=".watch.WatchBoardDemoActivity" />
+
+
         <activity
             android:name=".pointerlocation.PointerLocationDemoActivity"
             android:screenOrientation="portrait" />

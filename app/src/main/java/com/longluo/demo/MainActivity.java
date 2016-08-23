@@ -19,7 +19,6 @@ import com.longluo.demo.activitycard.MonthActivityCardActivity;
 import com.longluo.demo.activitytrans.ActivityTransDemoActivity;
 import com.longluo.demo.adherent.AdherentActivity;
 import com.longluo.demo.advancedtextview.AdvancedTextViewActivity;
-import com.longluo.demo.analogclock.ClockDemoActivity;
 import com.longluo.demo.animation.AnimationActivity;
 import com.longluo.demo.applicationbackup.AppBackupDemoActivity;
 import com.longluo.demo.areachartsview.AreaChartsViewDemoActivity;
@@ -89,6 +88,7 @@ import com.longluo.demo.viewpager.ViewPagerActivity;
 import com.longluo.demo.viewpager.fragments.ViewPagerMultiFragmentActivity;
 import com.longluo.demo.viewpager.tabpageindicator.miui.MIUITabPageIndicatorActivity;
 import com.longluo.demo.vr.VRPlayerDemoActivity;
+import com.longluo.demo.watch.WatchDemoActivity;
 import com.longluo.demo.waterwave.WaterWaveDemoActivity;
 import com.longluo.demo.webview.WebViewDemoActivity;
 import com.longluo.demo.widget.imageprocess.ImageProcessDemoActivity;
@@ -179,7 +179,7 @@ public class MainActivity extends AppCompatActivity {
             "QRCode Scan",
             "Image Clip",
             "Shake Demo",
-            "Clock Demo",
+            "Watch Demo",
             "PointerLocation Demo",
     };
 
@@ -569,7 +569,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 77:
-                        startActivity(ClockDemoActivity.class);
+                        startActivity(WatchDemoActivity.class);
                         break;
 
                     case 78:

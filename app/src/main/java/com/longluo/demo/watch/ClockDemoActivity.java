@@ -1,8 +1,11 @@
-package com.longluo.demo.analogclock;
+package com.longluo.demo.watch;
 
 import android.app.Activity;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.longluo.demo.widget.clock.Clock;
+
 
 /**
  * Created by luolong on 2016/8/5.
