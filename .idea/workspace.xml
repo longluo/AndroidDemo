@@ -54,21 +54,12 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The Clock.&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoTwoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/WatchBoardDemoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/WatchDemoActivity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/ClockTwo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_watch_board.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_watch_demo.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/libs/nineoldandroids-2.4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/analogclock/Clock.java" afterPath="" />
+    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="Add 2 Clocks.&#10;">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/analogclock/ClockDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoTwoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoTwoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/ClockTwo.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/ClockTwo.java" />
     </list>
     <ignored path="AndroidDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -113,7 +104,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+              <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,14 +113,14 @@
       <file leaf-file-name="ClockTwo.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/ClockTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.03846154">
-              <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.036199097">
+              <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#441#442#0" expanded="true" />
-                <element signature="e#476#477#0" expanded="true" />
-                <element signature="e#4311#4312#0" expanded="true" />
-                <element signature="e#4343#4344#0" expanded="true" />
+                <element signature="e#474#475#0" expanded="true" />
+                <element signature="e#509#510#0" expanded="true" />
+                <element signature="e#4760#4761#0" expanded="true" />
+                <element signature="e#4792#4793#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,7 +130,7 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -179,28 +170,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="activity_watch_board.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_watch_board.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ClockDemoTwoActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoTwoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#578#725#0" expanded="true" />
-                <element signature="e#724#725#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WatchBoard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,8 +198,10 @@
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="572" column="45" selection-start-line="572" selection-start-column="45" selection-end-line="572" selection-end-column="45" />
-              <folding />
+              <caret line="571" column="45" selection-start-line="571" selection-start-column="45" selection-end-line="571" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -4997,15 +4987,15 @@
         <option value="$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/progressbar_text/SpinnerProgressBarWithText.java" />
         <option value="$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/clock/Clock.java" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_watch_demo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoTwoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_watch_board.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/WatchBoardDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/WatchDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoTwoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/ClockTwo.java" />
       </list>
     </option>
@@ -5157,7 +5147,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/baselib/libs/butterknife-7.0.1.jar" />
-    <property name="SearchEverywhereHistoryKey" value="main&#9;PSI&#9;JAVA://com.longluo.demo.MainActivity&#10;poin&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/pointerlocation/PointerLocationDemoActivity.java&#10;maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;coo&#9;PSI&#9;JAVA://com.longluo.demo.coolcloud.CoolCloudDemoActivity&#10;arra&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/arrays.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;qrcode&#9;PSI&#9;JAVA://com.longluo.demo.qrcode.QRCodeDemoActivity&#10;cap&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity&#10;cube&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/Cube.java" />
+    <property name="SearchEverywhereHistoryKey" value="clockde&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java&#10;clo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/clock/Clock.java&#10;watchb&#9;FILE&#9;file://E:/Code/AndroidDemo/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java&#10;main&#9;PSI&#9;JAVA://com.longluo.demo.MainActivity&#10;poin&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/pointerlocation/PointerLocationDemoActivity.java&#10;maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;coo&#9;PSI&#9;JAVA://com.longluo.demo.coolcloud.CoolCloudDemoActivity&#10;arra&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/arrays.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;qrcode&#9;PSI&#9;JAVA://com.longluo.demo.qrcode.QRCodeDemoActivity&#10;cap&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity&#10;cube&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/Cube.java" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="115" />
@@ -5461,12 +5451,6 @@
       <option name="number" value="Default" />
       <updated>1461309772362</updated>
     </task>
-    <task id="LOCAL-00015" summary="add the VR Player Demo.">
-      <created>1461658334383</created>
-      <option name="number" value="00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1461658334383</updated>
-    </task>
     <task id="LOCAL-00016" summary="the LeakCanary wath module.">
       <created>1461671850361</created>
       <option name="number" value="00016" />
@@ -5755,7 +5739,13 @@
       <option name="project" value="LOCAL" />
       <updated>1471681661572</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="Add 2 Clocks.&#10;">
+      <created>1471933032268</created>
+      <option name="number" value="00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1471933032286</updated>
+    </task>
+    <option name="localTasksCounter" value="65" />
     <servers />
   </component>
   <component name="TodoView">
@@ -5777,14 +5767,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2834758" sideWeight="0.48550725" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.497151" sideWeight="0.4304348" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33760685" sideWeight="0.4304348" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.477208" sideWeight="0.5869565" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.477208" sideWeight="0.5869565" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.477208" sideWeight="0.41304347" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.41304347" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43093923" sideWeight="0.40519664" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5815,7 +5805,6 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="The LikeButton Demo." />
     <MESSAGE value="Change ActionBar to ToolBar" />
     <MESSAGE value="The Rounded Image View" />
     <MESSAGE value="The Login Demo" />
@@ -5840,7 +5829,8 @@
     <MESSAGE value="The Shake" />
     <MESSAGE value="Update&#10;" />
     <MESSAGE value="The Clock.&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="The Clock.&#10;" />
+    <MESSAGE value="Add 2 Clocks.&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add 2 Clocks.&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -5870,6 +5860,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-6.8965516">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -5905,6 +5896,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6038,6 +6030,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5172415">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6127,13 +6120,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uilib/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -6206,22 +6192,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_watch_board.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -6263,8 +6233,10 @@
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="572" column="45" selection-start-line="572" selection-start-column="45" selection-end-line="572" selection-end-column="45" />
-          <folding />
+          <caret line="571" column="45" selection-start-line="571" selection-start-column="45" selection-end-line="571" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -6280,28 +6252,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="158" column="28" selection-start-line="158" selection-start-column="28" selection-end-line="158" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoTwoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#578#725#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="84" column="40" selection-start-line="84" selection-start-column="40" selection-end-line="84" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/ClockTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.03846154">
-          <caret line="109" column="37" selection-start-line="109" selection-start-column="37" selection-end-line="109" selection-end-column="37" />
+        <state vertical-scroll-proportion="0.036199097">
+          <caret line="105" column="25" selection-start-line="105" selection-start-column="25" selection-end-line="105" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#441#442#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#4311#4312#0" expanded="true" />
-            <element signature="e#4343#4344#0" expanded="true" />
+            <element signature="e#474#475#0" expanded="true" />
+            <element signature="e#509#510#0" expanded="true" />
+            <element signature="e#4760#4761#0" expanded="true" />
+            <element signature="e#4792#4793#0" expanded="true" />
           </folding>
         </state>
       </provider>

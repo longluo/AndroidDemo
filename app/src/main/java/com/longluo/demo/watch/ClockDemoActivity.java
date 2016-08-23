@@ -22,19 +22,19 @@ public class ClockDemoActivity extends Activity {
 
         mClock = new Clock(this);
 
-        mHandler = new Handler();
+//        mHandler = new Handler();
 
-        mHandler.post(updateTime);
+//        mHandler.post(updateTime);
 
         setContentView(mClock);
     }
 
-    private Runnable updateTime = new Runnable() {
+/*    private Runnable updateTime = new Runnable() {
         public void run() {
             mClock.refreshClock();
             mHandler.postDelayed(updateTime, 1000);
         }
-    };
+    };*/
 
 
 }

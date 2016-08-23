@@ -3,6 +3,7 @@ package com.longluo.demo.widget.clock;
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
+import android.text.format.Time;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.View;
@@ -87,6 +88,9 @@ public class ClockTwo extends View {
         canvas.drawPoint(mWidth / 2, mHeight / 2, paintPointer);
 
         drawTime(canvas);
+
+        //刷新
+        postInvalidateDelayed(1000);
     }
 
     private void drawTime(Canvas canvas) {
@@ -98,11 +102,19 @@ public class ClockTwo extends View {
         Paint paintSecond = new Paint();
         paintSecond.setStrokeWidth(5);
 
-        canvas.save();
+        Time mTime = new Time();
+        mTime.setToNow();
+
+        mCalendar.setTimeInMillis(System.currentTimeMillis());
 
         float secRot = mCalendar.get(Calendar.SECOND) / 30f * (float) Math.PI;
         float minRot = mCalendar.get(Calendar.MINUTE) / 30f * (float) Math.PI;
-        float hrRot = 360.0f * (mCalendar.get(Calendar.HOUR_OF_DAY) + mCalendar.get(Calendar.MINUTE) / 60.0f) / 12.0f;
+        float hrRot = (((mCalendar.get(Calendar.HOUR_OF_DAY) + (mCalendar.get(Calendar.MINUTE) / 60f))) / 6f) * (float) Math.PI;
+
+        Log.d(TAG, "Time,  sec=" + mTime.second + ",min=" + mTime.minute + ",hour=" + mTime.hour);
+
+        Log.d(TAG, "Calendar, sec=" + mCalendar.get(Calendar.SECOND) + ",min=" + mCalendar.get(Calendar.MINUTE)
+                + ",hour=" + mCalendar.get(Calendar.HOUR_OF_DAY));
 
         Log.d(TAG, "hrRot=" + hrRot + ",minRot=" + minRot + ",secRot=" + secRot);
 
@@ -124,8 +136,6 @@ public class ClockTwo extends View {
         float secX = (float) Math.sin(secRot) * secLength;
         float secY = (float) -Math.cos(secRot) * secLength;
         canvas.drawLine(centerX, centerY, centerX + secX, centerY + secY, paintSecond);
-
-        canvas.restore();
     }
 
 

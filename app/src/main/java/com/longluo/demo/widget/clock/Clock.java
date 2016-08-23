@@ -86,6 +86,9 @@ public class Clock extends View {
         canvas.drawPoint(mWidth / 2, mHeight / 2, paintPointer);
 
         drawTime(canvas);
+
+        //刷新
+        postInvalidateDelayed(1000);
     }
 
     private void drawTime(Canvas canvas) {
