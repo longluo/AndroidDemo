@@ -962,10 +962,15 @@
 
         <activity android:name=".watch.WatchBoardDemoActivity" />
 
-
         <activity
             android:name=".pointerlocation.PointerLocationDemoActivity"
             android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".tailswing.TailSwingDemoActivity"
+            android:screenOrientation="portrait" />
+
+
     </application>
 
 </manifest>

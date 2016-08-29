@@ -76,6 +76,7 @@ import com.longluo.demo.shake.ShakeDemoActivity;
 import com.longluo.demo.slideview.SlideViewDemoActivity;
 import com.longluo.demo.swipelistview.SwipeListViewDemoActivity;
 import com.longluo.demo.tagflowlayout.TagFlowLayoutCategoryActivity;
+import com.longluo.demo.tailswing.TailSwingDemoActivity;
 import com.longluo.demo.textview.TextViewDemoActivity;
 import com.longluo.demo.toolbar.ToolBarDemoActivity;
 import com.longluo.demo.touch.TouchEventDemoActivity;
@@ -181,6 +182,7 @@ public class MainActivity extends AppCompatActivity {
             "Shake Demo",
             "Watch Demo",
             "PointerLocation Demo",
+            "Tail Swing Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -574,6 +576,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 78:
                         startActivity(PointerLocationDemoActivity.class);
+                        break;
+
+                    case 79:
+                        startActivity(TailSwingDemoActivity.class);
                         break;
 
                     default:
