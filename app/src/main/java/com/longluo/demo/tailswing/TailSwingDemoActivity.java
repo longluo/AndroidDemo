@@ -3,6 +3,7 @@ package com.longluo.demo.tailswing;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.Animation;
 import android.widget.Button;
 import android.widget.ImageView;
@@ -34,10 +35,11 @@ public class TailSwingDemoActivity extends Activity {
 
         mSwingAnimation = new SwingAnimation(
                 0f, 20f, -20f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-        mSwingAnimation.setDuration(2000);     //动画持续时间
+        mSwingAnimation.setDuration(3000);     //动画持续时间
+        mSwingAnimation.setInterpolator(new AccelerateDecelerateInterpolator());
         mSwingAnimation.setRepeatCount(Animation.INFINITE);  //动画重播次数
         mSwingAnimation.setFillAfter(false);  //是否保持动画结束画面
-        mSwingAnimation.setStartOffset(0);   //动画播放延迟
+        mSwingAnimation.setStartOffset(2000);   //动画播放延迟
 
         initViews();
 

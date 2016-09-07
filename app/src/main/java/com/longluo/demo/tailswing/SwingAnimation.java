@@ -64,6 +64,7 @@ public class SwingAnimation extends Animation {
         float degrees;
         float leftPos = (float) (1.0 / 4.0);
         float rightPos = (float) (3.0 / 4.0);
+
         if (interpolatedTime <= leftPos) {
             degrees = mMiddleDegrees + ((mLeftDegrees - mMiddleDegrees) * interpolatedTime * 4);
         } else if (interpolatedTime > leftPos && interpolatedTime < rightPos) {
@@ -71,6 +72,7 @@ public class SwingAnimation extends Animation {
         } else {
             degrees = mRightDegrees + ((mMiddleDegrees - mRightDegrees) * (interpolatedTime - rightPos) * 4);
         }
+
         System.out.println("degrees=" + degrees);
 
         float scale = getScaleFactor();

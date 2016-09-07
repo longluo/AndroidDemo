@@ -970,6 +970,10 @@
             android:name=".tailswing.TailSwingDemoActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".pendulum.PendulumDemoActivity"
+            android:screenOrientation="portrait" />
+
 
     </application>
 

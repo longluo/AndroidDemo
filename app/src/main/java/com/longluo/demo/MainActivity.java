@@ -61,6 +61,7 @@ import com.longluo.demo.notifications.NotificationActivity;
 import com.longluo.demo.numberprogressbar.NumberProgressBarActivity;
 import com.longluo.demo.opengl.OpenGLDemoActivity;
 import com.longluo.demo.palette.PaletteDemoActivity;
+import com.longluo.demo.pendulum.PendulumDemoActivity;
 import com.longluo.demo.pointerlocation.PointerLocationDemoActivity;
 import com.longluo.demo.process.ProcessManagerDemoActivity;
 import com.longluo.demo.progress.ProgressActivity;
@@ -183,6 +184,7 @@ public class MainActivity extends AppCompatActivity {
             "Watch Demo",
             "PointerLocation Demo",
             "Tail Swing Demo",
+            "Pendulum Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -580,6 +582,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 79:
                         startActivity(TailSwingDemoActivity.class);
+                        break;
+
+                    case 80:
+                        startActivity(PendulumDemoActivity.class);
                         break;
 
                     default:
