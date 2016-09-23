@@ -974,6 +974,9 @@
             android:name=".pendulum.PendulumDemoActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".asynctask.AsyncTaskDemoActivity"
+            android:screenOrientation="portrait" />
 
     </application>
 

@@ -1,9 +1,5 @@
 package com.longluo.uilib.pendulum;
 
-/**
- * Created by luolong on 2016/9/7.
- */
-
 import android.content.Context;
 import android.graphics.Canvas;
 import android.graphics.Paint;
@@ -162,8 +158,10 @@ public class Pendulum extends View {
 
 
         int totalLength = length + r;
-        if (bigCirclePath == null)
+        if (bigCirclePath == null) {
             bigCirclePath = new Path();
+        }
+
         bigCirclePath.reset();
         //rectF是用来绘制弧形的：以线段的顶点为圆心，length + r为半径画弧形
         RectF rectF = new RectF(topPoint[0] - totalLength, topPoint[1] - totalLength, topPoint[0] + totalLength, topPoint[1] + totalLength);
@@ -179,8 +177,10 @@ public class Pendulum extends View {
         //下面，我们就链接这个两个点，并以rotatePoint为圆心画圆
 
         //画线段
-        if (rotateLinePath == null)
+        if (rotateLinePath == null) {
             rotateLinePath = new Path();
+        }
+
         rotateLinePath.reset();
         rotateLinePath.moveTo(topPoint[0], topPoint[1]);
         rotateLinePath.lineTo(rotatePoint[0], rotatePoint[1]);
