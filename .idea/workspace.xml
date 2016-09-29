@@ -58,16 +58,13 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The Pendulum Demo.&#10;&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/TaskItem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/layout_asynctask_demo_item.xml" />
+    <list default="true" id="921dfb2a-581b-4eb1-82fc-67ee56023131" name="Default" comment="The AsyncTask Demo&#10;&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/surface/SurfaceViewDemoActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_build_info.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_surface_view.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/AsyncTaskDemoActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/AsyncTaskDemoActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_asynctask_demo.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_asynctask_demo.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/pendulum/Pendulum.java" afterPath="$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/pendulum/Pendulum.java" />
     </list>
     <ignored path="AndroidDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,23 +105,40 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="TailSwingDemoActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/tailswing/TailSwingDemoActivity.java">
+      <file leaf-file-name="AsyncTaskDemoActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/AsyncTaskDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
               <folding>
-                <element signature="imports" expanded="false" />
+                <element signature="e#4574#4575#0" expanded="true" />
+                <element signature="e#4623#4624#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pendulum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/pendulum/Pendulum.java">
+      <file leaf-file-name="Clock.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
+              <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#431#432#0" expanded="false" />
+                <element signature="e#466#467#0" expanded="false" />
+                <element signature="e#4320#4321#0" expanded="false" />
+                <element signature="e#4352#4353#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SurfaceViewDemoActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/surface/SurfaceViewDemoActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,23 +146,40 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AsyncTaskDemoActivity.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/AsyncTaskDemoActivity.java">
+      <file leaf-file-name="BuildInfoDemoActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/build/BuildInfoDemoActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.5317287">
-              <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
               <folding>
-                <element signature="e#2208#2209#0" expanded="true" />
-                <element signature="e#2249#2250#0" expanded="true" />
-                <element signature="e#2314#2315#0" expanded="true" />
-                <element signature="e#2368#2369#0" expanded="true" />
-                <element signature="e#2433#2434#0" expanded="true" />
-                <element signature="e#2472#2473#0" expanded="true" />
-                <element signature="e#4711#4712#0" expanded="true" />
-                <element signature="e#4760#4761#0" expanded="true" />
-                <element signature="e#4840#4841#0" expanded="true" />
-                <element signature="e#4896#4897#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_build_info.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_build_info.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.7288136">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_surface_view.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_surface_view.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -159,50 +190,9 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.118644">
+            <state vertical-scroll-proportion="0.0">
               <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_asynctask_demo.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_asynctask_demo.xml">
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0677967">
-              <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaskItem.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/TaskItem.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#446#447#0" expanded="true" />
-                <element signature="e#483#484#0" expanded="true" />
-                <element signature="e#523#524#0" expanded="true" />
-                <element signature="e#553#554#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PendulumDemoActivity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/pendulum/PendulumDemoActivity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -210,21 +200,18 @@
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.0">
-              <caret line="593" column="46" selection-start-line="593" selection-start-column="46" selection-end-line="593" selection-end-column="46" />
-              <folding>
-                <element signature="e#8801#9446#0" expanded="true" />
-                <element signature="e#9445#9446#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0">
+              <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.034483">
-              <caret line="977" column="54" selection-start-line="977" selection-start-column="54" selection-end-line="977" selection-end-column="54" />
+            <state vertical-scroll-proportion="0.7888889">
+              <caret line="973" column="57" selection-start-line="973" selection-start-column="57" selection-end-line="973" selection-end-column="57" />
               <folding />
             </state>
           </provider>
@@ -233,7 +220,7 @@
       <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.333333">
+            <state vertical-scroll-proportion="0.0">
               <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
@@ -4966,10 +4953,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/FontManager.java" />
-        <option value="$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/RegularUtils.java" />
-        <option value="$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/SizeUtil.java" />
-        <option value="$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/SoftInputUtil.java" />
         <option value="$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/ThemeUtil.java" />
         <option value="$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/ToastUtils.java" />
         <option value="$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/DigitUtil.java" />
@@ -5013,10 +4996,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/TaskItem.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_asynctask_demo.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/layout_asynctask_demo_item.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/AsyncTaskDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_surface_view.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/surface/SurfaceViewDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_build_info.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/build/BuildInfoDemoActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java" />
       </list>
     </option>
   </component>
@@ -5049,31 +5036,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="AndroidDemo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="AndroidDemo">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -5122,6 +5084,32 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="AndroidDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="AndroidDemo">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <PATH>
@@ -5136,23 +5124,12 @@
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="uilib" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="AndroidDemo" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -5163,7 +5140,7 @@
     <property name="android.project.structure.last.selected" value="app" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/baselib/libs/butterknife-7.0.1.jar" />
-    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;swingani&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tailswing/SwingAnimation.java&#10;watc&#9;FILE&#9;file://E:/Code/AndroidDemo/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java&#10;clockde&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java&#10;clo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/clock/Clock.java&#10;watchb&#9;FILE&#9;file://E:/Code/AndroidDemo/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java&#10;poin&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/pointerlocation/PointerLocationDemoActivity.java&#10;maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;coo&#9;PSI&#9;JAVA://com.longluo.demo.coolcloud.CoolCloudDemoActivity&#10;arra&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/arrays.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;qrcode&#9;PSI&#9;JAVA://com.longluo.demo.qrcode.QRCodeDemoActivity&#10;cap&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity&#10;cube&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/Cube.java" />
+    <property name="SearchEverywhereHistoryKey" value="main&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;cloc&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/clock/Clock.java&#10;swingani&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tailswing/SwingAnimation.java&#10;watc&#9;FILE&#9;file://E:/Code/AndroidDemo/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java&#10;clockde&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/watch/ClockDemoActivity.java&#10;clo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/clock/Clock.java&#10;watchb&#9;FILE&#9;file://E:/Code/AndroidDemo/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java&#10;poin&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/pointerlocation/PointerLocationDemoActivity.java&#10;maina&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/MainActivity.java&#10;coo&#9;PSI&#9;JAVA://com.longluo.demo.coolcloud.CoolCloudDemoActivity&#10;arra&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/arrays.xml&#10;styles&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/styles.xml&#10;dimens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;strings&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;qrcode&#9;PSI&#9;JAVA://com.longluo.demo.qrcode.QRCodeDemoActivity&#10;cap&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/qrcode/zxing/client/android/CaptureActivity.java&#10;colors&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/colors.xml&#10;pre&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/PressureDemoActivity.java&#10;GYRO&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;sens&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/sensor/SensorDemoActivity.java&#10;str&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;activity_gyroscope_demo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_gyroscope_demo.xml&#10;gyr&#9;PSI&#9;JAVA://com.longluo.demo.gyrorotate.GyroRotateActivity&#10;gyrp&#9;null&#9;null&#10;attrs&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;main_la&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/main_layout.xml&#10;tag&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/tagflowlayout/TagFlowLayoutCategoryActivity.java&#10;tagflowl&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/tagflowlayout/TagFlowLayout.java&#10;flowl&#9;PSI&#9;JAVA://com.longluo.demo.flowlayout.FlowLayoutDemoActivity&#10;attr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/attrs.xml&#10;dimen&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/dimens.xml&#10;toolb&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;toolbar&#9;PSI&#9;JAVA://com.longluo.demo.toolbar.ToolBarDemoActivity&#10;menu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/menu/menu_zhihu.xml&#10;activity_zhi&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/layout/activity_zhihu.xml&#10;circ&#9;FILE&#9;jar://C:/Program Files/Java/jdk1.7.0_25/jre/lib/jfxrt.jar!/javafx/scene/shape/CircleBuilder.class&#10;gr&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;vr&#9;PSI&#9;JAVA://com.longluo.demo.vr.VRPlayerDemoActivity&#10;tool&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/toolbar/ToolBarDemoActivity.java&#10;logindemo&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/login/LoginDemoActivity.java&#10;string&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/res/values/strings.xml&#10;round&#9;PSI&#9;JAVA://com.longluo.demo.roundedimageview.RoundedImageViewActivity&#10;search&#9;PSI&#9;JAVA://com.longluo.demo.searchview.SearchViewActivity&#10;gyro&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;dot&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/DotsView.java&#10;gy&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/gyrorotate/GyroRotateActivity.java&#10;likebu&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/likebutton/LikeButtonDemoActivity.java&#10;fileman&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/filemanager/FileManagerDemoActivity.java&#10;but&#9;FILE&#9;file://E:/Code/AndroidDemo/app/src/main/java/com/longluo/demo/widget/imageprocess/widget/ButtonBar.java&#10;lbsdemo&#9;PSI&#9;JAVA://com.longluo.demo.lbs.LBSDemoActivity" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="false" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
     <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="115" />
@@ -5467,12 +5444,6 @@
       <option name="number" value="Default" />
       <updated>1461309772362</updated>
     </task>
-    <task id="LOCAL-00020" summary="change the Utils folder.">
-      <created>1461847842475</created>
-      <option name="number" value="00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1461847842475</updated>
-    </task>
     <task id="LOCAL-00021" summary="the Manifest register.">
       <created>1461893804845</created>
       <option name="number" value="00021" />
@@ -5761,7 +5732,13 @@
       <option name="project" value="LOCAL" />
       <updated>1473231831532</updated>
     </task>
-    <option name="localTasksCounter" value="69" />
+    <task id="LOCAL-00069" summary="The AsyncTask Demo&#10;&#10;">
+      <created>1474620570886</created>
+      <option name="number" value="00069" />
+      <option name="project" value="LOCAL" />
+      <updated>1474620570896</updated>
+    </task>
+    <option name="localTasksCounter" value="70" />
     <servers />
   </component>
   <component name="TodoView">
@@ -5783,7 +5760,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2834758" sideWeight="0.48550725" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33048433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33760685" sideWeight="0.4304348" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -5791,18 +5767,19 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.477208" sideWeight="0.5869565" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25071225" sideWeight="0.51449275" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30769232" sideWeight="0.41304347" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4045584" sideWeight="0.41304347" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43019944" sideWeight="0.40519664" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971016" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.12846716" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16231884" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14855072" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.4942029" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24927536" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33048433" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -5821,7 +5798,6 @@
   <component name="VcsManagerConfiguration">
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="false" />
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
-    <MESSAGE value="make MainActivity more perfect." />
     <MESSAGE value="Add the Lib module." />
     <MESSAGE value="the Zhihu and Rotate Vector." />
     <MESSAGE value="the Fresco Module." />
@@ -5846,7 +5822,8 @@
     <MESSAGE value="fix the ClockTwo Pointer Bug.&#10;" />
     <MESSAGE value="The Clock Swing Animation&#10;&#10;" />
     <MESSAGE value="The Pendulum Demo.&#10;&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="The Pendulum Demo.&#10;&#10;" />
+    <MESSAGE value="The AsyncTask Demo&#10;&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="The AsyncTask Demo&#10;&#10;" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
@@ -5865,34 +5842,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/ClipboardUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/ChineseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/BrioalUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/BlurUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/baselib/src/main/java/com/longluo/baselib/util/AppUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -5925,6 +5874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.5172415">
           <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6060,13 +6010,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/uilib/src/main/java/com/longluo/uilib/watchboard/WatchBoard.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -6095,6 +6038,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6151,70 +6095,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="970" column="48" selection-start-line="970" selection-start-column="48" selection-end-line="970" selection-end-column="48" />
-          <folding>
-            <element signature="e#0#38924#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#6693#6694#0" expanded="false" />
-            <element signature="e#6729#6730#0" expanded="false" />
-            <element signature="e#10287#10288#0" expanded="false" />
-            <element signature="e#10322#10323#0" expanded="false" />
-            <element signature="e#12913#12914#0" expanded="false" />
-            <element signature="e#12946#12947#0" expanded="false" />
-            <element signature="e#13461#13462#0" expanded="false" />
-            <element signature="e#13503#13504#0" expanded="false" />
-            <element signature="e#16844#16845#0" expanded="false" />
-            <element signature="e#16876#16877#0" expanded="false" />
-            <element signature="e#17015#17016#0" expanded="false" />
-            <element signature="e#17088#17089#0" expanded="false" />
-            <element signature="e#17493#17494#0" expanded="false" />
-            <element signature="e#17533#17534#0" expanded="false" />
-            <element signature="e#18416#18417#0" expanded="false" />
-            <element signature="e#18451#18452#0" expanded="false" />
-            <element signature="e#18968#18969#0" expanded="false" />
-            <element signature="e#19010#19011#0" expanded="false" />
-            <element signature="e#19702#19703#0" expanded="false" />
-            <element signature="e#19742#19743#0" expanded="false" />
-            <element signature="e#20324#20325#0" expanded="false" />
-            <element signature="e#20362#20363#0" expanded="false" />
-            <element signature="e#20693#20694#0" expanded="false" />
-            <element signature="e#20735#20736#0" expanded="false" />
-            <element signature="e#20982#20983#0" expanded="false" />
-            <element signature="e#21019#21020#0" expanded="false" />
-            <element signature="e#21571#21572#0" expanded="false" />
-            <element signature="e#21606#21607#0" expanded="false" />
-            <element signature="e#22152#22153#0" expanded="false" />
-            <element signature="e#22202#22203#0" expanded="false" />
-            <element signature="e#22459#22460#0" expanded="false" />
-            <element signature="e#22495#22496#0" expanded="false" />
-            <element signature="e#22814#22815#0" expanded="false" />
-            <element signature="e#22847#22848#0" expanded="false" />
-            <element signature="e#23063#23064#0" expanded="false" />
-            <element signature="e#23095#23096#0" expanded="false" />
-            <element signature="e#23324#23325#0" expanded="false" />
-            <element signature="e#23359#23360#0" expanded="false" />
-            <element signature="e#23610#23611#0" expanded="false" />
-            <element signature="e#23644#23645#0" expanded="false" />
-            <element signature="e#23936#23937#0" expanded="false" />
-            <element signature="e#23971#23972#0" expanded="false" />
-            <element signature="e#24458#24459#0" expanded="false" />
-            <element signature="e#24492#24493#0" expanded="false" />
-            <element signature="e#24805#24806#0" expanded="false" />
-            <element signature="e#24838#24839#0" expanded="false" />
-            <element signature="e#25188#25189#0" expanded="false" />
-            <element signature="e#25223#25224#0" expanded="false" />
-            <element signature="e#25350#25351#0" expanded="false" />
-            <element signature="e#25389#25390#0" expanded="false" />
-            <element signature="e#25572#25573#0" expanded="false" />
-            <element signature="e#25611#25612#0" expanded="false" />
-            <element signature="e#26795#26796#0" expanded="false" />
-            <element signature="e#26831#26832#0" expanded="false" />
-            <element signature="e#31999#32000#0" expanded="false" />
-            <element signature="e#32030#32031#0" expanded="false" />
-            <element signature="e#32215#32216#0" expanded="false" />
-            <element signature="e#32244#32245#0" expanded="false" />
-            <element signature="e#35785#35786#0" expanded="false" />
-            <element signature="e#35813#35814#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6222,9 +6102,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6232,9 +6109,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6249,9 +6123,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="103" column="33" selection-start-line="103" selection-start-column="33" selection-end-line="103" selection-end-column="33" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -6259,13 +6130,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#483#484#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#553#554#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6274,7 +6139,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0677967">
+        <state vertical-scroll-proportion="0.0">
           <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
@@ -6285,55 +6150,100 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.118644">
+        <state vertical-scroll-proportion="0.0">
           <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.034483">
-          <caret line="977" column="54" selection-start-line="977" selection-start-column="54" selection-end-line="977" selection-end-column="54" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.333333">
+        <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/AsyncTaskDemoActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.0">
-          <caret line="593" column="46" selection-start-line="593" selection-start-column="46" selection-end-line="593" selection-end-column="46" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="104" column="5" selection-start-line="104" selection-start-column="5" selection-end-line="104" selection-end-column="5" />
           <folding>
-            <element signature="e#8801#9446#0" expanded="true" />
-            <element signature="e#9445#9446#0" expanded="true" />
+            <element signature="e#4574#4575#0" expanded="true" />
+            <element signature="e#4623#4624#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/asynctask/AsyncTaskDemoActivity.java">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/widget/clock/Clock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5317287">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="77" column="0" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
           <folding>
-            <element signature="e#2208#2209#0" expanded="true" />
-            <element signature="e#2249#2250#0" expanded="true" />
-            <element signature="e#2314#2315#0" expanded="true" />
-            <element signature="e#2368#2369#0" expanded="true" />
-            <element signature="e#2433#2434#0" expanded="true" />
-            <element signature="e#2472#2473#0" expanded="true" />
-            <element signature="e#4711#4712#0" expanded="true" />
-            <element signature="e#4760#4761#0" expanded="true" />
-            <element signature="e#4840#4841#0" expanded="true" />
-            <element signature="e#4896#4897#0" expanded="true" />
+            <element signature="imports" expanded="false" />
+            <element signature="e#431#432#0" expanded="false" />
+            <element signature="e#466#467#0" expanded="false" />
+            <element signature="e#4320#4321#0" expanded="false" />
+            <element signature="e#4352#4353#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_surface_view.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/surface/SurfaceViewDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="102" column="0" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_build_info.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.7288136">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/build/BuildInfoDemoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/longluo/demo/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="183" column="25" selection-start-line="183" selection-start-column="25" selection-end-line="183" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7888889">
+          <caret line="973" column="57" selection-start-line="973" selection-start-column="57" selection-end-line="973" selection-end-column="57" />
+          <folding />
         </state>
       </provider>
     </entry>

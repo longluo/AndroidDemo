@@ -978,6 +978,10 @@
             android:name=".asynctask.AsyncTaskDemoActivity"
             android:screenOrientation="portrait" />
 
+        <activity
+            android:name=".build.BuildInfoDemoActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>

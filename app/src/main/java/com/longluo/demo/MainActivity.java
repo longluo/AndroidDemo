@@ -24,6 +24,7 @@ import com.longluo.demo.applicationbackup.AppBackupDemoActivity;
 import com.longluo.demo.areachartsview.AreaChartsViewDemoActivity;
 import com.longluo.demo.asynctask.AsyncTaskDemoActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
+import com.longluo.demo.build.BuildInfoDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.cardview.CardViewDemoActivity;
 import com.longluo.demo.clip.ImageClipDemoActivity;
@@ -187,6 +188,7 @@ public class MainActivity extends AppCompatActivity {
             "Tail Swing Demo",
             "Pendulum Demo",
             "AsyncTask Demo",
+            "Build Info Demo",
     };
 
     private static final int mTotal = mDemoStrings.length - 1;
@@ -592,6 +594,10 @@ public class MainActivity extends AppCompatActivity {
 
                     case 81:
                         startActivity(AsyncTaskDemoActivity.class);
+                        break;
+
+                    case 82:
+                        startActivity(BuildInfoDemoActivity.class);
                         break;
 
                     default:
