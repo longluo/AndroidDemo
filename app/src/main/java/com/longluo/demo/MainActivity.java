@@ -24,7 +24,6 @@ import com.longluo.demo.applicationbackup.AppBackupDemoActivity;
 import com.longluo.demo.areachartsview.AreaChartsViewDemoActivity;
 import com.longluo.demo.asynctask.AsyncTaskDemoActivity;
 import com.longluo.demo.badgeview.BadgeViewDemoActivity;
-import com.longluo.demo.build.BuildInfoDemoActivity;
 import com.longluo.demo.calendarcard.CalendarCardDemoActivity;
 import com.longluo.demo.cardview.CardViewDemoActivity;
 import com.longluo.demo.clip.ImageClipDemoActivity;
@@ -597,7 +596,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
 
                     case 82:
-                        startActivity(BuildInfoDemoActivity.class);
+//                        startActivity(BuildInfoDemoActivity.class);
                         break;
 
                     default:

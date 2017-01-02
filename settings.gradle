@@ -1,1 +1,1 @@
-include ':app', ':demolib', ':volley', ':uilib', ':baselib'
+include ':app', ':demolib', ':volley', ':uilib', ':baselib', ':network'
